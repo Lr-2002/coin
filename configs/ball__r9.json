@@ -1,0 +1,14 @@
+{
+  "urdf_path": "partnet-mobility-dataset/ball__r9/ball__r9.urdf",
+  "scale": 0.0003,
+  "mass": 0.2,
+  "fix_root_link": false,
+  "urdf_config": {
+    "material": {
+      "static_friction": 2.0,
+      "dynamic_friction": 1.0,
+      "restitution": 0.0
+    }
+  },
+  "name": "ball__r9"
+}

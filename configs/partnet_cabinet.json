@@ -1,0 +1,10 @@
+{
+  "data_source": "partnet-mobility",
+  "class_name": "cabinet",
+  "class_id": "1004",
+  "position": [0.3, 0.0, 0.35],
+  "orientation": [0, 0, 0],
+  "scale": 0.1,
+  "fix_root_link": true,
+  "name": "partnet_cabinet"
+}

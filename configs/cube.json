@@ -1,0 +1,6 @@
+{
+    "usd-path": "assets_glb/cube.glb",
+    "scale": 0.01,
+    "mass": 0.3,
+    "friction": 0.4
+}

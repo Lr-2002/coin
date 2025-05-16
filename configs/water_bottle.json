@@ -1,0 +1,6 @@
+{
+  "usd-path": "assets_glb/water_bottle.glb",
+  "scale": 0.01,
+  "mass": 0.03,
+  "friction": 1.0
+}

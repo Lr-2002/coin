@@ -1,0 +1,23 @@
+{
+  "urdf_path": "assets_glb/urdfs/8867/mobility.urdf",
+  "position": [
+    0.15,
+    0.0,
+    0.4
+  ],
+  "orientation": [
+    0,
+    0,
+    0
+  ],
+  "scale": 0.3,
+  "fix_root_link": true,
+  "urdf_config": {
+    "material": {
+      "static_friction": 1.0,
+      "dynamic_friction": 1.0,
+      "restitution": 0.0
+    }
+  },
+  "name": "door_8867"
+}

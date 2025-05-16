@@ -1,0 +1,14 @@
+{
+  "urdf_path": "partnet-mobility-dataset/hanoi_small/hanoi_small.urdf",
+  "scale": 0.18,
+  "mass": 0.05,
+  "fix_root_link": false,
+  "urdf_config": {
+    "material": {
+      "static_friction": 2.0,
+      "dynamic_friction": 1.0,
+      "restitution": 0.0
+    }
+  },
+  "name": "hanoi_small"
+}

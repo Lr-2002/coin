@@ -1,0 +1,7 @@
+{
+  "name": "pen_holder",
+  "usd-path": "assets_glb/pen_holder1.glb",
+  "scale": 5,
+  "mass": 0.1,
+  "description": "A pen holder for the pick pen task"
+}

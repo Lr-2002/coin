@@ -1,0 +1,18 @@
+{
+  "urdf_path": "partnet-mobility-dataset/41510/mobility.urdf",
+  "orientation": [
+    0,
+    0,
+    0
+  ],
+  "scale": 0.5,
+  "fix_root_link": true,
+  "urdf_config": {
+    "material": {
+      "static_friction": 1.0,
+      "dynamic_friction": 1.0,
+      "restitution": 0.0
+    }
+  },
+  "name": "cabinet"
+}

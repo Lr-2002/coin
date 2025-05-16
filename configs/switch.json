@@ -1,0 +1,15 @@
+{
+  "urdf_path": "partnet-mobility-dataset/100849/mobility.urdf",
+  "position": [-0.3, 0, 0.0],
+  "orientation": [0, 0, 0],
+  "scale": 0.1,
+  "fix_root_link": true,
+  "urdf_config": {
+    "material": {
+      "static_friction": 2.0,
+      "dynamic_friction": 1.0,
+      "restitution": 0.0
+    }
+  },
+  "name": "switch-100849"
+}

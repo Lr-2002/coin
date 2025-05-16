@@ -1,0 +1,10 @@
+{
+  "name": "pen",
+  "urdf_file": "pen.urdf",
+  "position": [0.3, 0.2, 0.0],
+  "orientation": [0, 0, 0, 1],
+  "scale": 1.0,
+  "fixed_base": false,
+  "density": 500.0,
+  "description": "A pen for the pick pen task"
+}

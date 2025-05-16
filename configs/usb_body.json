@@ -1,0 +1,6 @@
+{
+  "usd-path": "assets_glb/usb_body.glb",
+  "scale": 0.05,
+  "mass": 0.02,
+  "friction": 1.0
+}

@@ -1,0 +1,6 @@
+{
+  "usd-path": "assets_glb/rubik cube.glb",
+  "scale": 0.1,
+  "mass": 0.03,
+  "friction": 1.0
+}

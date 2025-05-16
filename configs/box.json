@@ -1,0 +1,6 @@
+{
+  "usd-path": "assets_glb/box.glb",
+  "scale": [0.8, 0.8, 0.3],
+  "mass": 0.1,
+  "friction": 1.0
+}

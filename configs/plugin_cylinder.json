@@ -1,0 +1,7 @@
+{
+  "usd-path": "assets_glb/plugin_cylinder.glb",
+  "scale": 0.03,
+  "mass": 0.1,
+  "friction": 1.0,
+  "orientation":[0,0,90 ]
+}

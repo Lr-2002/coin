@@ -1,0 +1,24 @@
+{
+  "urdf_path": "partnet-mobility-dataset/7310/mobility.urdf",
+  "position": [
+    -0.2,
+    -0.3,
+    0.0
+  ],
+  "orientation": [
+    0,
+    0,
+    0
+  ],
+  "scale": 0.4,
+  "mass": 0.2,
+  "fix_root_link": true,
+  "urdf_config": {
+    "material": {
+      "static_friction": 0.8,
+      "dynamic_friction": 0.4,
+      "restitution": 0.0
+    }
+  },
+  "name": "microwave-7310"
+}

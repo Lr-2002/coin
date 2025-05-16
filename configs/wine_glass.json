@@ -1,0 +1,6 @@
+{
+  "usd-path": "assets_glb/wine_glass.glb",
+  "scale": 0.01,
+  "mass": 0.5,
+  "friction": 1.0
+}
