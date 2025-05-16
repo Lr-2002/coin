@@ -1,0 +1,96 @@
+# compilation and distribution
+__pycache__
+_ext
+*.pyc
+*.so
+build/
+dist/
+*.egg-info/
+
+# ipython/jupyter notebooks
+# *.ipynb
+**/.ipynb_checkpoints/
+
+# Editor temporaries
+*.swn
+*.swo
+*.swp
+*~
+
+# MacOS
+*.DS_Store
+
+# Pycharm editor settings
+.idea
+
+# VSCode editor settings
+.vscode
+
+# project-relevant
+imgui.ini
+
+# directories that should be ignored in general
+# but can be excluded explicitly
+/tmp
+/data
+/demos
+/videos
+/examples/benchmarking/videos
+/vla_results
+/debug_images
+
+# benchmarking
+/benchmark_results
+/mani_skill/examples/benchmarking/benchmark_results
+/mani_skill/examples/benchmarking/videos
+# testing
+.coverage*
+htmlcov/
+camera_images
+decomposed
+# datasets
+assets_glb_centered
+assets_glb_new
+mani_skill/envs/tasks/coin_bench/medias/videos
+test_results
+coin_videos
+analysis_results
+cleaned_coin_dataset_put_fork
+double_dataset
+put_fork/Tabletop-Put-Fork-OnPlate-v1
+rotate_cube/Tabletop-Rotate-Cube-v1
+conveted_videos
+test_record_env
+debug/voxposer_evaluation_0422
+evaluation_results/20250424_121102
+evaluation_results/20250424_164040/origin_data
+evaluation_results/20250424_164040/origin_data/origin_data
+evaluation_results/**/origin_data
+env_tests/llm_providers/google_api.py
+llm_cache
+docker
+evaluation_results/*/*/
+!evaluation_results/**.csv
+!evaluation_results/task_results
+!evaluation_results/score_*
+evaluation
+fixed_trajectories/Tabletop-Close-Cabinet-v1
+sanitized_trajectories/Tabletop-Close-Cabinet-v1
+replay_results
+bashrc
+check_actors.py
+check_env.py
+actor_dataset.json
+evaluation_results/20250425_184439
+evaluation_results/20250425_194640
+evaluation_results/20250426_011249
+evaluation_results/20250426_151203
+evaluation_results/20250427_075848
+evaluation_results/20250427_114756
+evaluation_results/20250502_021006/pi0_20250502_103132.csv
+evaluation_results/20250502_162742/pi0_20250502_215152.csv
+evaluation_results/20250502_230350/pi0_20250503_003511.csv
+evaluation_results/20250503_150145/gr00t_20250503_152047.csv
+evaluation_results/20250503_162535/gr00t_20250503_211148.csv
+evaluation_results/20250505_121948/gr00t_20250505_190108.csv
+evaluation_results/20250505_211634/pi0_20250506_111244.csv

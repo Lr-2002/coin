@@ -1,0 +1,245 @@
+{
+  "Tabletop-Balance-Pivot-WithBalls-v1": [
+    "pick and put one ball in the holder and see whether balance",
+    "pick and put one ball in the holder and see whether balance",
+    "pick and put one ball in the holder and see whether balance",
+    "pick and put one ball in the holder and see whether balance",
+    "pick and put one ball in the holder and see whether balance"
+  ],
+  "Tabletop-Clean-For-Dinner-v1": [
+    "pick the bowl and put it on the plate",
+    "pick the fork and put it on the bowl"
+  ],
+  "Tabletop-Close-Cabinet-WithObstacle-v1": [
+    "open the door",
+    "move out the obstacle",
+    "close the door"
+  ],
+  "Tabletop-Close-Door-WithObstacle-v1": [
+    "open the door",
+    "move the bowl",
+    "close the door"
+  ],
+  "Tabletop-Close-Drawer-WithLongObstacle-v1": [
+    "open the drawer",
+    "pick the board and put it on the desk",
+    "close the drawer"
+  ],
+  "Tabletop-Close-Drawer-WithObstacle-v1": [
+    "open the cabinet door",
+    "pull the obstacle",
+    "close the cabinet",
+    "close the drawer"
+  ],
+  "Tabletop-Find-Book-Black-v1": [
+    "rotate hand to face forward",
+    "move around the book to find the black one ",
+    "pick the book and place it on the marker"
+  ],
+  "Tabletop-Find-Book-FromShelf-v1": [
+    "rotate hand to face forward",
+    "move to the highest book",
+    "pick the book and place it on the marker"
+  ],
+  "Tabletop-Find-Cube-RedDown-v1": [
+    "see all the face of farest cube ",
+    "see all the face of left cube ",
+    "see all the face of nearst cube ",
+    "find the cube have no red face over the ground and put it to the marker"
+  ],
+  "Tabletop-Find-Cube-WithPivot-v1": [
+    "put the left cube on the pivot",
+    "put the right cube on the pivot",
+    "find the heavy cube and put it on the marker"
+  ],
+  "Tabletop-Find-Dice-v1": [
+    "rotate left dice",
+    "rotate right dice",
+    "find the dice have 2 and 4 in the corresponding face and put it on the marker"
+  ],
+  "Tabletop-Finish-Hanobi-v1": [
+    "move the red one to the right",
+    "move the yellow one to the right",
+    "move the blue one to the top of right"
+  ],
+  "Tabletop-Insert-Conical-v1": [
+    "pick the bottle up ",
+    "align the bottle with the holder",
+    "place the bottle down"
+  ],
+  "Tabletop-Insert-Objects-WithShape-v1": [
+    "pick the triangle and put it on the left hole",
+    "pick the round one and put it to the round hole",
+    "pick the square one and put it to the central hole"
+  ],
+  "Tabletop-Insert-WithOrientation-v1": [
+    "rotate the stick along y-axis",
+    "insert it to the hole"
+  ],
+  "Tabletop-Keep-Pivot-Balance-v1": [
+    "put the left cube on the pivot",
+    "put the right cube on the pivot",
+    "move them to make the pivot balance"
+  ],
+  "Tabletop-Lift-Book-v1": [
+    "move the book to the side of the book",
+    "pick the book from the short side",
+    "lift the book and put it on the high box"
+  ],
+  "Tabletop-Merge-Box-v1": [
+    "pick the ball and put it on the hole of the box",
+    "pick the cube which have plat on the top and put it on the ball"
+  ],
+  "Tabletop-Merge-USB-v1": [
+    "rotate the usb body",
+    "align the body with the hub",
+    "insert it to the usb hub"
+  ],
+  "Tabletop-Move-Balls-WithDustpan-v1": [
+    "pick the dustpan",
+    "push all the ball into the dustpan with the fixed holder",
+    "move all the ball into the container with the dustpan"
+  ],
+  "Tabletop-Move-Balls-WithPivot-v1": [
+    "pick the stick",
+    "push the ball into the dustban with stick",
+    "pick other balls "
+  ],
+  "Tabletop-Move-Cross-WithStick-v1": [
+    "pick the stick",
+    "align it with the nearst entry",
+    "push the cube till the next entry",
+    "aligh the stick with the next entry",
+    "push the cube to the marker"
+  ],
+  "Tabletop-Move-Cube-DynamicFriction-v1": [
+    "pick the cube and put it on the marker"
+  ],
+  "Tabletop-Move-Cube-WithHolder-v1": [
+    "pull the holder",
+    "pick the cube and put it on the holder",
+    "pick the holder and put it on the cube"
+  ],
+  "Tabletop-Move-Cube-WithPivot-v1": [
+    "pick the stick and push it between two cylinder on the desk",
+    "rotate the stick till the cube on the marker"
+  ],
+  "Tabletop-Move-Line-WithStick-v1": [
+    "pick the stick and aligh it with the line entry",
+    "push the cube till the cube achieve the marker"
+  ],
+  "Tabletop-Open-Cabinet-WithDoor-v1": [
+    "close the door",
+    "open the cabinet door"
+  ],
+  "Tabletop-Open-Cabinet-WithObstacle-v1": [
+    "push the box",
+    "open the cabinet door"
+  ],
+  "Tabletop-Open-Cabinet-WithSwitch-v1": [
+    "turn on the trigger",
+    "open the cabinet door"
+  ],
+  "Tabletop-Open-Door-WithCabinet-v1": [
+    "close the cabinet",
+    "open the door"
+  ],
+  "Tabletop-Open-Door-WithObstacle-v1": [
+    "move the blue board",
+    "open the door"
+  ],
+  "Tabletop-Pick-Cube-Slippery-v1": [
+    "push the left cube",
+    "push the right cube",
+    "pick the slipper cube and put it on the marker"
+  ],
+  "Tabletop-Pick-Cube-WithDoor-v1": [
+    "open the door",
+    "push the cube to the marker"
+  ],
+  "Tabletop-Pick-Cube-WithStick-v1": [
+    "pick the stick and put it on the entry ",
+    "push the cube with the stick to the T point",
+    "pick up the stick and put it to the space between the wall and the cube",
+    "rotate the stick and push the cube to the marker"
+  ],
+  "Tabletop-Pick-Cylinder-WithObstacle-v1": [
+    "push left every cylinder",
+    "pick the center cylinder"
+  ],
+  "Tabletop-Pick-Eraser-FromHolder-v1": [
+    "rotate the holder",
+    "rotate the hodler",
+    "pick the holder",
+    "pick the earser and put it on the marker"
+  ],
+  "Tabletop-Pick-Object-FromCabinet-v1": [
+    "open the cabinet door ",
+    "pick the object in the cabinet ",
+    "put it on the marker"
+  ],
+  "Tabletop-Put-Balls-IntoContainer-v1": [
+    "pick the dustpan",
+    "push all the ball in to the dustpan with the fixed body",
+    "move the dustpand upward",
+    "put all balls into the container"
+  ],
+  "Tabletop-Put-Cube-IntoCabinetWithObstacle-v1": [
+    "open the cabinet door",
+    "pull/push the obstacle",
+    "pick the cube and put it in the cabinet"
+  ],
+  "Tabletop-Put-Cube-IntoMicrowave-v1": [
+    "open the microwave",
+    "pick the cube and put it into the microwave",
+    "close the door"
+  ],
+  "Tabletop-Rotate-Cube-Twice-v1": [
+    "rotate the cube for 90",
+    "rotate the cube for 90"
+  ],
+  "Tabletop-Seek-Holder-InCabinet-v1": [
+    "open cabinet door",
+    "pick left holder",
+    "pick right holder",
+    "pick the holder containing the eraser",
+    "put the eraser to the marker"
+  ],
+  "Tabletop-Seek-Objects-InCabinet-v1": [
+    "open the drawer",
+    "pick the plate and put it on the marker",
+    "open the cabinet door",
+    "pick the apple and put it on the plate"
+  ],
+  "Tabletop-Seek-Objects-WithObstacle-v1": [
+    "open the door",
+    "pick the cube",
+    "put it on the marker"
+  ],
+  "Tabletop-Slide-Cube-Into-Container-v1": [
+    "move the cube target at the dustpan",
+    "push the cube down the slope"
+  ],
+  "Tabletop-Slide-Cube-WithPath-v1": [
+    "pull the cube target at the marker",
+    "push the cube down the slope"
+  ],
+  "Tabletop-Stack-Books-OnBox-v1": [
+    "pick the green book to the side of the box",
+    "pick it with the thin side",
+    "put it on the red book"
+  ],
+  "Tabletop-Stack-Books-v1": [
+    "pikc the green book on the table",
+    "pick the red book on the green one"
+  ],
+  "Tabletop-Stack-Cube-WithColor-v1": [
+    "rotate the farest cube along y-axis",
+    "pick the nearest cube and put it on the marker",
+    "put the farest cube on the cube"
+  ],
+  "Tabletop-Stack-LongObjects-v1": [
+    "stack the mid cube and the longest cube",
+    "stack the shortest cube and the mid one "
+  ]
+}

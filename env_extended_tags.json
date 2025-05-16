@@ -1,0 +1,579 @@
+{
+  "Tabletop-Balance-Pivot-WithBalls-v1": {
+    "obj": [
+      "mass_estimation",
+      "scale_analysis"
+    ],
+    "rob": [],
+    "iter": [
+      "tool_using",
+      "learning_physical_from_execution",
+      "failure_driven_adaptation",
+      "planning_at_start"
+    ]
+  },
+  "Tabletop-Clean-For-Dinner-v1": {
+    "obj": [],
+    "rob": [],
+    "iter": []
+  },
+  "Tabletop-Close-Cabinet-WithObstacle-v1": {
+    "obj": [
+      "obstacle_handling"
+    ],
+    "rob": [],
+    "iter": [
+      "planning_at_start"
+    ]
+  },
+  "Tabletop-Close-Door-WithObstacle-v1": {
+    "obj": [],
+    "rob": [],
+    "iter": []
+  },
+  "Tabletop-Close-Drawer-WithLongObstacle-v1": {
+    "obj": [
+      "obstacle_handling",
+      "geometric_reasoning"
+    ],
+    "rob": [],
+    "iter": [
+      "planning_at_start",
+      "failure_driven_adaptation"
+    ]
+  },
+  "Tabletop-Close-Drawer-WithObstacle-v1": {
+    "obj": [
+      "obstacle_handling",
+      "geometric_reasoning"
+    ],
+    "rob": [
+      "action_fitting",
+      "perceptual_perspective_optimization"
+    ],
+    "iter": [
+      "planning_at_start",
+      "failure_driven_adaptation"
+    ]
+  },
+  "Tabletop-Find-Book-Black-v1": {
+    "rob": [
+      "perceptual_perspective_optimization"
+    ],
+    "obj": [
+      "geometric_reasoning",
+      "obstacle_handling"
+    ],
+    "iter": [
+      "experience_utilization"
+    ]
+  },
+  "Tabletop-Find-Book-FromShelf-v1": {
+    "rob": [
+      "perceptual_perspective_optimization"
+    ],
+    "obj": [
+      "geometric_reasoning"
+    ],
+    "iter": [
+      "experience_utilization"
+    ]
+  },
+  "Tabletop-Find-Cube-RedDown-v1": {
+    "obj": [
+      "orientation_operation"
+    ],
+    "rob": [
+      "perceptual_perspective_optimization",
+      "action_fitting"
+    ],
+    "iter": [
+      "experience_utilization",
+      "planning_at_start"
+    ]
+  },
+  "Tabletop-Find-Cube-WithPivot-v1": {
+    "obj": [
+      "mass_estimation"
+    ],
+    "rob": [],
+    "iter": [
+      "tool_using",
+      "planning_at_start"
+    ]
+  },
+  "Tabletop-Find-Dice-v1": {
+    "obj": [
+      "geometric_reasoning",
+      "orientation_operation"
+    ],
+    "rob": [
+      "perceptual_perspective_optimization"
+    ],
+    "iter": [
+      "experience_utilization",
+      "planning_at_start"
+    ]
+  },
+  "Tabletop-Finish-Hanobi-v1": {
+    "obj": [
+      "geometric_reasoning",
+      "sequential_mechanism_processing"
+    ],
+    "rob": [
+      "action_fitting"
+    ],
+    "iter": [
+      "planning_at_start",
+      "experience_utilization"
+    ]
+  },
+  "Tabletop-Insert-Conical-v1": {
+    "obj": [
+      "geometric_reasoning",
+      "orientation_operation"
+    ],
+    "rob": [],
+    "iter": []
+  },
+  "Tabletop-Insert-Objects-WithShape-v1": {
+    "obj": [
+      "geometric_reasoning"
+    ],
+    "rob": [],
+    "iter": [
+      "planning_at_start"
+    ]
+  },
+  "Tabletop-Insert-WithOrientation-v1": {
+    "obj": [
+      "geometric_reasoning",
+      "orientation_operation"
+    ],
+    "rob": [],
+    "iter": [
+      "planning_at_start",
+      "failure_driven_adaptation"
+    ]
+  },
+  "Tabletop-Keep-Pivot-Balance-v1": {
+    "obj": [
+      "mass_estimation"
+    ],
+    "rob": [],
+    "iter": [
+      "tool_using",
+      "learning_physical_from_execution",
+      "failure_driven_adaptation"
+    ]
+  },
+  "Tabletop-Lift-Book-v1": {
+    "obj": [
+      "geometric_reasoning",
+      "orientation_operation",
+      "scale_analysis"
+    ],
+    "rob": [
+      "morphological_reasoning"
+    ],
+    "iter": [
+      "planning_at_start"
+    ]
+  },
+  "Tabletop-Merge-Box-v1": {
+    "obj": [
+      "geometric_reasoning",
+      "orientation_operation"
+    ],
+    "rob": [],
+    "iter": []
+  },
+  "Tabletop-Merge-USB-v1": {
+    "obj": [
+      "geometric_reasoning"
+    ],
+    "rob": [],
+    "iter": [
+      "planning_at_start"
+    ]
+  },
+  "Tabletop-Move-Balls-WithDustpan-v1": {
+    "obj": [
+      "mass_estimation",
+      "scale_analysis",
+      "geometric_reasoning"
+    ],
+    "rob": [],
+    "iter": [
+      "tool_using",
+      "learning_physical_from_execution"
+    ]
+  },
+  "Tabletop-Move-Balls-WithPivot-v1": {
+    "obj": [
+      "scale_analysis",
+      "geometric_reasoning"
+    ],
+    "rob": [],
+    "iter": [
+      "tool_using",
+      "learning_physical_from_execution",
+      "planning_at_start"
+    ]
+  },
+  "Tabletop-Move-Cross-WithStick-v1": {
+    "obj": [],
+    "rob": [],
+    "iter": []
+  },
+  "Tabletop-Move-Cube-DynamicFriction-v1": {
+    "obj": [
+      "friction_coefficient_assessment",
+      "mass_estimation"
+    ],
+    "rob": [],
+    "iter": [
+      "planning_at_start",
+      "learning_physical_from_execution",
+      "failure_driven_adaptation"
+    ]
+  },
+  "Tabletop-Move-Cube-WithHolder-v1": {
+    "obj": [
+      "scale_analysis",
+      "geometric_reasoning",
+      "sequential_mechanism_processing"
+    ],
+    "rob": [],
+    "iter": [
+      "planning_at_start"
+    ]
+  },
+  "Tabletop-Move-Cube-WithPivot-v1": {
+    "obj": [
+      "mass_estimation"
+    ],
+    "rob": [
+      "action_fitting",
+      "Robot.DYN_TUNE"
+    ],
+    "iter": [
+      "planning_at_start",
+      "tool_using",
+      "learning_physical_from_execution",
+      "failure_driven_adaptation"
+    ]
+  },
+  "Tabletop-Move-Line-WithStick-v1": {
+    "obj": [
+      "geometric_reasoning",
+      "orientation_operation"
+    ],
+    "rob": [
+      "action_fitting"
+    ],
+    "iter": [
+      "planning_at_start",
+      "tool_using"
+    ]
+  },
+  "Tabletop-Open-Cabinet-WithDoor-v1": {
+    "obj": [
+      "obstacle_handling"
+    ],
+    "rob": [
+      "action_fitting"
+    ],
+    "iter": [
+      "planning_at_start"
+    ]
+  },
+  "Tabletop-Open-Cabinet-WithObstacle-v1": {
+    "obj": [
+      "obstacle_handling"
+    ],
+    "rob": [],
+    "iter": [
+      "planning_at_start"
+    ]
+  },
+  "Tabletop-Open-Cabinet-WithSwitch-v1": {
+    "obj": [
+      "locking_system_comprehension"
+    ],
+    "rob": [],
+    "iter": [
+      "planning_at_start",
+      "failure_driven_adaptation"
+    ]
+  },
+  "Tabletop-Open-Door-WithCabinet-v1": {
+    "obj": [
+      "obstacle_handling"
+    ],
+    "rob": [],
+    "iter": [
+      "planning_at_start"
+    ]
+  },
+  "Tabletop-Open-Door-WithObstacle-v1": {
+    "obj": [
+      "obstacle_handling"
+    ],
+    "rob": [],
+    "iter": [
+      "planning_at_start",
+      "failure_driven_adaptation"
+    ]
+  },
+  "Tabletop-Pick-Cube-Slippery-v1": {
+    "obj": [
+      "friction_coefficient_assessment"
+    ],
+    "rob": [
+      "action_fitting"
+    ],
+    "iter": [
+      "planning_at_start",
+      "tool_using",
+      "learning_physical_from_execution",
+      "failure_driven_adaptation"
+    ]
+  },
+  "Tabletop-Pick-Cube-WithDoor-v1": {
+    "rob": [
+      "kinematic_constraint_awareness",
+      "action_fitting"
+    ],
+    "obj": [
+      "obstacle_handling"
+    ],
+    "iter": [
+      "planning_at_start",
+      "failure_driven_adaptation"
+    ]
+  },
+  "Tabletop-Pick-Cube-WithStick-v1": {
+    "obj": [
+      "geometric_reasoning",
+      "orientation_operation"
+    ],
+    "rob": [
+      "action_fitting"
+    ],
+    "iter": [
+      "planning_at_start",
+      "tool_using"
+    ]
+  },
+  "Tabletop-Pick-Cylinder-WithObstacle-v1": {
+    "obj": [
+      "locking_system_comprehension"
+    ],
+    "rob": [
+      "kinematic_constraint_awareness"
+    ],
+    "iter": [
+      "planning_at_start",
+      "failure_driven_adaptation",
+      "experience_utilization"
+    ]
+  },
+  "Tabletop-Pick-Eraser-FromHolder-v1": {
+    "obj": [
+      "geometric_reasoning",
+      "orientation_operation"
+    ],
+    "iter": [
+      "planning_at_start",
+      "experience_utilization"
+    ],
+    "rob": [
+      "morphological_reasoning"
+    ]
+  },
+  "Tabletop-Pick-Object-FromCabinet-v1": {
+    "obj": [
+      "obstacle_handling",
+      "geometric_reasoning"
+    ],
+    "rob": [
+      "perceptual_perspective_optimization",
+      "morphological_reasoning",
+      "action_fitting"
+    ],
+    "iter": [
+      "planning_at_start",
+      "failure_driven_adaptation"
+    ]
+  },
+  "Tabletop-Put-Balls-IntoContainer-v1": {
+    "obj": [
+      "geometric_reasoning"
+    ],
+    "rob": [
+      "action_fitting"
+    ],
+    "iter": [
+      "tool_using",
+      "learning_physical_from_execution",
+      "planning_at_start",
+      "failure_driven_adaptation"
+    ]
+  },
+  "Tabletop-Put-Cube-IntoCabinetWithObstacle-v1": {
+    "obj": [
+      "obstacle_handling",
+      "geometric_reasoning"
+    ],
+    "rob": [
+      "perceptual_perspective_optimization",
+      "morphological_reasoning",
+      "action_fitting"
+    ],
+    "iter": [
+      "planning_at_start",
+      "failure_driven_adaptation"
+    ]
+  },
+  "Tabletop-Put-Cube-IntoMicrowave-v1": {
+    "obj": [
+      "obstacle_handling",
+      "geometric_reasoning"
+    ],
+    "rob": [
+      "action_fitting",
+      "morphological_reasoning"
+    ],
+    "iter": [
+      "planning_at_start",
+      "failure_driven_adaptation"
+    ]
+  },
+  "Tabletop-Rotate-Cube-Twice-v1": {
+    "obj": [
+      "orientation_operation"
+    ],
+    "rob": [
+      "action_fitting"
+    ],
+    "iter": [
+      "planning_at_start",
+      "failure_driven_adaptation"
+    ]
+  },
+  "Tabletop-Seek-Holder-InCabinet-v1": {
+    "obj": [
+      "obstacle_handling",
+      "geometric_reasoning",
+      "sequential_mechanism_processing"
+    ],
+    "rob": [
+      "action_fitting",
+      "morphological_reasoning",
+      "perceptual_perspective_optimization"
+    ],
+    "iter": [
+      "planning_at_start",
+      "experience_utilization"
+    ]
+  },
+  "Tabletop-Seek-Objects-InCabinet-v1": {
+    "obj": [
+      "obstacle_handling"
+    ],
+    "rob": [
+      "action_fitting",
+      "morphological_reasoning",
+      "perceptual_perspective_optimization"
+    ],
+    "iter": [
+      "failure_driven_adaptation",
+      "planning_at_start",
+      "experience_utilization"
+    ]
+  },
+  "Tabletop-Seek-Objects-WithObstacle-v1": {
+    "obj": [
+      "obstacle_handling"
+    ],
+    "rob": [
+      "morphological_reasoning",
+      "action_fitting",
+      "perceptual_perspective_optimization"
+    ],
+    "iter": [
+      "failure_driven_adaptation",
+      "planning_at_start"
+    ]
+  },
+  "Tabletop-Slide-Cube-Into-Container-v1": {
+    "obj": [],
+    "rob": [],
+    "iter": []
+  },
+  "Tabletop-Slide-Cube-WithPath-v1": {
+    "obj": [
+      "friction_coefficient_assessment",
+      "orientation_operation",
+      "geometric_reasoning"
+    ],
+    "rob": [
+      "action_fitting"
+    ],
+    "iter": [
+      "planning_at_start"
+    ]
+  },
+  "Tabletop-Stack-Books-OnBox-v1": {
+    "obj": [
+      "orientation_operation",
+      "geometric_reasoning"
+    ],
+    "rob": [
+      "perceptual_perspective_optimization"
+    ],
+    "iter": [
+      "planning_at_start"
+    ]
+  },
+  "Tabletop-Stack-Books-v1": {
+    "obj": [
+      "scale_analysis",
+      "orientation_operation"
+    ],
+    "rob": [
+      "perceptual_perspective_optimization"
+    ],
+    "iter": [
+      "planning_at_start"
+    ]
+  },
+  "Tabletop-Stack-Cube-WithColor-v1": {
+    "obj": [
+      "orientation_operation"
+    ],
+    "rob": [
+      "action_fitting"
+    ],
+    "iter": [
+      "planning_at_start",
+      "failure_driven_adaptation"
+    ]
+  },
+  "Tabletop-Stack-LongObjects-v1": {
+    "obj": [
+      "scale_analysis",
+      "orientation_operation",
+      "geometric_reasoning",
+      "obstacle_handling"
+    ],
+    "rob": [
+      "action_fitting"
+    ],
+    "iter": [
+      "failure_driven_adaptation",
+      "planning_at_start"
+    ]
+  }
+}
