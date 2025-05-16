@@ -1,0 +1,6 @@
+[submodule "Controllers/VLAs/CogACT"]
+	path = Controllers/VLAs/CogACT
+	url = https://github.com/EeureKaaa/CogACT_fork.git
+[submodule "Controllers/VLAs/Isaac-GR00T"]
+	path = Controllers/VLAs/Isaac-GR00T
+	url = https://github.com/EeureKaaa/Isaac-GR00T.git
