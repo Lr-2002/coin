@@ -1,0 +1,130 @@
+{
+    "instruction": "pick up the object from the cabinet ",
+    "query": {
+        "query": "What's the object in the cabinet?",
+        "selection": {
+            "A": "A book",
+            "B": "A cube",
+            "C": "A pen"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 10,
+    "answers": [
+        "B",
+        "B",
+        "A",
+        "B",
+        "B",
+        "A",
+        "B",
+        "A",
+        "A",
+        "B"
+    ],
+    "correct": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show the robot arm interacting with a cabinet. The object inside the cabinet appears to be a cube, based on its shape."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000262.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the image at step 000262, the robotic arm is holding a cube. The task instruction is to pick up the object from the cabinet, so the object in the cabinet must be a cube."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000318.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000318, we can see that the object inside the cabinet is a book."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000393.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the image at step 000393, the cabinet door is open, and a cube is visible inside. Therefore, the object in the cabinet is a cube."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000478.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the image at step 000478, we can see the robot arm is holding a cube. Since the task is to pick up the object from the cabinet, the object in the cabinet must be a cube."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000564.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000564, we can see a red object inside the cabinet. It appears to be a book."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000787.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the image at step 000787, we can see the object inside the cabinet. It appears to be a cube."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000834.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000787, we can see a red object inside the cabinet. In the image at step 000834, the red object is on the floor. The object is round and red, so it is most likely a book."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000987.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the first image, we can see the robot arm inside the cabinet, and there is a book inside the cabinet."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "001582.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the first image, the robotic arm is inside the cabinet and appears to be holding a cube. The second image shows the robotic arm holding a red apple, which is not the object in the cabinet."
+            },
+            "answer": "B",
+            "correct": false
+        }
+    ]
+}

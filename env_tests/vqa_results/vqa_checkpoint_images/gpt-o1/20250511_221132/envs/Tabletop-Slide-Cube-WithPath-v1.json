@@ -1,0 +1,59 @@
+{
+    "instruction": "Slide a cube down a slope to the marker ",
+    "query": {
+        "query": "Where should the block be placed to slide to target position?",
+        "selection": {
+            "A": "A",
+            "B": "B"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+        null,
+        "A",
+        "A",
+        "B"
+    ],
+    "correct": [
+        null,
+        false,
+        false,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "raw_response": "{\n    \"answer\": \"",
+            "error": "Could not extract JSON from response"
+        },
+        {
+            "image_filename": "000106.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the final image, the block is set on the slope\u2019s right\u2010hand area (labeled A) so it can slide straight down toward the target."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000240.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the final viewpoint, the cube is positioned on the right side (labeled A) so it can slide straight down toward the target."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000291.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the final observation, the cube slides down more successfully to the target when positioned on the left side (labeled B), aligning with the slope\u2019s path toward the marker."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

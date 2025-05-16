@@ -1,0 +1,64 @@
+{
+    "instruction": "rotate the cube till the green face upward",
+    "query": {
+        "query": "Where is the green face?",
+        "selection": {
+            "A": "On the top of the cube",
+            "B": "On the side of the cube",
+            "C": "On the bottom of the cube"
+        }
+    },
+    "ground_truth": "C",
+    "response_num": 4,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the camera view, the cube\u2019s top is blue and the green square is showing on one of the vertical faces instead of the top or bottom."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000074.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the final view, the green face is clearly seen on one of the side faces rather than on the top or bottom."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000118.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The final images show the top face as yellow, so the green face is clearly one of the sides of the cube."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000179.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the final observation, the top face is not green (it appears blue or possibly yellow/red). The visible green squares remain on one of the side faces of the cube."
+            },
+            "answer": "B",
+            "correct": false
+        }
+    ]
+}

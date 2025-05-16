@@ -1,0 +1,85 @@
+{
+    "instruction": "close the drawer",
+    "query": {
+        "query": "What's the best approach to close the drawer?",
+        "selection": {
+            "A": "Push the drawer directly",
+            "B": "Remove the red obstacle first, then close the drawer"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 6,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The red obstacle is protruding from the drawer, which would prevent the drawer from being closed properly if pushed directly. Removing the red obstacle first ensures the drawer can be closed without obstruction."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000041.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The red obstacle is protruding from the drawer and would prevent the drawer from being closed properly if pushed directly. Therefore, the best approach is to remove the red obstacle first, ensuring the drawer can be closed without obstruction."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000103.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the observation at step 000103, the red obstacle is clearly protruding from the drawer, which would prevent the drawer from being closed properly. The best approach is to first remove the red obstacle to ensure the drawer can be closed without obstruction."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000180.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The red obstacle is protruding from the drawer, preventing it from being closed properly. Attempting to push the drawer directly (Option A) would likely result in resistance or damage. The best approach is to first remove the red obstacle (Option B), ensuring the drawer can close smoothly."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000251.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The red obstacle is blocking the drawer from being fully closed. Attempting to push the drawer directly without removing the obstacle would likely result in failure or damage. The best approach is to first remove the red obstacle from the drawer's path and then proceed to close the drawer."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000270.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The red obstacle is positioned such that it would obstruct the drawer from closing properly. Attempting to push the drawer directly without removing the obstacle could result in damage or failure to complete the task. The best approach is to first remove the red obstacle and then proceed to close the drawer."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

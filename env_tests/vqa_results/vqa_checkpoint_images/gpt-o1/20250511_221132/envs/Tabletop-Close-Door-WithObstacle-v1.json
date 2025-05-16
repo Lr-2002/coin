@@ -1,0 +1,74 @@
+{
+    "instruction": "close the door",
+    "query": {
+        "query": "What should be done first to close the door?",
+        "selection": {
+            "A": "Grasp and move the bowl",
+            "B": "Push the door handle directly"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 5,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, the bowl is blocking the door\u2019s path. The arm must first remove the bowl to allow the door to be closed without obstruction."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000075.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, the bowl is blocking the door\u2019s path. To fully close the door, the bowl must first be moved out of the way."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000141.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, the bowl is clearly resting in the path of the door. Removing the bowl first is necessary so that the door can be closed freely."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000247.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the final scene, the bowl is not blocking the door\u2019s swing; it can be closed simply by pushing the handle. There is no need to move the bowl first."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000259.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the images, the bowl is not blocking the swing of the door. The direct action needed is to push the door handle to close the door."
+            },
+            "answer": "B",
+            "correct": false
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "instruction": "put the cube to the marker",
+    "query": {
+        "query": "What is the correct sequence to retrieve the cube?",
+        "selection": {
+            "A": "Reach for the cube without opening the door",
+            "B": "Open the door first, then pick the cube"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 6,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The cube is located behind a closed door, as shown in the images. To retrieve the cube, the robot arm must first open the door to access it. Attempting to reach for the cube without opening the door (Option A) would be impossible due to the obstruction. Therefore, the correct sequence is to open the door first and then pick up the cube (Option B)."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000074.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The cube is located behind a closed door, as shown in the images. In order to retrieve the cube, the door must first be opened to provide access to the cube. Attempting to reach for the cube without opening the door (Option A) would be impossible due to the physical obstruction. Therefore, the correct sequence is to open the door first and then pick the cube (Option B)."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000132.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The cube is located behind a closed door, as shown in the query image and the checkpoint observations. Attempting to reach for the cube without opening the door (Option A) would be physically impossible due to the obstruction. The correct sequence is to open the door first to gain access to the cube, then pick it up (Option B). This is consistent with the manipulation process observed in the images."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000172.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The cube is located behind a closed door, as shown in the query image and the observations. To retrieve the cube, the robot arm must first open the door to gain access to the cube. Attempting to reach for the cube without opening the door (Option A) would be impossible due to the physical obstruction. The sequence of actions observed in the checkpoint images also supports this reasoning, as the robot arm interacts with the door before moving toward the cube."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000199.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The cube is located behind a closed door, as shown in the query image. Observations at steps 000132, 000172, and 000199 demonstrate that the robot arm successfully retrieves the cube only after opening the door. In step 000132, the cube is visible behind the door. In step 000172, the robot arm opens the door and begins interacting with the cube. Finally, in step 000199, the robot arm places the cube on the marker. Therefore, the correct sequence to retrieve the cube is to open the door first and then pick the cube."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000200.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The cube is located behind a closed door, as shown in the query image. Attempting to reach for the cube without opening the door would be impossible due to the obstruction. The correct sequence is to open the door first to gain access to the cube, and then pick it up. Observations at steps '000172', '000199', and '000200' confirm that the robot successfully manipulates the door to retrieve the cube."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

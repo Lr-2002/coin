@@ -1,0 +1,64 @@
+{
+    "instruction": "rotate the cube till the green face upward",
+    "query": {
+        "query": "Where is the green face?",
+        "selection": {
+            "A": "On the top of the cube",
+            "B": "On the side of the cube",
+            "C": "On the bottom of the cube"
+        }
+    },
+    "ground_truth": "C",
+    "response_num": 4,
+    "answers": [
+        "B",
+        "A",
+        "B",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the image, the green face is not visible on the top or bottom of the cube. Therefore, it must be on one of the sides."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000074.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000074, the green face is visible on the top of the cube."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000118.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the image at step 000118, the green face is not visible on the top. The last image shows the yellow face on the top. Therefore, the green face must be on the side of the cube."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000179.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000179, the green face of the cube is clearly visible on the top."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

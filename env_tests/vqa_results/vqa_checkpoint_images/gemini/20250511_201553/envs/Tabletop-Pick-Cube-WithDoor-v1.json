@@ -1,0 +1,85 @@
+{
+    "instruction": "put the cube to the marker",
+    "query": {
+        "query": "What is the correct sequence to retrieve the cube?",
+        "selection": {
+            "A": "Reach for the cube without opening the door",
+            "B": "Open the door first, then pick the cube"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 6,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Based on the image, the cube is behind the door. Therefore, the robot needs to open the door first before it can reach and pick up the cube."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000074.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the first image, the cube is behind the door. In the second image, the door is open and the cube is in the gripper. Therefore, the robot must open the door first, then pick the cube."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000132.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the first image, the cube is behind the door. In the second image, the door is opened and the robot arm is reaching for the cube. Therefore, the correct sequence is to open the door first, then pick the cube."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000172.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the images, the cube is behind a door. The robot arm must first open the door to access the cube. Therefore, the correct sequence is to open the door first, then pick the cube."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000199.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the images, the robot first opens the door, and then picks up the cube. Therefore, the correct sequence is to open the door first, then pick the cube."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000200.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the images, the cube is behind a closed door. To retrieve the cube, the robot must first open the door and then pick up the cube."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

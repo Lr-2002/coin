@@ -1,0 +1,75 @@
+{
+    "instruction": "pick up the center cylinder",
+    "query": {
+        "query": "How to move the center cylinder to the goal?",
+        "selection": {
+            "A": "Pick up the center cylinder directly and move it to the goal",
+            "B": "Find the dynamic obstacle cylinders and push them away to move the center cylinder to the goal",
+            "C": "Put one of the dynamic cylinder to the goal"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 5,
+    "answers": [
+        "A",
+        "A",
+        "B",
+        "A",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        true,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, the center cylinder can be directly gripped without needing to move or push away the surrounding cylinders, so picking it up and carrying it to the goal is the straightforward solution."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000076.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The center cylinder is readily accessible from above. The robot can simply grasp that center cylinder and place it at the target location."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000197.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The center cylinder is blocked by the surrounding cylinders, so the first step is to push those obstacle cylinders away so the arm can grasp and move the center one onto the target."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000248.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, the center cylinder is accessible for direct pickup, so the simplest way is to grasp it and place it at the goal."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000307.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, there is a clear line of sight to the center cylinder. The robot can simply grasp the cylinder directly and place it on the target without having to move or push other cylinders out of the way."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

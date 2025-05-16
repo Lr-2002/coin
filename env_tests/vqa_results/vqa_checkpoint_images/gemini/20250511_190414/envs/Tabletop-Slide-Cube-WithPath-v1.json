@@ -1,0 +1,63 @@
+{
+    "instruction": "Slide a cube down a slope to the marker ",
+    "query": {
+        "query": "Where should the block be placed to slide to target position?",
+        "selection": {
+            "A": "A",
+            "B": "B"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The block should be placed at position A to slide down the slope towards the target position."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000106.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The target is at the bottom of the slope. To slide the block down to the target, it should be placed at the top of the slope, which is location A."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000240.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The block should be placed at position A to slide down the slope to the target position."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000291.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The block should be placed at position A to slide down the slope towards the target position. Placing it at position B would likely cause it to slide off the side of the slope."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+Task,Accuracy,Success correct num,Total num
+Tabletop-Open-Door-WithObstacle-v1,100.00%,10,10
+Tabletop-Seek-Objects-InCabinet-v1,0.00%,0,10
+Tabletop-Seek-Holder-InCabinet-v1,100.00%,1,1
+Tabletop-Stack-LongObjects-v1,10.00%,1,10
+Tabletop-Pick-Object-FromCabinet-v1,90.00%,9,10
+Tabletop-Pick-Cube-WithStick-v1,100.00%,10,10
+Tabletop-Slide-Cube-WithPath-v1,0.00%,0,10
+Tabletop-Pick-Cube-Slippery-v1,0.00%,0,10
+Tabletop-Put-Cube-IntoMicrowave-v1,100.00%,10,10
+Tabletop-Open-Cabinet-WithSwitch-v1,100.00%,5,5
+Tabletop-Pick-Cylinder-WithObstacle-v1,60.00%,6,10
+Tabletop-Seek-Objects-WithObstacle-v1,0.00%,0,10
+Tabletop-Rotate-Cube-Twice-v1,0.00%,0,10
+Tabletop-Stack-Books-v1,100.00%,9,9
+Tabletop-Slide-Cube-Into-Container-v1,100.00%,10,10
+Tabletop-Put-Cube-IntoCabinetWithObstacle-v1,100.00%,10,10
+Tabletop-Open-Door-WithCabinet-v1,100.00%,10,10
+Tabletop-Pick-Cube-WithDoor-v1,100.00%,10,10
+Tabletop-Put-Balls-IntoContainer-v1,100.00%,10,10
+Tabletop-Pick-Eraser-FromHolder-v1,100.00%,10,10
+Tabletop-Stack-Books-OnBox-v1,0.00%,0,10
+Tabletop-Stack-Cube-WithColor-v1,0.00%,0,10

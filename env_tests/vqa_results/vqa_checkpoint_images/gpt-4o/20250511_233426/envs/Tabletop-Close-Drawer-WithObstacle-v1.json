@@ -1,0 +1,74 @@
+{
+    "instruction": "close the drawer",
+    "query": {
+        "query": "What should do first before closing the drawer?",
+        "selection": {
+            "A": "Open the cabinet",
+            "B": "Move the stick away"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 5,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The stick is currently obstructing the drawer from being closed. Before closing the drawer, the stick must be moved away to ensure the drawer can close properly. Opening the cabinet is unrelated to the task of closing the drawer."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000069.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the query image, the drawer contains a stick (red object) that is obstructing the closure of the drawer. Before closing the drawer, the stick must be moved away to ensure the drawer can close properly. Opening the cabinet (Option A) is unrelated to the task of closing the drawer."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000120.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The query image shows a red stick inside the drawer. Before closing the drawer, the stick needs to be moved away to ensure the drawer can close properly without obstruction. Opening the cabinet (Option A) is unrelated to the task of closing the drawer."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000184.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The query image shows that there is a red stick inside the drawer. Before closing the drawer, the stick must be moved away to ensure the drawer can close properly without obstruction."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000189.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The query image shows a red stick inside the drawer. Before closing the drawer, the stick needs to be moved away to ensure the drawer can close properly without obstruction."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

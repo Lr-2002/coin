@@ -1,0 +1,74 @@
+{
+    "instruction": "Arrange the bowl, fork onto the plate, clean for dinner ",
+    "query": {
+        "query": "Which item should be placed on the plate first?",
+        "selection": {
+            "A": "The bowl",
+            "B": "The fork"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 5,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The task instruction specifies arranging the bowl and fork onto the plate. Observing the images, the plate is already present on the table, and the bowl is closer to the plate compared to the fork. Logically, placing the bowl first creates a stable base for further arrangement, and it aligns with the typical order of setting up dinnerware. Therefore, the bowl should be placed on the plate first."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000069.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the observations, the robotic arm is seen interacting with the bowl first, as it is positioned directly above the bowl and appears to be in the process of picking it up. This indicates that the bowl is prioritized for placement on the plate before the fork. Additionally, placing the bowl first provides a stable base for arranging other items like the fork on the plate."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000155.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the robotic arm first interacting with the bowl and placing it onto the plate. In step '000069', the arm is seen lifting the bowl, and in step '000155', the bowl is successfully placed on the plate. The fork remains untouched throughout these steps. Therefore, the bowl should be placed on the plate first."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000230.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the robot arm first interacting with the bowl, as seen in step 000069 and step 000155, where the bowl is being positioned on the plate. The fork is only picked up later in step 000230. This sequence indicates that the bowl is placed on the plate first, followed by the fork."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000258.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the robotic arm first interacting with the bowl and placing it on the plate before handling the fork. At step '000155', the bowl is being positioned on the plate, and at step '000230', the fork is being picked up. Finally, at step '000258', the fork is placed on the bowl, which is already on the plate. This sequence indicates that the bowl should be placed on the plate first."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

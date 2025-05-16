@@ -1,0 +1,96 @@
+{
+    "instruction": "Use the stick to move the small cube along the cross-shaped path to the target position ",
+    "query": {
+        "query": "How should the robot navigate the cube through the T-junction?",
+        "selection": {
+            "A": "Push the cube to the junction with stick, then reposition the stick for the turn",
+            "B": "Directly pick up the cube to the target position"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 7,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The task instruction specifies using the stick to move the small cube along the cross-shaped path to the target position. The robot should push the cube to the junction with the stick and then reposition the stick to navigate the turn, as this aligns with the task requirements. Directly picking up the cube would violate the instruction to use the stick for manipulation."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000123.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The task instruction specifies using the stick to move the cube along the cross-shaped path to the target position. Observations show the robot has been using the stick to push the cube along the path. At the T-junction, the robot should continue using the stick to push the cube to the junction and then reposition the stick to navigate the turn. Picking up the cube directly would violate the task instruction."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000172.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The task requires the robot to use the stick to move the cube along the cross-shaped path to the target position. Observing the images, the robot is already using the stick to push the cube along the path. At the T-junction, the robot should continue using the stick to navigate the turn by repositioning it appropriately, as this aligns with the task instructions. Picking up the cube directly (Option B) would violate the task requirement of using the stick for manipulation."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000209.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The task requires the robot to use the stick to move the cube along the cross-shaped path to the target position. Observing the images, the robot is already using the stick to push the cube along the path. At the T-junction, the robot should continue using the stick to push the cube to the junction and then reposition the stick to navigate the turn, as this aligns with the task's instruction to use the stick for manipulation. Option B, picking up the cube directly, would violate the task instruction."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000346.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The task instruction specifies using the stick to move the small cube along the cross-shaped path to the target position. Observations show the robot consistently using the stick to push the cube along the path. At the T-junction, the robot should push the cube to the junction and then reposition the stick to navigate the turn, as this aligns with the task requirements and the observed manipulation process. Picking up the cube directly (Option B) would violate the instruction to use the stick for movement."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000419.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The task requires the robot to use the stick to move the cube along the cross-shaped path to the target position. Observations show the robot pushing the cube with the stick, which aligns with the task instruction. At the T-junction, the robot should continue using the stick to maneuver the cube, repositioning the stick as necessary to make the turn. Picking up the cube directly (Option B) would violate the task instruction to use the stick."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000430.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The task instruction specifies using the stick to move the cube along the cross-shaped path to the target position. Observations show the robot successfully pushing the cube with the stick and navigating through the path. At the T-junction, the robot should continue using the stick to push the cube to the junction and then reposition the stick to make the turn, as this aligns with the task requirements. Picking up the cube directly would violate the instruction to use the stick for navigation."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

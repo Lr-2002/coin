@@ -1,0 +1,64 @@
+{
+    "instruction": "open the door",
+    "query": {
+        "query": "What is the main challenge in opening this door?",
+        "selection": {
+            "A": "The door is too heavy to push",
+            "B": "The cabinet door is in the way to open the door",
+            "C": "We can directly open the door"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+        "B",
+        "C",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        false,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the image, the cabinet door is positioned right next to the door that needs to be opened. This proximity suggests that the cabinet door might obstruct the full opening of the target door, making it a challenge. Therefore, the main challenge is that the cabinet door is in the way to open the door."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000061.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "The door is already slightly open in the first image, and further open in the second image. Therefore, we can directly open the door."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000091.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the images, the cabinet door is positioned in such a way that it obstructs the full opening of the door. This makes it the main challenge in opening the door."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000184.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the images, it is clear that the cabinet door is positioned in such a way that it obstructs the full opening of the main door. The robot arm is trying to open the door, but the cabinet door is preventing it from opening completely. Therefore, the main challenge is the cabinet door being in the way."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "instruction": "open the cabinet door",
+    "query": {
+        "query": "What is the efficient way to open the cabinet",
+        "selection": {
+            "A": "Move the board away, then open the cabinet",
+            "B": "Open the cabinet directly"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 4,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The image shows the cabinet door already open. Therefore, the efficient way to open the cabinet is to open it directly."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000183.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The image shows the cabinet door is already open. Therefore, the efficient way is to open the cabinet directly."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000395.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The image shows the cabinet door is already slightly open. Therefore, the efficient way is to open the cabinet directly."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000417.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The image shows the cabinet door already partially open. Therefore, the efficient way to open the cabinet is to open it directly."
+            },
+            "answer": "B",
+            "correct": false
+        }
+    ]
+}

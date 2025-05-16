@@ -1,0 +1,86 @@
+{
+    "instruction": "stack all the objects to make it most high",
+    "query": {
+        "query": "Which cube is the highest?",
+        "selection": {
+            "A": "A",
+            "B": "B",
+            "C": "C"
+        }
+    },
+    "ground_truth": "C",
+    "response_num": 6,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the final image, cube A (green) is at a higher vertical position than cubes B (red) and C (blue)."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000068.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the final arrangement in the last checkpoint image, the cube labeled A (in green) is clearly placed on top of the others, making it the highest."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000127.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the final arrangement in the images, cube A is placed on top of the stack and is the highest."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000278.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the final stacking arrangement, Cube A (green box) is visibly perched on top of the stack, making it the highest."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000358.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the final stacked arrangement, the green\u2010outlined cube (A) clearly sits above the other cubes in the final observation."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000375.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The green-labeled cube (A) is clearly the topmost block in the final stacked configuration."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

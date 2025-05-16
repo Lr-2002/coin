@@ -1,0 +1,41 @@
+{
+    "instruction": "open the cabinet door",
+    "query": {
+        "query": "What's the correct sequence of actions to open the cabinet?",
+        "selection": {
+            "A": "Close the door first, then access the cabinet",
+            "B": "Open the cabinet directly without interacting with the door"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 2,
+    "answers": [
+        "B",
+        "B"
+    ],
+    "correct": [
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000121.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the images it appears that the robot simply rotates and pulls the cabinet door open directly, rather than closing it first. Thus the correct sequence is to open the cabinet directly."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000160.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the images, the cabinet door is already partially open. There\u2019s no need to close it first; the robot simply continues pulling the door open to access the cabinet."
+            },
+            "answer": "B",
+            "correct": false
+        }
+    ]
+}

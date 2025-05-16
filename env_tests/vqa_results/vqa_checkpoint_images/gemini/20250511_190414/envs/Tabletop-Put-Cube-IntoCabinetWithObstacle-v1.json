@@ -1,0 +1,107 @@
+{
+    "instruction": "put the object into the cabinet",
+    "query": {
+        "query": "What is the best approach to put the cube into the cabinet",
+        "selection": {
+            "A": "Move the obstacle first, then place the cube into the cabinet",
+            "B": "Try to navigate around the obstacle without moving it"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 8,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The image shows the robot arm, a red cube, and a cabinet. The question asks about the best approach to put the cube into the cabinet. Option A suggests moving the obstacle first, but the cabinet is the target, not an obstacle. Option B suggests navigating around the obstacle without moving it, which is a more reasonable approach to placing the cube into the cabinet."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000144.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The image shows a red cube and a cabinet. There is no obstacle between the cube and the cabinet. Therefore, the best approach is to navigate around the obstacle without moving it, since there is no obstacle."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000181.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The image shows the robot arm and a red cube in front of a cabinet. There is no obstacle mentioned or visible in the image. Therefore, the best approach is to navigate around the cube without moving it and place it into the cabinet."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000309.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show the robot arm and a red cube near a cabinet. The question asks about the best approach to put the cube into the cabinet. Option A suggests moving an obstacle first, but there's no visible obstacle blocking the path to the cabinet in the images. Option B suggests navigating around the obstacle without moving it, which is more relevant since the robot arm might need to maneuver to pick up the cube and place it inside the cabinet. Therefore, navigating around any potential obstacles (like the cabinet itself) is the better approach."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000376.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show the robot arm positioned near the cabinet and a cube. There is no obstacle in the way. Therefore, the best approach is to navigate around the cube without moving it."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000667.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The image shows the robot arm holding the cube and positioned near the cabinet. There is no obstacle between the robot and the cabinet. Therefore, the best approach is to navigate around the obstacle without moving it."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000752.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The robot arm is already holding the cube and is positioned near the cabinet. There is no obstacle between the robot arm and the cabinet. Therefore, the best approach is to navigate around the obstacle without moving it."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000804.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The image shows the robot arm and a red cube in front of a cabinet. The cabinet door is open. There is no obstacle mentioned in the image. Therefore, the best approach is to navigate around without moving any obstacle, as there isn't one."
+            },
+            "answer": "B",
+            "correct": false
+        }
+    ]
+}

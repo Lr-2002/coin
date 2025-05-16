@@ -1,0 +1,96 @@
+{
+    "instruction": "Pick up the eraser in the holder and place it to the marker",
+    "query": {
+        "query": "How can we pick the eraser from the holder?",
+        "selection": {
+            "A": "Pick the eraser directly",
+            "B": "Pour out the rubber from the holder"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 7,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The eraser is inside a holder, and it cannot be directly picked up due to the obstruction caused by the holder's structure. The most feasible way to retrieve the eraser is to pour it out from the holder, allowing the robotic arm to access it freely."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000075.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The eraser is inside the holder, and the holder's design does not allow the robotic arm to grasp the eraser directly. The most effective way to retrieve the eraser is to pour it out from the holder, as shown in the query image where the eraser is already outside the holder."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000114.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The eraser is inside the holder, and the robotic arm's gripper cannot directly access it due to the holder's structure. Pouring out the eraser from the holder is the most feasible way to retrieve it."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000267.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the observations, the eraser is inside the holder, which has a mesh-like structure. The eraser cannot be directly grasped due to the obstruction caused by the holder's walls. At step 000267, the eraser is visible outside the holder, indicating that pouring out the contents of the holder is an effective way to retrieve the eraser. Therefore, the correct approach is to pour out the eraser from the holder."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000317.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The eraser is inside the holder, which has a mesh-like structure that prevents direct access to the eraser. Observations at steps 000267 and 000317 show the robotic arm interacting with the holder, but the eraser remains inside. To retrieve the eraser, the most effective method would be to pour it out from the holder, as direct picking is obstructed by the holder's design."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000352.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The eraser is inside the holder, and the holder's design makes it difficult to directly grasp the eraser with the robotic arm. Pouring out the eraser from the holder would make it accessible for picking up."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000359.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The eraser is inside the holder, which is a cylindrical container. Based on the observations, the eraser cannot be directly grasped because it is obstructed by the holder's walls. To access the eraser, the most feasible approach is to pour it out from the holder, allowing the robotic arm to pick it up afterward."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

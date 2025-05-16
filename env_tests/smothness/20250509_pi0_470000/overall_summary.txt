@@ -1,0 +1,13 @@
+
+=== Overall Summary ===
+Total trajectories processed: 138
+Episodes filtered out (jerk > 500.0): 72
+Average trajectory length: 330.8 steps
+Average unchanged action percentage: 30.7%
+Average length after processing: 198.0 steps
+
+Average smoothness metrics:
+  Mean Jerk: 200.9769 ± 114.2876
+  Dimensionless Jerk: 2467225061129.6245 ± 3419122563771.2002
+  Velocity Smoothness: -0.3802 ± 0.2605
+  Spectral Arc Length: -6.8016 ± 1.0887

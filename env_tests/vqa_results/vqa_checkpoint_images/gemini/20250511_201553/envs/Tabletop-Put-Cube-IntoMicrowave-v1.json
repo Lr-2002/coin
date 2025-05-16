@@ -1,0 +1,86 @@
+{
+    "instruction": "put the cube into the microwave ",
+    "query": {
+        "query": "What is the correct order of actions to put the cube into the microwave?",
+        "selection": {
+            "A": "Pick up the cube first, then open the microwave door and place the cube inside",
+            "B": "Open the microwave door first, then pick and place the cube inside",
+            "C": "Directly pick the cube into microwave"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 6,
+    "answers": [
+        "B",
+        "A",
+        "A",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        false,
+        false,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Based on the image, the microwave door is already open, and the robot arm is holding the cube to place it inside. Therefore, the correct order of actions is to open the microwave door first, then pick and place the cube inside."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000072.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the first image, the robot arm is holding the cube near the microwave. In the second image, the robot arm is placing the cube inside the microwave. Therefore, the robot arm must have picked up the cube first, then opened the microwave door and placed the cube inside."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000219.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the first image (step 000072), the robot arm is approaching the cube, suggesting it's going to pick it up. In the second image (step 000219), the robot arm is near the microwave with the cube, implying it has already picked up the cube and is now going to place it inside the microwave. The microwave door is open in the second image. Therefore, the correct order is to pick up the cube first, then open the microwave door and place the cube inside."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000312.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the first image, the microwave door is open and the cube is on the table. In the second image, the cube is inside the microwave. Therefore, the microwave door was opened first, then the cube was picked up and placed inside."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000391.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the first image (step 000312), the microwave door is open and the robot arm is near the cube. In the second image (step 000391), the robot arm is holding the cube and the cube is inside the microwave. Therefore, the robot opened the microwave door first, then picked up the cube and placed it inside."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000428.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the image at step 000391, the microwave door is open and the robot arm is holding the cube near the microwave. In the image at step 000428, the cube is inside the microwave. This indicates that the microwave door was opened first, then the cube was picked up and placed inside."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

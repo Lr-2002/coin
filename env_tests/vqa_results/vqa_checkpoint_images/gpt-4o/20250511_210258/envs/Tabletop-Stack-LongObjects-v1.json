@@ -1,0 +1,86 @@
+{
+    "instruction": "stack all the objects to make it most high",
+    "query": {
+        "query": "Which cube is the highest?",
+        "selection": {
+            "A": "A",
+            "B": "B",
+            "C": "C"
+        }
+    },
+    "ground_truth": "C",
+    "response_num": 6,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the query image, cube A is visibly positioned on top of cube B, making it the highest cube among the three. Cube C is at the same level as cube B, but cube A is elevated above both. Therefore, cube A is the highest."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000068.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the final observation (step 000068), cube A is visibly stacked on top of cube B, making it the highest cube. Cube C remains on the table surface and is not stacked, so it is lower than cube A. The stacking process clearly shows that cube A is the highest."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000127.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the final observation at step 000127, the robotic arm has successfully stacked the cubes. Cube A is clearly positioned at the top of the stack, making it the highest cube. Cube B is at the bottom, and Cube C is in the middle of the stack. The query image confirms this arrangement, with Cube A being the highest."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000278.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the final observation at step 000278, the robotic arm has successfully stacked the cubes to achieve the highest possible configuration. Cube A is positioned on top of the stack, making it the highest cube. Cube B is at the bottom, and Cube C is in the middle of the stack. The query image confirms this arrangement, with Cube A clearly above the other cubes."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000358.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the final stacking configuration observed at step '000358', cube A is positioned at the top of the stack, making it the highest cube. Cube B is at the base, and cube C is in the middle. The stacking process clearly shows the robot placing cube A last, completing the stack with A at the highest point."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000375.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Analyzing the images from the checkpoints, the robotic arm has stacked the objects vertically to achieve the highest possible height. In the query image, cube A is positioned at the top of the stack, making it the highest cube. Cube B is at the bottom, and cube C is in the middle of the stack. Therefore, cube A is the highest."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

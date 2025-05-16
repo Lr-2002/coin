@@ -1,0 +1,74 @@
+{
+    "instruction": "Balance the long board on the triangular prism and place the cubes to maintain balance",
+    "query": {
+        "query": "which cube is heavier",
+        "selection": {
+            "A": "Cube A",
+            "B": "Cube B"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 5,
+    "answers": [
+        "B",
+        "B",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The board is balanced, but cube B is closer to the fulcrum (the triangular prism). To balance the board, the cube closer to the fulcrum must be heavier. Therefore, cube B is heavier."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000165.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "At step 000000, the board is balanced. At step 000165, the board is tilted towards cube B. This indicates that cube B is heavier than cube A."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000203.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The board is balanced on a triangular prism. Cube A is closer to the center of the board, while Cube B is further away. To maintain balance, the cube closer to the center (Cube A) must be heavier to counteract the torque produced by the lighter cube further away (Cube B)."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000238.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The task is to balance the board. In the images, Cube A is further away from the center than Cube B. To balance the board, the cube further from the center must be heavier. Therefore, Cube A is heavier."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000306.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The board is balanced on the triangular prism. Cube A is closer to the center of the board, while Cube B is further away. To maintain balance, the cube closer to the center (Cube A) must be heavier."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

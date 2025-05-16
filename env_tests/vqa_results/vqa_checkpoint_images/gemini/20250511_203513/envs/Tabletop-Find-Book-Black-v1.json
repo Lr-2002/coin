@@ -1,0 +1,64 @@
+{
+    "instruction": "Find and pick the black book from the bookshelf and put it on the marker ",
+    "query": {
+        "query": "Where is the black book?",
+        "selection": {
+            "A": "On the right column, the first book",
+            "B": "In the middle column, the third book",
+            "C": "On the left column, the second book"
+        }
+    },
+    "ground_truth": "C",
+    "response_num": 4,
+    "answers": [
+        "A",
+        "A",
+        "B",
+        "B"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The black book is on the right column, and it is the first book on that column."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000179.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000179, the black book is on the right column and it is the first book."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000340.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the image at step 000340, the black book is in the middle column, and it is the third book from the front."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000411.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the image at step 000340, the robotic arm is holding the black book. Looking at the bookshelf, the black book was in the middle column, the third book."
+            },
+            "answer": "B",
+            "correct": false
+        }
+    ]
+}

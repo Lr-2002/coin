@@ -1,0 +1,118 @@
+{
+    "instruction": "find the cube in the cabinet and pick it up",
+    "query": {
+        "query": "Where is the cube?",
+        "selection": {
+            "A": "In the drawer",
+            "B": "In the cabinet"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 9,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "A",
+        "B",
+        "B",
+        "B",
+        "A",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The high-level task instruction is to find the cube in the cabinet and pick it up. Therefore, the cube is in the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000123.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The task instruction is to find the cube in the cabinet. Therefore, the cube is in the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000224.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The task instruction is to find the cube in the cabinet. The images show the robot arm approaching and interacting with the cabinet. Therefore, the cube is likely in the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000490.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000490, we can see the robot arm inside a drawer, and there is a red cube inside the drawer. Therefore, the cube is in the drawer."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000535.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the image at step 000224, we can see the robot arm inside the cabinet and a red cube is also visible inside the cabinet. In the image at step 000535, the robot arm is holding the red cube. Therefore, the cube was in the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000662.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the first image, the robot arm is inside the cabinet and holding the cube. In the third image, the robot arm is outside the cabinet and holding the cube. Therefore, the cube was in the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000697.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the image at step 000697, the robot arm is holding a red cube. The previous images show the robot opening the cabinet. Therefore, the cube was in the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000753.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The robot arm is currently interacting with a drawer, and the cube is visible inside the drawer in the last image. Therefore, the cube is in the drawer."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000763.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show the robot moving towards the cabinet, and the last image shows the robot picking up a red cube. Therefore, the cube was in the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

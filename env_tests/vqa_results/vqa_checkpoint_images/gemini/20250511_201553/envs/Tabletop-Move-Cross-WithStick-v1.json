@@ -1,0 +1,96 @@
+{
+    "instruction": "Use the stick to move the small cube along the cross-shaped path to the target position ",
+    "query": {
+        "query": "How should the robot navigate the cube through the T-junction?",
+        "selection": {
+            "A": "Push the cube to the junction with stick, then reposition the stick for the turn",
+            "B": "Directly pick up the cube to the target position"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 7,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the robot using a stick to push the cube along the path. The task instruction is to use the stick to move the cube. Therefore, the robot should push the cube to the junction with the stick, then reposition the stick for the turn, rather than picking up the cube directly."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000123.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the robot using the stick to push the cube along the cross-shaped path. At step 123, the cube has reached the target position. Therefore, the robot must have pushed the cube to the junction with the stick and then repositioned the stick for the turn to reach the target."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000172.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the images, the robot is using a stick to push the cube along the path. The robot should push the cube to the junction with the stick, then reposition the stick to continue pushing the cube along the desired path after the turn."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000209.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the robot using a stick to push the cube along the path. The cube is currently near the T-junction. The robot should push the cube to the junction with the stick, then reposition the stick to push the cube in the desired direction of the turn. Option B is not correct because the robot is using the stick to move the cube, not picking it up directly."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000346.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the images, the robot uses the stick to push the cube. Option B is not possible since the robot is using a stick to push the cube, not picking it up. Therefore, the robot should push the cube to the junction with the stick, then reposition the stick for the turn."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000419.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the images, the robot is using a stick to push the cube along the path. Option B, picking up the cube, is not consistent with the observed behavior. The robot is navigating the cube through the T-junction by pushing it to the junction and then repositioning the stick for the turn."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000430.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the robot using the stick to push the cube along the path. The cube is at the T-junction in the first image, and the robot is repositioning the stick to make the turn in the second image. Therefore, the robot should push the cube to the junction with the stick, then reposition the stick for the turn."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

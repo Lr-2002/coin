@@ -1,0 +1,129 @@
+{
+    "instruction": "Find the holder containing an eraser the cabinet, put it to the marker",
+    "query": {
+        "query": "Which holder has a eraser?",
+        "selection": {
+            "A": "A",
+            "B": "B"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 10,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the query image, holder A has a visible eraser inside it, while holder B does not."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000059.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000000, the robot arm is opening the cabinet. In the query image, holder A contains a blue eraser. Therefore, holder A has the eraser."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000247.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000247, the robot arm has opened the cabinet. Inside the cabinet, we can see two holders, labeled A and B. Holder A contains a blue eraser, while holder B contains a yellow object. Therefore, holder A has the eraser."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000331.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000331, holder A has a blue eraser in it. Holder B does not have an eraser."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000659.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000659, we can see the robot arm is reaching into the holder labeled A. The query image shows that holder A contains a blue eraser."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000808.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000331, we can see the cabinet with two holders labeled A and B. Holder A contains a blue eraser. Holder B does not have an eraser."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000963.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000659, we can see the cabinet is open and there are two holders inside. The holder on the left (A) contains a blue eraser. The holder on the right (B) does not have an eraser."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "001117.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000808, the robot arm is inside the cabinet, and it appears to be grasping holder A. The query image shows that holder A contains an eraser."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "001149.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the first image, the robot arm is inside the cabinet and has picked up holder A. The subsequent images show the robot moving holder A to the marker. Therefore, holder A must contain the eraser."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "001151.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The robot arm is holding the holder A. The task is to find the holder with an eraser. Therefore, holder A has the eraser."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

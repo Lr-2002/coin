@@ -1,0 +1,64 @@
+{
+    "instruction": "rotate the cube till the green face upward",
+    "query": {
+        "query": "Where is the green face?",
+        "selection": {
+            "A": "On the top of the cube",
+            "B": "On the side of the cube",
+            "C": "On the bottom of the cube"
+        }
+    },
+    "ground_truth": "C",
+    "response_num": 4,
+    "answers": [
+        "B",
+        "A",
+        "B",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the image, the green face is not visible on the top or bottom of the cube. Therefore, the green face must be on the side of the cube."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000074.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The task instruction is to rotate the cube till the green face upward. In the last image, the green face is on the top of the cube."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000118.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the last image (step 000118), the green face is visible on the side of the cube. The task was to rotate the cube until the green face was upward, but the robot stopped when the yellow face was upward."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000179.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the last image (step 000179), the green face of the cube is clearly visible on the top. The task was to rotate the cube until the green face was upward, and the robot successfully completed this task."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

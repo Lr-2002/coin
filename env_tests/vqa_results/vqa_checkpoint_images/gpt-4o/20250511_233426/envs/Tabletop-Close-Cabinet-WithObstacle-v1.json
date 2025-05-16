@@ -1,0 +1,85 @@
+{
+    "instruction": "close the cabinet door",
+    "query": {
+        "query": "Which approach would most likely succeed in closing the cabinet?",
+        "selection": {
+            "A": "Apply force directly to the door",
+            "B": "Move the obstacle first, then close the door"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 6,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show that there is an obstacle (a box) inside the cabinet that prevents the door from closing fully. Applying force directly to the door (Option A) would likely result in the door being blocked by the box. Therefore, the most effective approach is to move the obstacle (the box) out of the way first, then close the door (Option B)."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000111.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the observations, there is an obstacle (a box) inside the cabinet that prevents the door from closing fully. Applying force directly to the door (Option A) would likely result in the door being blocked by the obstacle. Moving the obstacle first (Option B) would clear the path for the door to close successfully."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000175.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the query image, there is an obstacle (a box) inside the cabinet that prevents the door from closing completely. Applying force directly to the door (Option A) would likely result in resistance or damage due to the obstacle. The most logical approach is to move the obstacle out of the way first (Option B), ensuring the door can close without obstruction."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000252.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the query image, there is an obstacle (likely the robotic arm itself) positioned between the cabinet door and its closing path. Directly applying force to the door (Option A) would likely result in the door colliding with the obstacle, preventing successful closure. Moving the obstacle out of the way first (Option B) ensures the door has a clear path to close fully, making this approach more likely to succeed."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000356.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the observations, there is an obstacle (a small object) located at the base of the cabinet door. This obstacle would prevent the door from closing fully if force is applied directly to the door. Therefore, the most likely successful approach would be to move the obstacle first, clearing the path for the door to close properly."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000358.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the query image, it is evident that there is an obstacle (a small object) located inside the cabinet near the door's closing path. If force is applied directly to the door (Option A), the obstacle may prevent the door from closing properly or cause damage. The most logical approach is to first move the obstacle out of the way (Option B), ensuring the door can close smoothly without obstruction."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

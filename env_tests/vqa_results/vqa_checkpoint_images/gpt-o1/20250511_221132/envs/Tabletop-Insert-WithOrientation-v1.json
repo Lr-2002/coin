@@ -1,0 +1,85 @@
+{
+    "instruction": "insert the board on the wall",
+    "query": {
+        "query": "What is the correct orientation for inserting the blue object?",
+        "selection": {
+            "A": "Rotate the object vertically to match the slot height",
+            "B": "Keep the object flat on the table and push it in"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 6,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, the slot is oriented vertically, so the long, narrow blue board must stand upright in order to fit correctly into the wall\u2019s slot."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000076.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The narrow slot in the wall is oriented vertically, so the board must be stood up on its end to slide in properly."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000101.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, the slot on the wall block is oriented so that the board needs to stand up (vertically) to slide in properly rather than simply pushing it in flat."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000280.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, the slot in the white block is oriented so the long blue rod needs to be turned upright for proper alignment, rather than pushed in flat."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000367.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, the slot in the block (or \u2018wall\u2019) stands upright, so the board (blue object) must be oriented vertically for it to slide in properly."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000441.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the shape of the slot in the gray piece, the blue board must be stood up on its end (vertical) so it can slide properly into the taller opening."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+{
+    "instruction": "move the cube to the marker and put the holder on the cube ",
+    "query": {
+        "query": "What's the best sequence of actions for this task?",
+        "selection": {
+            "A": "Move the cube to the marker first, then place the holder on top",
+            "B": "Move the holder first, then place the cube to the marker, finally put the holder on the cube"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 9,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "It\u2019s most efficient to move the cube onto the marker first, ensuring correct placement, and then place the holder on top of it."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000035.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Following the instruction to move the cube onto the marker first and then place the holder on top will correctly accomplish the task. Moving the holder first introduces extra handling and is unnecessary."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000102.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the final images, the best order is to first move the red cube onto the highlighted marker, then place the black holder over the cube."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000142.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "First place the cube on the marker (as instructed), then carefully set the holder on top of it to complete the task."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000171.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images and the task, the direct and logical sequence is to pick up and place the cube on the marker first, then place the holder on top of the cube."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000206.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Since the goal is to place the cube on the marker and then cover it with the holder, the most direct sequence is to move the cube onto the marker first, and then place the holder on top."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000272.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The high-level instruction is to place the cube at the marker first and then cover it with the holder\u2014exactly as described in option A."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000299.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "First move the cube to the marked location, then place the holder on top of it."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000303.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "You must position the cube on the marker first, then place the holder atop the cube."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

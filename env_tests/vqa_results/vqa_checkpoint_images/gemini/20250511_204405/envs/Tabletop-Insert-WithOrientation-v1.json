@@ -1,0 +1,107 @@
+{
+    "instruction": "insert the board on the wall",
+    "query": {
+        "query": "What is the correct orientation for inserting the blue object?",
+        "selection": {
+            "A": "Rotate the object vertically to match the slot height",
+            "B": "Keep the object flat on the table and push it in"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 8,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The final image shows the blue object inserted vertically into the slot on the wall. Therefore, the object must be rotated vertically before insertion."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000076.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The image shows a blue object and a gray object with a slot. The slot is vertically oriented, so the blue object needs to be rotated vertically to match the slot height before it can be inserted."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000101.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The slot in the gray object is oriented vertically. Therefore, the blue object must be rotated vertically to match the slot height before it can be inserted."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000280.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000280, the robot arm is holding the blue object vertically and is about to insert it into the slot. This indicates that the correct orientation is to rotate the object vertically to match the slot height."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000367.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The gray object has a vertical slot. To insert the blue object, it needs to be rotated vertically to match the slot's height."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000441.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The image shows the robotic arm holding the blue object vertically, aligning it with the height of the slot in the gray object. This indicates that the correct orientation for insertion is vertical, matching the slot's height."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000482.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the image at step 000482, the robot arm is holding the blue object vertically, aligning it with the slot on the wall. This indicates that the correct orientation for inserting the object is vertical, matching the slot's height."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000490.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The image shows the robot manipulating a blue object. The question asks about the correct orientation for inserting the blue object. Based on the image, the blue object needs to be rotated vertically to match the slot height for insertion."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

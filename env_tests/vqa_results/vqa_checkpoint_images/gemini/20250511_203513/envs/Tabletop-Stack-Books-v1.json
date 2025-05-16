@@ -1,0 +1,52 @@
+{
+    "instruction": "Stack all things on the table",
+    "query": {
+        "query": "Which book should be stacked on top of the other?",
+        "selection": {
+            "A": "The red book should be placed on top of the green book",
+            "B": "The green book should be placed on top of the red book"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 3,
+    "answers": [
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The image shows the robot arm is currently holding the red book and is about to place it on top of the green book. Therefore, the red book should be placed on top of the green book."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000123.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000000, the robot arm is holding the red book and placing it on top of the green book. The image at step 000123 shows the red book stacked on top of the green book."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000303.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the green book being placed on the red book. Therefore, the red book should be placed on top of the green book."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

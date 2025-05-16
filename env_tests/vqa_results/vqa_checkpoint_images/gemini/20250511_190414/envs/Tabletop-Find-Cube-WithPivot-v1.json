@@ -1,0 +1,85 @@
+{
+    "instruction": "Move the heavy cube to the goal region",
+    "query": {
+        "query": "which cube is heavier",
+        "selection": {
+            "A": "A",
+            "B": "B"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 6,
+    "answers": [
+        "A",
+        "A",
+        "B",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The image shows a seesaw. Cube A is on one side, and cube B is on the other. The seesaw is tilted towards cube A, indicating that cube A is heavier."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000126.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The image shows a seesaw. Cube A is lower than cube B, indicating that cube A is heavier."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000165.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The image shows a seesaw. Cube A is near the goal region and cube B is on the other side of the seesaw. The seesaw is tilted towards cube B, indicating that cube B is heavier."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000230.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The robot is currently holding cube A. The task is to move the heavy cube to the goal region. Therefore, cube A is the heavier cube."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000281.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The image shows a seesaw. Cube A is on the lower side of the seesaw, indicating it is heavier than cube B."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000290.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The robot is trying to move the heavy cube to the goal region. In the image, the robot is holding cube A. Therefore, cube A is the heavier cube."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

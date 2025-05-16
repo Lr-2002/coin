@@ -1,0 +1,26 @@
+{
+    "total_trajectories": 210,
+    "filtered_episodes": 0,
+    "jerk_threshold": 500.0,
+    "average_trajectory_length": 436.37619047619046,
+    "average_unchanged_action_percentage": 0.0,
+    "average_processed_length": 426.37619047619046,
+    "smoothness_metrics": {
+        "mean_jerk": {
+            "mean": 74.86531069029623,
+            "std": 59.113739765874705
+        },
+        "dimensionless_jerk": {
+            "mean": 24241690454831.902,
+            "std": 28363114439765.645
+        },
+        "velocity_smoothness": {
+            "mean": -0.2113857129774061,
+            "std": 0.15290156329244375
+        },
+        "spectral_arc_length": {
+            "mean": -7.4352545085517585,
+            "std": 0.8318379380732572
+        }
+    }
+}

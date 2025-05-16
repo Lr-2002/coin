@@ -1,0 +1,74 @@
+{
+    "instruction": "move all the balls into the holder with dustpan",
+    "query": {
+        "query": "What strategy should be used to collect multiple balls efficiently?",
+        "selection": {
+            "A": "Collect all balls at once with a single sweeping motion",
+            "B": "Move the balls one by one"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 5,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The image shows the dustpan already containing multiple balls. This indicates that the robot is using a sweeping motion to collect multiple balls at once, rather than moving them one by one."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000044.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the robot using a dustpan to collect multiple balls at once. This indicates a strategy of collecting all balls with a single sweeping motion, which is more efficient than moving them one by one."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000194.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000194, multiple balls are already in the dustpan. This suggests that the robot is using a sweeping motion to collect multiple balls at once, rather than moving them one by one. Therefore, the strategy being used is to collect all balls at once with a single sweeping motion."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000252.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the images, the robot uses the dustpan to collect multiple balls at once. This suggests that a sweeping motion to collect all balls at once is the more efficient strategy."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000259.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the robot using a dustpan to collect the balls. The dustpan is wide enough to collect multiple balls at once. Therefore, the most efficient strategy would be to collect all balls at once with a single sweeping motion."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

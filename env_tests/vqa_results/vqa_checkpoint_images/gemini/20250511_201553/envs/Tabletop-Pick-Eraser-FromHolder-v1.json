@@ -1,0 +1,96 @@
+{
+    "instruction": "Pick up the eraser in the holder and place it to the marker",
+    "query": {
+        "query": "How can we pick the eraser from the holder?",
+        "selection": {
+            "A": "Pick the eraser directly",
+            "B": "Pour out the rubber from the holder"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 7,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "B",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The eraser is inside the holder, and the robot arm is positioned above the holder. The most direct way to pick the eraser is to reach into the holder and pick it directly."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000075.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The eraser is already in the holder, so the most direct way to pick it up is to pick it directly."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000114.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The robot arm is positioned directly above the eraser in the holder, suggesting it will attempt to pick it directly. There is no indication of pouring out the contents of the holder."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000267.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the image at step 000267, the eraser is inside the holder. The robot arm is near the holder. To pick the eraser, the robot arm needs to pour out the eraser from the holder."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000317.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The robot arm is already positioned above the eraser in the holder at step 000267, and at step 000317 the robot arm is holding the eraser. Therefore, the eraser was picked directly."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000352.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the images, the robot arm is directly picking the eraser from the holder. Therefore, the answer is A."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000359.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the images, the robotic arm is directly approaching the eraser in the holder. The gripper is positioned to grasp the eraser directly. There is no indication of pouring the eraser out of the holder."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

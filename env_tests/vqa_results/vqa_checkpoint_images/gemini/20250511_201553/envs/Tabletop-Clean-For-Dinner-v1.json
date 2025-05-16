@@ -1,0 +1,74 @@
+{
+    "instruction": "Arrange the bowl, fork onto the plate, clean for dinner ",
+    "query": {
+        "query": "Which item should be placed on the plate first?",
+        "selection": {
+            "A": "The bowl",
+            "B": "The fork"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 5,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image, the bowl is being moved towards the plate. The fork is still on the table. Therefore, the bowl should be placed on the plate first."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000069.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000069, the bowl is being moved towards the plate. The fork is still on the table. Therefore, the bowl should be placed on the plate first."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000155.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000069, the robot arm is holding the bowl. In the image at step 000155, the robot arm is placing the bowl on the plate. Therefore, the bowl is placed on the plate first."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000230.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000155, the robot is holding the bowl above the plate. In the image at step 000230, the robot is holding the fork. Based on the query image, the robot is placing the bowl on the plate. Therefore, the bowl should be placed on the plate first."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000258.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000230, the robot is holding the bowl. In the image at step 000258, the robot is holding the fork. The query image shows the bowl being placed on the plate first. Therefore, the bowl should be placed on the plate first."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

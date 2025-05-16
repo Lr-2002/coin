@@ -1,0 +1,52 @@
+{
+    "instruction": "open the cabinet door",
+    "query": {
+        "query": "What's the correct sequence of actions to open the cabinet?",
+        "selection": {
+            "A": "Close the door first, then access the cabinet",
+            "B": "Open the cabinet directly without interacting with the door"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 3,
+    "answers": [
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show that the cabinet door is already open. There is no need to close the door first, as it is unnecessary for accessing the cabinet. The correct action is to proceed directly with accessing the cabinet without interacting with the door."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000121.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show that the cabinet door was already opened at step '000000', and the robotic arm interacted with the door to ensure it was fully open by step '000121'. There is no indication that the door needed to be closed first before accessing the cabinet. Therefore, the correct sequence of actions is to open the cabinet directly without interacting with the door unnecessarily."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000160.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Based on the images, the robotic arm directly interacts with the cabinet door to open it without any prior action of closing the door or interacting with other elements. The sequence of actions involves gripping the cabinet door handle and pulling it open, as demonstrated in the progression from step 000000 to step 000160. There is no indication that the door needs to be closed first before accessing the cabinet."
+            },
+            "answer": "B",
+            "correct": false
+        }
+    ]
+}

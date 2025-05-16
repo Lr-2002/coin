@@ -1,0 +1,52 @@
+{
+    "instruction": "Slide a cube down a slope into a container",
+    "query": {
+        "query": "How can we put the cube to the container?",
+        "selection": {
+            "A": "Slide it from the top of the slope",
+            "B": "Put the cube to the dustpan directly"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 3,
+    "answers": [
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The image shows a cube on top of a slope, and a container (dustpan) at the bottom of the slope. The most natural way to get the cube into the container would be to slide it down the slope. Option B is not correct because the container is a dustpan, not a place to put the cube directly."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000040.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The cube is currently on top of the slope. The container is at the bottom of the slope. Therefore, the cube can be put into the container by sliding it from the top of the slope."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000069.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The image shows a cube on top of a slope, and the container is at the bottom of the slope. Therefore, the cube can be put into the container by sliding it from the top of the slope."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

@@ -1,0 +1,4071 @@
+{
+  "Tabletop-Open-Door-WithCabinet-v1": {
+    "instruction": "open the door",
+    "query": {
+      "query": "What is the main challenge in opening this door?",
+      "selection": {
+        "A": "The door is too heavy to push",
+        "B": "The cabinet door is in the way to open the door",
+        "C": "We can directly open the door"
+      }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+      "B",
+      "C",
+      "B",
+      "B"
+    ],
+    "correct": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "final_correct": true,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The images show that the cabinet door is open and positioned in a way that obstructs the movement of the main door. This creates a physical barrier, making it challenging to open the main door fully without first addressing the cabinet door's position."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000061.png",
+        "response": {
+          "answer": "C",
+          "reasoning": "The images show that the door has already been opened successfully without any obstruction or difficulty. The robotic arm has manipulated the door handle and opened the door fully, as evidenced by the final position of the door in the second observation. There are no visible challenges such as weight or obstruction from the cabinet door. Therefore, the door can be directly opened."
+        },
+        "answer": "C",
+        "correct": false
+      },
+      {
+        "image_filename": "000091.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The images show that the cabinet door is open and positioned in such a way that it obstructs the path of the main door. This creates a physical barrier that prevents the main door from being fully opened. Therefore, the main challenge in opening the door is the cabinet door being in the way."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000184.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The images show that the cabinet door is positioned in such a way that it obstructs the opening of the main door. The robotic arm's manipulation process involves dealing with this obstruction, making the cabinet door the main challenge in opening the door."
+        },
+        "answer": "B",
+        "correct": true
+      }
+    ]
+  },
+  "Tabletop-Slide-Cube-WithPath-v1": {
+    "instruction": "Slide a cube down a slope to the marker ",
+    "query": {
+      "query": "Where should the block be placed to slide to target position?",
+      "selection": {
+        "A": "A",
+        "B": "B"
+      }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+      "B",
+      "B",
+      "B",
+      "B"
+    ],
+    "correct": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_correct": true,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The slope is angled such that placing the block at position B will allow it to slide down directly to the target position marked on the table. Position A is higher up and would not align with the target area effectively."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000106.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the observations, the cube is placed closer to the edge of the slope and slides down towards the target marker. Position B is closer to the slope's edge, which aligns with the placement observed in step 000106 where the cube successfully slides down. Position A is farther from the slope's edge and would not facilitate sliding to the target marker."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000240.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the observations at steps '000106' and '000240', the block is placed near the edge of the slope and slides down towards the target position. The marker is located at the bottom of the slope, and the block needs to be positioned at 'B' to ensure it slides down the slope and reaches the target position effectively. Placing the block at 'A' would not align it with the slope's trajectory towards the marker."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000291.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the observations, the block was initially placed at position A but slid down the slope and missed the target marker. At step 000291, the block was placed closer to position B, and it successfully slid down the slope to the target marker. Therefore, position B is the correct placement for the block to slide to the target position."
+        },
+        "answer": "B",
+        "correct": true
+      }
+    ]
+  },
+  "Tabletop-Stack-Books-v1": {
+    "instruction": "Stack all things on the table",
+    "query": {
+      "query": "Which book should be stacked on top of the other?",
+      "selection": {
+        "A": "The red book should be placed on top of the green book",
+        "B": "The green book should be placed on top of the red book"
+      }
+    },
+    "ground_truth": "A",
+    "response_num": 3,
+    "answers": [
+      "A",
+      "A",
+      "A"
+    ],
+    "correct": [
+      true,
+      true,
+      true
+    ],
+    "final_correct": true,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observation image, the red book is already placed on top of the green book. This arrangement aligns with the stacking task, and no further action is needed to change their positions. Therefore, the red book should remain on top of the green book."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000123.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observations at steps 000000 and 000123, the robotic arm is seen manipulating the red book, positioning it above the green book. This indicates that the intended stacking order is for the red book to be placed on top of the green book. Additionally, the query image shows the books side by side, but the task instruction is to stack all items, and the manipulation process suggests the red book should be stacked on top of the green book."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000303.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the checkpoint observations, the robotic arm is seen placing the red book on top of the green book. This indicates that the stacking process involves the red book being the topmost item. Therefore, the red book should be placed on top of the green book to complete the stacking task as demonstrated."
+        },
+        "answer": "A",
+        "correct": true
+      }
+    ]
+  },
+  "Tabletop-Put-Balls-IntoContainer-v1": {
+    "instruction": "move all the balls into the dustpan as fast as you can ",
+    "query": {
+      "query": "What is the most efficient way to get all the balls into the dustpan?",
+      "selection": {
+        "A": "Pick up and place each ball individually into the dustpan",
+        "B": "Push multiple balls at once with arm"
+      }
+    },
+    "ground_truth": "B",
+    "response_num": 9,
+    "answers": [
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B"
+    ],
+    "correct": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_correct": true,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The task requires moving all the balls into the dustpan as fast as possible. Observing the images, the balls are close together and near the dustpan, making it feasible to push multiple balls at once using the robotic arm. This approach minimizes the number of individual actions required, making it more efficient than picking and placing each ball individually."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000107.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The most efficient way to move all the balls into the dustpan is to push multiple balls at once with the robotic arm. This approach minimizes the number of individual movements required and speeds up the process, as opposed to picking and placing each ball individually, which would take significantly more time."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000155.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The images show that the balls are close together and near the dustpan. Pushing multiple balls at once with the robotic arm is the most efficient method to move them into the dustpan quickly, as it minimizes the number of individual actions required compared to picking up and placing each ball individually."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000210.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The images show that the robotic arm is capable of pushing multiple balls at once towards the dustpan, as seen in the progression from step 000155 to step 000210. This method is faster and more efficient than picking up and placing each ball individually, which would require more precise movements and time for each ball."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000304.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The images show that the robot arm is capable of interacting with multiple balls simultaneously, as evidenced by the positioning of the balls near the dustpan and the arm's movements. Pushing multiple balls at once with the arm is the most efficient method to complete the task quickly, as it minimizes the number of individual actions required compared to picking up and placing each ball individually."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000349.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The query image shows multiple balls scattered near the dustpan, and the task is to move all the balls into the dustpan as fast as possible. Based on the checkpoint observations, the robot arm is capable of pushing multiple balls simultaneously, which is more efficient than picking and placing each ball individually. Pushing multiple balls at once minimizes the number of movements required and achieves the task faster."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000407.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "Based on the observations, the robot arm is capable of interacting with multiple balls simultaneously, as seen in the dustpan where multiple balls are grouped together. Pushing multiple balls at once with the arm would be faster and more efficient than picking up and placing each ball individually, especially given the task's goal to move all balls into the dustpan as quickly as possible."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000435.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The task is to move all the balls into the dustpan as fast as possible. Observations show that the robot arm is capable of pushing multiple balls at once, as evidenced by the grouping of balls in the dustpan at step 000435. Picking up and placing each ball individually (Option A) would be slower and less efficient compared to pushing multiple balls simultaneously (Option B). Therefore, Option B is the most efficient approach."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000457.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The task is to move all the balls into the dustpan as fast as possible. Based on the observations, the robot arm is capable of pushing multiple balls at once, as seen in the images where several balls are already grouped near or inside the dustpan. Picking up and placing each ball individually (Option A) would take significantly more time compared to pushing multiple balls simultaneously (Option B), which is a more efficient approach for completing the task quickly."
+        },
+        "answer": "B",
+        "correct": true
+      }
+    ]
+  },
+  "Tabletop-Merge-Box-v1": {
+    "instruction": "Merge ball and boxs up ",
+    "query": {
+      "query": "which box is to be inserted",
+      "selection": {
+        "A": "Box A",
+        "B": "Box B"
+      }
+    },
+    "ground_truth": "B",
+    "response_num": 6,
+    "answers": [
+      "A",
+      "B",
+      "B",
+      "B",
+      "B",
+      "A"
+    ],
+    "correct": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "final_correct": false,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observation image at step 000000, the robotic arm is seen holding Box A and positioning it above the ball and Box B. This indicates that Box A is the one being manipulated for insertion in the task of merging the ball and boxes."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000076.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the observations, the robotic arm is seen interacting with the ball and Box B. At step 000076, the arm is holding the ball, which is intended to be merged with Box B. Box B is positioned closer to the ball and the arm's actions suggest it is the target for insertion. Box A is not involved in the interaction process."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000121.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the observations at step 000121, the robotic arm is holding Box B, which has a circular indentation that matches the shape of the ball. This indicates that Box B is the one to be inserted or used to merge with the ball, as the indentation is designed to accommodate the ball. Box A does not have such an indentation and is not being manipulated by the robotic arm."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000153.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the observations at steps 000121 and 000153, the robotic arm is seen interacting with the box that has a circular indentation on its top surface. This matches the appearance of Box B in the query image. The task instruction specifies merging the ball and boxes, which implies placing the ball into the circular indentation of Box B. Therefore, Box B is the box to be inserted."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000178.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the observations at steps 000153 and 000178, the robotic arm is interacting with Box B, as evidenced by its position and alignment with the arm's gripper. Box A is untouched and remains stationary. Therefore, the box to be inserted is Box B."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000185.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The task instruction is to merge the ball and boxes. Observing the query image, Box A is closer to the ball and appears to be the logical choice for merging with the ball. The robot arm's position in the checkpoint observations also aligns with the location of Box A, indicating it is the box to be inserted."
+        },
+        "answer": "A",
+        "correct": false
+      }
+    ]
+  },
+  "Tabletop-Close-Cabinet-WithObstacle-v1": {
+    "instruction": "close the cabinet door",
+    "query": {
+      "query": "Which approach would most likely succeed in closing the cabinet?",
+      "selection": {
+        "A": "Apply force directly to the door",
+        "B": "Move the obstacle first, then close the door"
+      }
+    },
+    "ground_truth": "B",
+    "response_num": 6,
+    "answers": [
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B"
+    ],
+    "correct": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_correct": true,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The images show that there is an obstacle (a box) inside the cabinet that prevents the door from closing fully. Applying force directly to the door (Option A) would likely result in the door being blocked by the box. Therefore, the most effective approach is to move the obstacle (the box) out of the way first, then close the door (Option B)."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000111.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the observations, there is an obstacle (a box) inside the cabinet that prevents the door from closing fully. Applying force directly to the door (Option A) would likely result in the door being blocked by the obstacle. Moving the obstacle first (Option B) would clear the path for the door to close successfully."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000175.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the query image, there is an obstacle (a box) inside the cabinet that prevents the door from closing completely. Applying force directly to the door (Option A) would likely result in resistance or damage due to the obstacle. The most logical approach is to move the obstacle out of the way first (Option B), ensuring the door can close without obstruction."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000252.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the query image, there is an obstacle (likely the robotic arm itself) positioned between the cabinet door and its closing path. Directly applying force to the door (Option A) would likely result in the door colliding with the obstacle, preventing successful closure. Moving the obstacle out of the way first (Option B) ensures the door has a clear path to close fully, making this approach more likely to succeed."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000356.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the observations, there is an obstacle (a small object) located at the base of the cabinet door. This obstacle would prevent the door from closing fully if force is applied directly to the door. Therefore, the most likely successful approach would be to move the obstacle first, clearing the path for the door to close properly."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000358.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the query image, it is evident that there is an obstacle (a small object) located inside the cabinet near the door's closing path. If force is applied directly to the door (Option A), the obstacle may prevent the door from closing properly or cause damage. The most logical approach is to first move the obstacle out of the way (Option B), ensuring the door can close smoothly without obstruction."
+        },
+        "answer": "B",
+        "correct": true
+      }
+    ]
+  },
+  "Tabletop-Move-Cross-WithStick-v1": {
+    "instruction": "Use the stick to move the small cube along the cross-shaped path to the target position ",
+    "query": {
+      "query": "How should the robot navigate the cube through the T-junction?",
+      "selection": {
+        "A": "Push the cube to the junction with stick, then reposition the stick for the turn",
+        "B": "Directly pick up the cube to the target position"
+      }
+    },
+    "ground_truth": "A",
+    "response_num": 7,
+    "answers": [
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A"
+    ],
+    "correct": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_correct": true,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The task instruction specifies using the stick to move the small cube along the cross-shaped path to the target position. The robot should push the cube to the junction with the stick and then reposition the stick to navigate the turn, as this aligns with the task requirements. Directly picking up the cube would violate the instruction to use the stick for manipulation."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000123.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The task instruction specifies using the stick to move the cube along the cross-shaped path to the target position. Observations show the robot has been using the stick to push the cube along the path. At the T-junction, the robot should continue using the stick to push the cube to the junction and then reposition the stick to navigate the turn. Picking up the cube directly would violate the task instruction."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000172.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The task requires the robot to use the stick to move the cube along the cross-shaped path to the target position. Observing the images, the robot is already using the stick to push the cube along the path. At the T-junction, the robot should continue using the stick to navigate the turn by repositioning it appropriately, as this aligns with the task instructions. Picking up the cube directly (Option B) would violate the task requirement of using the stick for manipulation."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000209.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The task requires the robot to use the stick to move the cube along the cross-shaped path to the target position. Observing the images, the robot is already using the stick to push the cube along the path. At the T-junction, the robot should continue using the stick to push the cube to the junction and then reposition the stick to navigate the turn, as this aligns with the task's instruction to use the stick for manipulation. Option B, picking up the cube directly, would violate the task instruction."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000346.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The task instruction specifies using the stick to move the small cube along the cross-shaped path to the target position. Observations show the robot consistently using the stick to push the cube along the path. At the T-junction, the robot should push the cube to the junction and then reposition the stick to navigate the turn, as this aligns with the task requirements and the observed manipulation process. Picking up the cube directly (Option B) would violate the instruction to use the stick for movement."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000419.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The task requires the robot to use the stick to move the cube along the cross-shaped path to the target position. Observations show the robot pushing the cube with the stick, which aligns with the task instruction. At the T-junction, the robot should continue using the stick to maneuver the cube, repositioning the stick as necessary to make the turn. Picking up the cube directly (Option B) would violate the task instruction to use the stick."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000430.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The task instruction specifies using the stick to move the cube along the cross-shaped path to the target position. Observations show the robot successfully pushing the cube with the stick and navigating through the path. At the T-junction, the robot should continue using the stick to push the cube to the junction and then reposition the stick to make the turn, as this aligns with the task requirements. Picking up the cube directly would violate the instruction to use the stick for navigation."
+        },
+        "answer": "A",
+        "correct": true
+      }
+    ]
+  },
+  "Tabletop-Stack-LongObjects-v1": {
+    "instruction": "stack all the objects to make it most high",
+    "query": {
+      "query": "Which cube is the highest?",
+      "selection": {
+        "A": "A",
+        "B": "B",
+        "C": "C"
+      }
+    },
+    "ground_truth": "C",
+    "response_num": 6,
+    "answers": [
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A"
+    ],
+    "correct": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "final_correct": false,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the query image, cube A is clearly positioned on top of cube C, making it the highest cube. Cube B is at the base level, and cube C is below cube A."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000068.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the final observation at step 000068, cube A is visibly stacked on top of cube B, making it the highest cube. Cube C remains at the same level as cube B, but cube A is elevated above both due to the stacking."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000127.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the final observation at step 000127, cube A is visibly stacked on top of cube C, making it the highest cube. Cube B remains at the base level, not stacked. Therefore, cube A is the highest."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000278.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the final observation at step 000278, cube A is positioned on top of the stack, making it the highest cube. Cube B is at the bottom, and cube C is in the middle of the stack. The stacking order clearly shows that cube A is the highest."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000358.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the final stacked configuration shown in the query image, cube A is positioned on top of cube B and cube C, making it the highest cube in the stack."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000375.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the query image, cube A is clearly positioned at the top of the stack, making it the highest cube. The stacking process observed in the checkpoint images confirms that the robot placed cube A on top of the other cubes to achieve the highest stack."
+        },
+        "answer": "A",
+        "correct": false
+      }
+    ]
+  },
+  "Tabletop-Find-Book-FromShelf-v1": {
+    "instruction": "Find and pick the highest book from the bookshelf and put it on the marker ",
+    "query": {
+      "query": "which is the highest book",
+      "selection": {
+        "A": "A",
+        "B": "B",
+        "C": "C"
+      }
+    },
+    "ground_truth": "B",
+    "response_num": 2,
+    "answers": [
+      "C",
+      "C"
+    ],
+    "correct": [
+      false,
+      false
+    ],
+    "final_correct": false,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "C",
+          "reasoning": "Based on the image provided, book C is visibly taller than books A and B. It has the highest vertical height among the three options, making it the highest book on the bookshelf."
+        },
+        "answer": "C",
+        "correct": false
+      },
+      {
+        "image_filename": "000042.png",
+        "response": {
+          "answer": "C",
+          "reasoning": "Based on the query image, book C is visibly taller than books A and B. The task requires identifying the highest book, and C clearly meets this criterion."
+        },
+        "answer": "C",
+        "correct": false
+      }
+    ]
+  },
+  "Tabletop-Pick-Cylinder-WithObstacle-v1": {
+    "instruction": "pick up the center cylinder",
+    "query": {
+      "query": "How to move the center cylinder to the goal?",
+      "selection": {
+        "A": "Pick up the center cylinder directly and move it to the goal",
+        "B": "Find the dynamic obstacle cylinders and push them away to move the center cylinder to the goal",
+        "C": "Put one of the dynamic cylinder to the goal"
+      }
+    },
+    "ground_truth": "B",
+    "response_num": 6,
+    "answers": [
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B"
+    ],
+    "correct": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_correct": true,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The center cylinder is surrounded by other cylinders, making it inaccessible for direct pickup. To move the center cylinder to the goal, the surrounding cylinders (dynamic obstacles) need to be pushed away first to clear the path."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000076.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The center cylinder is surrounded by other cylinders, making it inaccessible for direct picking. To move the center cylinder to the goal, the dynamic obstacle cylinders need to be pushed away first to clear the path for manipulation."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000197.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the images, the center cylinder is surrounded by other cylinders, which act as dynamic obstacles. At step 000197, one of the surrounding cylinders has been pushed away, indicating that the robot is clearing obstacles to access the center cylinder. To move the center cylinder to the goal, the robot needs to continue pushing away the remaining obstacle cylinders before it can pick up the center cylinder and place it at the goal. Therefore, the correct approach is to find and push away the dynamic obstacle cylinders to free the center cylinder."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000218.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The center cylinder is surrounded by other cylinders, which act as dynamic obstacles. In the observations, the robotic arm is seen pushing one of the surrounding cylinders away to access the center cylinder. This indicates that the correct approach is to first push the dynamic obstacle cylinders away to free the center cylinder, and then move it to the goal."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000248.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The center cylinder is surrounded by other cylinders, which act as dynamic obstacles. To move the center cylinder to the goal, the robot arm needs to first push these surrounding cylinders away to create space for picking up the center cylinder and moving it to the goal. Directly picking up the center cylinder (Option A) is not feasible due to the obstruction, and placing one of the dynamic cylinders on the goal (Option C) does not fulfill the task instruction of moving the center cylinder to the goal."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000307.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the observations, the center cylinder is surrounded by other cylinders, making it inaccessible for direct picking. To move the center cylinder to the goal, the dynamic obstacle cylinders need to be pushed away first to create space for the robotic arm to pick up the center cylinder and place it on the goal."
+        },
+        "answer": "B",
+        "correct": true
+      }
+    ]
+  },
+  "Tabletop-Stack-Cube-WithColor-v1": {
+    "instruction": "Stack the cube with same color",
+    "query": {
+      "query": "How many degrees should A be rotated along y axis(the axis vertical to the white face) to make it same color with B?",
+      "selection": {
+        "A": "90",
+        "B": "180",
+        "C": "270"
+      }
+    },
+    "ground_truth": "A",
+    "response_num": 7,
+    "answers": [
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B"
+    ],
+    "correct": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "final_correct": false,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "To make cube A have the same color orientation as cube B, cube A needs to be rotated 180 degrees along the y-axis (the axis vertical to the white face). This rotation will align the blue face of cube A with the yellow face of cube B, and the other colors will also match accordingly."
+        },
+        "answer": "B",
+        "correct": false
+      },
+      {
+        "image_filename": "000138.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "To make cube A have the same color as cube B, cube A needs to be rotated 180 degrees along the y-axis. This rotation will align the blue face of cube A with the yellow face of cube B, making their visible faces identical in color."
+        },
+        "answer": "B",
+        "correct": false
+      },
+      {
+        "image_filename": "000327.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "To make cube A match the color orientation of cube B, we need to rotate cube A along the y-axis. Observing the query image, cube A has a blue face on top, while cube B has a yellow face on top. Rotating cube A by 180 degrees along the y-axis will bring the yellow face of cube A to the top, matching cube B's orientation."
+        },
+        "answer": "B",
+        "correct": false
+      },
+      {
+        "image_filename": "000379.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the query image, cube A has a blue face on top, while cube B has a yellow face on top. Observing the previous checkpoint images, the cubes are Rubik's cubes, and the colors are arranged in a standard pattern. To align cube A's top face color with cube B's top face color (yellow), cube A needs to be rotated 180 degrees along the y-axis. This rotation will bring the yellow face of cube A to the top, matching cube B."
+        },
+        "answer": "B",
+        "correct": false
+      },
+      {
+        "image_filename": "000420.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "From the final query image, cube A has a blue face on top, while cube B has a yellow face on top. Observing the cubes' sides, it is evident that rotating cube A by 180 degrees along the y-axis (vertical to the white face) will align its yellow face to the top, matching cube B's top face color."
+        },
+        "answer": "B",
+        "correct": false
+      },
+      {
+        "image_filename": "000486.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "To make cube A match the same color as cube B, we need to rotate cube A along the y-axis (vertical to the white face). Observing the colors, cube A has blue on top, while cube B has yellow on top. Rotating cube A by 180 degrees along the y-axis will bring the yellow face of cube A to the top, matching cube B's top color. Therefore, the correct answer is 180 degrees."
+        },
+        "answer": "B",
+        "correct": false
+      },
+      {
+        "image_filename": "000562.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "To make cube A the same color as cube B, cube A needs to be rotated 180 degrees along the y-axis. This is because cube A's blue face is opposite to cube B's yellow face, and a 180-degree rotation will align the blue face of cube A with the yellow face of cube B."
+        },
+        "answer": "B",
+        "correct": false
+      }
+    ]
+  },
+  "Tabletop-Move-Cube-WithPivot-v1": {
+    "instruction": "move the cube with the pivot to the marker ",
+    "query": {
+      "query": "Why we need the pivot to move the cube?",
+      "selection": {
+        "A": "The cube is too heavy to lift",
+        "B": "The cube is too far to grasp",
+        "C": "The pivot is decorative and serves no functional purpose"
+      }
+    },
+    "ground_truth": "B",
+    "response_num": 5,
+    "answers": [
+      "B",
+      "B",
+      "B",
+      "B",
+      "B"
+    ],
+    "correct": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_correct": true,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The cube is positioned too far from the robotic arm to be directly grasped. The pivot acts as a lever mechanism to move the cube closer to the marker, enabling the robot to complete the task without directly grasping the cube."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000121.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The cube is positioned too far from the robotic arm to be directly grasped. The pivot mechanism allows the robot to push or move the cube indirectly by leveraging the blue bar, which acts as an intermediary tool to reach the cube and move it toward the marker."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000241.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The images show that the cube is positioned far from the robot arm's grasping range. The pivot and the blue lever are being used to push the cube towards the target marker. This indicates that the pivot is necessary to extend the robot's effective reach and manipulate the cube indirectly, as the cube is too far to grasp directly."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000388.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The cube is positioned too far from the robotic arm to be directly grasped. The pivot and the blue lever are used to extend the reach of the arm, allowing it to push or move the cube towards the marker. This setup provides a mechanical advantage to manipulate objects beyond the arm's immediate grasp."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000503.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The cube is positioned far away from the robot's grasping range, as seen in the query image and the checkpoint observations. The pivot allows the robot to use the blue bar as a lever to push or move the cube towards the marker. This functional use of the pivot is necessary because the robot cannot directly grasp the cube due to its distance."
+        },
+        "answer": "B",
+        "correct": true
+      }
+    ]
+  },
+  "Tabletop-Close-Drawer-WithObstacle-v1": {
+    "instruction": "close the drawer",
+    "query": {
+      "query": "What should do first before closing the drawer?",
+      "selection": {
+        "A": "Open the cabinet",
+        "B": "Move the stick away"
+      }
+    },
+    "ground_truth": "B",
+    "response_num": 5,
+    "answers": [
+      "B",
+      "B",
+      "B",
+      "B",
+      "B"
+    ],
+    "correct": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_correct": true,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The stick is currently obstructing the drawer from being closed. Before closing the drawer, the stick must be moved away to ensure the drawer can close properly. Opening the cabinet is unrelated to the task of closing the drawer."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000069.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the query image, the drawer contains a stick (red object) that is obstructing the closure of the drawer. Before closing the drawer, the stick must be moved away to ensure the drawer can close properly. Opening the cabinet (Option A) is unrelated to the task of closing the drawer."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000120.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The query image shows a red stick inside the drawer. Before closing the drawer, the stick needs to be moved away to ensure the drawer can close properly without obstruction. Opening the cabinet (Option A) is unrelated to the task of closing the drawer."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000184.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The query image shows that there is a red stick inside the drawer. Before closing the drawer, the stick must be moved away to ensure the drawer can close properly without obstruction."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000189.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The query image shows a red stick inside the drawer. Before closing the drawer, the stick needs to be moved away to ensure the drawer can close properly without obstruction."
+        },
+        "answer": "B",
+        "correct": true
+      }
+    ]
+  },
+  "Tabletop-Close-Door-WithObstacle-v1": {
+    "instruction": "close the door",
+    "query": {
+      "query": "What should be done first to close the door?",
+      "selection": {
+        "A": "Grasp and move the bowl",
+        "B": "Push the door handle directly"
+      }
+    },
+    "ground_truth": "A",
+    "response_num": 5,
+    "answers": [
+      "A",
+      "A",
+      "A",
+      "A",
+      "A"
+    ],
+    "correct": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_correct": true,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The bowl is obstructing the door's movement, as it is positioned in the path of the door. To close the door, the bowl must first be moved out of the way. Pushing the door handle directly without removing the obstruction would not allow the door to close properly."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000075.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The bowl is obstructing the door's movement, as seen in the images. To close the door, the bowl must first be grasped and moved out of the way. Pushing the door handle directly would not work because the bowl prevents the door from closing fully."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000141.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The bowl is obstructing the door's movement, as seen in the query image. To close the door, the bowl must first be moved out of the way. Pushing the door handle directly would not be effective because the bowl prevents the door from closing completely."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000247.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The query image shows that the bowl is obstructing the path of the door. To close the door, the bowl must first be moved out of the way, as pushing the door handle directly would not allow the door to close due to the obstruction."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000259.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The bowl is obstructing the door's movement path, as seen in the query image. To close the door, the bowl must first be moved out of the way. Pushing the door handle directly (Option B) would not be effective because the bowl would prevent the door from fully closing."
+        },
+        "answer": "A",
+        "correct": true
+      }
+    ]
+  },
+  "Tabletop-Open-Door-WithObstacle-v1": {
+    "instruction": "open the door",
+    "query": {
+      "query": "What is the main challenge in opening this door?",
+      "selection": {
+        "A": "The door is unreachable",
+        "B": "The door is too heavy to be opened directly",
+        "C": "There is an obstacle blocking the door's path"
+      }
+    },
+    "ground_truth": "C",
+    "response_num": 2,
+    "answers": [
+      "C",
+      "C"
+    ],
+    "correct": [
+      true,
+      true
+    ],
+    "final_correct": true,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "C",
+          "reasoning": "The images show a blue and red object positioned directly in the path of the door's movement. This object acts as an obstacle that prevents the door from being fully opened. The robotic arm can reach the door, and the door does not appear to be too heavy, but the obstacle is the main challenge."
+        },
+        "answer": "C",
+        "correct": true
+      },
+      {
+        "image_filename": "000091.png",
+        "response": {
+          "answer": "C",
+          "reasoning": "The images show a blue rectangular object and a red circular object positioned directly in the path of the door's movement. These objects act as obstacles, preventing the door from being fully opened. This is the main challenge in opening the door."
+        },
+        "answer": "C",
+        "correct": true
+      }
+    ]
+  },
+  "Tabletop-Clean-For-Dinner-v1": {
+    "instruction": "Arrange the bowl, fork onto the plate, clean for dinner ",
+    "query": {
+      "query": "Which item should be placed on the plate first?",
+      "selection": {
+        "A": "The bowl",
+        "B": "The fork"
+      }
+    },
+    "ground_truth": "A",
+    "response_num": 5,
+    "answers": [
+      "A",
+      "A",
+      "A",
+      "A",
+      "A"
+    ],
+    "correct": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_correct": true,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The bowl should be placed on the plate first because it is larger and forms the base for arranging the fork afterward. Placing the fork first would make it harder to position the bowl properly without disturbing the fork."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000069.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observations, the robot arm is seen interacting with the bowl first, as it is positioned closer to the plate and appears to be the initial focus of manipulation. The fork remains untouched in both images, suggesting that the bowl is intended to be placed on the plate first."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000155.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The images show that the robotic arm is actively placing the bowl onto the plate first. At step 000069, the arm is holding the bowl above the plate, and by step 000155, the bowl is successfully placed on the plate. The fork remains untouched throughout these observations, indicating that the bowl is the first item to be placed on the plate."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000230.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The query image shows the plate already positioned on the table, and the bowl is placed directly on top of the plate in the observations at step 000155. This indicates that the bowl should be placed on the plate first before the fork is arranged."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000258.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observations, the robot arm first places the bowl onto the plate before placing the fork. At step 000230, the bowl is being manipulated, and by step 000258, the bowl is already on the plate, with the fork being positioned afterward. This sequence indicates that the bowl should be placed on the plate first."
+        },
+        "answer": "A",
+        "correct": true
+      }
+    ]
+  },
+  "Tabletop-Open-Cabinet-WithSwitch-v1": {
+    "instruction": "open the door, notice the switch will control the state of the door ",
+    "query": {
+      "query": "What is the efficient way to open the cabinet",
+      "selection": {
+        "A": "Open the cabinet directly",
+        "B": "Push the switch to open the cabinet"
+      }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+      "B",
+      "B",
+      "B",
+      "B"
+    ],
+    "correct": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_correct": true,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The images show a switch labeled 'ON' and 'OFF' positioned near the cabinet. This indicates that the switch controls the state of the cabinet, likely unlocking or opening it. Therefore, the efficient way to open the cabinet is to push the switch rather than attempting to open it directly, as the cabinet may be locked or dependent on the switch's state."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000105.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The observations show that the robotic arm interacts with a switch labeled 'ON' and 'OFF' before the cabinet door is opened. This indicates that the switch controls the state of the cabinet door. Therefore, the efficient way to open the cabinet is to push the switch to the 'ON' position, as directly opening the cabinet without using the switch may not be possible or efficient."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000203.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The images at step 000105 show the robotic arm interacting with a switch labeled 'ON,' and the cabinet is closed. At step 000203, the switch is in the 'OFF' position, and the cabinet is open. This indicates that the switch controls the state of the cabinet. Therefore, the efficient way to open the cabinet is to push the switch to the 'ON' position, as it directly controls the cabinet's state."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000292.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The observations show that the cabinet door is controlled by the switch on the table. In step 000203, the cabinet is closed, and the switch is in its default position. In step 000292, the cabinet is open, and the switch has been flipped. This indicates that the switch controls the cabinet's state. Therefore, the efficient way to open the cabinet is to push the switch."
+        },
+        "answer": "B",
+        "correct": true
+      }
+    ]
+  },
+  "Tabletop-Pick-Eraser-FromHolder-v1": {
+    "instruction": "Pick up the eraser in the holder and place it to the marker",
+    "query": {
+      "query": "How can we pick the eraser from the holder?",
+      "selection": {
+        "A": "Pick the eraser directly",
+        "B": "Pour out the rubber from the holder"
+      }
+    },
+    "ground_truth": "B",
+    "response_num": 7,
+    "answers": [
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B"
+    ],
+    "correct": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_correct": true,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The eraser is inside a holder, and it cannot be directly picked up due to the obstruction caused by the holder's structure. The most feasible way to retrieve the eraser is to pour it out from the holder, allowing the robotic arm to access it freely."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000075.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The eraser is inside the holder, and the holder's design does not allow the robotic arm to grasp the eraser directly. The most effective way to retrieve the eraser is to pour it out from the holder, as shown in the query image where the eraser is already outside the holder."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000114.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The eraser is inside the holder, and the robotic arm's gripper cannot directly access it due to the holder's structure. Pouring out the eraser from the holder is the most feasible way to retrieve it."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000267.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the observations, the eraser is inside the holder, which has a mesh-like structure. The eraser cannot be directly grasped due to the obstruction caused by the holder's walls. At step 000267, the eraser is visible outside the holder, indicating that pouring out the contents of the holder is an effective way to retrieve the eraser. Therefore, the correct approach is to pour out the eraser from the holder."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000317.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The eraser is inside the holder, which has a mesh-like structure that prevents direct access to the eraser. Observations at steps 000267 and 000317 show the robotic arm interacting with the holder, but the eraser remains inside. To retrieve the eraser, the most effective method would be to pour it out from the holder, as direct picking is obstructed by the holder's design."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000352.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The eraser is inside the holder, and the holder's design makes it difficult to directly grasp the eraser with the robotic arm. Pouring out the eraser from the holder would make it accessible for picking up."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000359.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The eraser is inside the holder, which is a cylindrical container. Based on the observations, the eraser cannot be directly grasped because it is obstructed by the holder's walls. To access the eraser, the most feasible approach is to pour it out from the holder, allowing the robotic arm to pick it up afterward."
+        },
+        "answer": "B",
+        "correct": true
+      }
+    ]
+  },
+  "Tabletop-Finish-Hanobi-v1": {
+    "instruction": "Place all the hanobi in big to small from bottom to up",
+    "query": {
+      "query": "What is the size order of the yellow, red, and blue hanoi?",
+      "selection": {
+        "A": "Yellow > Blue > Red",
+        "B": "Red > Yellow > Blue",
+        "C": "Blue > Yellow > Red"
+      }
+    },
+    "ground_truth": "B",
+    "response_num": 12,
+    "answers": [
+      "A",
+      "B",
+      "B",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "C",
+      "C",
+      "C",
+      "A"
+    ],
+    "correct": [
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "final_correct": false,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "From the observation, the yellow hanoi is visibly larger than the blue and red hanoi. The blue hanoi is larger than the red hanoi, which is the smallest. Therefore, the size order is Yellow > Blue > Red."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000063.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the images, the yellow hanoi is placed at the bottom, indicating it is the largest. The red hanoi is placed above the yellow, suggesting it is smaller than the yellow but larger than the blue. The blue hanoi is placed at the top, indicating it is the smallest. Therefore, the size order is Red > Yellow > Blue."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000411.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the query image, the red hanoi is visibly the largest, followed by the yellow hanoi, and the blue hanoi is the smallest. This size order matches the option 'Red > Yellow > Blue'."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000720.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "From the observations, the yellow hanoi is the largest, followed by the blue hanoi, and the red hanoi is the smallest. This is evident from the relative sizes of the rings as they are manipulated by the robotic arm and placed on the pegs."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "001415.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "From the query image, the yellow hanoi is visibly the largest, followed by the blue hanoi, and then the red hanoi, which is the smallest. This size order matches the option 'Yellow > Blue > Red'."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "001765.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the query image, the yellow hanoi is visibly larger than the blue hanoi, and the blue hanoi is larger than the red hanoi. This size order matches the option Yellow > Blue > Red."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "001786.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "From the query image, the yellow hanoi is visibly larger than the blue and red hanoi. The blue hanoi is larger than the red hanoi, as seen from their relative sizes. Therefore, the size order is Yellow > Blue > Red."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "002089.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "From the observations at steps 001786 and 002089, the yellow hanoi is visibly larger than the red and blue hanoi. The red hanoi is smaller than the yellow but larger than the blue hanoi, which is the smallest. This size order is confirmed by the query image, where the yellow hanoi is the largest, followed by the red hanoi, and then the blue hanoi. Thus, the correct size order is Yellow > Blue > Red."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "002184.png",
+        "response": {
+          "answer": "C",
+          "reasoning": "In the query image, the blue hanoi is visibly larger than the yellow hanoi, and the yellow hanoi is larger than the red hanoi. This size order matches the option 'Blue > Yellow > Red'."
+        },
+        "answer": "C",
+        "correct": false
+      },
+      {
+        "image_filename": "002628.png",
+        "response": {
+          "answer": "C",
+          "reasoning": "In the query image, the blue hanoi is visibly the largest, followed by the yellow hanoi, and then the red hanoi, which is the smallest. This size order matches the option 'Blue > Yellow > Red'."
+        },
+        "answer": "C",
+        "correct": false
+      },
+      {
+        "image_filename": "002841.png",
+        "response": {
+          "answer": "C",
+          "reasoning": "From the observations, the blue hanoi is the largest, followed by the yellow hanoi, and the red hanoi is the smallest. This is evident from the stacking order in the images, where the blue hanoi is at the bottom, the yellow hanoi is in the middle, and the red hanoi is at the top, consistent with the task instruction to stack them from big to small."
+        },
+        "answer": "C",
+        "correct": false
+      },
+      {
+        "image_filename": "002864.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the images provided, the yellow hanoi is consistently placed at the bottom, indicating it is the largest. The blue hanoi is placed above the yellow, suggesting it is smaller than yellow but larger than red. The red hanoi is at the top, indicating it is the smallest. Therefore, the size order is Yellow > Blue > Red."
+        },
+        "answer": "A",
+        "correct": false
+      }
+    ]
+  },
+  "Tabletop-Seek-Objects-WithObstacle-v1": {
+    "instruction": "find the cube in the cabinet and pick it up",
+    "query": {
+      "query": "Where is the cube?",
+      "selection": {
+        "A": "In the drawer",
+        "B": "In the cabinet"
+      }
+    },
+    "ground_truth": "B",
+    "response_num": 9,
+    "answers": [
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B"
+    ],
+    "correct": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_correct": true,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The task instruction specifies finding the cube in the cabinet. The images show the robot interacting with the cabinet, including opening its door, which indicates that the cube is located inside the cabinet."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000123.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The task instruction specifies finding the cube in the cabinet. The observations show the robotic arm interacting with the cabinet door, indicating that the cube is located inside the cabinet. There is no evidence of interaction with a drawer in the images."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000224.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The images show the robotic arm interacting with the cabinet, specifically opening its door and reaching inside. This indicates that the cube is located in the cabinet, as the task instruction was to find the cube and the robot's actions are focused on the cabinet."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000490.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the observation at step 000490, the cube is clearly visible inside the cabinet, as the robot has opened the cabinet door and the red cube is located on the shelf inside. This matches the query image showing the cabinet as the location of interest."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000535.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the checkpoint observations, the cube is clearly visible inside the cabinet at step 000490. By step 000535, the robotic arm has picked up the cube, but the cube was originally located in the cabinet. The query image shows the cabinet closed, but based on the observations, the cube was in the cabinet before being picked up."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000662.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the observations at steps 000535 and 000662, the cube is clearly visible inside the cabinet. The robot arm interacts with the cabinet and picks up the cube from inside it. The query image shows the cabinet closed, but based on the previous observations, the cube was located inside the cabinet."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000697.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In both checkpoint observations (steps '000662' and '000697'), the cube is clearly visible inside the cabinet, as the cabinet door is open and the robotic arm is interacting with the cube. The cube is not in a drawer, as the images show the cabinet and not a drawer structure. The query image also confirms the presence of the cabinet, reinforcing that the cube is located inside the cabinet."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000753.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the observations at steps 000697 and 000753, the robotic arm is interacting with the cabinet, and the cube is visible being picked up from inside the cabinet. The query image shows the cabinet closed, but based on the manipulation process observed, the cube was located inside the cabinet."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000763.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the checkpoint observations, the robotic arm is interacting with the cabinet, specifically reaching inside it. The cube is visible near the robotic arm inside the cabinet, confirming its location. The query image also shows the cabinet, which aligns with the task instruction to find the cube in the cabinet."
+        },
+        "answer": "B",
+        "correct": true
+      }
+    ]
+  },
+  "Tabletop-Pick-Cube-WithDoor-v1": {
+    "instruction": "put the cube to the marker",
+    "query": {
+      "query": "What is the correct sequence to retrieve the cube?",
+      "selection": {
+        "A": "Reach for the cube without opening the door",
+        "B": "Open the door first, then pick the cube"
+      }
+    },
+    "ground_truth": "B",
+    "response_num": 6,
+    "answers": [
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B"
+    ],
+    "correct": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_correct": true,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The cube is obstructed by the closed door, making it inaccessible to the robotic arm. Therefore, the correct sequence is to open the door first to remove the obstruction, and then pick the cube."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000074.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The cube is located behind a closed door, as shown in the images. To retrieve the cube, the door must first be opened to provide access to the cube. Attempting to reach for the cube without opening the door would be obstructed by the door itself."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000132.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The cube is located behind a closed door, as shown in the images. To retrieve the cube, the door must first be opened to provide access to it. Attempting to reach for the cube without opening the door would be obstructed by the door itself."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000172.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The cube is located behind a closed door, as shown in the query image. In the observations at step 000132 and step 000172, the robot arm is seen opening the door before retrieving the cube. This indicates that the correct sequence to retrieve the cube is to open the door first and then pick the cube."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000199.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The query image shows the cube is behind a closed door. Observations at steps 000172 and 000199 demonstrate the robot opening the door before interacting with the cube. Therefore, the correct sequence to retrieve the cube is to open the door first, then pick the cube."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000200.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The cube is located behind a closed door, as shown in the query image. To retrieve the cube, the robot arm must first open the door to access it. Attempting to reach for the cube without opening the door would be obstructed by the door itself. Therefore, the correct sequence is to open the door first and then pick the cube."
+        },
+        "answer": "B",
+        "correct": true
+      }
+    ]
+  },
+  "Tabletop-Move-Balls-WithPivot-v1": {
+    "instruction": "move all the balls into the dustpan as fast as you can ",
+    "query": {
+      "query": "What is the most efficient way to collect all the balls?",
+      "selection": {
+        "A": "Pick the balls to the dustpan one by one",
+        "B": "Use the pivot to collect all the balls"
+      }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+      "B",
+      "B",
+      "B",
+      "B"
+    ],
+    "correct": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_correct": true,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "Using the pivot to collect all the balls is the most efficient method because it allows the robotic arm to sweep multiple balls into the dustpan simultaneously, reducing the time and effort required compared to picking up each ball individually. The images show the pivot positioned near the balls, indicating that it is ready to be used for sweeping them into the dustpan."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000080.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "Using the pivot to collect all the balls is the most efficient method because it allows the robot to sweep multiple balls into the dustpan simultaneously, as demonstrated in the images. Picking the balls one by one would be slower and less efficient for completing the task quickly."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000124.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The images show that the robot arm is using a pivoting motion with the dustpan to efficiently collect multiple balls at once. This method allows the robot to gather all the balls in a single sweeping motion, which is faster and more efficient than picking up the balls one by one. The pivoting approach minimizes the number of movements required and achieves the task goal more effectively."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000136.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The images show that the dustpan is equipped with a pivot, which can be used to efficiently sweep multiple balls into the dustpan at once. This method is faster and more effective than picking up the balls one by one, as it minimizes the number of actions required to complete the task."
+        },
+        "answer": "B",
+        "correct": true
+      }
+    ]
+  },
+  "Tabletop-Put-Cube-IntoMicrowave-v1": {
+    "instruction": "put the cube into the microwave ",
+    "query": {
+      "query": "What is the correct order of actions to put the cube into the microwave?",
+      "selection": {
+        "A": "Pick up the cube first, then open the microwave door and place the cube inside",
+        "B": "Open the microwave door first, then pick and place the cube inside",
+        "C": "Directly pick the cube into microwave"
+      }
+    },
+    "ground_truth": "B",
+    "response_num": 6,
+    "answers": [
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B"
+    ],
+    "correct": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_correct": true,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The microwave door is currently closed, as seen in the images. To put the cube inside the microwave, the door must be opened first. After opening the door, the robot can pick up the cube and place it inside. Therefore, the correct order of actions is to open the microwave door first, then pick and place the cube inside."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000072.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The images show that the microwave door is closed initially (step 000000). To place the cube inside the microwave, the door must first be opened. After opening the door, the robot can pick up the cube and place it inside the microwave. Therefore, the correct order of actions is to open the microwave door first, then pick up the cube and place it inside."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000219.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The images show that the microwave door is closed initially, and the robotic arm interacts with the microwave door to open it before attempting to manipulate the cube. Therefore, the correct order of actions is to open the microwave door first, then pick up the cube and place it inside the microwave. Option B correctly describes this sequence."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000312.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "Based on the observations, the microwave door is opened first before any interaction with the cube. This indicates that the correct order of actions is to open the microwave door first, then pick up the cube and place it inside. Option A suggests picking up the cube first, which contradicts the observed sequence, and Option C suggests directly placing the cube into the microwave, which is not feasible without opening the door first."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000391.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the observations, the microwave door is already open at step 000312, indicating that the robot opened the door first before interacting with the cube. At step 000391, the robot is seen picking up the cube and moving it towards the microwave. This sequence suggests the correct order of actions is to open the microwave door first, then pick up the cube and place it inside."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000428.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The images show that the microwave door is opened first before the robot picks up the cube and places it inside. This sequence ensures the cube can be placed inside the microwave without obstruction. Option A incorrectly suggests picking up the cube first, which would be inefficient as the microwave door needs to be opened beforehand. Option C is invalid because the cube cannot be directly placed into the microwave without opening the door first."
+        },
+        "answer": "B",
+        "correct": true
+      }
+    ]
+  },
+  "Tabletop-Seek-Holder-InCabinet-v1": {
+    "instruction": "Find the holder containing an eraser the cabinet, put it to the marker",
+    "query": {
+      "query": "Which holder has a eraser?",
+      "selection": {
+        "A": "A",
+        "B": "B"
+      }
+    },
+    "ground_truth": "A",
+    "response_num": 10,
+    "answers": [
+      "B",
+      "B",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A"
+    ],
+    "correct": [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_correct": true,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "Based on the query image, the holder labeled 'B' contains an eraser, as it visibly has a rectangular object resembling an eraser within it. The holder labeled 'A' does not contain an eraser."
+        },
+        "answer": "B",
+        "correct": false
+      },
+      {
+        "image_filename": "000059.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the observations provided, the robotic arm interacts with the cabinet and manipulates holder B. This indicates that holder B contains the eraser, as the task was to find the holder containing the eraser and move it to the marker. The robot's actions confirm that holder B is the correct choice."
+        },
+        "answer": "B",
+        "correct": false
+      },
+      {
+        "image_filename": "000247.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observation at step 000247, the cabinet is open, revealing two holders labeled A and B. The eraser is visible in holder A, as it contains a rectangular object that matches the appearance of an eraser. Holder B does not contain an eraser."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000331.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observation at step 000331, the robotic arm is interacting with the holder labeled 'A'. Upon closer inspection, the eraser is visible inside holder 'A'. Holder 'B' does not contain an eraser, as it appears empty. Therefore, the holder containing the eraser is 'A'."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000659.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observations at steps 000331 and 000659, the robotic arm is interacting with the cabinet and the holders inside. The eraser is visible inside holder A, as indicated by the red and blue object within the mesh structure. Holder B does not contain an eraser, as it appears empty. Therefore, the eraser is located in holder A."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000808.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observations at steps 000659 and 000808, the robotic arm is interacting with the holder labeled 'A'. The close-up view of holder 'A' reveals the presence of an eraser inside it, identifiable by its rectangular shape and distinct color. Holder 'B' does not contain an eraser, as it appears empty in the observations."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000963.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observations at step 000808 and step 000963, the robotic arm interacts with the holder labeled 'A' and retrieves an eraser from it. The eraser is visible inside holder 'A' during the manipulation process, confirming that holder 'A' contains the eraser."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "001117.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observations at steps 000963 and 001117, the robotic arm interacts with holder A and retrieves an object from it. The object retrieved appears to be an eraser, as it matches the task instruction to find the holder containing an eraser. Holder B is not interacted with, and no evidence suggests it contains an eraser."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "001149.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observations at steps '001117' and '001149', the robotic arm interacts with holder A, and the close-up view reveals the contents of the holder. The eraser is clearly visible inside holder A. Holder B is not interacted with, and its contents are not shown in detail, but holder A is confirmed to contain the eraser based on the close-up view."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "001151.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observations at steps 001149 and 001151, the robotic arm interacts with a holder containing an eraser. The eraser is visible inside the holder, and its distinct red and blue colors are clearly identifiable. Comparing this to the query image, holder A matches the appearance of the holder containing the eraser, as it shows the same red and blue object inside. Holder B does not contain an eraser or any similar object."
+        },
+        "answer": "A",
+        "correct": true
+      }
+    ]
+  },
+  "Tabletop-Find-Cube-WithPivot-v1": {
+    "instruction": "Move the heavy cube to the goal region",
+    "query": {
+      "query": "which cube is heavier",
+      "selection": {
+        "A": "A",
+        "B": "B"
+      }
+    },
+    "ground_truth": "A",
+    "response_num": 6,
+    "answers": [
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A"
+    ],
+    "correct": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_correct": true,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the checkpoint observation image, the blue cube is positioned on the left side of the seesaw and causes it to tilt downward, indicating that the blue cube is heavier than the yellow cube on the right side. Since cube A is located in the same position as the blue cube in the query image, cube A is heavier."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000126.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observations, the robot arm interacts with a seesaw-like platform. At step 000000, the blue cube is positioned on the left side of the platform, causing it to tilt downward. At step 000126, the robot arm places the beige cube on the right side of the platform, which tilts downward on that side, indicating that the beige cube is heavier than the blue cube. In the query image, cube A is positioned where the heavier beige cube was placed in the observations. Therefore, cube A is heavier."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000165.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the checkpoint observations, the robotic arm is interacting with cube A and placing it on the lever. The lever tilts significantly under the weight of cube A, indicating that it is heavier than cube B. Cube B does not appear to cause any noticeable tilt in the lever when placed. Therefore, cube A is heavier."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000230.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the checkpoint observations, the robotic arm interacts with a seesaw-like structure. The heavier cube causes the seesaw to tilt downward on its side. In step '000165', the beige cube (A) is placed on one side of the seesaw, causing it to tilt downward, indicating that cube A is heavier than cube B. This conclusion is consistent with the physics of the seesaw mechanism."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000281.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the checkpoint observations, the robotic arm interacts with a seesaw-like structure. At step 000230, the blue cube is placed on the left side of the seesaw, causing it to tilt downward, indicating that the blue cube is heavier than the yellow cube on the right side. Since cube A is positioned where the blue cube was in the query image, it is reasonable to conclude that cube A is heavier."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000290.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the checkpoint observations, the robotic arm is interacting with a blue cube, which is positioned on a seesaw-like platform. The platform tilts downward on the side of the blue cube, indicating that the blue cube is heavier than the beige cube on the opposite side. In the query image, cube A is positioned similarly to the blue cube in the checkpoint observations, suggesting that cube A is heavier than cube B."
+        },
+        "answer": "A",
+        "correct": true
+      }
+    ]
+  },
+  "Tabletop-Lift-Book-v1": {
+    "instruction": "lift the book up to the higher platform",
+    "query": {
+      "query": "How to move the book to the higher platform?",
+      "selection": {
+        "A": "Directly grasp the book and lift it up to the higher platform",
+        "B": "Push the book to create an overhang at the table edge, then grasp and lift",
+        "C": "Attempt to slide fingers underneath the book without creating an overhang first"
+      }
+    },
+    "ground_truth": "B",
+    "response_num": 5,
+    "answers": [
+      "B",
+      "A",
+      "A",
+      "B",
+      "A"
+    ],
+    "correct": [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    "final_correct": false,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The book is flat on the surface, making it difficult for the robotic arm to directly grasp it without an overhang. Creating an overhang by pushing the book to the table edge allows the robotic arm to slide its fingers underneath for a secure grasp and lift to the higher platform."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000156.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the provided images, the book is already positioned on the lower platform with sufficient clearance around it. The robotic arm has successfully grasped the book in the second checkpoint image (step 000156), indicating that it is capable of directly lifting the book without requiring additional manipulation like creating an overhang or sliding fingers underneath. Therefore, the most efficient approach is to directly grasp the book and lift it up to the higher platform."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000275.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The book is already positioned on the lower platform, which provides sufficient clearance for the robotic arm to directly grasp it. There is no need to create an overhang or slide fingers underneath, as the book is accessible for lifting. The task can be completed by directly grasping the book and lifting it to the higher platform."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000328.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "Based on the observations, the book is flat on the lower platform, making it difficult to directly grasp or slide fingers underneath without creating an overhang. The most effective method is to push the book to create an overhang at the table edge, which allows the robotic arm to grasp and lift it more easily to the higher platform."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000486.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the final observation, the book is already positioned on the lower platform with enough space around it for the robotic arm to grasp it directly. There is no need to create an overhang or slide fingers underneath the book, as it is accessible for direct grasping and lifting to the higher platform."
+        },
+        "answer": "A",
+        "correct": false
+      }
+    ]
+  },
+  "Tabletop-Move-Cube-WithHolder-v1": {
+    "instruction": "move the cube to the marker and put the holder on the cube ",
+    "query": {
+      "query": "What's the best sequence of actions for this task?",
+      "selection": {
+        "A": "Move the cube to the marker first, then place the holder on top",
+        "B": "Move the holder first, then place the cube to the marker, finally put the holder on the cube"
+      }
+    },
+    "ground_truth": "B",
+    "response_num": 9,
+    "answers": [
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A"
+    ],
+    "correct": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "final_correct": false,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The task requires moving the cube to the marker and then placing the holder on top of the cube. Based on the images, the cube is currently separate from the marker, and the holder is already positioned on the marker. Therefore, the best sequence of actions is to first move the cube to the marker and then place the holder on top of the cube, as this directly aligns with the task instructions."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000035.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The task requires the cube to be moved to the marker first and then the holder to be placed on top of the cube. Observing the images, the cube is separate from the marker initially, and the holder is already positioned on the marker. Moving the cube to the marker first ensures the cube is in the correct position, and then placing the holder on top completes the task. This sequence aligns with the task instruction and is the most logical order of actions."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000102.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The task requires moving the cube to the marker and then placing the holder on top of the cube. Based on the observations, the cube is separate from the marker and the holder is already positioned on the marker. The most logical sequence is to first move the cube to the marker, aligning it with the holder's position, and then place the holder on top of the cube. This ensures the task is completed efficiently and correctly."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000142.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The task requires the cube to be moved to the marker first and then the holder to be placed on top of the cube. Observing the images, the cube is currently separate from the marker, and the holder is also not placed on the cube. The logical sequence is to first move the cube to the marker to fulfill the first part of the task, and then place the holder on top of the cube to complete the task. Option B unnecessarily complicates the sequence by moving the holder first, which does not align with the task's requirements."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000171.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The task requires the cube to be moved to the marker first, followed by placing the holder on top of the cube. Observations at step 000142 show the cube near the marker, and at step 000171, the cube is placed precisely on the marker with the holder positioned on top of the cube. This sequence aligns with option A, where the cube is moved to the marker first and then the holder is placed on top."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000206.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The task requires moving the cube to the marker and then placing the holder on top of the cube. Observing the images, the cube is small and can be easily positioned at the marker first. Once the cube is at the marker, the holder can be placed on top of it without obstruction. This sequence ensures the task is completed efficiently and logically."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000272.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The task requires moving the cube to the marker and then placing the holder on top of the cube. Observations at step '000206' and '000272' show the robot arm interacting with the holder, which is already positioned on the marker. The cube is still separate from the marker and the holder. Therefore, the best sequence of actions is to first move the cube to the marker and then place the holder on top of the cube, as this directly fulfills the task requirements."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000299.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The images show that the cube is already positioned at the marker, and the holder is being placed on top of the cube in the final steps. This sequence aligns with option A, which specifies moving the cube to the marker first and then placing the holder on top. Option B suggests moving the holder first, which does not match the observed sequence of actions."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000303.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The task instruction specifies moving the cube to the marker first and then placing the holder on top of the cube. Observations at steps 000299 and 000303 show the holder already positioned at the marker, but the cube is not yet placed under it. Therefore, the best sequence is to move the cube to the marker first and then place the holder on top, aligning with the task requirements."
+        },
+        "answer": "A",
+        "correct": false
+      }
+    ]
+  },
+  "Tabletop-Keep-Pivot-Balance-v1": {
+    "instruction": "Balance the long board on the triangular prism and place the cubes to maintain balance",
+    "query": {
+      "query": "which cube is heavier",
+      "selection": {
+        "A": "Cube A",
+        "B": "Cube B"
+      }
+    },
+    "ground_truth": "A",
+    "response_num": 5,
+    "answers": [
+      "A",
+      "B",
+      "A",
+      "A",
+      "A"
+    ],
+    "correct": [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    "final_correct": true,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observation image, Cube A is placed closer to the edge of the board, while Cube B is placed farther from the edge. For the board to remain balanced, the heavier cube would need to be placed closer to the pivot point (triangular prism) to counteract its weight effectively. This positioning suggests that Cube A is heavier than Cube B."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000165.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the images, the robotic arm places Cube B on one side of the long board balanced on the triangular prism. The board tilts downward on the side where Cube B is placed, indicating that Cube B is heavier than Cube A."
+        },
+        "answer": "B",
+        "correct": false
+      },
+      {
+        "image_filename": "000203.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observations, the robot places Cube B on the board first, and the board tilts downward on the side where Cube B is placed. Later, Cube A is placed on the opposite side, and the board tilts downward on the side where Cube A is placed. This indicates that Cube A is heavier than Cube B, as it causes a stronger tilt when placed on the board."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000238.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observations at steps 000203 and 000238, the robotic arm places Cube A and Cube B on opposite sides of the long board balanced on the triangular prism. The board tilts downward on the side where Cube A is placed, indicating that Cube A is heavier than Cube B."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000306.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the images at steps '000238' and '000306', the robotic arm places the cubes on the long board balanced on the triangular prism. Cube A (yellow) is placed on one side, and Cube B (green) is placed on the other side. The board tilts downward on the side where Cube A is placed, indicating that Cube A is heavier than Cube B."
+        },
+        "answer": "A",
+        "correct": true
+      }
+    ]
+  },
+  "Tabletop-Insert-Objects-WithShape-v1": {
+    "instruction": "insert all the stick on the table into corresponding holes",
+    "query": {
+      "query": "Which hole is for the cylinder?",
+      "selection": {
+        "A": "A hole",
+        "B": "B hole",
+        "C": "C hole"
+      }
+    },
+    "ground_truth": "A",
+    "response_num": 7,
+    "answers": [
+      "B",
+      "A",
+      "B",
+      "B",
+      "A",
+      "B",
+      "B"
+    ],
+    "correct": [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    "final_correct": false,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The cylinder shape matches the circular hole labeled as 'B'. The other holes, 'A' and 'C', are designed for different shapes (rectangular and triangular, respectively), and do not correspond to the cylinder."
+        },
+        "answer": "B",
+        "correct": false
+      },
+      {
+        "image_filename": "000042.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observations, the cylinder shape matches the circular hole labeled 'A'. The other holes, 'B' and 'C', are shaped differently\u2014'B' is rectangular and 'C' is triangular\u2014making them unsuitable for the cylinder."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000044.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The cylinder shape matches the round hole labeled as 'B' in the query image. Observations at steps 000042 and 000044 show the cylinder being manipulated near the round hole, confirming that 'B' is the correct hole for the cylinder."
+        },
+        "answer": "B",
+        "correct": false
+      },
+      {
+        "image_filename": "000165.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The cylinder is a round object, and the hole labeled 'B' is circular in shape, matching the geometry of the cylinder. Observations at steps '000044' and '000165' show the cylinder being positioned near the circular hole, confirming that 'B' is the correct hole for the cylinder."
+        },
+        "answer": "B",
+        "correct": false
+      },
+      {
+        "image_filename": "000212.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The cylinder is a round object, and the hole labeled 'A' is circular, matching the shape of the cylinder. Observations at steps 000165 and 000212 show the robot arm interacting with the cylinder near the circular hole 'A', confirming that this hole is intended for the cylinder."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000270.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the observations at steps 000212 and 000270, the cylinder is seen being inserted into the hole labeled 'B' in the query image. The cylindrical shape matches the hole labeled 'B,' which is circular and designed to accommodate the cylinder. Holes 'A' and 'C' are not suitable as they are shaped differently (rectangular and triangular, respectively)."
+        },
+        "answer": "B",
+        "correct": false
+      },
+      {
+        "image_filename": "000354.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the observations at steps 000270 and 000354, the cylinder is seen being inserted into the circular hole. In the query image, the circular hole is labeled as 'B'. Therefore, the cylinder corresponds to the B hole."
+        },
+        "answer": "B",
+        "correct": false
+      }
+    ]
+  },
+  "Tabletop-Stack-Books-OnBox-v1": {
+    "instruction": "Stack all things on the table",
+    "query": {
+      "query": "Which book should be stacked on top of the other?",
+      "selection": {
+        "A": "The red book should be placed on top of the green book",
+        "B": "The green book should be placed on top of the red book"
+      }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+      "A",
+      "A",
+      "A",
+      "B"
+    ],
+    "correct": [
+      false,
+      false,
+      false,
+      true
+    ],
+    "final_correct": true,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The red book is already placed on the table, and the green book is positioned next to it. To stack all items, the green book should be placed on top of the red book, as stacking involves placing one item on top of another."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000082.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observations, the robotic arm is interacting with the red book and positioning it above the green book. This suggests that the red book is intended to be stacked on top of the green book to complete the task of stacking all items on the table."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000417.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observations, the robot arm is seen manipulating the green book and attempting to place it on top of the red book. This indicates that the stacking order should have the red book at the bottom and the green book on top. However, the query image shows both books unstacked, suggesting the task is incomplete. To fulfill the stacking task, the red book should be placed on top of the green book to ensure all items are stacked."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000528.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the observations at steps 000417 and 000528, the green book is consistently placed on top of the red book during the stacking process. This indicates that the intended stacking order is for the green book to be placed on top of the red book."
+        },
+        "answer": "B",
+        "correct": true
+      }
+    ]
+  },
+  "Tabletop-Slide-Cube-Into-Container-v1": {
+    "instruction": "Slide a cube down a slope into a container",
+    "query": {
+      "query": "How can we put the cube to the container?",
+      "selection": {
+        "A": "Slide it from the top of the slope",
+        "B": "Put the cube to the dustpan directly"
+      }
+    },
+    "ground_truth": "A",
+    "response_num": 3,
+    "answers": [
+      "A",
+      "A",
+      "A"
+    ],
+    "correct": [
+      true,
+      true,
+      true
+    ],
+    "final_correct": true,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The setup includes a slope positioned above a dustpan-like container, and the cube is placed at the top of the slope. Sliding the cube from the top of the slope is the intended method to move it into the container, as the slope is designed to guide the cube directly into the dustpan."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000040.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The task instruction specifies sliding the cube down a slope into a container. Observations show the cube positioned at the top of the slope, ready to slide down. Sliding it from the top of the slope aligns with the task requirements and utilizes the slope's design to guide the cube into the container. Option B, placing the cube directly into the dustpan, bypasses the slope and does not follow the intended task process."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000069.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The images show that the cube was initially placed at the top of the slope and then slid down into the container (dustpan) successfully. This indicates that sliding the cube from the top of the slope is the correct method to put it into the container. Option B, putting the cube directly into the dustpan, does not align with the observed manipulation process."
+        },
+        "answer": "A",
+        "correct": true
+      }
+    ]
+  },
+  "Tabletop-Seek-Objects-InCabinet-v1": {
+    "instruction": "Find the apple and the plate in the cabinet, put them on the table",
+    "query": {
+      "query": "Where are the apple and plate?",
+      "selection": {
+        "A": "The apple is in the drawer, the plate is in cabinet",
+        "B": "The apple is in the cabinet, the plate is in drawer",
+        "C": "Both of the are in cabinet",
+        "D": "Both of the are in drawer"
+      }
+    },
+    "ground_truth": "B",
+    "response_num": 12,
+    "answers": [
+      "D",
+      "D",
+      "D",
+      "D",
+      "A",
+      "D",
+      "A",
+      "A",
+      "D",
+      "A",
+      "A",
+      "D"
+    ],
+    "correct": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "final_correct": false,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "D",
+          "reasoning": "The query image clearly shows the apple inside the drawer. The plate is not visible in the cabinet in the checkpoint observations, suggesting that both the apple and the plate are located in the drawer."
+        },
+        "answer": "D",
+        "correct": false
+      },
+      {
+        "image_filename": "000058.png",
+        "response": {
+          "answer": "D",
+          "reasoning": "In the query image, the apple is clearly visible inside the drawer. Additionally, the plate is also visible in the drawer. Therefore, both the apple and the plate are in the drawer."
+        },
+        "answer": "D",
+        "correct": false
+      },
+      {
+        "image_filename": "000369.png",
+        "response": {
+          "answer": "D",
+          "reasoning": "In the query image, both the apple and the plate are visible inside the drawer. The observations at steps 000058 and 000369 show the robot interacting with the cabinet and drawer, but the final image confirms that both objects are located in the drawer."
+        },
+        "answer": "D",
+        "correct": false
+      },
+      {
+        "image_filename": "000435.png",
+        "response": {
+          "answer": "D",
+          "reasoning": "In the query image, both the apple and the plate are visible inside the drawer. The apple is red and spherical, while the plate is flat and red. This confirms that both objects are in the drawer."
+        },
+        "answer": "D",
+        "correct": false
+      },
+      {
+        "image_filename": "000633.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The query image clearly shows the apple inside the drawer. From the observations at steps 000435 and 000633, the plate is visible inside the cabinet. Therefore, the apple is in the drawer, and the plate is in the cabinet."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "001013.png",
+        "response": {
+          "answer": "D",
+          "reasoning": "In the query image, the apple is clearly visible inside the drawer. The plate is not visible in the cabinet in the earlier observations, and the query image confirms that the apple is in the drawer. Since the task involves finding both the apple and the plate, and the plate is not visible elsewhere, it is reasonable to conclude that both the apple and the plate are in the drawer."
+        },
+        "answer": "D",
+        "correct": false
+      },
+      {
+        "image_filename": "001365.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The query image shows the apple inside the drawer, and the observations at steps 001013 and 001365 show the plate inside the cabinet. Therefore, the apple is in the drawer, and the plate is in the cabinet."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "001430.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "From the observations at steps 001365 and 001430, the apple is visible inside the drawer, and the plate is visible inside the cabinet. The query image confirms the apple's location in the drawer."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "001546.png",
+        "response": {
+          "answer": "D",
+          "reasoning": "In the query image, both the apple and the plate are visible inside the drawer. The observations at steps 001430 and 001546 show the robot interacting with the cabinet, but the final query image confirms that both objects are now located in the drawer."
+        },
+        "answer": "D",
+        "correct": false
+      },
+      {
+        "image_filename": "001771.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the query image, the plate is clearly visible inside the drawer. In the checkpoint observations, the apple is seen being manipulated by the robotic arm and placed on the table, indicating it was retrieved from the cabinet. Therefore, the apple is in the cabinet, and the plate is in the drawer."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "002314.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the query image, the plate is clearly visible inside the drawer. In the checkpoint observations, the apple is seen inside the cabinet. Therefore, the apple is in the cabinet, and the plate is in the drawer."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "002360.png",
+        "response": {
+          "answer": "D",
+          "reasoning": "The query image shows the plate inside the drawer, and the apple is also visible in the drawer. Based on this observation, both the apple and the plate are in the drawer."
+        },
+        "answer": "D",
+        "correct": false
+      }
+    ]
+  },
+  "Tabletop-Insert-WithOrientation-v1": {
+    "instruction": "insert the board on the wall",
+    "query": {
+      "query": "What is the correct orientation for inserting the blue object?",
+      "selection": {
+        "A": "Rotate the object vertically to match the slot height",
+        "B": "Keep the object flat on the table and push it in"
+      }
+    },
+    "ground_truth": "A",
+    "response_num": 8,
+    "answers": [
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A"
+    ],
+    "correct": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_correct": true,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The slot in the wall is vertically oriented, as seen in the images. The blue object needs to be rotated vertically to match the height and orientation of the slot for proper insertion. Keeping the object flat on the table would not align it with the slot's dimensions."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000076.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The slot in the wall is vertical, and the blue object needs to be rotated vertically to match the height and orientation of the slot for proper insertion. Keeping the object flat on the table would not align it with the slot's dimensions."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000101.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The slot in the wall object is vertically oriented, as seen in the query image. The blue object must be rotated vertically to match the slot height for proper insertion. Keeping the object flat on the table would not align it with the slot's orientation."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000280.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The slot in the white object is vertically oriented, as seen in the query image. To insert the blue object into the slot, it must be rotated vertically to match the height and orientation of the slot. Keeping the object flat on the table would not align it with the slot's vertical orientation."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000367.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The slot in the wall block is vertically oriented, as seen in the query image. The blue object needs to be rotated vertically to match the height and orientation of the slot for proper insertion. Keeping the object flat on the table would not align it with the slot."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000441.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The slot in the white object is vertically oriented, as seen in the query image. To insert the blue object into this slot, it must be rotated vertically to match the slot's height and orientation. Keeping the object flat on the table would not align it with the slot's dimensions."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000482.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The slot in the gray block has a triangular shape that matches the height of the blue object when it is rotated vertically. Observations at steps 000441 and 000482 show the robot arm manipulating the blue object in a way that aligns it vertically, suggesting the correct orientation for insertion is vertical to match the slot height."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000490.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The query image shows a triangular slot on the wall, which matches the triangular cross-section of the blue object. To insert the blue object into the slot, it needs to be rotated vertically to align its triangular cross-section with the slot's shape. Keeping the object flat on the table (Option B) would not match the slot's orientation or shape."
+        },
+        "answer": "A",
+        "correct": true
+      }
+    ]
+  },
+  "Tabletop-Insert-Conical-v1": {
+    "instruction": "insert the conical to the container",
+    "query": {
+      "query": "What to prevent while insert the water bottle",
+      "selection": {
+        "A": "Tilting the bottle too much, which may cause misalignment",
+        "B": "Moving too slowly, which wastes time and energy"
+      }
+    },
+    "ground_truth": "A",
+    "response_num": 4,
+    "answers": [
+      "A",
+      "A",
+      "A",
+      "A"
+    ],
+    "correct": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_correct": true,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The images show the robotic arm holding the bottle and aligning it with the container. Proper alignment is crucial for successful insertion, and tilting the bottle too much could cause misalignment, preventing the bottle from being inserted correctly. Moving too slowly, while potentially inefficient, does not directly impact the success of the task."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000051.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The task involves inserting the water bottle into the container, which requires precise alignment. Tilting the bottle too much can cause misalignment, making it difficult to insert the bottle properly into the container. The images show the robot arm holding the bottle vertically and aligning it carefully with the container, indicating that maintaining proper alignment is critical. Moving too slowly, as mentioned in option B, does not directly affect the success of the insertion task."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000081.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The images show the robotic arm holding the water bottle and aligning it with the container for insertion. Proper alignment is crucial for successfully inserting the bottle into the container. Tilting the bottle too much could cause misalignment, making the task fail. Moving too slowly, while less efficient, does not directly impact the success of the insertion task. Therefore, preventing excessive tilting is the priority."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000130.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the provided images, the robotic arm successfully inserts the conical water bottle into the container. The alignment of the bottle with the container is crucial for successful insertion, as seen in the progression from step 000081 to step 000130. Tilting the bottle too much could cause misalignment and prevent proper insertion, which is the primary concern in this task. Moving too slowly does not directly impact the success of the insertion, making option A the correct choice."
+        },
+        "answer": "A",
+        "correct": true
+      }
+    ]
+  },
+  "Tabletop-Move-Cube-DynamicFriction-v1": {
+    "instruction": "move the cube to the marker",
+    "query": {
+      "query": "What's the best approach to move a cube with unpredictable friction?",
+      "selection": {
+        "A": "Lift the cube and directly place it to the target position",
+        "B": "Slide the cube while maintaining contact with the surface",
+        "C": "Pick up blocks, re-pick them up if it falls"
+      }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+      "A",
+      "A",
+      "A",
+      "A"
+    ],
+    "correct": [
+      false,
+      false,
+      false,
+      false
+    ],
+    "final_correct": false,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The best approach to move a cube with unpredictable friction is to lift the cube and directly place it at the target position. This eliminates the variability caused by surface friction during sliding and ensures precise placement. Sliding the cube (Option B) could lead to unpredictable movement due to friction, and repeatedly picking up the cube if it falls (Option C) is inefficient and unnecessary if the cube is securely lifted and placed."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000050.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The images show the robotic arm successfully lifting and placing the cube directly onto the target marker. This approach minimizes the impact of unpredictable friction by avoiding sliding, which could cause the cube to deviate from its intended path. Lifting and placing ensures precise positioning and avoids the need for repeated attempts, as seen in the task progression."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000090.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The images show the robotic arm successfully lifting the cube and moving it towards the target marker. This approach avoids issues related to unpredictable friction, as sliding the cube might result in inconsistent movement or loss of control. Lifting the cube ensures precise placement at the target position, making it the best approach for this task."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000110.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "Based on the observations at steps 000090 and 000110, the robotic arm successfully lifted the cube and placed it directly on the marker. This approach avoids the challenges posed by unpredictable friction, such as sliding instability or loss of control. Sliding the cube (Option B) could lead to unpredictable movement due to variable friction, and repeatedly picking up the cube if it falls (Option C) is inefficient. Therefore, lifting and directly placing the cube (Option A) is the most effective and precise method."
+        },
+        "answer": "A",
+        "correct": false
+      }
+    ]
+  },
+  "Tabletop-Rotate-Cube-Twice-v1": {
+    "instruction": "rotate the cube till the green face upward",
+    "query": {
+      "query": "Where is the green face?",
+      "selection": {
+        "A": "On the top of the cube",
+        "B": "On the side of the cube",
+        "C": "On the bottom of the cube"
+      }
+    },
+    "ground_truth": "C",
+    "response_num": 4,
+    "answers": [
+      "B",
+      "B",
+      "B",
+      "B"
+    ],
+    "correct": [
+      false,
+      false,
+      false,
+      false
+    ],
+    "final_correct": false,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the provided images, the green face of the cube is clearly visible on the side of the cube, not on the top or bottom. The top face is blue, and the bottom face is not visible, but the green face is distinctly on the side."
+        },
+        "answer": "B",
+        "correct": false
+      },
+      {
+        "image_filename": "000074.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the query image, the green face of the cube is clearly visible on the side of the cube. The top face is blue, and the bottom face is not visible, but the green face is distinctly on the side."
+        },
+        "answer": "B",
+        "correct": false
+      },
+      {
+        "image_filename": "000118.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the query image, the green face of the cube is visible on the side of the cube. The top face is yellow, and the bottom face is not visible but was previously blue in the earlier observations."
+        },
+        "answer": "B",
+        "correct": false
+      },
+      {
+        "image_filename": "000179.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the query image, the green face of the cube is visible on the side of the cube. This is consistent with the manipulation process observed in the previous checkpoint images, where the robot arm rotated the cube but did not place the green face on the top or bottom."
+        },
+        "answer": "B",
+        "correct": false
+      }
+    ]
+  },
+  "Tabletop-Move-Balls-WithDustpan-v1": {
+    "instruction": "move all the balls into the holder with dustpan",
+    "query": {
+      "query": "What strategy should be used to collect multiple balls efficiently?",
+      "selection": {
+        "A": "Collect all balls at once with a single sweeping motion",
+        "B": "Move the balls one by one"
+      }
+    },
+    "ground_truth": "A",
+    "response_num": 5,
+    "answers": [
+      "A",
+      "A",
+      "A",
+      "A",
+      "A"
+    ],
+    "correct": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_correct": true,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The dustpan is designed to collect multiple balls at once efficiently. Using a single sweeping motion to gather all the balls into the dustpan minimizes the number of actions required and ensures a faster completion of the task compared to moving the balls one by one, which would be time-consuming and inefficient."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000044.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The images show that the dustpan is capable of holding multiple balls at once, as seen in the observations where several balls are already collected together in the dustpan. Using a single sweeping motion to collect all balls at once is more efficient than moving them one by one, as it minimizes the number of movements and time required to complete the task."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000194.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The observations show that the robot successfully collected multiple balls into the dustpan using a sweeping motion, as evidenced by the balls being grouped together in the dustpan at step 000194. This indicates that collecting all balls at once with a single sweeping motion is an efficient strategy for this task, as it minimizes the number of movements required and ensures all balls are gathered simultaneously."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000252.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The observations show that the robot successfully collected multiple balls at once using the dustpan and transferred them into the holder. This demonstrates that collecting all balls at once with a single sweeping motion is an efficient strategy for this task, as it minimizes the number of movements and time required compared to moving the balls one by one."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000259.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The task involves moving multiple balls into the holder using a dustpan. Observations at steps 000252 and 000259 show the robot positioning the dustpan near the holder and aligning it for sweeping motions. This setup suggests that the dustpan is designed to collect multiple balls simultaneously, making a single sweeping motion the most efficient strategy. Moving the balls one by one (Option B) would be unnecessarily time-consuming and inefficient given the tools and task requirements."
+        },
+        "answer": "A",
+        "correct": true
+      }
+    ]
+  },
+  "Tabletop-Open-Cabinet-WithDoor-v1": {
+    "instruction": "open the cabinet door",
+    "query": {
+      "query": "What's the correct sequence of actions to open the cabinet?",
+      "selection": {
+        "A": "Close the door first, then access the cabinet",
+        "B": "Open the cabinet directly without interacting with the door"
+      }
+    },
+    "ground_truth": "A",
+    "response_num": 3,
+    "answers": [
+      "B",
+      "B",
+      "B"
+    ],
+    "correct": [
+      false,
+      false,
+      false
+    ],
+    "final_correct": false,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The cabinet door is already open in the observation image, so the correct action is to access the cabinet directly without interacting with the door further."
+        },
+        "answer": "B",
+        "correct": false
+      },
+      {
+        "image_filename": "000121.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The images show that the cabinet door is already open at step 000000, and the robotic arm does not need to interact with the door further to access the cabinet. Therefore, the correct sequence of actions is to open the cabinet directly without interacting with the door."
+        },
+        "answer": "B",
+        "correct": false
+      },
+      {
+        "image_filename": "000160.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the observations, the robotic arm directly interacts with the cabinet door to open it without any prior action to close the door. The cabinet door is already in a position that allows access, and the robotic arm successfully opens it without needing to close it first. Therefore, the correct sequence is to open the cabinet directly without interacting with the door beforehand."
+        },
+        "answer": "B",
+        "correct": false
+      }
+    ]
+  },
+  "Tabletop-Move-Line-WithStick-v1": {
+    "instruction": "Use the stick to move the small cube along the straight line path to the target position ",
+    "query": {
+      "query": "What approach should be used to move the cube along the path?",
+      "selection": {
+        "A": "Use the stick to push the cube",
+        "B": "Directly push the cube with continuous contact",
+        "C": "Pick the cube up and place it to the target"
+      }
+    },
+    "ground_truth": "B",
+    "response_num": 6,
+    "answers": [
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A"
+    ],
+    "correct": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "final_correct": false,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The task instruction specifies using the stick to move the small cube along the straight line path to the target position. The images show the robotic arm holding the stick and positioning it near the cube, indicating that the stick is intended to push the cube along the path. This approach aligns with the task instruction and the setup shown in the images."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000066.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The task instruction specifies using the stick to move the small cube along the straight line path to the target position. In the observations, the stick is positioned to interact with the cube, and the cube is aligned with the straight path towards the target. This indicates that the stick should be used to push the cube along the path, as per the task requirements."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000134.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The images show the robotic arm using a stick to interact with the small cube, aligning with the task instruction to use the stick to move the cube along the straight line path to the target position. The stick is positioned to push the cube, making 'A: Use the stick to push the cube' the correct approach. Options B and C involve direct contact or picking up the cube, which are not consistent with the observed manipulation process or the task instruction."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000256.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The images show the robotic arm using a stick to interact with the cube, specifically pushing it along the straight line path toward the target position. This approach aligns with the task instruction to use the stick for manipulation. The cube is not being picked up or continuously pushed directly, but rather moved incrementally using the stick."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000388.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The images show the robot using a stick to interact with the cube, specifically pushing it along the straight line path towards the target position. The stick is positioned behind the cube, and the robot arm is maneuvering it to apply force in the direction of the target. This approach aligns with the task instruction to use the stick to move the cube along the path. Options B and C involve direct manipulation or picking up the cube, which are not consistent with the observed method or the task instruction."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000431.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The images show the robotic arm using a stick to interact with the small cube, which is being moved along a straight path toward the target position. The stick is positioned to push the cube forward, as evidenced by its alignment with the cube and the movement observed between steps 000388 and 000431. This approach aligns with the task instruction to use the stick to move the cube along the path. Options B and C involve direct contact or picking up the cube, which are not consistent with the observed manipulation process."
+        },
+        "answer": "A",
+        "correct": false
+      }
+    ]
+  },
+  "Tabletop-Find-Dice-v1": {
+    "instruction": "find the dice which have 2 and 4 point in the corresponding face and put it on the marker",
+    "query": {
+      "query": "which dice has 2 and 4 point in the corresponding face",
+      "selection": {
+        "A": "A",
+        "B": "B"
+      }
+    },
+    "ground_truth": "A",
+    "response_num": 3,
+    "answers": [
+      "A",
+      "A",
+      "B"
+    ],
+    "correct": [
+      true,
+      true,
+      false
+    ],
+    "final_correct": false,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observation image, dice A (white dice) clearly shows the numbers 2 and 4 on its corresponding faces. Dice B (red dice) does not display these numbers on its visible faces. Therefore, dice A is the correct choice."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000165.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observations, dice A (white dice) clearly shows the faces with 2 and 4 points. Dice B (red dice) does not display these numbers on its visible faces. Therefore, dice A is the correct choice."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000196.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the observations at steps 000165 and 000196, the robotic arm manipulates the red dice (B). The close-up view of the red dice clearly shows the faces with 2 and 4 points. Therefore, dice B is the one with 2 and 4 points on the corresponding faces."
+        },
+        "answer": "B",
+        "correct": false
+      }
+    ]
+  },
+  "Tabletop-Close-Drawer-WithLongObstacle-v1": {
+    "instruction": "close the drawer",
+    "query": {
+      "query": "What's the best approach to close the drawer?",
+      "selection": {
+        "A": "Push the drawer directly",
+        "B": "Remove the red obstacle first, then close the drawer"
+      }
+    },
+    "ground_truth": "B",
+    "response_num": 6,
+    "answers": [
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B"
+    ],
+    "correct": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_correct": true,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The red obstacle is protruding from the drawer, which would prevent the drawer from being closed properly if pushed directly. Removing the red obstacle first ensures the drawer can be closed without obstruction."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000041.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The red obstacle is protruding from the drawer and would prevent the drawer from being closed properly if pushed directly. Therefore, the best approach is to remove the red obstacle first, ensuring the drawer can be closed without obstruction."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000103.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the observation at step 000103, the red obstacle is clearly protruding from the drawer, which would prevent the drawer from being closed properly. The best approach is to first remove the red obstacle to ensure the drawer can be closed without obstruction."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000180.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The red obstacle is protruding from the drawer, preventing it from being closed properly. Attempting to push the drawer directly (Option A) would likely result in resistance or damage. The best approach is to first remove the red obstacle (Option B), ensuring the drawer can close smoothly."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000251.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The red obstacle is blocking the drawer from being fully closed. Attempting to push the drawer directly without removing the obstacle would likely result in failure or damage. The best approach is to first remove the red obstacle from the drawer's path and then proceed to close the drawer."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000270.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The red obstacle is positioned such that it would obstruct the drawer from closing properly. Attempting to push the drawer directly without removing the obstacle could result in damage or failure to complete the task. The best approach is to first remove the red obstacle and then proceed to close the drawer."
+        },
+        "answer": "B",
+        "correct": true
+      }
+    ]
+  },
+  "Tabletop-Balance-Pivot-WithBalls-v1": {
+    "instruction": "Put the balls in to the holder to balance the long board on the triangular prism",
+    "query": {
+      "query": "How many balls can make the pivot balance?",
+      "selection": {
+        "A": "4",
+        "B": "5",
+        "C": "6"
+      }
+    },
+    "ground_truth": "B",
+    "response_num": 14,
+    "answers": [
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "B",
+      "B",
+      "A"
+    ],
+    "correct": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    "final_correct": false,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The long board is balanced on the triangular prism, and the green cube is placed on one side. To balance the board, the balls must be placed in the holder on the opposite side. Observing the setup, the green cube's weight appears to be balanced by 4 balls placed in the holder, as shown in the images. Adding more than 4 balls would likely tip the balance, and fewer than 4 balls would not counteract the weight of the green cube."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000059.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the query image, the pivot is balanced with 4 balls placed in the holder. This indicates that 4 balls are sufficient to balance the long board on the triangular prism. Adding more balls would likely tip the balance, and fewer balls would not achieve equilibrium."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000063.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the query image, the long board is balanced on the triangular prism with 4 balls placed in the holder. This indicates that 4 balls are sufficient to balance the pivot. Observations at steps 000059 and 000063 show the robot arm manipulating the balls, but the final balanced state in the query image confirms that 4 balls achieve the balance."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000122.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observations, the robotic arm places balls into the holder to balance the board on the triangular prism. At step 000122, the board appears balanced with 4 balls in the holder. Adding more balls would likely tip the balance, and fewer balls would not achieve equilibrium. Therefore, the correct answer is 4 balls."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000167.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observations, the robot arm places balls into the holder on the left side of the board. At step 000122, the board is tilted downwards on the left side, indicating imbalance. At step 000167, after placing additional balls, the board appears balanced horizontally, suggesting equilibrium. The query image shows 4 balls in the holder, which is the configuration that balances the board. Therefore, the answer is 4 balls."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000194.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observations at steps 000167 and 000194, the robotic arm places balls into the holder on the left side of the board. At step 000194, the board achieves balance with 4 balls in the holder. This indicates that 4 balls are sufficient to balance the pivot. Therefore, the correct answer is A: 4."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000237.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observations at steps 000194 and 000237, the robotic arm is placing balls into the holder on one side of the board. The board is balanced on a triangular prism, and the green cube is positioned on the opposite side of the board. From the query image, it is evident that the board achieves balance when 4 balls are placed in the holder, as the board is level and not tilting. Therefore, the correct answer is 4 balls."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000265.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the checkpoint observations, the robot arm places balls into the holder on the long board. At step 000237, the board is unbalanced with fewer balls in the holder. At step 000265, the board achieves balance with 4 balls in the holder. The query image shows the setup with 4 balls in the holder, which balances the board. Therefore, the correct answer is 4 balls."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000313.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observations at steps 000265 and 000313, the robot arm places balls into the holder on the long board. At step 000265, three balls are already in the holder, and the board is balanced. At step 000313, the robot arm adds a fourth ball, and the board remains balanced. This indicates that four balls are sufficient to balance the pivot. The query image also shows six balls available, but based on the observations, only four are needed to achieve balance."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000334.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observations at steps 000313 and 000334, the robotic arm places balls into the holder on the long board. At step 000334, the board appears balanced when there are 4 balls in the holder. The query image also shows the setup with 4 balls in the holder, which aligns with the observations. Therefore, the pivot balances with 4 balls."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000399.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the checkpoint observations, the pivot is balanced when the holder contains 4 balls (step 000334). At step 000399, the robot arm is seen adding a green cube to the board, which disrupts the balance. The query image shows the setup with 4 balls and no green cube, indicating that 4 balls are sufficient to balance the pivot without the cube. Therefore, the correct answer is 4."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000467.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the checkpoint observations, the robotic arm places balls into the holder on one side of the board, while the green cube remains on the other side. The board balances when 5 balls are placed in the holder, as seen in the final observation image at step 000467. This indicates that 5 balls are required to balance the pivot."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000525.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the checkpoint observations, the long board is balanced on the triangular prism when the holder contains 5 balls. At step 000467, the board is tilted, and at step 000525, the board achieves balance after the fifth ball is added to the holder. Therefore, 5 balls are required to make the pivot balance."
+        },
+        "answer": "B",
+        "correct": true
+      },
+      {
+        "image_filename": "000532.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the checkpoint observations, the pivot is balanced with one purple ball inside the holder and the green cube on the opposite side. The query image shows the setup with six balls available. To determine how many balls can balance the pivot, we observe that the purple ball already balances the green cube. Adding more balls would disrupt the balance. Therefore, the pivot balances with one ball already in the holder, and adding three more balls (totaling four) would likely maintain balance due to symmetrical weight distribution. Hence, the answer is 4."
+        },
+        "answer": "A",
+        "correct": false
+      }
+    ]
+  },
+  "Tabletop-Pick-Cube-WithStick-v1": {
+    "instruction": "Use the stick to move the small cube along the T-shaped path to the target position ",
+    "query": {
+      "query": "Why we need a stick to move the cube?",
+      "selection": {
+        "A": "Because the cube is too small and the path is too narrow",
+        "B": "Because the cube is too heavy to move",
+        "C": "Because the cube is too slippery"
+      }
+    },
+    "ground_truth": "A",
+    "response_num": 8,
+    "answers": [
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A"
+    ],
+    "correct": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_correct": true,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The images show a narrow T-shaped path where the small cube needs to be moved. The cube is positioned within the narrow confines of the path, making it difficult for the robotic arm to directly manipulate it without a tool. The stick is used to push the cube along the path, as its small size and the narrowness of the path prevent direct handling by the robotic arm."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000052.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The images show that the cube is positioned within a narrow T-shaped path, which makes it difficult for the robotic arm to directly grasp or manipulate the cube due to its small size and the confined space. The stick is used to push the cube along the path to the target position, as it can fit into the narrow space and provide precise control over the cube's movement."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000102.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The images show that the cube is being moved along a narrow T-shaped path. The stick is used to precisely push the cube through the confined space, which would be difficult to achieve directly with the robotic arm due to the small size of the cube and the narrowness of the path. This indicates that the stick is necessary for maneuvering the cube in such a constrained environment."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000204.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The images show that the cube is being moved along a narrow T-shaped path, which is confined and does not allow direct manipulation by the robotic arm. The stick is used to push the cube through the narrow path, as the cube is small and the path's dimensions make it challenging for the robotic arm to directly grasp or maneuver the cube effectively."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000275.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The images show that the cube is being moved along a narrow T-shaped path, which is confined and requires precision. The stick is used to push the cube because the cube is small and the path is too narrow for the robotic arm to directly manipulate it without the aid of the stick. There is no indication that the cube is heavy or slippery, as the stick is effectively moving it along the path."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000372.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The images show that the cube is small and positioned within a narrow T-shaped path. The stick is used to precisely push the cube along the confined path to the target position, which would be difficult to achieve using the robotic arm directly due to the limited space and precision required. There is no indication that the cube is heavy or slippery, so the stick is necessary primarily because of the cube's small size and the narrowness of the path."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000524.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The images show the cube being moved along a narrow T-shaped path using a stick. The stick is necessary because the cube is small and the path is too narrow for the robotic arm to directly manipulate the cube without the stick. The stick allows precise control to push the cube through the confined space of the path."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000525.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The images show that the cube is being moved along a narrow T-shaped path, which is confined and requires precise manipulation. The stick is used to push the cube because the cube is small and the path is too narrow for direct manipulation by the robotic arm. The stick provides the necessary precision and reach to move the cube effectively within the constraints of the path."
+        },
+        "answer": "A",
+        "correct": true
+      }
+    ]
+  },
+  "Tabletop-Put-Cube-IntoCabinetWithObstacle-v1": {
+    "instruction": "put the object into the cabinet",
+    "query": {
+      "query": "What is the best approach to put the cube into the cabinet",
+      "selection": {
+        "A": "Move the obstacle first, then place the cube into the cabinet",
+        "B": "Try to navigate around the obstacle without moving it"
+      }
+    },
+    "ground_truth": "A",
+    "response_num": 8,
+    "answers": [
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A"
+    ],
+    "correct": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "final_correct": true,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The cabinet door is currently closed, which obstructs access to the interior of the cabinet. To successfully place the cube inside the cabinet, the obstacle (the cabinet door) must first be moved or opened. Navigating around the obstacle without moving it (option B) is not feasible, as the cube cannot be placed inside a closed cabinet."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000144.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The cabinet door is obstructing the path to place the cube inside the cabinet. Attempting to navigate around the obstacle without moving it would be inefficient and likely unsuccessful. The best approach is to move the cabinet door (the obstacle) first, ensuring clear access to the cabinet interior, and then place the cube inside."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000181.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The cabinet door is obstructing the path to place the cube inside the cabinet. Attempting to navigate around the obstacle without moving it (Option B) would be inefficient and likely unsuccessful, as the door blocks direct access to the cabinet interior. The best approach is to move the obstacle (the cabinet door) first, ensuring clear access to the cabinet interior, and then place the cube inside (Option A)."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000309.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observations, the cabinet door is partially obstructing the path to place the cube inside the cabinet. Attempting to navigate around the obstacle without moving it (Option B) would likely result in difficulty or failure to complete the task. The best approach is to move the cabinet door (the obstacle) out of the way first, ensuring a clear path to place the cube inside the cabinet (Option A)."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000376.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observations, the cabinet door is partially obstructing the path to place the cube inside the cabinet. Attempting to navigate around the obstacle without moving it (Option B) would likely result in difficulty or failure to accurately place the cube inside. The best approach is to move the obstacle (the cabinet door) first to ensure a clear path, then place the cube into the cabinet (Option A)."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000667.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The cabinet door is partially obstructing the path to place the cube inside the cabinet. Based on the observations, the robot arm is attempting to manipulate the cube but the obstacle (cabinet door) remains in the way. The best approach is to move the obstacle (open the cabinet door fully) to ensure a clear path for placing the cube inside the cabinet. Navigating around the obstacle without moving it would be inefficient and potentially unsuccessful."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000752.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observations, the cabinet door is partially obstructing the path to place the cube inside the cabinet. Attempting to navigate around the obstacle without moving it (Option B) would likely result in inefficient or failed placement due to the limited space and awkward angles. The best approach is to move the obstacle (the cabinet door) first, ensuring clear access to the cabinet interior, and then place the cube inside (Option A)."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000804.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observations at steps 000752 and 000804, the cabinet door is partially obstructing the path to place the cube inside the cabinet. Attempting to navigate around the obstacle without moving it (Option B) would likely result in difficulty or failure to complete the task. The best approach is to move the obstacle (the cabinet door) out of the way first, ensuring a clear path to place the cube inside the cabinet (Option A)."
+        },
+        "answer": "A",
+        "correct": true
+      }
+    ]
+  },
+  "Tabletop-Pick-Object-FromCabinet-v1": {
+    "instruction": "pick up the object from the cabinet ",
+    "query": {
+      "query": "What's the object in the cabinet?",
+      "selection": {
+        "A": "A book",
+        "B": "A cube",
+        "C": "A pen"
+      }
+    },
+    "ground_truth": "A",
+    "response_num": 10,
+    "answers": [
+      "C",
+      "C",
+      "B",
+      "B",
+      "B",
+      null,
+      "A",
+      "None of the above",
+      "C",
+      "C"
+    ],
+    "correct": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      null,
+      true,
+      false,
+      false,
+      false
+    ],
+    "final_correct": false,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "C",
+          "reasoning": "The object visible inside the cabinet in the observation image is a pen. The shape and size of the object match the characteristics of a pen, as opposed to a book or a cube."
+        },
+        "answer": "C",
+        "correct": false
+      },
+      {
+        "image_filename": "000262.png",
+        "response": {
+          "answer": "C",
+          "reasoning": "In the second checkpoint observation (step 000262), the robotic arm has opened the cabinet and is interacting with an object inside. The object visible in the cabinet appears to be cylindrical and elongated, resembling a pen. This matches the description of option C."
+        },
+        "answer": "C",
+        "correct": false
+      },
+      {
+        "image_filename": "000318.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the second checkpoint observation (step 000318), the cabinet door is open, revealing a cube-shaped object inside. The shape and appearance of the object clearly match the description of a cube, ruling out the other options such as a book or a pen."
+        },
+        "answer": "B",
+        "correct": false
+      },
+      {
+        "image_filename": "000393.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the images at steps 000318 and 000393, the object visible inside the cabinet is a cube. The shape is clearly cubic, and it does not resemble a book or a pen."
+        },
+        "answer": "B",
+        "correct": false
+      },
+      {
+        "image_filename": "000478.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "In the observation at step 000478, the cabinet is open, and the robotic arm is holding a red cube-like object. This indicates that the object in the cabinet is a cube."
+        },
+        "answer": "B",
+        "correct": false
+      },
+      {
+        "image_filename": "000564.png",
+        "raw_response": "{\n    \"answer\": \"D\",  // The object in the cabinet is an apple.\n    \"reasoning\": \"Based on the images provided, the object inside the cabinet is clearly visible as a red apple. None of the options (A: book, B: cube, C: pen) match the observed object. Therefore, the correct answer is D: apple.\"\n}",
+        "error": "Expecting property name enclosed in double quotes: line 2 column 21 (char 22)"
+      },
+      {
+        "image_filename": "000787.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The object in the cabinet is clearly visible in the images at steps 000564 and 000787. It is a red apple, which does not match any of the given options (A: A book, B: A cube, C: A pen). Therefore, none of the options provided are correct."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000834.png",
+        "response": {
+          "answer": "None of the above",
+          "reasoning": "Based on the observations at steps 000787 and 000834, the object in the cabinet is a red spherical object resembling an apple, not any of the options provided (A: A book, B: A cube, C: A pen)."
+        },
+        "answer": "None of the above",
+        "correct": false
+      },
+      {
+        "image_filename": "000987.png",
+        "response": {
+          "answer": "C",
+          "reasoning": "In the observations at steps 000834 and 000987, the robotic arm is interacting with an object inside the cabinet. The object appears to be cylindrical and elongated, resembling a pen. This matches option C."
+        },
+        "answer": "C",
+        "correct": false
+      },
+      {
+        "image_filename": "001582.png",
+        "response": {
+          "answer": "C",
+          "reasoning": "Based on the observations at steps 000987 and 001582, the robotic arm is interacting with an object inside the cabinet. The object appears to be cylindrical and elongated, which matches the shape of a pen. The other options, such as a book or a cube, do not match the observed shape of the object."
+        },
+        "answer": "C",
+        "correct": false
+      }
+    ]
+  },
+  "Tabletop-Find-Cube-RedDown-v1": {
+    "instruction": "find the cube which have red face downward, and put it on the marker with red face upward",
+    "query": {
+      "query": "which seal has red face downward",
+      "selection": {
+        "A": "A",
+        "B": "B",
+        "C": "C"
+      }
+    },
+    "ground_truth": "B",
+    "response_num": 3,
+    "answers": [
+      "A",
+      "A",
+      "A"
+    ],
+    "correct": [
+      false,
+      false,
+      false
+    ],
+    "final_correct": false,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observation image, cube A has its red face downward, as visible from the orientation of the cube relative to the table surface. Cube B has an orange face downward, and cube C has a blue face downward. Thus, cube A is the correct choice."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000275.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observation at step 000275, the robotic arm is holding a cube with the red face clearly visible on the bottom side. Comparing this cube's position and orientation with the query image, it corresponds to the cube labeled 'A'. Therefore, the seal with the red face downward is 'A'."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000305.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the checkpoint observations at steps '000275' and '000305', the robotic arm is interacting with a cube that has a red face downward. The close-up view confirms that the cube being manipulated has a red face on the bottom. In the query image, cube A matches the position and orientation of the cube that was manipulated, with its red face downward. Therefore, the seal with the red face downward is A."
+        },
+        "answer": "A",
+        "correct": false
+      }
+    ]
+  },
+  "Tabletop-Find-Book-Black-v1": {
+    "instruction": "Find and pick the black book from the bookshelf and put it on the marker ",
+    "query": {
+      "query": "Where is the black book?",
+      "selection": {
+        "A": "On the right column, the first book",
+        "B": "In the middle column, the third book",
+        "C": "On the left column, the second book"
+      }
+    },
+    "ground_truth": "C",
+    "response_num": 4,
+    "answers": [
+      "A",
+      "A",
+      "A",
+      "A"
+    ],
+    "correct": [
+      false,
+      false,
+      false,
+      false
+    ],
+    "final_correct": false,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "The black book is clearly visible in the right column as the first book. It has a dark cover that distinguishes it from the other books in the image."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000179.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the query image, the black book is clearly visible as the first book in the right column. Its dark color distinguishes it from the other books on the shelf."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000340.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the query image, the black book is located on the right column as the first book. This matches the position seen in the observations where the robotic arm interacted with the black book."
+        },
+        "answer": "A",
+        "correct": false
+      },
+      {
+        "image_filename": "000411.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observations at steps 000340 and 000411, the black book is clearly visible on the right column as the first book. The query image confirms this placement, showing the black book in the same position."
+        },
+        "answer": "A",
+        "correct": false
+      }
+    ]
+  },
+  "Tabletop-Open-Cabinet-WithObstacle-v1": {
+    "instruction": "open the cabinet door",
+    "query": {
+      "query": "What is the efficient way to open the cabinet",
+      "selection": {
+        "A": "Move the board away, then open the cabinet",
+        "B": "Open the cabinet directly"
+      }
+    },
+    "ground_truth": "A",
+    "response_num": 4,
+    "answers": [
+      "B",
+      "B",
+      "A",
+      "B"
+    ],
+    "correct": [
+      false,
+      false,
+      true,
+      false
+    ],
+    "final_correct": false,
+    "image_responses": [
+      {
+        "image_filename": "000000.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The images show that the cabinet door is unobstructed and can be opened directly without any interference from other objects. Therefore, the efficient way to open the cabinet is to proceed directly with opening it."
+        },
+        "answer": "B",
+        "correct": false
+      },
+      {
+        "image_filename": "000183.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The images show that the cabinet door can be opened directly without any obstruction or need to move a board. The robotic arm successfully opens the cabinet in the second observation (step 000183) by interacting directly with the cabinet door handle. Therefore, opening the cabinet directly is the efficient way."
+        },
+        "answer": "B",
+        "correct": false
+      },
+      {
+        "image_filename": "000395.png",
+        "response": {
+          "answer": "A",
+          "reasoning": "In the observations, the cabinet door is obstructed by a board placed in front of it. At step 000395, the board has been moved away, allowing the cabinet door to be fully opened. This indicates that moving the board away first is necessary for efficient access to the cabinet. Attempting to open the cabinet directly without removing the obstruction would be inefficient or impossible."
+        },
+        "answer": "A",
+        "correct": true
+      },
+      {
+        "image_filename": "000417.png",
+        "response": {
+          "answer": "B",
+          "reasoning": "The images show that the cabinet door was successfully opened without moving the board away. The board does not obstruct the cabinet door's movement, as evidenced by the observations at steps 000395 and 000417. Therefore, the efficient way to open the cabinet is to open it directly without moving the board."
+        },
+        "answer": "B",
+        "correct": false
+      }
+    ]
+  },
+  "summary": {
+    "total_environments": 48,
+    "final_correct": 29,
+    "final_accuracy": 0.6041666666666666
+  }
+}

@@ -1,0 +1,97 @@
+{
+    "instruction": "insert all the stick on the table into corresponding holes",
+    "query": {
+        "query": "Which hole is for the cylinder?",
+        "selection": {
+            "A": "A hole",
+            "B": "B hole",
+            "C": "C hole"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 7,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image, the cylinder is above the A hole. Therefore, the A hole is for the cylinder."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000042.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000042, the cylinder is being inserted into the hole marked as 'A' in the query image."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000044.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the images, the cylinder is placed above the hole marked as A in the query image. Therefore, the cylinder goes into the A hole."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000165.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000044, we can see the robot arm is holding a cylinder and is about to insert it into the hole labeled 'A' in the query image. In the image at step 000165, we can see that the cylinder has been inserted into the hole labeled 'A'."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000212.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000165, the robot arm is holding a cylinder and is about to insert it into the hole A. In the image at step 000212, the cylinder is already inserted into the hole A."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000270.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000270, the cylinder is inserted into hole A. Therefore, the answer is A."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000354.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000270, the robot is holding a cylinder and is about to insert it into a hole. In the image at step 000354, the cylinder is already inserted into the hole. Based on the query image, the hole that the cylinder is inserted into is hole A."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "instruction": "insert the conical to the container",
+    "query": {
+        "query": "What to prevent while insert the water bottle",
+        "selection": {
+            "A": "Tilting the bottle too much, which may cause misalignment",
+            "B": "Moving too slowly, which wastes time and energy"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 4,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The task involves inserting the conical water bottle into the container. Based on the observation, the robot arm is holding the bottle and aligning it with the container. Tilting the bottle too much could cause misalignment, making it difficult to insert the bottle properly into the container. Moving slowly, while potentially inefficient, does not directly affect the success of the insertion task. Therefore, preventing excessive tilting is crucial for successful alignment and insertion."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000051.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the images, the robotic arm is tasked with inserting a water bottle into a container. The alignment of the bottle with the container is crucial for successful insertion. Tilting the bottle too much could cause misalignment, making it difficult or impossible to insert the bottle properly. Moving too slowly, while inefficient, does not directly impact the success of the task. Therefore, preventing excessive tilting of the bottle is the priority."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000081.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the provided images, the robotic arm is attempting to insert the conical water bottle into the container. The alignment of the bottle with the container is crucial for successful insertion. Tilting the bottle too much could cause misalignment, making it impossible to insert the bottle properly into the container. This is evident from the images where the bottle is being held upright and aligned with the container. Moving too slowly, as mentioned in option B, is not a critical issue in this task, as precision is more important than speed for successful insertion."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000130.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the provided sequence of images, the robotic arm successfully inserts the conical water bottle into the container. The key factor for this success is maintaining proper alignment between the bottle and the container. Tilting the bottle too much could cause misalignment, making it difficult or impossible to insert the bottle into the container. Moving too slowly, while less efficient, does not directly impact the success of the task. Therefore, preventing excessive tilting of the bottle is the critical factor to ensure successful insertion."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

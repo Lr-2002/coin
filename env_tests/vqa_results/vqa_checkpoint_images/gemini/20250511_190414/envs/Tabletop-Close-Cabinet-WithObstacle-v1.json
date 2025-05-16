@@ -1,0 +1,85 @@
+{
+    "instruction": "close the cabinet door",
+    "query": {
+        "query": "Which approach would most likely succeed in closing the cabinet?",
+        "selection": {
+            "A": "Apply force directly to the door",
+            "B": "Move the obstacle first, then close the door"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 6,
+    "answers": [
+        "B",
+        "B",
+        "A",
+        "A",
+        "A",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Based on the images, there appears to be an obstacle preventing the cabinet door from closing completely. Therefore, moving the obstacle first and then closing the door would be the most likely approach to succeed."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000111.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Based on the image, there is an obstacle blocking the cabinet door from closing. Therefore, moving the obstacle first would be the most logical approach to successfully close the cabinet door."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000175.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the image, the cabinet door is already partially closed. Applying force directly to the door would likely be the most straightforward and successful approach to fully close it."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000252.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The image shows the robotic arm positioned near the cabinet door. There is no visible obstacle preventing the door from closing. Therefore, applying force directly to the door is the most likely approach to succeed."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000356.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the robot arm already positioned near the cabinet door. There is no obstacle blocking the door's path. Therefore, applying force directly to the door is the most likely approach to succeed in closing the cabinet."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000358.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Based on the images, there appears to be an obstacle blocking the cabinet door from closing completely. Therefore, moving the obstacle first would be the most logical approach to ensure the door can be closed properly."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

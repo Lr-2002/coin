@@ -1,0 +1,63 @@
+{
+    "instruction": "Stack all things on the table",
+    "query": {
+        "query": "Which book should be stacked on top of the other?",
+        "selection": {
+            "A": "The red book should be placed on top of the green book",
+            "B": "The green book should be placed on top of the red book"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+        "A",
+        "A",
+        "B",
+        "B"
+    ],
+    "correct": [
+        false,
+        false,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The task instruction is to stack all things on the table. In the observation image, the red book is already placed on the table, and the green book is next to it. To complete the stacking task, the green book should be placed on top of the red book. However, the question specifically asks which book should be stacked on top of the other. Based on the image, the red book is already at the bottom, and stacking the green book on top would align with the task. Therefore, the answer is A: The red book should be placed on top of the green book."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000082.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the observations at steps 000000 and 000082, the robotic arm is seen interacting with the books on the table. The red book is positioned closer to the robotic arm, and the green book is further away. The task is to stack all items, and stacking the red book on top of the green book would complete the stacking process efficiently, as the red book is already in a position to be lifted and placed on top of the green book. Additionally, the query image shows both books side by side, indicating that stacking the red book on top of the green book would align with the task goal."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000417.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The task is to stack all items on the table. Observing the images, at step 000417, the robot arm is actively manipulating the green book, which is positioned above the red book. This suggests that the green book is intended to be placed on top of the red book to complete the stacking task. Additionally, the red book is already on the base platform, making it logical for the green book to be stacked on top of it."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000528.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the sequence of images, the robot arm is seen manipulating the green book to place it on top of the red book. At step 000417, the green book is being lifted, and at step 000528, the green book is successfully stacked on top of the red book. This indicates that the green book should be placed on top of the red book to complete the stacking task."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

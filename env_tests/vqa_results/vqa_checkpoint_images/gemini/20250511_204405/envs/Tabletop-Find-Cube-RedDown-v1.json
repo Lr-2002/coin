@@ -1,0 +1,53 @@
+{
+    "instruction": "find the cube which have red face downward, and put it on the marker with red face upward",
+    "query": {
+        "query": "which seal has red face downward",
+        "selection": {
+            "A": "A",
+            "B": "B",
+            "C": "C"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 3,
+    "answers": [
+        "B",
+        "A",
+        "B"
+    ],
+    "correct": [
+        true,
+        false,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Based on the images, cube B is the only one that has the red face downward. The other cubes do not have the red face downward."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000275.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000275, cube A has a red face downward. Cube B has a yellow face downward, and cube C has a blue face downward."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000305.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the last image, cube B is the only one with the red face downward. Cube A has a red face upward, and cube C has a blue face upward."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

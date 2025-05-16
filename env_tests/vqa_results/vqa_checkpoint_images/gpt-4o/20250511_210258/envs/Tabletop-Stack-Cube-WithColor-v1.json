@@ -1,0 +1,97 @@
+{
+    "instruction": "Stack the cube with same color",
+    "query": {
+        "query": "How many degrees should A be rotated along y axis(the axis vertical to the white face) to make it same color with B?",
+        "selection": {
+            "A": "90",
+            "B": "180",
+            "C": "270"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 7,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "To make cube A match the same color orientation as cube B, we need to rotate cube A along the y-axis (vertical to the white face). Observing the colors, cube A has blue on top, while cube B has yellow on top. Rotating cube A by 180 degrees along the y-axis will bring the yellow face of cube A to the top, matching cube B's orientation. Therefore, the correct answer is 180 degrees."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000138.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "To make cube A match the color of cube B, we need to rotate cube A along the y-axis (the axis vertical to the white face). Observing the colors, cube A has a blue face on top, while cube B has a yellow face on top. Rotating cube A by 180 degrees along the y-axis will bring the yellow face of cube A to the top, matching the orientation of cube B."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000327.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "To make cube A match the color of cube B, we need to rotate cube A along the y-axis (vertical to the white face). Cube A currently has a blue face on top, while cube B has a yellow face on top. Rotating cube A by 180 degrees along the y-axis will bring the yellow face of cube A to the top, matching cube B's top face color. Therefore, the correct answer is 180 degrees."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000379.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "To make cube A match the same color orientation as cube B, we need to rotate cube A along the y-axis (vertical to the white face). Observing the colors of cube A and cube B, cube A has a blue face on top, while cube B has a yellow face on top. Rotating cube A by 180 degrees along the y-axis will bring the yellow face of cube A to the top, matching cube B's orientation. Therefore, the correct answer is 180 degrees."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000420.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "To determine how many degrees cube A should be rotated along the y-axis to match the color of cube B, we analyze the visible faces of both cubes. Cube A currently has a blue face on top, while cube B has a yellow face on top. Rotating cube A by 180 degrees along the y-axis will bring the yellow face of cube A to the top, matching the top face of cube B. Therefore, the correct answer is 180 degrees."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000486.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "To determine how many degrees cube A should be rotated along the y-axis to match the color pattern of cube B, we observe the visible faces of both cubes. Cube A has a blue face on top, while cube B has a yellow face on top. Rotating cube A by 180 degrees along the y-axis will swap the top and bottom faces, making the yellow face of cube A align with the yellow face of cube B. Thus, the correct answer is 180 degrees."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000562.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "To make cube A match the same color as cube B, we need to rotate cube A along the y-axis (vertical to the white face). Observing cube A, the blue face is currently on top, while cube B has the yellow face on top. Rotating cube A by 180 degrees along the y-axis will bring the yellow face of cube A to the top, matching cube B's top face color. Therefore, the correct answer is 180 degrees."
+            },
+            "answer": "B",
+            "correct": false
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "instruction": "Find and pick the black book from the bookshelf and put it on the marker ",
+    "query": {
+        "query": "Where is the black book?",
+        "selection": {
+            "A": "On the right column, the first book",
+            "B": "In the middle column, the third book",
+            "C": "On the left column, the second book"
+        }
+    },
+    "ground_truth": "C",
+    "response_num": 4,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The black book is located on the right column, and it is the first book in that column."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000179.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The black book is located on the right column, and it is the first book in that column."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000340.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The black book is located on the right column, and it is the first book in that column."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000411.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The black book is located on the right column, and it is the first book in that column."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

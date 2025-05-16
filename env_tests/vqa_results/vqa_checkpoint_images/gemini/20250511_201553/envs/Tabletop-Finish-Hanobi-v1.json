@@ -1,0 +1,152 @@
+{
+    "instruction": "Place all the hanobi in big to small from bottom to up",
+    "query": {
+        "query": "What is the size order of the yellow, red, and blue hanoi?",
+        "selection": {
+            "A": "Yellow > Blue > Red",
+            "B": "Red > Yellow > Blue",
+            "C": "Blue > Yellow > Red"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 12,
+    "answers": [
+        "C",
+        "C",
+        "B",
+        "B",
+        "C",
+        "C",
+        "A",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+    ],
+    "correct": [
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "Based on the image, the blue hanoi is the largest, followed by the yellow hanoi, and the red hanoi is the smallest. Therefore, the size order is Blue > Yellow > Red."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000063.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "From the images, we can see that the blue hanoi is the largest, followed by the yellow, and then the red hanoi is the smallest. Therefore, the size order is Blue > Yellow > Red."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000411.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Based on the images, the red hanoi is the largest, followed by the yellow hanoi, and the blue hanoi is the smallest. Therefore, the size order is Red > Yellow > Blue."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000720.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In both images, the red hanoi is the largest, followed by the yellow, and then the blue hanoi. Therefore, the size order is Red > Yellow > Blue."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "001415.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "From the images, we can see that the blue hanoi is the largest, followed by the yellow hanoi, and then the red hanoi. Therefore, the size order is Blue > Yellow > Red."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "001765.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "In the final image, the hanoi are stacked on the middle platform. The blue hanoi is at the bottom, then the yellow, and finally the red. This means the size order is Blue > Yellow > Red."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "001786.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the images, the yellow hanoi is the largest, followed by the blue hanoi, and the red hanoi is the smallest. Therefore, the size order is Yellow > Blue > Red."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "002089.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "Based on the images, the blue hanoi is the largest, followed by the yellow hanoi, and the red hanoi is the smallest. Therefore, the size order is Blue > Yellow > Red."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "002184.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "Based on the images, the blue hanoi is the largest, followed by the yellow, and then the red hanoi, making the size order Blue > Yellow > Red."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "002628.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "Based on the images, the blue hanoi is at the bottom, then the yellow hanoi, and finally the red hanoi. This indicates that the blue hanoi is the largest, followed by the yellow, and then the red. Therefore, the size order is Blue > Yellow > Red."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "002841.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "Based on the images, the blue hanoi is the largest, followed by the yellow hanoi, and the red hanoi is the smallest. Therefore, the size order is Blue > Yellow > Red."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "002864.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "In both images, the blue hanoi is at the bottom, the yellow hanoi is in the middle, and the red hanoi is on top. This indicates that the blue hanoi is the largest, followed by the yellow, and then the red, making the order Blue > Yellow > Red."
+            },
+            "answer": "C",
+            "correct": false
+        }
+    ]
+}

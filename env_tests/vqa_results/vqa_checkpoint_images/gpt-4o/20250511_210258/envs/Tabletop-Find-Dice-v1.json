@@ -1,0 +1,52 @@
+{
+    "instruction": "find the dice which have 2 and 4 point in the corresponding face and put it on the marker",
+    "query": {
+        "query": "which dice has 2 and 4 point in the corresponding face",
+        "selection": {
+            "A": "A",
+            "B": "B"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 3,
+    "answers": [
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the observation image, dice A (white dice) clearly shows the numbers 2 and 4 on its corresponding faces. Dice B (red dice) does not display these numbers on its visible faces. Therefore, dice A is the correct choice."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000165.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the observations, the white dice labeled 'A' clearly shows the numbers 2 and 4 on its corresponding faces. The red dice labeled 'B' does not display these numbers on its visible faces. Therefore, the dice with 2 and 4 points on the corresponding faces is 'A'."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000196.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the observations, dice A (white dice) has the numbers 2 and 4 visible on its corresponding faces. In the query image, the white dice clearly shows the number 2 on one face and the number 4 on another face. Dice B (red dice) does not have these numbers visible on its corresponding faces, as it shows other numbers like 5 and 6. Therefore, dice A is the correct choice."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

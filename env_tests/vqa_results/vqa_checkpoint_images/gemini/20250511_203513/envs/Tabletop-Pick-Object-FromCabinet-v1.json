@@ -1,0 +1,130 @@
+{
+    "instruction": "pick up the object from the cabinet ",
+    "query": {
+        "query": "What's the object in the cabinet?",
+        "selection": {
+            "A": "A book",
+            "B": "A cube",
+            "C": "A pen"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 10,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "A",
+        "A",
+        "B",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The robot arm is positioned in front of a cabinet. Based on the image, the object inside the cabinet appears to be a cube."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000262.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the image at step 000262, the robotic arm is holding a cube that it presumably picked up from the cabinet. Therefore, the object in the cabinet is a cube."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000318.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the last image, we can see the robot arm is reaching into the cabinet. Inside the cabinet, there is a cube that the robot arm is trying to pick up."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000393.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the last image, the robotic arm is inside the cabinet, and it appears to be holding a cube."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000478.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the last image (step 000478), the cabinet door is open, and we can see a white cube inside the cabinet."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000564.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the last image, we can see the object inside the cabinet. It appears to be a red cube."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000787.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the last image, the robot arm is inside the cabinet, and we can see the object is a book."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000834.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the last image, the object in the cabinet looks like a book."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000987.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The object in the cabinet is a cube. In the image at step 000834, we can see the robot arm is in front of a cabinet. In the image at step 000987, we can see the robot arm is holding a cube."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "001582.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the first image, we can see a book inside the cabinet. The other images show the robot picking up an apple from the floor."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

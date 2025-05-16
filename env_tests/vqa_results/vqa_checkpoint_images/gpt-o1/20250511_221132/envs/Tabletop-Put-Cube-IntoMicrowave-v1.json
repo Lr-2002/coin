@@ -1,0 +1,75 @@
+{
+    "instruction": "put the cube into the microwave ",
+    "query": {
+        "query": "What is the correct order of actions to put the cube into the microwave?",
+        "selection": {
+            "A": "Pick up the cube first, then open the microwave door and place the cube inside",
+            "B": "Open the microwave door first, then pick and place the cube inside",
+            "C": "Directly pick the cube into microwave"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 5,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Since the robot only has one arm, it needs to open the door first so that it can then pick up the cube and place it inside."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000072.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "You must first open the microwave\u2019s door to access its interior, then pick up the cube and place it inside."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000219.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "You need to open the microwave door first, then pick up the cube and place it inside."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000312.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The safest and most direct sequence is to open the microwave door first, then pick up the cube, and finally place it inside."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000391.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The robot opens the microwave door first, then grasps the cube and places it inside while the door is open."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

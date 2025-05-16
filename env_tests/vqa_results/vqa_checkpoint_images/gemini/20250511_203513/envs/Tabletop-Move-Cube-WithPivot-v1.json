@@ -1,0 +1,75 @@
+{
+    "instruction": "move the cube with the pivot to the marker ",
+    "query": {
+        "query": "Why we need the pivot to move the cube?",
+        "selection": {
+            "A": "The cube is too heavy to lift",
+            "B": "The cube is too far to grasp",
+            "C": "The pivot is decorative and serves no functional purpose"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 5,
+    "answers": [
+        "A",
+        "B",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        false,
+        true,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The pivot is used to push the cube, which suggests that the cube is too heavy to lift directly with the robotic arm's gripper. Therefore, the pivot is necessary to move the cube."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000121.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the images, the cube is placed far away from the robot arm's initial position. The robot uses the pivot to push the cube towards the target. Therefore, the pivot is needed because the cube is too far to grasp directly."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000241.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, we can see that the robot uses the pivot to push the cube. This suggests that the cube might be too heavy or difficult to lift directly. Option B is incorrect because the robot can reach the cube. Option C is incorrect because the robot uses the pivot to move the cube."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000388.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The pivot is used as a lever to move the cube. This suggests that the cube is too heavy to lift directly. The images show the robot using the pivot to push the cube. Option B is incorrect because the robot can reach the cube. Option C is incorrect because the pivot is clearly being used to move the cube."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000503.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the robot using the blue bar with pivots to move the red cube. The robot arm is holding the bar and using it to push the cube. This suggests that the cube is too heavy for the robot to directly lift and move, so it uses the bar as a lever to move it. Therefore, the pivot is needed because the cube is too heavy to lift."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

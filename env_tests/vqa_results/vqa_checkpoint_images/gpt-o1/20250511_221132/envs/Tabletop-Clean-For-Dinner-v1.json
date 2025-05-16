@@ -1,0 +1,74 @@
+{
+    "instruction": "Arrange the bowl, fork onto the plate, clean for dinner ",
+    "query": {
+        "query": "Which item should be placed on the plate first?",
+        "selection": {
+            "A": "The bowl",
+            "B": "The fork"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 5,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The bowl should go onto the plate before setting the fork alongside."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000069.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In a typical table setting, the bowl is placed onto the plate before adding the fork."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000155.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the final scene, we can see the robot placing the bowl squarely centered on the plate, then positioning the fork afterward. Hence, the bowl goes onto the plate first."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000230.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, you can clearly see that the bowl is to be centered atop the plate first, with the fork placed after."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000258.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the bowl (the striped dish) going onto the red plate area before the fork is placed. Hence, the bowl should be set down first."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

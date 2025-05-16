@@ -1,0 +1,63 @@
+{
+    "instruction": "move all the balls into the dustpan as fast as you can ",
+    "query": {
+        "query": "What is the most efficient way to collect all the balls?",
+        "selection": {
+            "A": "Pick the balls to the dustpan one by one",
+            "B": "Use the pivot to collect all the balls"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The balls are lined up along the pivot. Therefore, using the pivot to collect all the balls is the most efficient way."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000080.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show the robot using the blue pivot to push the balls into the dustpan. This method would be more efficient than picking up each ball individually."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000124.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show the robot using a blue pivot to push the balls into the dustpan. This method would be more efficient than picking up each ball individually."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000136.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show the robot using a long blue object (pivot) to push the balls into the dustpan. This suggests that using the pivot to collect all the balls is the intended and likely more efficient method compared to picking them up one by one."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

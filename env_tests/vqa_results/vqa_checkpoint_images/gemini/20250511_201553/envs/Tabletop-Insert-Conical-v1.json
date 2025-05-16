@@ -1,0 +1,63 @@
+{
+    "instruction": "insert the conical to the container",
+    "query": {
+        "query": "What to prevent while insert the water bottle",
+        "selection": {
+            "A": "Tilting the bottle too much, which may cause misalignment",
+            "B": "Moving too slowly, which wastes time and energy"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 4,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the images, the task is to insert the conical object into the container. Tilting the conical object too much could cause misalignment and make it difficult to insert it properly. Moving too slowly is not a critical factor in this task, as long as the object is inserted correctly."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000051.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The task is to insert the water bottle into the container. Tilting the bottle too much could cause misalignment and make it difficult to insert the bottle properly. Moving too slowly is not a critical issue in this task, as long as the bottle is inserted correctly."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000081.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The task is to insert the water bottle into the container. Tilting the bottle too much could cause misalignment and make it difficult to insert the bottle properly. Moving too slowly doesn't directly prevent the insertion, it just makes the process less efficient."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000130.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the images, the robot arm is inserting a water bottle into a container. Tilting the bottle too much could cause misalignment and make it difficult to insert the bottle properly. Moving too slowly is not a primary concern in this task."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

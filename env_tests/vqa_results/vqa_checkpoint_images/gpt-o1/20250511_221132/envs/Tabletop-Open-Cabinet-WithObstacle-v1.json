@@ -1,0 +1,52 @@
+{
+    "instruction": "open the cabinet door",
+    "query": {
+        "query": "What is the efficient way to open the cabinet",
+        "selection": {
+            "A": "Move the board away, then open the cabinet",
+            "B": "Open the cabinet directly"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 3,
+    "answers": [
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The door handle is already accessible and there is no additional object blocking it, so opening the cabinet door directly is the most efficient choice."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000183.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the images, the robot simply grasps the handle and swings the cabinet door open. There is nothing obstructing it, so directly opening the cabinet is the most efficient approach."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000417.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the images, the door can swing freely without interference from the board, so the robot can simply open the cabinet directly."
+            },
+            "answer": "B",
+            "correct": false
+        }
+    ]
+}

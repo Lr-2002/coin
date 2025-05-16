@@ -1,0 +1,63 @@
+{
+    "instruction": "Slide a cube down a slope to the marker ",
+    "query": {
+        "query": "Where should the block be placed to slide to target position?",
+        "selection": {
+            "A": "A",
+            "B": "B"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The block should be placed at position A to slide down the slope to the target position. Placing it at B would likely cause it to slide off the side."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000106.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The robot arm is currently holding the red block. The task is to slide the block down the slope to the target position. Based on the images, the block should be placed at position A to slide down the slope towards the target."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000240.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the block being placed on the right side of the slope (A) and then sliding down to the target position."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000291.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the block being placed on the slope and sliding down to the target. The block is placed at position A on the slope to slide to the target."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

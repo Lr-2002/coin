@@ -1,0 +1,31 @@
+{
+    "instruction": "open the door",
+    "query": {
+        "query": "What is the main challenge in opening this door?",
+        "selection": {
+            "A": "The door is unreachable",
+            "B": "The door is too heavy to be opened directly",
+            "C": "There is an obstacle blocking the door's path"
+        }
+    },
+    "ground_truth": "C",
+    "response_num": 1,
+    "answers": [
+        "C"
+    ],
+    "correct": [
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000091.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "From the images, the large blue block (and possibly the red object) is situated directly in the swing path of the door, preventing it from fully opening."
+            },
+            "answer": "C",
+            "correct": true
+        }
+    ]
+}

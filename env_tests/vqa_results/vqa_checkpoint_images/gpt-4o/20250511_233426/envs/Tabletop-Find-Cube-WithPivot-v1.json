@@ -1,0 +1,85 @@
+{
+    "instruction": "Move the heavy cube to the goal region",
+    "query": {
+        "query": "which cube is heavier",
+        "selection": {
+            "A": "A",
+            "B": "B"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 6,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the checkpoint observation image, the blue cube is positioned on the left side of the seesaw and causes it to tilt downward, indicating that the blue cube is heavier than the yellow cube on the right side. Since cube A is located in the same position as the blue cube in the query image, cube A is heavier."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000126.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the observations, the robot arm interacts with a seesaw-like platform. At step 000000, the blue cube is positioned on the left side of the platform, causing it to tilt downward. At step 000126, the robot arm places the beige cube on the right side of the platform, which tilts downward on that side, indicating that the beige cube is heavier than the blue cube. In the query image, cube A is positioned where the heavier beige cube was placed in the observations. Therefore, cube A is heavier."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000165.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the checkpoint observations, the robotic arm is interacting with cube A and placing it on the lever. The lever tilts significantly under the weight of cube A, indicating that it is heavier than cube B. Cube B does not appear to cause any noticeable tilt in the lever when placed. Therefore, cube A is heavier."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000230.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the checkpoint observations, the robotic arm interacts with a seesaw-like structure. The heavier cube causes the seesaw to tilt downward on its side. In step '000165', the beige cube (A) is placed on one side of the seesaw, causing it to tilt downward, indicating that cube A is heavier than cube B. This conclusion is consistent with the physics of the seesaw mechanism."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000281.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the checkpoint observations, the robotic arm interacts with a seesaw-like structure. At step 000230, the blue cube is placed on the left side of the seesaw, causing it to tilt downward, indicating that the blue cube is heavier than the yellow cube on the right side. Since cube A is positioned where the blue cube was in the query image, it is reasonable to conclude that cube A is heavier."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000290.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the checkpoint observations, the robotic arm is interacting with a blue cube, which is positioned on a seesaw-like platform. The platform tilts downward on the side of the blue cube, indicating that the blue cube is heavier than the beige cube on the opposite side. In the query image, cube A is positioned similarly to the blue cube in the checkpoint observations, suggesting that cube A is heavier than cube B."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "instruction": "Stack all things on the table",
+    "query": {
+        "query": "Which book should be stacked on top of the other?",
+        "selection": {
+            "A": "The red book should be placed on top of the green book",
+            "B": "The green book should be placed on top of the red book"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "B"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The red book is already placed on the table, and the green book is positioned next to it. To stack all items, the green book should be placed on top of the red book, as stacking involves placing one item on top of another."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000082.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the observations, the robotic arm is interacting with the red book and positioning it above the green book. This suggests that the red book is intended to be stacked on top of the green book to complete the task of stacking all items on the table."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000417.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the observations, the robot arm is seen manipulating the green book and attempting to place it on top of the red book. This indicates that the stacking order should have the red book at the bottom and the green book on top. However, the query image shows both books unstacked, suggesting the task is incomplete. To fulfill the stacking task, the red book should be placed on top of the green book to ensure all items are stacked."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000528.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the observations at steps 000417 and 000528, the green book is consistently placed on top of the red book during the stacking process. This indicates that the intended stacking order is for the green book to be placed on top of the red book."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

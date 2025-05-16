@@ -1,0 +1,63 @@
+{
+    "instruction": "Slide a cube down a slope to the marker ",
+    "query": {
+        "query": "Where should the block be placed to slide to target position?",
+        "selection": {
+            "A": "A",
+            "B": "B"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The block should be placed at position A to slide down the slope towards the target position. Placing it at position B would not allow it to slide down the slope."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000106.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the block being placed on the right side of the slope (A) and then sliding down to the target position. Therefore, the block should be placed at A."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000240.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The block is currently on the slope. To slide to the target position, it should be placed at position A, which is closer to the target."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000291.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000240, the block is on the slope. In the image at step 000291, the block has slid down the slope to the target position. Therefore, the block should be placed at position A to slide to the target position."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

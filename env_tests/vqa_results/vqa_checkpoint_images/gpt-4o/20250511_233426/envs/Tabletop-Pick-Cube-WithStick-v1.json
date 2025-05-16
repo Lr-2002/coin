@@ -1,0 +1,108 @@
+{
+    "instruction": "Use the stick to move the small cube along the T-shaped path to the target position ",
+    "query": {
+        "query": "Why we need a stick to move the cube?",
+        "selection": {
+            "A": "Because the cube is too small and the path is too narrow",
+            "B": "Because the cube is too heavy to move",
+            "C": "Because the cube is too slippery"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 8,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show a narrow T-shaped path where the small cube needs to be moved. The cube is positioned within the narrow confines of the path, making it difficult for the robotic arm to directly manipulate it without a tool. The stick is used to push the cube along the path, as its small size and the narrowness of the path prevent direct handling by the robotic arm."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000052.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show that the cube is positioned within a narrow T-shaped path, which makes it difficult for the robotic arm to directly grasp or manipulate the cube due to its small size and the confined space. The stick is used to push the cube along the path to the target position, as it can fit into the narrow space and provide precise control over the cube's movement."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000102.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show that the cube is being moved along a narrow T-shaped path. The stick is used to precisely push the cube through the confined space, which would be difficult to achieve directly with the robotic arm due to the small size of the cube and the narrowness of the path. This indicates that the stick is necessary for maneuvering the cube in such a constrained environment."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000204.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show that the cube is being moved along a narrow T-shaped path, which is confined and does not allow direct manipulation by the robotic arm. The stick is used to push the cube through the narrow path, as the cube is small and the path's dimensions make it challenging for the robotic arm to directly grasp or maneuver the cube effectively."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000275.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show that the cube is being moved along a narrow T-shaped path, which is confined and requires precision. The stick is used to push the cube because the cube is small and the path is too narrow for the robotic arm to directly manipulate it without the aid of the stick. There is no indication that the cube is heavy or slippery, as the stick is effectively moving it along the path."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000372.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show that the cube is small and positioned within a narrow T-shaped path. The stick is used to precisely push the cube along the confined path to the target position, which would be difficult to achieve using the robotic arm directly due to the limited space and precision required. There is no indication that the cube is heavy or slippery, so the stick is necessary primarily because of the cube's small size and the narrowness of the path."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000524.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the cube being moved along a narrow T-shaped path using a stick. The stick is necessary because the cube is small and the path is too narrow for the robotic arm to directly manipulate the cube without the stick. The stick allows precise control to push the cube through the confined space of the path."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000525.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show that the cube is being moved along a narrow T-shaped path, which is confined and requires precise manipulation. The stick is used to push the cube because the cube is small and the path is too narrow for direct manipulation by the robotic arm. The stick provides the necessary precision and reach to move the cube effectively within the constraints of the path."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

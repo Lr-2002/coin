@@ -1,0 +1,85 @@
+{
+    "instruction": "Merge ball and boxs up ",
+    "query": {
+        "query": "which box is to be inserted",
+        "selection": {
+            "A": "Box A",
+            "B": "Box B"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 6,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "B",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the image, Box A is the one that is closer to the ball and the robot arm is approaching it. Therefore, Box A is the one to be inserted."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000076.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000076, the ball is already inside Box A. Therefore, Box A is the box that the ball is to be inserted into."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000121.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the images, the robot arm is manipulating the box labeled A to insert the ball into it."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000153.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the last image, the robot arm is close to the box A. So the box A is to be inserted."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000178.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the images, the robot arm is moving towards box B to insert the ball into it. Box A is already occupied by the ball."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000185.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the images, the robotic arm is picking up and moving box A. Therefore, box A is the one to be inserted."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

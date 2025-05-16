@@ -1,0 +1,118 @@
+{
+    "instruction": "find the cube in the cabinet and pick it up",
+    "query": {
+        "query": "Where is the cube?",
+        "selection": {
+            "A": "In the drawer",
+            "B": "In the cabinet"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 9,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The high-level task instruction is to find the cube in the cabinet and pick it up. Therefore, the cube is in the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000123.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The high-level task instruction is to find the cube in the cabinet and pick it up. Therefore, the cube is in the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000224.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The high-level task instruction is to find the cube in the cabinet and pick it up. Therefore, the cube is in the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000490.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The cube is inside the cabinet. The robot arm is reaching into the cabinet to pick it up."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000535.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The robot arm is reaching into the cabinet. In the last image, the robot arm is holding a red cube inside the cabinet. Therefore, the cube is in the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000662.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The high-level task instruction is to find the cube in the cabinet and pick it up. The images show the robot arm near the cabinet. Therefore, the cube is in the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000697.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The high-level task instruction is to find the cube in the cabinet and pick it up. The image shows the robot arm near the cabinet. Therefore, the cube is in the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000753.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The robot arm is near the cabinet. The task instruction is to find the cube in the cabinet and pick it up. Therefore, the cube is in the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000763.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The high-level task instruction is to find the cube in the cabinet and pick it up. The image shows the robot arm near a cabinet. Therefore, the cube is likely in the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

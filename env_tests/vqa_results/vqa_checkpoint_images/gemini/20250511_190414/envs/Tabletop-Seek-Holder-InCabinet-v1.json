@@ -1,0 +1,129 @@
+{
+    "instruction": "Find the holder containing an eraser the cabinet, put it to the marker",
+    "query": {
+        "query": "Which holder has a eraser?",
+        "selection": {
+            "A": "A",
+            "B": "B"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 10,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the image, holder A contains a blue object that looks like an eraser."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000059.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The query image shows that holder A has a blue eraser inside it."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000247.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the query image, holder A contains an eraser."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000331.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the query image, holder A has a blue eraser inside."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000659.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the query image, holder A contains a blue eraser."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000808.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the query image, holder A contains an eraser."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000963.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the query image, holder A has a visible eraser inside."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "001117.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the query image, holder A contains a blue eraser."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "001149.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the query image, holder A contains a blue eraser."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "001151.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the query image, holder A has a blue eraser inside."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

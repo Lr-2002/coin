@@ -1,0 +1,118 @@
+{
+    "instruction": "move the cube to the marker and put the holder on the cube ",
+    "query": {
+        "query": "What's the best sequence of actions for this task?",
+        "selection": {
+            "A": "Move the cube to the marker first, then place the holder on top",
+            "B": "Move the holder first, then place the cube to the marker, finally put the holder on the cube"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 9,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The task requires moving the cube to the marker and then placing the holder on top of the cube. Based on the images, the cube is currently not on the marker, but the marker is clearly visible and accessible. Moving the cube to the marker first establishes the base for the holder to be placed on top. Option B suggests moving the holder first, which is unnecessary and complicates the sequence, as the holder needs to be placed on the cube after it is positioned on the marker. Therefore, the best sequence is to move the cube to the marker first and then place the holder on top, as described in Option A."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000035.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The high-level task requires moving the cube to the marker and then placing the holder on top of the cube. Observing the images, the cube is initially separate from the marker, and the holder is already positioned on the marker. To complete the task efficiently, the cube should first be moved to the marker, aligning it with the holder's position. Afterward, the holder can be placed on top of the cube. This sequence ensures the task is completed logically and avoids unnecessary repositioning of the holder."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000102.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The task requires moving the cube to the marker and then placing the holder on top of the cube. Based on the observations, the cube is initially separate from the marker, and the holder is already near the marker. The logical sequence is to move the cube to the marker first, as this establishes the base for the holder. Once the cube is correctly positioned at the marker, the holder can be placed on top of the cube to complete the task. This sequence avoids unnecessary repositioning and ensures the task is completed efficiently."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000142.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The task requires moving the cube to the marker and then placing the holder on top of the cube. Based on the observations, the cube is small and lightweight, making it easier to move first to the marker. Once the cube is positioned correctly, the holder can then be placed on top of it. This sequence ensures that the cube is properly aligned with the marker before the holder is added, avoiding unnecessary repositioning or adjustments. Option B unnecessarily complicates the process by moving the holder first, which does not align with the task's logical flow."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000171.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The task requires moving the cube to the marker and then placing the holder on top of the cube. Observing the sequence of images, the robot first moves the cube closer to the marker (step 000142) and then places the holder on top of the cube (step 000171). This sequence aligns with option A, which specifies moving the cube to the marker first and then placing the holder on top. Option B suggests moving the holder first, which is not consistent with the observed actions in the images."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000206.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The task requires moving the cube to the marker and then placing the holder on top of the cube. Observing the sequence of images, the robot first moves the cube to the marker (step 000171) and then places the holder on top of the cube (step 000206). This sequence aligns with Option A, which specifies moving the cube to the marker first and then placing the holder on top. Option B suggests moving the holder first, which is not consistent with the observed sequence of actions."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000272.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The task requires moving the cube to the marker and then placing the holder on top of the cube. Observing the sequence of images, the cube is first moved to the marker (step 000171), and then the holder is placed on top of the cube (step 000272). This sequence aligns with option A, which specifies moving the cube first and then placing the holder on top. Option B suggests moving the holder first, which is not consistent with the observed sequence of actions."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000299.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the task instruction and the sequence of images, the robot first moves the cube to the marker (step 000206 and 000272 show the cube being manipulated and placed on the marker). Then, the holder is placed on top of the cube (step 000299 shows the holder successfully placed on the cube at the marker). This sequence aligns with the task instruction to move the cube to the marker first and then place the holder on top. Option B suggests moving the holder first, which contradicts the observed sequence and the task instruction."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000303.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The task instruction specifies moving the cube to the marker first and then placing the holder on top of the cube. The images show the robotic arm successfully moving the cube to the marker and then placing the holder on top of the cube. This sequence aligns with the task requirements, making Option A the correct choice. Option B involves moving the holder first, which contradicts the task instruction and would not achieve the desired outcome efficiently."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

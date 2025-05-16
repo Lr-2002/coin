@@ -1,0 +1,63 @@
+{
+    "instruction": "move all the balls into the dustpan as fast as you can ",
+    "query": {
+        "query": "What is the most efficient way to collect all the balls?",
+        "selection": {
+            "A": "Pick the balls to the dustpan one by one",
+            "B": "Use the pivot to collect all the balls"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show a pivot tool positioned near the balls and the dustpan. Using the pivot to sweep all the balls into the dustpan simultaneously is the most efficient method, as it avoids the time-consuming process of picking up each ball individually. The pivot is designed to handle multiple objects at once, making it faster and more effective for this task."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000080.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show that the robotic arm is using a pivoting motion with the blue tool to sweep multiple balls into the dustpan simultaneously. This approach is more efficient than picking up the balls one by one, as it allows the robot to collect several balls in a single motion. The dustpan is positioned to receive the balls, and the sweeping action ensures that most of the balls are gathered quickly. Therefore, using the pivot to collect all the balls is the most efficient method."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000124.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show that the robotic arm is using a pivoting motion with a tool (likely a brush or similar object) to sweep multiple balls into the dustpan at once. This method is clearly more efficient than picking up the balls one by one, as it allows the robot to collect several balls simultaneously in a single motion. The pivoting approach minimizes the number of movements required and speeds up the task completion, making it the most efficient way to collect all the balls."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000136.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show that the robot arm is using a pivoting motion with the dustpan to efficiently collect multiple balls at once. This approach allows the robot to sweep the balls into the dustpan in a single motion, rather than picking them up one by one, which would be slower and less efficient. The query image also suggests that the balls are scattered in a way that makes sweeping them into the dustpan using the pivot the most effective method."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "instruction": "close the door",
+    "query": {
+        "query": "What should be done first to close the door?",
+        "selection": {
+            "A": "Grasp and move the bowl",
+            "B": "Push the door handle directly"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 5,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the image, there is a bowl blocking the door from closing. Therefore, the first step to close the door is to grasp and move the bowl."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000075.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The bowl is blocking the door from closing. Therefore, the bowl should be moved first before the door can be closed."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000141.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The bowl is blocking the door from closing. Therefore, the bowl should be grasped and moved first."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000247.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The image shows the door is slightly open, and there is a bowl in front of the door. To close the door, the robot should push the door handle directly. Moving the bowl is not the first step to close the door."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000259.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The door is already partially closed. The robot should push the door handle directly to close the door completely. Moving the bowl is not necessary for closing the door."
+            },
+            "answer": "B",
+            "correct": false
+        }
+    ]
+}

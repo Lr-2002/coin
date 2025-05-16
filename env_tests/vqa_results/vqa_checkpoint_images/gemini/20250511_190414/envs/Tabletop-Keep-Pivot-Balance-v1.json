@@ -1,0 +1,74 @@
+{
+    "instruction": "Balance the long board on the triangular prism and place the cubes to maintain balance",
+    "query": {
+        "query": "which cube is heavier",
+        "selection": {
+            "A": "Cube A",
+            "B": "Cube B"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 5,
+    "answers": [
+        "A",
+        "B",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        false,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The board is balanced on the triangular prism. Cube A is closer to the center of the board, so it must be heavier than cube B to maintain balance."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000165.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The board is tilted towards cube B, which means cube B is heavier than cube A."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000203.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The board is balanced, but cube A is closer to the center (the triangular prism). Therefore, to balance the board, cube A must be heavier than cube B."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000238.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The board is balanced on the triangular prism. Cube A is closer to the fulcrum (the triangular prism) than Cube B. To balance the board, the cube closer to the fulcrum must be heavier. Therefore, Cube A is heavier than Cube B."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000306.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The board is tilted towards cube A, which means cube A is heavier than cube B."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

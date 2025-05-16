@@ -1,0 +1,63 @@
+{
+    "instruction": "Stack all things on the table",
+    "query": {
+        "query": "Which book should be stacked on top of the other?",
+        "selection": {
+            "A": "The red book should be placed on top of the green book",
+            "B": "The green book should be placed on top of the red book"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+        "A",
+        "A",
+        "B",
+        "B"
+    ],
+    "correct": [
+        false,
+        false,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The robot arm is currently holding the green book and moving towards the red book. This indicates that the green book will be placed on top of the red book, meaning the red book should be placed on the bottom."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000082.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000082, the robotic arm is holding the green book above the red book, indicating that the red book is intended to be the base and the green book will be placed on top of it. Therefore, the red book should be placed on the bottom."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000417.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the image at step 000417, the robotic arm is placing the green book on top of the red book. Therefore, the green book should be placed on top of the red book."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000528.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the image at step 000528, the green book is being placed on top of the red book. Therefore, the green book should be placed on top of the red book."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

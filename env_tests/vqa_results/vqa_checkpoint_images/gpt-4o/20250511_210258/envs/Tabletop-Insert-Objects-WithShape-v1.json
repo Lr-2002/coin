@@ -1,0 +1,97 @@
+{
+    "instruction": "insert all the stick on the table into corresponding holes",
+    "query": {
+        "query": "Which hole is for the cylinder?",
+        "selection": {
+            "A": "A hole",
+            "B": "B hole",
+            "C": "C hole"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 7,
+    "answers": [
+        "B",
+        "A",
+        "A",
+        "A",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The cylinder shape matches the circular hole labeled as 'B'. The other holes, 'A' and 'C', are designed for different shapes: 'A' is rectangular and 'C' is triangular, which do not correspond to the cylindrical object."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000042.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The cylinder is a round object, and the hole labeled 'A' is circular in shape, which matches the geometry of the cylinder. Observing the images at steps '000000' and '000042', the cylinder is positioned near the circular hole, further suggesting that 'A' is the correct hole for the cylinder."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000044.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The cylinder is a round object, and the hole labeled 'A' is circular, matching the shape of the cylinder. Observing the images, the cylinder is positioned near the circular hole 'A', indicating that this hole is intended for the cylinder."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000165.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the observations, the cylinder is the round object visible on the table. The corresponding hole for the cylinder is the circular hole, which is labeled as 'A' in the query image. The other holes (B and C) are shaped differently and do not match the cylinder's geometry."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000212.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the sequence of images, the cylinder is consistently shown as a round object. Observing the holes in the query image, the hole labeled 'B' is circular and matches the shape of the cylinder. The other holes, 'A' and 'C', are not circular and are designed for different shapes (rectangular and triangular, respectively). Therefore, the cylinder fits into the 'B' hole."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000270.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the checkpoint observations, the cylinder is seen being manipulated and inserted into the circular hole. The circular hole corresponds to the 'B' hole in the query image, as it matches the shape of the cylinder. The 'A' hole is rectangular, and the 'C' hole is triangular, neither of which fits the cylinder's shape."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000354.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the provided sequence of images, the cylinder is clearly shown being inserted into the middle hole of the block. This corresponds to the 'B' hole in the query image, as it is the central hole in the block. The other holes ('A' and 'C') are shaped differently and are not suitable for the cylinder."
+            },
+            "answer": "B",
+            "correct": false
+        }
+    ]
+}

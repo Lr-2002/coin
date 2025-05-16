@@ -1,0 +1,64 @@
+{
+    "instruction": "rotate the cube till the green face upward",
+    "query": {
+        "query": "Where is the green face?",
+        "selection": {
+            "A": "On the top of the cube",
+            "B": "On the side of the cube",
+            "C": "On the bottom of the cube"
+        }
+    },
+    "ground_truth": "C",
+    "response_num": 4,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the provided images, the green face of the cube is clearly visible on the side of the cube, not on the top or bottom. The top face is blue, and the bottom face is not visible, but the green face is distinctly on the side."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000074.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the query image, the green face of the cube is clearly visible on the side of the cube. The top face is blue, and the bottom face is not visible, but the green face is distinctly on the side."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000118.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the query image, the green face of the cube is visible on the side of the cube. The top face is yellow, and the bottom face is not visible but was previously blue in the earlier observations."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000179.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the query image, the green face of the cube is visible on the side of the cube. This is consistent with the manipulation process observed in the previous checkpoint images, where the robot arm rotated the cube but did not place the green face on the top or bottom."
+            },
+            "answer": "B",
+            "correct": false
+        }
+    ]
+}

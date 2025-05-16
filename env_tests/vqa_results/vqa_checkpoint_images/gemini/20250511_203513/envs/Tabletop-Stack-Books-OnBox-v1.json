@@ -1,0 +1,63 @@
+{
+    "instruction": "Stack all things on the table",
+    "query": {
+        "query": "Which book should be stacked on top of the other?",
+        "selection": {
+            "A": "The red book should be placed on top of the green book",
+            "B": "The green book should be placed on top of the red book"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+        "A",
+        "A",
+        "B",
+        "B"
+    ],
+    "correct": [
+        false,
+        false,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The image shows the robot arm picking up the green book and placing it on top of the red book. Therefore, the red book should be placed on the bottom and the green book on top."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000082.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the images, the green book is initially on top of the box, and the red book is then placed on top of the green book. Therefore, the red book should be placed on top of the green book."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000417.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the images, the green book is picked up and placed on top of the red book. Therefore, the green book should be placed on top of the red book."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000528.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the images, the green book is placed on top of the red book. The robot first picks up the green book and then places it on the red book."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

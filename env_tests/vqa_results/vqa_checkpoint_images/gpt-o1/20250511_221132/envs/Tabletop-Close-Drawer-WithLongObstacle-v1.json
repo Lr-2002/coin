@@ -1,0 +1,85 @@
+{
+    "instruction": "close the drawer",
+    "query": {
+        "query": "What's the best approach to close the drawer?",
+        "selection": {
+            "A": "Push the drawer directly",
+            "B": "Remove the red obstacle first, then close the drawer"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 6,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Based on the images, there is a red obstacle extending out from the top of the drawer that would block the drawer from fully closing. Therefore, the best approach is to first remove the red obstacle before pushing the drawer shut."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000041.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the images, the red object on the top of the drawer protrudes and would interfere, so removing it before attempting to push the drawer closed is the most reliable approach."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000103.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The red object is protruding above the drawer opening, so forcing the drawer shut may cause a jam. Removing the obstacle first ensures the drawer can then be safely closed."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000180.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The red obstruction blocks a direct push on the drawer. Removing that item clears the path and allows for a proper closing of the drawer."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000251.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The red object is obstructing the drawer\u2019s path, so the robot must remove it first before pushing the drawer closed."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000270.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The red block is obstructing the drawer\u2019s path, so it should be removed first before closing the drawer."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

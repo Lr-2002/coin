@@ -1,0 +1,41 @@
+{
+    "instruction": "find the dice which have 2 and 4 point in the corresponding face and put it on the marker",
+    "query": {
+        "query": "which dice has 2 and 4 point in the corresponding face",
+        "selection": {
+            "A": "A",
+            "B": "B"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 2,
+    "answers": [
+        "A",
+        "B"
+    ],
+    "correct": [
+        true,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, the white die (A) shows the faces with 2 and 4 pips, while the red one (B) does not."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000196.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the final images, the red die (labeled \u2018B\u2019) clearly shows the two and four faces in view; that is the one the robot picked and placed on the marker."
+            },
+            "answer": "B",
+            "correct": false
+        }
+    ]
+}

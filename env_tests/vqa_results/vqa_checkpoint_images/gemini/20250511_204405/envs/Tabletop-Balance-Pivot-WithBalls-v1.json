@@ -1,0 +1,174 @@
+{
+    "instruction": "Put the balls in to the holder to balance the long board on the triangular prism",
+    "query": {
+        "query": "How many balls can make the pivot balance?",
+        "selection": {
+            "A": "4",
+            "B": "5",
+            "C": "6"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 14,
+    "answers": [
+        "C",
+        "C",
+        "C",
+        "B",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "In the image, there are 6 balls placed on one side of the board. The task is to balance the board, so 6 balls are used to make the pivot balance."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000059.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "In the last image, we can see that there are 6 balls placed on the right side of the pivot."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000063.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "In the last image, there are 6 balls lined up next to the board. The task is to put the balls into the holder to balance the board. Therefore, 6 balls can make the pivot balance."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000122.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Based on the image at step 000122, there are 5 balls in the holder. The task is to balance the long board on the triangular prism by putting the balls in the holder. Therefore, 5 balls can make the pivot balance."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000167.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "In the image at step 000167, we can see that there are 6 balls placed on the right side of the pivot. The board is balanced with the green cube on the left side and the 6 balls on the right side."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000194.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "In the last image, all 6 balls are placed on the left side of the pivot, and the board is balanced. Therefore, 6 balls can make the pivot balance."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000237.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "Based on the image at step 000237, there are 6 balls lined up next to the pivot. The question asks how many balls can make the pivot balance, and since all 6 are present and potentially could be used, the answer is 6."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000265.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "In the last image, there are 6 balls placed next to the pivot. The task is to balance the long board on the triangular prism, so the number of balls that can make the pivot balance is 6."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000313.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "In the last image, there are 6 balls placed next to the board."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000334.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "The query image shows 6 balls lined up next to the board. These balls are likely to be used to balance the board."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000399.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "In the last image, there are 6 balls placed next to the board. The task is to balance the board, so the number of balls that can make the pivot balance is 6."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000467.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "In the last image, there are 6 balls lined up next to the board. The task is to balance the board, so the question is asking how many balls are needed to balance the board. Therefore, the answer is 6."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000525.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "In the last image, there are 6 balls placed on the right side of the pivot. The task is to balance the long board on the triangular prism by putting the balls into the holder. So, 6 balls can make the pivot balance."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000532.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "In the last image, there are 6 balls lined up next to the balanced pivot. Therefore, 6 balls can make the pivot balance."
+            },
+            "answer": "C",
+            "correct": false
+        }
+    ]
+}

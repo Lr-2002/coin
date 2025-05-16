@@ -1,0 +1,74 @@
+{
+    "instruction": "close the drawer",
+    "query": {
+        "query": "What should do first before closing the drawer?",
+        "selection": {
+            "A": "Open the cabinet",
+            "B": "Move the stick away"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 5,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "There is an obstructing item (the red stick) in the drawer, so it needs to be moved out of the way before the drawer can be smoothly closed."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000069.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The red stick lies inside the drawer, preventing it from closing. The first action should be to move that object away before attempting to close the drawer."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000120.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the images, there is a red stick obstructing the drawer; it must be moved away first before closing the drawer."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000184.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the images, the red stick is still inside the open drawer. Before closing it, the robot should first move the stick away to prevent interference."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000189.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The object (stick) in the drawer needs to be removed or moved out of the way first so the drawer can be closed properly."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

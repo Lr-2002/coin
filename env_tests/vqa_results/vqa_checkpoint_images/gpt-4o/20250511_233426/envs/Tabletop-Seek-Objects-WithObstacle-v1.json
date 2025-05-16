@@ -1,0 +1,118 @@
+{
+    "instruction": "find the cube in the cabinet and pick it up",
+    "query": {
+        "query": "Where is the cube?",
+        "selection": {
+            "A": "In the drawer",
+            "B": "In the cabinet"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 9,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The task instruction specifies finding the cube in the cabinet. The images show the robot interacting with the cabinet, including opening its door, which indicates that the cube is located inside the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000123.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The task instruction specifies finding the cube in the cabinet. The observations show the robotic arm interacting with the cabinet door, indicating that the cube is located inside the cabinet. There is no evidence of interaction with a drawer in the images."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000224.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show the robotic arm interacting with the cabinet, specifically opening its door and reaching inside. This indicates that the cube is located in the cabinet, as the task instruction was to find the cube and the robot's actions are focused on the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000490.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the observation at step 000490, the cube is clearly visible inside the cabinet, as the robot has opened the cabinet door and the red cube is located on the shelf inside. This matches the query image showing the cabinet as the location of interest."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000535.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the checkpoint observations, the cube is clearly visible inside the cabinet at step 000490. By step 000535, the robotic arm has picked up the cube, but the cube was originally located in the cabinet. The query image shows the cabinet closed, but based on the observations, the cube was in the cabinet before being picked up."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000662.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the observations at steps 000535 and 000662, the cube is clearly visible inside the cabinet. The robot arm interacts with the cabinet and picks up the cube from inside it. The query image shows the cabinet closed, but based on the previous observations, the cube was located inside the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000697.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In both checkpoint observations (steps '000662' and '000697'), the cube is clearly visible inside the cabinet, as the cabinet door is open and the robotic arm is interacting with the cube. The cube is not in a drawer, as the images show the cabinet and not a drawer structure. The query image also confirms the presence of the cabinet, reinforcing that the cube is located inside the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000753.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the observations at steps 000697 and 000753, the robotic arm is interacting with the cabinet, and the cube is visible being picked up from inside the cabinet. The query image shows the cabinet closed, but based on the manipulation process observed, the cube was located inside the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000763.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the checkpoint observations, the robotic arm is interacting with the cabinet, specifically reaching inside it. The cube is visible near the robotic arm inside the cabinet, confirming its location. The query image also shows the cabinet, which aligns with the task instruction to find the cube in the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

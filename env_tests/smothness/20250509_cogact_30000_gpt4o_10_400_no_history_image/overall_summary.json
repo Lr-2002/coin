@@ -1,0 +1,24 @@
+{
+    "total_trajectories": 508,
+    "average_trajectory_length": 405.40944881889766,
+    "average_unchanged_action_percentage": 0.0,
+    "average_processed_length": 395.40944881889766,
+    "smoothness_metrics": {
+        "mean_jerk": {
+            "mean": 64.85103607177734,
+            "std": 44.76603317260742
+        },
+        "dimensionless_jerk": {
+            "mean": 7193940937400.136,
+            "std": 6193697818069.713
+        },
+        "velocity_smoothness": {
+            "mean": -0.23608650267124176,
+            "std": 0.08926677703857422
+        },
+        "spectral_arc_length": {
+            "mean": -7.442919284845912,
+            "std": 0.7287094778584196
+        }
+    }
+}

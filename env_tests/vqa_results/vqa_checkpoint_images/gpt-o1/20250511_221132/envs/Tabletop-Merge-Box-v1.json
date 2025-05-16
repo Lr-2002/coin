@@ -1,0 +1,48 @@
+{
+    "instruction": "Merge ball and boxs up ",
+    "query": {
+        "query": "which box is to be inserted",
+        "selection": {
+            "A": "Box A",
+            "B": "Box B"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 3,
+    "answers": [
+        "B",
+        "A",
+        null
+    ],
+    "correct": [
+        true,
+        false,
+        null
+    ],
+    "final_correct": null,
+    "image_responses": [
+        {
+            "image_filename": "000121.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the final frames, the robot is clearly gripping and positioning the rearmost box (labeled B). Thus, Box B is the one being inserted."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000178.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the final images, the robot is positioned to grasp and insert the smaller front cube (Box A). It is clearly the one being manipulated in the final frames."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000185.png",
+            "raw_response": "{\n  \"answer\": \"B\",\n  \"reasoning\": \"From the final arrangement, the larger top cube (Box B) is the one designated for",
+            "error": "Could not extract JSON from response"
+        }
+    ]
+}

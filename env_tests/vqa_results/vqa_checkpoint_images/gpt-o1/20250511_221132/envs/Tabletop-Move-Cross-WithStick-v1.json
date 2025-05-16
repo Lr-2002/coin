@@ -1,0 +1,96 @@
+{
+    "instruction": "Use the stick to move the small cube along the cross-shaped path to the target position ",
+    "query": {
+        "query": "How should the robot navigate the cube through the T-junction?",
+        "selection": {
+            "A": "Push the cube to the junction with stick, then reposition the stick for the turn",
+            "B": "Directly pick up the cube to the target position"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 7,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The robot should push the cube along the path with the stick, then carefully reposition around the \u2018T\u2019 to continue pushing it toward the target."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000123.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, the robot is pushing the small cube with the stick along the path rather than picking it up, so it must reposition the stick at the junction in order to navigate the turn."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000172.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, it appears the robot needs to maneuver the cube along the designated cross-shaped path using the stick. At the T-junction, the appropriate strategy is to push the cube to the junction and then reposition the stick to change the direction of push, rather than lifting the cube straight to the end."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000209.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images and the instructions to use the stick along the path, the correct approach is to push the cube to the junction and then reposition the stick to guide it around the corner rather than picking it straight up."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000346.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The robot is meant to move the cube along the path with the stick, so it should push the cube up to the T-junction and then reposition the stick appropriately to guide it around the corner."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000419.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The task is to move the cube along the track with the stick. At the T-junction, the most practical approach is to push it to the corner, then re\u2010orient the stick so the robot can continue pushing the cube around the turn."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000430.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The stick is used to guide the cube along the path, so the correct navigation at the T-junction is to push it up to that corner and then reposition the stick behind the new direction before continuing."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

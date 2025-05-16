@@ -1,0 +1,64 @@
+{
+    "instruction": "move the cube to the marker",
+    "query": {
+        "query": "What's the best approach to move a cube with unpredictable friction?",
+        "selection": {
+            "A": "Lift the cube and directly place it to the target position",
+            "B": "Slide the cube while maintaining contact with the surface",
+            "C": "Pick up blocks, re-pick them up if it falls"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Given the unpredictable friction, sliding the cube (option B) might be unreliable. Picking up and re-picking up (option C) is inefficient. Lifting and directly placing (option A) is the most direct and potentially reliable approach, as it minimizes the impact of friction."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000050.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the images, the robot arm is positioned above the cube and the target. The task is to move the cube to the target. Option A, lifting the cube and directly placing it to the target position, seems like the most direct and efficient approach. Sliding the cube (option B) might be affected by unpredictable friction. Option C is not ideal, as it involves picking up blocks multiple times, which is inefficient."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000090.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The image shows the robot arm positioned above the target with the cube. This suggests the robot is about to place the cube directly onto the target. Lifting the cube and placing it directly is a more reliable approach when friction is unpredictable because it avoids the cube getting stuck or sliding uncontrollably due to varying friction."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000110.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The robot arm is shown picking up the cube and moving it towards the target position. This suggests that the best approach is to lift the cube and directly place it to the target position. Sliding the cube might be affected by unpredictable friction, and re-picking up the cube if it falls is not an efficient approach."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

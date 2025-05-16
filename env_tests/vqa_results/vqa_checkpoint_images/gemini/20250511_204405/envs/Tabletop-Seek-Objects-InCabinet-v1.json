@@ -1,0 +1,153 @@
+{
+    "instruction": "Find the apple and the plate in the cabinet, put them on the table",
+    "query": {
+        "query": "Where are the apple and plate?",
+        "selection": {
+            "A": "The apple is in the drawer, the plate is in cabinet",
+            "B": "The apple is in the cabinet, the plate is in drawer",
+            "C": "Both of the are in cabinet",
+            "D": "Both of the are in drawer"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 12,
+    "answers": [
+        "C",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "B",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "The task instruction is to find the apple and the plate in the cabinet. The images show the robot arm interacting with the cabinet, suggesting that both the apple and the plate are located inside the cabinet."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000058.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000058, we can see the robotic arm reaching into a drawer. Inside the drawer, there is a red apple. The plate is in the cabinet."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000369.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000369, the robot arm is interacting with the cabinet. Based on the high-level task instruction, the apple and plate should be inside the cabinet and drawer. From the query image, we can see the apple is in the drawer, so the plate should be in the cabinet."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000435.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000435, the robot arm is interacting with the cabinet. The query image shows the apple is in the drawer. Based on the high-level task instruction, the apple and plate are in the cabinet at the beginning. So the apple is in the drawer, the plate is in cabinet."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000633.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000633, the apple is in the drawer and the plate is in the cabinet."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "001013.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 001013, the apple is on the table near the drawer, and the plate is on the table near the cabinet. Therefore, the apple was in the drawer and the plate was in the cabinet."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "001365.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The apple is in the cabinet, and the plate is in the drawer. This is evident from the image at step 001365, where the apple is near the cabinet and the plate is in the drawer."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "001430.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "In the image at step 001430, we can see the apple and the plate are both in the cabinet."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "001546.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "In the image at step 001546, the apple is on the floor near the cabinet, and the robot arm is interacting with the cabinet. This suggests that the apple was retrieved from the cabinet. The plate is not visible in the image, but the task instruction is to put them on the table, so it is likely that the plate was also retrieved from the cabinet."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "001771.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "In the image at step 001771, both the apple and the plate are on the table, which means they were previously in the cabinet. The task instruction was to find the apple and the plate in the cabinet and put them on the table."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "002314.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "In the image at step 002314, the robot arm is interacting with an apple near a cabinet. The task instruction is to find the apple and the plate in the cabinet, put them on the table. So both of them are in the cabinet."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "002360.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "The task instruction is to find the apple and the plate in the cabinet and put them on the table. The image shows the robot arm picking up the apple from the table and placing it on the plate, which is also on the table. Therefore, both the apple and the plate were initially in the cabinet."
+            },
+            "answer": "C",
+            "correct": false
+        }
+    ]
+}

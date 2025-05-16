@@ -1,0 +1,63 @@
+{
+    "instruction": "Slide a cube down a slope to the marker ",
+    "query": {
+        "query": "Where should the block be placed to slide to target position?",
+        "selection": {
+            "A": "A",
+            "B": "B"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The slope is angled downward toward the target position, and the block needs to slide down the slope to reach the marker. Position B is closer to the edge of the slope and aligned with the direction of the target. Placing the block at position B ensures it will slide directly toward the marker when pushed or released."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000106.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The target position is located at the bottom of the slope, near the marker. To ensure the cube slides down the slope and reaches the target, it should be placed at position B, which is aligned with the slope's direction and allows gravity to move the cube toward the marker. Position A is not aligned with the slope and would not allow the cube to slide effectively toward the target."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000240.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "To slide the block to the target position, it needs to be placed at the top of the slope in position B. This ensures the block has enough momentum to slide down the slope and reach the marker at the bottom. Position A is too close to the edge and does not provide enough distance for the block to slide effectively to the target."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000291.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The target position is located at the bottom of the slope, near the marker. Observing the slope's incline and the cube's placement in the checkpoint image, it is evident that the cube needs to be placed on the steeper side of the slope (marked as 'B') to slide down directly to the target position. Placing the cube at 'A' would likely result in the cube sliding in a direction away from the target due to the slope's orientation."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

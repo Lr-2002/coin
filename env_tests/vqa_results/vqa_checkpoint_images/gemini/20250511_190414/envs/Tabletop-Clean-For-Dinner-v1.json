@@ -1,0 +1,74 @@
+{
+    "instruction": "Arrange the bowl, fork onto the plate, clean for dinner ",
+    "query": {
+        "query": "Which item should be placed on the plate first?",
+        "selection": {
+            "A": "The bowl",
+            "B": "The fork"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 5,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the robot arm picking up the bowl and placing it on the plate. The fork is still on the table. Therefore, the bowl is placed on the plate first."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000069.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The robot is currently holding the bowl and moving towards the plate. The fork is still on the table. Therefore, the bowl will be placed on the plate first."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000155.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image, the robot arm is holding the bowl above the plate. The fork is lying on the table. Therefore, the bowl will be placed on the plate first."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000230.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The robot arm is currently holding the bowl, and the fork is lying on the table. Therefore, the bowl should be placed on the plate first."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000258.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the images, the robotic arm is currently holding the bowl and is about to place it on the plate. The fork is on the table, so the bowl should be placed on the plate first."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

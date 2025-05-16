@@ -1,0 +1,53 @@
+{
+    "instruction": "find the cube which have red face downward, and put it on the marker with red face upward",
+    "query": {
+        "query": "which seal has red face downward",
+        "selection": {
+            "A": "A",
+            "B": "B",
+            "C": "C"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 3,
+    "answers": [
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the observation image, cube A has its red face downward, as visible from the orientation of the cube relative to the table surface. Cube B has an orange face downward, and cube C has a blue face downward. Thus, cube A is the correct choice."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000275.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the observation at step 000275, the robotic arm is holding a cube with the red face clearly visible on the bottom side. Comparing this cube's position and orientation with the query image, it corresponds to the cube labeled 'A'. Therefore, the seal with the red face downward is 'A'."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000305.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the checkpoint observations at steps '000275' and '000305', the robotic arm is interacting with a cube that has a red face downward. The close-up view confirms that the cube being manipulated has a red face on the bottom. In the query image, cube A matches the position and orientation of the cube that was manipulated, with its red face downward. Therefore, the seal with the red face downward is A."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

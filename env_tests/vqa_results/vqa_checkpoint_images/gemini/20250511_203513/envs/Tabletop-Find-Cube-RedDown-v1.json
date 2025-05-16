@@ -1,0 +1,53 @@
+{
+    "instruction": "find the cube which have red face downward, and put it on the marker with red face upward",
+    "query": {
+        "query": "which seal has red face downward",
+        "selection": {
+            "A": "A",
+            "B": "B",
+            "C": "C"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 3,
+    "answers": [
+        "B",
+        "C",
+        "A"
+    ],
+    "correct": [
+        true,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the image, cube B has a red face visible on the bottom. Cube A does not have a red face visible on the bottom. Cube C does not have a red face visible on the bottom."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000275.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "In the first image (step 000000), the robot picks up the cube that is on the marker. In the second image (step 000275), the cube is placed on the marker with the red face upward. Therefore, the cube that had the red face downward was the cube labeled C."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000305.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000000, the robot arm is picking up cube A. The image at step 000275 shows the robot arm placing the cube on the marker with the red face upward. Therefore, cube A initially had the red face downward."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

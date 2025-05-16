@@ -1,0 +1,64 @@
+{
+    "instruction": "move the cube to the marker",
+    "query": {
+        "query": "What's the best approach to move a cube with unpredictable friction?",
+        "selection": {
+            "A": "Lift the cube and directly place it to the target position",
+            "B": "Slide the cube while maintaining contact with the surface",
+            "C": "Pick up blocks, re-pick them up if it falls"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "B"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The image shows the robot arm positioned above the cube and the target. Lifting the cube and directly placing it to the target position is the most direct and efficient approach. Sliding the cube might be affected by unpredictable friction, and picking up the cube multiple times if it falls is inefficient."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000050.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the images, the robot arm picks up the cube and places it directly onto the target position. This corresponds to option A."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000090.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the images, the robot picks up the cube and places it directly on the target. This corresponds to option A. Option B is not shown in the images. Option C is not shown in the images, and it is not a good approach."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000110.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Based on the images, the robot arm appears to be sliding the cube along the surface towards the target. This suggests that option B, sliding the cube while maintaining contact with the surface, is the approach being used. Option A, lifting the cube, is not observed in the images. Option C is not relevant to the task."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

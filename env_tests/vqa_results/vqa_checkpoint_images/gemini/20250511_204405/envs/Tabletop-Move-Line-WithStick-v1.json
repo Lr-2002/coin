@@ -1,0 +1,86 @@
+{
+    "instruction": "Use the stick to move the small cube along the straight line path to the target position ",
+    "query": {
+        "query": "What approach should be used to move the cube along the path?",
+        "selection": {
+            "A": "Use the stick to push the cube",
+            "B": "Directly push the cube with continuous contact",
+            "C": "Pick the cube up and place it to the target"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 6,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The high-level task instruction is to use the stick to move the small cube along the straight line path to the target position. Therefore, the approach should be to use the stick to push the cube."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000066.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the robot arm holding a stick and using it to push the cube. The cube is being moved along a path defined by the two gray bars. Therefore, the approach being used is to push the cube with the stick."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000134.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the robot arm holding a stick and using it to push the cube. The task instruction is to use the stick to move the cube along the path. Therefore, the correct approach is to use the stick to push the cube."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000256.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the robot arm holding a stick and using it to push the cube. The cube is between two rails, so it can only move along the straight line path. Therefore, the approach used is to use the stick to push the cube."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000388.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the robot arm holding a stick and using it to push the cube towards the target. This indicates that the intended approach is to use the stick to push the cube."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000431.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the robot arm holding a stick and using it to push the cube. The task instruction is to use the stick to move the cube along the straight line path to the target position. Therefore, the correct approach is to use the stick to push the cube."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

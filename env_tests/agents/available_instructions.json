@@ -1,0 +1,23 @@
+{
+    "Tabletop-Close-Drawer-v1": "close the drawer",
+    "Tabletop-Open-Drawer-v1": "open the drawer",
+    "Tabletop-Close-Door-v1": "close the door",
+    "Tabletop-Pull-Pivot-v1": "pull the pivot to the target area",
+    "Tabletop-Pick-Pen-v1": "pick up the pen and put it to the marker",
+    "Tabletop-Put-Ball-IntoContainer-v1": "put the ball into the container ",
+    "Tabletop-Open-Cabinet-v1": "open the cabinet door",
+    "Tabletop-Rotate-Holder-v1": "rotate the holder till the hole upward",
+    "Tabletop-Open-Trigger-v1": "turn on the trigger",
+    "Tabletop-Rotate-Cube-v1": "rotate the cube till the blue face upward",
+    "Tabletop-Close-Cabinet-v1": "close the cabinet door",
+    "Tabletop-Stack-Cubes-v1": "stack all the cube",
+    "Tabletop-Pick-Book-FromShelf-v1": "Find and pick the book from the bookshelf and put it on the marker ",
+    "Tabletop-Open-Microwave-v1": "open the microwave",
+    "Tabletop-Close-Microwave-v1": "close the microwave",
+    "Tabletop-Pick-Bottle-v1": "pick up the bottle and put it on the marker",
+    "Tabletop-Pick-Apple-v1": "pick the apple to the marker",
+    "Tabletop-Open-Door-v1": "open the door ",
+    "Tabletop-Pick-Cube-ToHolder-v1": "pick up the cube, put it in the holder",
+    "Tabletop-Rotate-USB-v1": "Rotate the USB body for 90 degree with plug right ward ",
+    "Tabletop-Put-Fork-OnPlate-v1": "put the fork on the plate"
+}

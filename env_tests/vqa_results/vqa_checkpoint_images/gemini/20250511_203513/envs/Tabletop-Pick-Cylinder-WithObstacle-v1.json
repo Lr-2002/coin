@@ -1,0 +1,86 @@
+{
+    "instruction": "pick up the center cylinder",
+    "query": {
+        "query": "How to move the center cylinder to the goal?",
+        "selection": {
+            "A": "Pick up the center cylinder directly and move it to the goal",
+            "B": "Find the dynamic obstacle cylinders and push them away to move the center cylinder to the goal",
+            "C": "Put one of the dynamic cylinder to the goal"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 6,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The image shows the robotic arm attempting to pick up the center cylinder directly and move it to the goal. There are no dynamic obstacles mentioned or visible in the image that would require pushing them away. The task is to pick up the center cylinder and place it on the goal."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000076.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the robot arm picking up the center cylinder and moving it towards the goal location. Therefore, the correct answer is A."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000197.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show that the robot arm is able to directly pick up the center cylinder. Therefore, the most straightforward way to move the center cylinder to the goal is to pick it up and move it there."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000218.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show that the robot arm picks up the center cylinder and moves it towards the goal location. Therefore, the most appropriate answer is A."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000248.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the robot arm picking up the center cylinder and moving it to the goal location. Therefore, the answer is A."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000307.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the images, the robot arm picks up the center cylinder directly and moves it to the goal. The images show the robot arm approaching the cylinder, grasping it, and then lifting it up. The final image shows the cylinder being placed near the goal."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

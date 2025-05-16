@@ -1,0 +1,31 @@
+{
+    "instruction": "find the cube which have red face downward, and put it on the marker with red face upward",
+    "query": {
+        "query": "which seal has red face downward",
+        "selection": {
+            "A": "A",
+            "B": "B",
+            "C": "C"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 1,
+    "answers": [
+        "B"
+    ],
+    "correct": [
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the viewpoint, cube B appears to have an orange top, which typically pairs with red on the opposite face. Thus B is the one with its red side on the bottom."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

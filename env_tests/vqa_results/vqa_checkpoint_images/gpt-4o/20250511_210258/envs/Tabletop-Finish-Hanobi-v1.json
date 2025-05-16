@@ -1,0 +1,152 @@
+{
+    "instruction": "Place all the hanobi in big to small from bottom to up",
+    "query": {
+        "query": "What is the size order of the yellow, red, and blue hanoi?",
+        "selection": {
+            "A": "Yellow > Blue > Red",
+            "B": "Red > Yellow > Blue",
+            "C": "Blue > Yellow > Red"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 12,
+    "answers": [
+        "A",
+        "A",
+        "B",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "C",
+        "C",
+        "C"
+    ],
+    "correct": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the observation at step '000000', the yellow hanoi is visibly larger than the red and blue hanoi. The blue hanoi is larger than the red hanoi, but smaller than the yellow hanoi. Therefore, the size order is Yellow > Blue > Red."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000063.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the query image, the yellow hanoi is visibly the largest, followed by the blue hanoi, and the red hanoi is the smallest. This size order matches the arrangement observed in the task checkpoints, where the yellow hanoi is at the bottom, the blue hanoi is in the middle, and the red hanoi is at the top, consistent with the instruction to stack them from big to small."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000411.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The query image clearly shows the relative sizes of the hanoi rings. The red ring is the largest, followed by the yellow ring, and the blue ring is the smallest. This is consistent with the observations in the checkpoint images, where the robot manipulates the rings. In step 000411, the red ring is placed at the bottom, the yellow ring in the middle, and the blue ring on top, indicating their size order. Thus, the correct size order is Red > Yellow > Blue."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000720.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the query image, we can clearly see the size order of the hanoi rings. The yellow ring is the largest, followed by the blue ring, and the red ring is the smallest. This matches the size order: Yellow > Blue > Red."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "001415.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The query image clearly shows the relative sizes of the hanoi rings from a top-down perspective. The yellow ring is the largest, followed by the blue ring, and the red ring is the smallest. This matches the size order Yellow > Blue > Red."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "001765.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the robotic arm interacting with the yellow, red, and blue hanoi rings. From the observations, it is clear that the yellow ring is the largest, as it is visibly bigger in diameter compared to the other rings. The blue ring is medium-sized, and the red ring is the smallest. This is confirmed by the query image, where the rings are placed side by side, and their relative sizes are clearly visible. Therefore, the size order is Yellow > Blue > Red."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "001786.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the observations, the yellow hanoi is visibly larger than the red and blue hanoi. The red hanoi is smaller than the yellow but larger than the blue hanoi, which is the smallest. This is evident from the stacking process shown in the images, where the yellow hanoi is being placed at the bottom, followed by the red, and finally the blue at the top. The query image also confirms this size order visually."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "002089.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the observations, the yellow hanoi is visibly larger than the red and blue hanoi. The red hanoi is smaller than the yellow but larger than the blue hanoi, which is the smallest. This size order is confirmed by the relative sizes of the hanoi rings in the images, particularly when they are being manipulated by the robotic arm. Therefore, the correct size order is Yellow > Blue > Red."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "002184.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the observations, the yellow hanoi is visibly the largest, followed by the blue hanoi, and the red hanoi is the smallest. This is evident from their relative sizes when placed on the pegs and when the robotic arm manipulates them. The query image further confirms this size order."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "002628.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "The query image clearly shows the size order of the hanoi rings. The blue ring is the largest, followed by the yellow ring, and the red ring is the smallest. This matches the task instruction to arrange them from big to small, and the visual evidence confirms the size order as Blue > Yellow > Red."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "002841.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "The task involves arranging the hanoi rings in descending size order from bottom to top. Observing the final arrangement in step 002841, the blue ring is at the bottom, followed by the yellow ring, and the red ring is at the top. This indicates that the blue ring is the largest, the yellow ring is medium-sized, and the red ring is the smallest. Therefore, the size order is Blue > Yellow > Red."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "002864.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "The images show the robot stacking the hanoi rings in size order from bottom to top. At step 002628, the largest ring (blue) is placed at the bottom. At step 002841, the medium-sized ring (yellow) is placed on top of the blue ring. Finally, at step 002864, the smallest ring (red) is placed on top of the yellow ring. This confirms the size order as Blue > Yellow > Red."
+            },
+            "answer": "C",
+            "correct": false
+        }
+    ]
+}

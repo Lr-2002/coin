@@ -1,0 +1,153 @@
+{
+    "instruction": "Find the apple and the plate in the cabinet, put them on the table",
+    "query": {
+        "query": "Where are the apple and plate?",
+        "selection": {
+            "A": "The apple is in the drawer, the plate is in cabinet",
+            "B": "The apple is in the cabinet, the plate is in drawer",
+            "C": "Both of the are in cabinet",
+            "D": "Both of the are in drawer"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 12,
+    "answers": [
+        "A",
+        "D",
+        "D",
+        "D",
+        "B",
+        "B",
+        "D",
+        "B",
+        "A",
+        "D",
+        "D",
+        "B"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The query image clearly shows the apple located in the drawer. In the checkpoint observations, the robotic arm is interacting with the cabinet, which implies that the plate is inside the cabinet. Therefore, the apple is in the drawer, and the plate is in the cabinet."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000058.png",
+            "response": {
+                "answer": "D",
+                "reasoning": "In the query image, the apple is clearly visible inside the drawer. Additionally, the plate is not visible in the cabinet in the observations at step 000058, but the drawer is open and contains the apple. Based on the observations and the query image, both the apple and the plate are in the drawer."
+            },
+            "answer": "D",
+            "correct": false
+        },
+        {
+            "image_filename": "000369.png",
+            "response": {
+                "answer": "D",
+                "reasoning": "From the observations, the apple and the plate are both visible in the drawer. In the query image, the drawer is open, and the apple is clearly visible inside it. The plate is also visible in the earlier steps (000058 and 000369) inside the same drawer. Therefore, both the apple and the plate are in the drawer."
+            },
+            "answer": "D",
+            "correct": false
+        },
+        {
+            "image_filename": "000435.png",
+            "response": {
+                "answer": "D",
+                "reasoning": "The query image clearly shows both the apple and the plate inside the drawer. The previous checkpoint observations show the robotic arm interacting with the cabinet, but the apple and plate were not placed on the table as instructed. Instead, the query image confirms their location inside the drawer."
+            },
+            "answer": "D",
+            "correct": false
+        },
+        {
+            "image_filename": "000633.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The query image clearly shows the apple inside the drawer. From the checkpoint observations, the plate is visible inside the cabinet (step 000435 and 000633). Therefore, the apple is in the drawer, and the plate is in the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "001013.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the provided images, the apple is clearly visible inside the cabinet (step 000633 and 001013). The plate, which is red and circular, is visible inside the drawer in the query image. Therefore, the apple is in the cabinet, and the plate is in the drawer."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "001365.png",
+            "response": {
+                "answer": "D",
+                "reasoning": "The query image clearly shows the apple inside the drawer. Additionally, the plate is not visible in the cabinet in the provided checkpoint observations, and the query image does not show a plate in the cabinet either. This strongly suggests that both the apple and the plate are in the drawer."
+            },
+            "answer": "D",
+            "correct": false
+        },
+        {
+            "image_filename": "001430.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the query image, the apple is clearly visible inside the cabinet. From the earlier checkpoint observations, the plate is not visible on the table or in the cabinet, suggesting it is likely in the drawer. Therefore, the apple is in the cabinet, and the plate is in the drawer."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "001546.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Analyzing the images, the apple is clearly visible in the cabinet in steps 001430 and 001546, and the plate is visible in the drawer in the query image. Therefore, the apple is in the cabinet and the plate is in the drawer."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "001771.png",
+            "response": {
+                "answer": "D",
+                "reasoning": "The query image clearly shows the plate inside the drawer. From the checkpoint observations, the apple was initially in the cabinet, but in the last checkpoint (001771), the apple is seen on the table. Since the query image does not show the apple on the table, it must have been placed in the drawer along with the plate. Therefore, both the apple and the plate are in the drawer."
+            },
+            "answer": "D",
+            "correct": false
+        },
+        {
+            "image_filename": "002314.png",
+            "response": {
+                "answer": "D",
+                "reasoning": "The query image shows the plate inside the drawer. From the checkpoint observations, the apple was manipulated by the robotic arm and placed on the table, but it is not visible in the cabinet or on the table in the query image. This suggests the apple is also inside the drawer. Therefore, both the apple and the plate are in the drawer."
+            },
+            "answer": "D",
+            "correct": false
+        },
+        {
+            "image_filename": "002360.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the provided checkpoint observations, the apple and plate are initially seen inside the cabinet. The robot arm interacts with the apple first (step 002314) and then the plate (step 002360). In the query image, the plate is visible inside the drawer, indicating it has been moved there, while the apple is not visible in the drawer and remains in the cabinet. Therefore, the apple is in the cabinet, and the plate is in the drawer."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

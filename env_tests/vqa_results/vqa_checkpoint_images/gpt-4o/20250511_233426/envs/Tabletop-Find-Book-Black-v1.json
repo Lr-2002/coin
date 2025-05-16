@@ -1,0 +1,64 @@
+{
+    "instruction": "Find and pick the black book from the bookshelf and put it on the marker ",
+    "query": {
+        "query": "Where is the black book?",
+        "selection": {
+            "A": "On the right column, the first book",
+            "B": "In the middle column, the third book",
+            "C": "On the left column, the second book"
+        }
+    },
+    "ground_truth": "C",
+    "response_num": 4,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The black book is clearly visible in the right column as the first book. It has a dark cover that distinguishes it from the other books in the image."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000179.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the query image, the black book is clearly visible as the first book in the right column. Its dark color distinguishes it from the other books on the shelf."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000340.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the query image, the black book is located on the right column as the first book. This matches the position seen in the observations where the robotic arm interacted with the black book."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000411.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the observations at steps 000340 and 000411, the black book is clearly visible on the right column as the first book. The query image confirms this placement, showing the black book in the same position."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+{
+    "instruction": "move the cube to the marker and put the holder on the cube ",
+    "query": {
+        "query": "What's the best sequence of actions for this task?",
+        "selection": {
+            "A": "Move the cube to the marker first, then place the holder on top",
+            "B": "Move the holder first, then place the cube to the marker, finally put the holder on the cube"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 9,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The task is to move the cube to the marker and then put the holder on the cube. Option A describes this sequence of actions directly. Option B is incorrect because it mentions moving the holder first, then placing the cube, and then putting the holder on the cube again, which is redundant and doesn't make sense in the context of the task."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000035.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The task instruction is to move the cube to the marker and put the holder on the cube. The images show the cube being moved towards the marker and the holder is already on the cube. Therefore, the best sequence of actions is to move the cube to the marker first, then place the holder on top."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000102.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the robot moving the cube to the marker and then placing the holder on top of the cube. Therefore, the best sequence of actions is to move the cube to the marker first, then place the holder on top."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000142.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The task is to move the cube to the marker and then place the holder on the cube. Option A directly reflects this sequence. Option B is incorrect because it suggests moving the holder first, which is not part of the initial goal."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000171.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the robot arm placing the holder on top of the cube after the cube has been moved to the marker. Therefore, the best sequence of actions is to move the cube to the marker first, then place the holder on top."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000206.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The image shows the cube already at the marker, and the holder is next to it. The task is to move the cube to the marker and put the holder on the cube. Therefore, the best sequence is to move the cube to the marker first, then place the holder on top."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000272.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The task instruction is to move the cube to the marker and put the holder on the cube. Option A describes this sequence of actions directly. Option B is incorrect because it suggests moving the holder first, which is not part of the original instruction."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000299.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The task is to move the cube to the marker and then put the holder on the cube. Option A describes this sequence of actions. Option B is incorrect because it suggests moving the holder first, which is not part of the initial steps."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000303.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The image shows the holder already on the cube at the marker. Therefore, the cube must have been moved to the marker first, and then the holder was placed on top. Option B is incorrect because it suggests moving the holder first, which doesn't make sense in the context of the task."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

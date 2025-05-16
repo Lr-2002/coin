@@ -1,0 +1,118 @@
+{
+    "instruction": "find the cube in the cabinet and pick it up",
+    "query": {
+        "query": "Where is the cube?",
+        "selection": {
+            "A": "In the drawer",
+            "B": "In the cabinet"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 9,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The high-level task instruction is to find the cube in the cabinet and pick it up. Therefore, the cube is in the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000123.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The high-level task instruction is to find the cube in the cabinet and pick it up. The images show the robot arm near a cabinet. Therefore, the cube is in the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000224.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The task instruction is to find the cube in the cabinet. The robot is currently interacting with the cabinet in the images."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000490.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the first image, the cabinet is closed. In the second image, the cabinet is open and the cube is inside. Therefore, the cube is in the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000535.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the first image (step 000490), the robot arm is inside the cabinet and the cube is also inside the cabinet. In the second image (step 000535), the robot arm is holding the cube, and the cube is outside the cabinet. Therefore, the cube was initially in the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000662.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the first image, the robot arm is inside the cabinet. In the second image, the robot arm is holding a red cube, presumably after picking it up from inside the cabinet. Therefore, the cube was in the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000697.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The robot is interacting with the cabinet in the images. The task instruction is to find the cube in the cabinet, so the cube is likely in the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000753.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The robot arm is positioned near the cabinet in the images. The task instruction is to find the cube in the cabinet and pick it up. Therefore, the cube is likely in the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000763.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The robot arm is in front of the cabinet, and the task instruction is to find the cube in the cabinet. Therefore, the cube is in the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

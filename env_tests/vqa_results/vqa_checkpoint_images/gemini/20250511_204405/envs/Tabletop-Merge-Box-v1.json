@@ -1,0 +1,85 @@
+{
+    "instruction": "Merge ball and boxs up ",
+    "query": {
+        "query": "which box is to be inserted",
+        "selection": {
+            "A": "Box A",
+            "B": "Box B"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 6,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the image, Box A is the one that is closer to the ball and the robot arm. Therefore, Box A is the one that is to be inserted."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000076.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the image at step 000076, the robotic arm is positioned above Box A, suggesting that Box A is the one to be inserted."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000121.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the image at step 000121, Box A is the one that is closer to the ball and is likely to be inserted with the ball."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000153.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000153, the robotic arm is holding a box and is about to insert it into another box. Based on the query image, the box that is about to be inserted is Box A."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000178.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the image at step 000178, the robotic arm is positioned directly above Box A. Therefore, Box A is the box to be inserted."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000185.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the image at step 000185, Box A is closer to the ball and the robot arm is positioned near Box A. Therefore, Box A is to be inserted."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

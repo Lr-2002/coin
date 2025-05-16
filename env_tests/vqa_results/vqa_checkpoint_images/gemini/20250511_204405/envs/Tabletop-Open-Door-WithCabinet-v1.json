@@ -1,0 +1,64 @@
+{
+    "instruction": "open the door",
+    "query": {
+        "query": "What is the main challenge in opening this door?",
+        "selection": {
+            "A": "The door is too heavy to push",
+            "B": "The cabinet door is in the way to open the door",
+            "C": "We can directly open the door"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "C"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the image, the cabinet door is positioned right next to the door that needs to be opened. This proximity suggests that the cabinet door might obstruct the full opening of the target door, making it the main challenge."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000061.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The image shows that the cabinet door is partially blocking the main door, making it difficult to open the main door fully. Therefore, the cabinet door is in the way."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000091.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the image, the door is partially open, but the cabinet door is blocking it from opening further. Therefore, the main challenge is that the cabinet door is in the way."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000184.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "The image shows the door is already partially open. Therefore, we can directly open the door."
+            },
+            "answer": "C",
+            "correct": false
+        }
+    ]
+}

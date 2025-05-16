@@ -1,0 +1,85 @@
+{
+    "instruction": "Move the heavy cube to the goal region",
+    "query": {
+        "query": "which cube is heavier",
+        "selection": {
+            "A": "A",
+            "B": "B"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 6,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The image shows a seesaw. Cube A is closer to the fulcrum and the seesaw is tilted towards cube A. This indicates that cube A is heavier than cube B."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000126.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The image shows a seesaw. Cube A is closer to the fulcrum and the seesaw is tilted towards cube A. This indicates that cube A is heavier."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000165.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The image shows a seesaw. Cube A is closer to the fulcrum and the seesaw is tilted towards cube A. This indicates that cube A is heavier."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000230.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The image at step 000230 shows a seesaw. Cube A is closer to the fulcrum and the robot arm is interacting with it. This suggests that cube A is heavier, as it is being moved to the goal region."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000281.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The image shows a seesaw. Cube A is closer to the ground, indicating it is heavier than cube B."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000290.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000290, the green cube (A) is closer to the fulcrum of the seesaw, while the gray cube (B) is further away. For the seesaw to be balanced (or close to balanced), the cube closer to the fulcrum must be heavier. Therefore, cube A is heavier."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+{
+    "instruction": "Find the holder containing an eraser the cabinet, put it to the marker",
+    "query": {
+        "query": "Which holder has a eraser?",
+        "selection": {
+            "A": "A",
+            "B": "B"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 9,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the image, the eraser is visible in the left holder (labeled A)."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000059.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the image inside the cabinet, the left-hand holder (labeled A) has the eraser."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000331.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the cabinet view, the left holder (A) clearly contains a small eraser inside."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000659.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the final image, the left mesh holder (A) contains the rectangular red/blue block, which appears to be the eraser."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000808.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, we can see a small red-and-blue rectangular object in Holder A that appears to be the eraser."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000963.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, the left holder (A) contains a small pink object consistent with an eraser."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "001117.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the views inside the cabinet, the left-hand (labeled A) holder clearly contains the rectangular pink eraser."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "001149.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the final images we can see the left holder (labeled A) contains the small pink/blue eraser."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "001151.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the final images, the holder on the left (A) visibly contains the small pink-blue eraser."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

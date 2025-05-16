@@ -1,0 +1,63 @@
+{
+    "instruction": "Slide a cube down a slope to the marker ",
+    "query": {
+        "query": "Where should the block be placed to slide to target position?",
+        "selection": {
+            "A": "A",
+            "B": "B"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The slope is angled downward toward the target position, and the block needs to slide to the marker. Placing the block at position B ensures it is on the slope and can slide down due to gravity toward the target. Position A is flat and does not allow the block to slide down the slope."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000106.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the observations, the block starts at position A and is pushed by the robotic arm towards the slope. However, the block does not slide directly to the target position from A. Instead, in step 000106, the block is moved closer to position B, which aligns better with the slope leading to the target. Position B is closer to the slope's edge and provides a direct path for the block to slide down to the target position. Therefore, the block should be placed at position B to successfully slide to the target."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000240.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Based on the observations, the cube is initially placed at the top of the slope and is progressively moved closer to the edge of the slope. In the final checkpoint (step 000240), the cube is positioned at the edge of the slope, and it is clear that this placement allows the cube to slide down the slope toward the target position. The marked position 'B' corresponds to the edge of the slope, which is the correct placement for the cube to slide effectively to the target position. Position 'A' is further away from the slope edge and would not allow the cube to slide down to the target."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000291.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the sequence of images, the cube starts at the top of the slope and is pushed down towards the target marker. At step '000291', the cube successfully slides down and reaches the target position. Observing the slope and the cube's trajectory, it is clear that placing the cube at position 'B' aligns it with the slope and ensures it slides directly to the target marker. Position 'A' is farther from the slope and would not allow the cube to slide effectively to the target."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

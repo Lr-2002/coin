@@ -1,0 +1,63 @@
+{
+    "instruction": "move all the balls into the dustpan as fast as you can ",
+    "query": {
+        "query": "What is the most efficient way to collect all the balls?",
+        "selection": {
+            "A": "Pick the balls to the dustpan one by one",
+            "B": "Use the pivot to collect all the balls"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show the robot using the blue pivot to push the balls into the dustpan. This is a more efficient method than picking up each ball individually."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000080.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Based on the image, the robot arm is using a blue pivot to collect the balls into the dustpan. This method appears to be more efficient than picking up each ball individually."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000124.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show the robot using a blue pivot to push the balls into the dustpan. This method is more efficient than picking up each ball individually."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000136.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Based on the image at step 000136, all the balls are already in the dustpan. This suggests that the robot has already completed the task. The image shows a pivot being used to collect the balls. Therefore, using the pivot to collect all the balls is the most efficient way."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

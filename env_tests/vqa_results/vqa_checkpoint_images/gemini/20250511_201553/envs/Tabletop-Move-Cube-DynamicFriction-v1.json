@@ -1,0 +1,64 @@
+{
+    "instruction": "move the cube to the marker",
+    "query": {
+        "query": "What's the best approach to move a cube with unpredictable friction?",
+        "selection": {
+            "A": "Lift the cube and directly place it to the target position",
+            "B": "Slide the cube while maintaining contact with the surface",
+            "C": "Pick up blocks, re-pick them up if it falls"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the robot arm picking up the cube and placing it directly onto the target. This corresponds to option A, which describes lifting the cube and placing it at the target location. Option B, sliding, is not seen in the images. Option C is not relevant as the cube is not falling."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000050.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the images, the robot arm picks up the cube and places it directly onto the target. This corresponds to option A, which describes lifting the cube and directly placing it to the target position. Option B is incorrect because the images do not show the robot sliding the cube. Option C is incorrect because the robot successfully picks up and places the cube without dropping it."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000090.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the images, the robot arm picks up the cube and places it directly onto the target. This corresponds to option A, which describes lifting the cube and placing it at the target position. Option B is incorrect because the images do not show the robot sliding the cube. Option C is incorrect because the robot successfully picks up and places the cube without dropping it."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000110.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the images, the robot arm appears to be lifting the cube and moving it to the target position. This corresponds to option A, which describes lifting the cube and directly placing it at the target. Sliding the cube (option B) is not observed in the images. Option C is not observed either, and it also seems less efficient."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

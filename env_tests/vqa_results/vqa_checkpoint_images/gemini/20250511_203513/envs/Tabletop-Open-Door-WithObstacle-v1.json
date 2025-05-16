@@ -1,0 +1,42 @@
+{
+    "instruction": "open the door",
+    "query": {
+        "query": "What is the main challenge in opening this door?",
+        "selection": {
+            "A": "The door is unreachable",
+            "B": "The door is too heavy to be opened directly",
+            "C": "There is an obstacle blocking the door's path"
+        }
+    },
+    "ground_truth": "C",
+    "response_num": 2,
+    "answers": [
+        "C",
+        "C"
+    ],
+    "correct": [
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "In the image, a blue object with a red circular end is placed directly in front of the door. This object is blocking the door's path, making it difficult to open directly. Therefore, the main challenge is the obstacle blocking the door's path."
+            },
+            "answer": "C",
+            "correct": true
+        },
+        {
+            "image_filename": "000091.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "In the images, a blue and red object is placed in front of the door. This object is blocking the door's path, making it difficult to open the door directly."
+            },
+            "answer": "C",
+            "correct": true
+        }
+    ]
+}

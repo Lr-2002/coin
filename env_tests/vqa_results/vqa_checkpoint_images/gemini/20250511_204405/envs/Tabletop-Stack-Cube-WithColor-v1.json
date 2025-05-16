@@ -1,0 +1,97 @@
+{
+    "instruction": "Stack the cube with same color",
+    "query": {
+        "query": "How many degrees should A be rotated along y axis(the axis vertical to the white face) to make it same color with B?",
+        "selection": {
+            "A": "90",
+            "B": "180",
+            "C": "270"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 7,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the image, we can see that A has a blue face facing up, while B has a yellow face facing up. To make A have the same color as B, we need to rotate A 90 degrees along the y axis so that the yellow face is facing up."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000138.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the image, cube A has a blue face facing upwards, while cube B has a yellow face facing upwards. To make the colors match, cube A needs to be rotated 90 degrees along the y-axis to align the yellow face of cube A with the yellow face of cube B."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000327.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The cube A has a blue face facing upwards, while cube B has a yellow face facing upwards. To make the colors match, we need to rotate cube A by 90 degrees along the y axis (vertical to the white face) to align the yellow face of cube A with the yellow face of cube B."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000379.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the image, cube A has a blue face facing upwards, and cube B has a yellow face facing upwards. To make the colors match, we need to rotate cube A by 90 degrees along the y-axis (the axis vertical to the white face) to align the yellow face of cube A with the yellow face of cube B."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000420.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The cube A has a blue face on top, and the cube B has a yellow face on top. To make the cube A have the same color as B, it needs to be rotated 90 degrees along the y axis."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000486.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The cube A has blue color on the top, while cube B has yellow color on the top. To make the cube A has yellow color on the top, it needs to be rotated 90 degrees along y axis."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000562.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The cube A has a blue face facing up, while cube B has a yellow face facing up. To make the colors match, we need to rotate cube A by 90 degrees along the y-axis so that the yellow face will be facing up."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

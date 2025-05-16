@@ -1,0 +1,75 @@
+{
+    "instruction": "move the cube with the pivot to the marker ",
+    "query": {
+        "query": "Why we need the pivot to move the cube?",
+        "selection": {
+            "A": "The cube is too heavy to lift",
+            "B": "The cube is too far to grasp",
+            "C": "The pivot is decorative and serves no functional purpose"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 5,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images suggest the cube is placed beyond the arm\u2019s direct reach, making the pivot a tool to push or move it closer rather than picking it up directly."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000121.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the images, the cube is positioned beyond the arm\u2019s direct reach, so the robot uses the pivot (lever) to push the cube to the target instead of grasping it directly."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000241.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The bar lets the robot nudge the block without having to grab it directly, because it\u2019s placed beyond the robot\u2019s comfortable grasp range."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000388.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the images, the pivot is being used to reach the cube and push it toward the target. It appears the arm cannot directly grasp the cube in its current position, so the pivot extends the robot\u2019s effective reach."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000503.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the images, the red cube is located out of direct reach for easy grasping, and the pivot (the long blue bar) is used to push the cube toward the marker without needing to pick it up directly."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

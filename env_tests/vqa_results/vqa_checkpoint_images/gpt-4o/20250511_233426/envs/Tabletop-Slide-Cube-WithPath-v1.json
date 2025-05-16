@@ -1,0 +1,63 @@
+{
+    "instruction": "Slide a cube down a slope to the marker ",
+    "query": {
+        "query": "Where should the block be placed to slide to target position?",
+        "selection": {
+            "A": "A",
+            "B": "B"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The slope is angled such that placing the block at position B will allow it to slide down directly to the target position marked on the table. Position A is higher up and would not align with the target area effectively."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000106.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the observations, the cube is placed closer to the edge of the slope and slides down towards the target marker. Position B is closer to the slope's edge, which aligns with the placement observed in step 000106 where the cube successfully slides down. Position A is farther from the slope's edge and would not facilitate sliding to the target marker."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000240.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the observations at steps '000106' and '000240', the block is placed near the edge of the slope and slides down towards the target position. The marker is located at the bottom of the slope, and the block needs to be positioned at 'B' to ensure it slides down the slope and reaches the target position effectively. Placing the block at 'A' would not align it with the slope's trajectory towards the marker."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000291.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the observations, the block was initially placed at position A but slid down the slope and missed the target marker. At step 000291, the block was placed closer to position B, and it successfully slid down the slope to the target marker. Therefore, position B is the correct placement for the block to slide to the target position."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

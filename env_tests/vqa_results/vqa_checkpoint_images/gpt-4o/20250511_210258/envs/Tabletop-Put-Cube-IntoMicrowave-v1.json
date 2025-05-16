@@ -1,0 +1,86 @@
+{
+    "instruction": "put the cube into the microwave ",
+    "query": {
+        "query": "What is the correct order of actions to put the cube into the microwave?",
+        "selection": {
+            "A": "Pick up the cube first, then open the microwave door and place the cube inside",
+            "B": "Open the microwave door first, then pick and place the cube inside",
+            "C": "Directly pick the cube into microwave"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 6,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The correct order of actions is to open the microwave door first, then pick up the cube and place it inside. This ensures that the microwave is accessible for placing the cube. Based on the images, the microwave door is currently closed, so opening it first is necessary before manipulating the cube."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000072.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Based on the observations, the microwave door is closed at step 000000, and the cube is on the table. At step 000072, the microwave door is open, and the cube is still on the table. This indicates that the robot first opened the microwave door but did not yet pick up or place the cube inside. Therefore, the correct order of actions is to open the microwave door first, then pick up the cube and place it inside. Option B aligns with this sequence."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000219.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Based on the observations, the microwave door is closed at the beginning (step 000000). At step 000072, the robot arm has moved closer to the microwave but has not yet interacted with the cube or the microwave door. At step 000219, the microwave door is open, but the cube remains on the table. This sequence indicates that the robot must first open the microwave door before picking up the cube and placing it inside. Therefore, the correct order of actions is to open the microwave door first, then pick up the cube and place it inside."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000312.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Based on the images provided, the robot arm first interacts with the microwave door to open it, as seen in steps '000072' and '000219'. The cube remains untouched on the table during these steps. This indicates that the first action is to open the microwave door. After the door is open, the robot arm can proceed to pick up the cube and place it inside the microwave. Option B correctly describes this sequence of actions: 'Open the microwave door first, then pick and place the cube inside.'"
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000391.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Based on the sequence of images provided, the robot first opens the microwave door (step 000219), then picks up the cube (step 000312), and finally places the cube inside the microwave (step 000391). This indicates that the correct order of actions is to open the microwave door first, then pick up the cube, and place it inside the microwave. Option A is incorrect because the robot does not pick up the cube before opening the microwave door, and Option C is incorrect because the robot does not directly pick the cube into the microwave without opening the door first."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000428.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show that the robot first opens the microwave door (step 000312), then picks up the cube (step 000391), and finally places the cube inside the microwave (step 000428). This sequence matches option B: Open the microwave door first, then pick and place the cube inside. Option A is incorrect because the robot does not pick up the cube before opening the microwave door. Option C is also incorrect because the robot does not directly pick the cube into the microwave without opening the door first."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

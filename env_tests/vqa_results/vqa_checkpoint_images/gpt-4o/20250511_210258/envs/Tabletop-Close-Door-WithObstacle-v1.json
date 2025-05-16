@@ -1,0 +1,74 @@
+{
+    "instruction": "close the door",
+    "query": {
+        "query": "What should be done first to close the door?",
+        "selection": {
+            "A": "Grasp and move the bowl",
+            "B": "Push the door handle directly"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 5,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The bowl is obstructing the door's movement, as it is positioned directly in the path of the door closing. Attempting to push the door handle directly without first removing the bowl would likely result in the door being unable to close fully. Therefore, the first step should be to grasp and move the bowl out of the way."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000075.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the query image, the bowl is obstructing the door's movement path. Attempting to push the door handle directly without first removing the bowl would likely result in the door being unable to close fully. Therefore, the first step should be to grasp and move the bowl out of the way to ensure the door can be closed properly."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000141.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The bowl is obstructing the door's movement, as seen in the query image and the checkpoint observations. To close the door, the bowl must first be moved out of the way. Pushing the door handle directly (Option B) would not be effective because the bowl prevents the door from closing fully."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000247.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The query image shows that the bowl is obstructing the door's path, preventing it from closing fully. Observations at steps 000075, 000141, and 000247 confirm that the bowl is positioned in the way of the door. Therefore, the first action should be to grasp and move the bowl to clear the obstruction before attempting to push the door handle."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000259.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the query image, the bowl is obstructing the door's movement path, preventing it from being fully closed. Attempting to push the door handle directly without first removing the bowl would result in the door being blocked. Therefore, the first action should be to grasp and move the bowl out of the way to ensure the door can be closed properly."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

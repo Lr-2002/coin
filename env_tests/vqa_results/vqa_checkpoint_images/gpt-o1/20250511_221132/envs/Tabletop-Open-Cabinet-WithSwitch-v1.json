@@ -1,0 +1,63 @@
+{
+    "instruction": "open the door, notice the switch will control the state of the door ",
+    "query": {
+        "query": "What is the efficient way to open the cabinet",
+        "selection": {
+            "A": "Open the cabinet directly",
+            "B": "Push the switch to open the cabinet"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the final setup, the switch on the tabletop controls the door\u2019s lock. The door will only open efficiently if the switch is toggled first."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000105.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the images, it appears that the switch needs to be toggled in order to release or unlock the cabinet door. Hence, pushing the switch is the most efficient way to open the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000203.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the images, the switch clearly controls whether the door can be opened. Flipping the switch first allows the cabinet to be opened easily, making that the most efficient method."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000292.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the images, the switch appears designed to operate the door\u2019s opening state. Pressing the switch to open the cabinet is the more efficient approach than physically pulling on the door."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

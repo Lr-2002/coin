@@ -1,0 +1,85 @@
+{
+    "instruction": "Move the heavy cube to the goal region",
+    "query": {
+        "query": "which cube is heavier",
+        "selection": {
+            "A": "A",
+            "B": "B"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 6,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the observation image at step '000000', the robotic arm is interacting with a seesaw-like structure. The blue cube is positioned on one side of the seesaw, and its weight causes the seesaw to tilt downward on that side. This indicates that the blue cube is heavier than the other cubes in the scene. In the query image, cube A is green and positioned on the same side as the blue cube in the observation image, while cube B is on the opposite side. Since cube A is associated with the heavier side of the seesaw, it is heavier than cube B."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000126.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the provided images, the robotic arm interacts with the cubes and the seesaw-like platform. At step '000000', cube A is positioned on the left side of the platform, and cube B is on the right. The platform is tilted downward on the side where cube A is located, indicating that cube A is heavier than cube B. This conclusion is based on the fact that the heavier object would cause the platform to tilt toward its side due to greater weight."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000165.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the robotic arm interacting with a seesaw-like structure. In the initial observation (step 000000), cube A is positioned on the left side of the seesaw, causing it to tilt downward, indicating that cube A is heavier than cube B. In subsequent steps (000126 and 000165), the robotic arm manipulates cube B, but the seesaw remains tilted toward cube A's side. This confirms that cube A is heavier."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000230.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the sequence of images, the robot arm interacts with a seesaw-like structure. At step 000126, the heavy cube (A) is placed on one side of the seesaw, causing it to tilt downward due to its weight. At step 000165, the robot arm moves the lighter cube (B) to the opposite side of the seesaw, but the seesaw remains tilted towards the side with cube A, indicating that cube A is heavier. Finally, at step 000230, the robot arm moves cube B to the goal region, confirming that cube B is lighter and easier to manipulate. Therefore, cube A is the heavier cube."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000281.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the checkpoint observations, the robotic arm interacts with two cubes on a seesaw-like structure. The heavier cube causes the seesaw to tilt downward on its side when placed on it. Observing the images, the green cube (A) consistently causes the seesaw to tilt downward when placed on one side, indicating that it is heavier than the purple cube (B), which does not cause the same level of tilt. Therefore, cube A is heavier."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000290.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show a seesaw-like structure being used to manipulate the cubes. In the observations, cube A (green) is placed closer to the pivot point of the seesaw, and cube B (purple) is placed farther away. Despite cube B being farther from the pivot (which would give it a mechanical advantage), the seesaw remains tilted towards cube A, indicating that cube A is heavier. The heavier object exerts more downward force, overcoming the mechanical advantage of cube B's position."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

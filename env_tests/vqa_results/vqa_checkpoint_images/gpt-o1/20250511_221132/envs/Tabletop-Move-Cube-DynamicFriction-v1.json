@@ -1,0 +1,64 @@
+{
+    "instruction": "move the cube to the marker",
+    "query": {
+        "query": "What's the best approach to move a cube with unpredictable friction?",
+        "selection": {
+            "A": "Lift the cube and directly place it to the target position",
+            "B": "Slide the cube while maintaining contact with the surface",
+            "C": "Pick up blocks, re-pick them up if it falls"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Since the friction between the cube and the tabletop is uncertain, the more reliable way is to pick the cube up and move it directly over the target, rather than sliding it across an unpredictable surface."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000050.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "With unpredictable friction, relying on sliding often leads to inconsistent or missed positioning because the block can slip unpredictably. Lifting the block and placing it directly bypasses these friction uncertainties and gives the most reliable placement."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000090.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "With unpredictable friction, the most reliable way is to lift the cube completely and place it onto the marker rather than relying on unknown sliding conditions."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000110.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Because friction is unreliable, simply grasping and lifting the cube minimizes reliance on surface friction and better ensures accurate placement at the target."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

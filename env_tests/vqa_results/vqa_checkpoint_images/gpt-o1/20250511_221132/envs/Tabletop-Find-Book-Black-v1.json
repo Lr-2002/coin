@@ -1,0 +1,60 @@
+{
+    "instruction": "Find and pick the black book from the bookshelf and put it on the marker ",
+    "query": {
+        "query": "Where is the black book?",
+        "selection": {
+            "A": "On the right column, the first book",
+            "B": "In the middle column, the third book",
+            "C": "On the left column, the second book"
+        }
+    },
+    "ground_truth": "C",
+    "response_num": 4,
+    "answers": [
+        "C",
+        "C",
+        null,
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        null,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "From the image, the black book appears in the leftmost group, second from the left, matching option C."
+            },
+            "answer": "C",
+            "correct": true
+        },
+        {
+            "image_filename": "000179.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "From the images, the dark (black) cover is the second book from the left stack on the shelf."
+            },
+            "answer": "C",
+            "correct": true
+        },
+        {
+            "image_filename": "000340.png",
+            "raw_response": "{\n  \"answer\": \"C\",\n  \"reasoning\": \"From the final view, the second book from the left stack appears to be the dark (",
+            "error": "Could not extract JSON from response"
+        },
+        {
+            "image_filename": "000411.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the final image, the dark/black cover is clearly visible on the right side (front edge), making it the first book in the right column."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

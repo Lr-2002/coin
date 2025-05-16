@@ -1,0 +1,64 @@
+{
+    "instruction": "Put the balls in to the holder to balance the long board on the triangular prism",
+    "query": {
+        "query": "How many balls can make the pivot balance?",
+        "selection": {
+            "A": "4",
+            "B": "5",
+            "C": "6"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+        "B",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the final image, it appears that placing all five balls into the holder balances the board against the weight of the cube on the other side."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000237.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the final arrangement shown, placing four balls in the holder (on one side) balances the board against the green cube (on the other side)."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000467.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the weight distribution visible in the final images, placing four balls in the holder balances the board against the cube on the opposite side."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000532.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the final scene, four of the smaller balls in the container counterbalance the green cube on the opposite side to achieve a level board."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

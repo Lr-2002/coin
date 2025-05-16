@@ -1,0 +1,42 @@
+{
+    "instruction": "Find and pick the highest book from the bookshelf and put it on the marker ",
+    "query": {
+        "query": "which is the highest book",
+        "selection": {
+            "A": "A",
+            "B": "B",
+            "C": "C"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 2,
+    "answers": [
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Based on the image, book B is the highest book among the three options (A, B, and C)."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000042.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Based on the query image, book B is the highest book among the three books A, B, and C."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

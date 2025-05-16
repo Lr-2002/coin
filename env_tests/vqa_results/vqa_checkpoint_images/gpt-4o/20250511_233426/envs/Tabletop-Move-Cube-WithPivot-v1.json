@@ -1,0 +1,75 @@
+{
+    "instruction": "move the cube with the pivot to the marker ",
+    "query": {
+        "query": "Why we need the pivot to move the cube?",
+        "selection": {
+            "A": "The cube is too heavy to lift",
+            "B": "The cube is too far to grasp",
+            "C": "The pivot is decorative and serves no functional purpose"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 5,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The cube is positioned too far from the robotic arm to be directly grasped. The pivot acts as a lever mechanism to move the cube closer to the marker, enabling the robot to complete the task without directly grasping the cube."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000121.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The cube is positioned too far from the robotic arm to be directly grasped. The pivot mechanism allows the robot to push or move the cube indirectly by leveraging the blue bar, which acts as an intermediary tool to reach the cube and move it toward the marker."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000241.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show that the cube is positioned far from the robot arm's grasping range. The pivot and the blue lever are being used to push the cube towards the target marker. This indicates that the pivot is necessary to extend the robot's effective reach and manipulate the cube indirectly, as the cube is too far to grasp directly."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000388.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The cube is positioned too far from the robotic arm to be directly grasped. The pivot and the blue lever are used to extend the reach of the arm, allowing it to push or move the cube towards the marker. This setup provides a mechanical advantage to manipulate objects beyond the arm's immediate grasp."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000503.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The cube is positioned far away from the robot's grasping range, as seen in the query image and the checkpoint observations. The pivot allows the robot to use the blue bar as a lever to push or move the cube towards the marker. This functional use of the pivot is necessary because the robot cannot directly grasp the cube due to its distance."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

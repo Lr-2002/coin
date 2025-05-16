@@ -1,0 +1,130 @@
+{
+    "instruction": "pick up the object from the cabinet ",
+    "query": {
+        "query": "What's the object in the cabinet?",
+        "selection": {
+            "A": "A book",
+            "B": "A cube",
+            "C": "A pen"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 10,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "C",
+        "A",
+        "A",
+        "A",
+        "A",
+        "B"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The robot arm is tasked to pick up an object from the cabinet. Based on the image, the object inside the cabinet is a cube."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000262.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the image at step 000262, the robot arm is interacting with a cube inside the cabinet. Therefore, the object in the cabinet is a cube."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000318.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the last image, we can see the robot arm is reaching into the cabinet. Inside the cabinet, there is a white cube."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000393.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The image shows a cabinet. The task instruction is to pick up the object from the cabinet. Since the cabinet is closed, we can't see the object inside. However, based on the previous steps, the robot arm is moving towards the cabinet to pick up a cube. Therefore, the object in the cabinet is most likely a cube."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000478.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "In the image at step 000478, the robot arm is reaching into the cabinet, and a red pen is visible inside the cabinet."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000564.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000564, we can see an object inside the cabinet. The object appears to be a book."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000787.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the last image, we can see the robot arm is holding a red book. Therefore, the object in the cabinet is a book."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000834.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000834, we can see the robot arm inside the cabinet. The object inside the cabinet appears to be a book."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000987.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image, the robotic arm is reaching into the cabinet and picking up a red object. Based on the shape and color, it appears to be a book."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "001582.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The image shows a grey cube inside the cabinet. Therefore, the object in the cabinet is a cube."
+            },
+            "answer": "B",
+            "correct": false
+        }
+    ]
+}

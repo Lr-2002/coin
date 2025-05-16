@@ -1,0 +1,63 @@
+{
+    "instruction": "open the door, notice the switch will control the state of the door ",
+    "query": {
+        "query": "What is the efficient way to open the cabinet",
+        "selection": {
+            "A": "Open the cabinet directly",
+            "B": "Push the switch to open the cabinet"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The task instruction mentions that the switch will control the state of the door. Therefore, the efficient way to open the cabinet is to push the switch."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000105.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The task instruction mentions that the switch will control the state of the door. Therefore, the efficient way to open the cabinet is to push the switch."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000203.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The instruction mentions that the switch will control the state of the door. Therefore, pushing the switch is the efficient way to open the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000292.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The switch is present in the scene, and the task instruction is to notice the switch will control the state of the door. Therefore, the efficient way to open the cabinet is to push the switch."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

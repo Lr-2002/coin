@@ -1,0 +1,52 @@
+{
+    "instruction": "open the cabinet door",
+    "query": {
+        "query": "What's the correct sequence of actions to open the cabinet?",
+        "selection": {
+            "A": "Close the door first, then access the cabinet",
+            "B": "Open the cabinet directly without interacting with the door"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 3,
+    "answers": [
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The cabinet door is already open in the observation image, so the correct action is to access the cabinet directly without interacting with the door further."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000121.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show that the cabinet door is already open at step 000000, and the robotic arm does not need to interact with the door further to access the cabinet. Therefore, the correct sequence of actions is to open the cabinet directly without interacting with the door."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000160.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the observations, the robotic arm directly interacts with the cabinet door to open it without any prior action to close the door. The cabinet door is already in a position that allows access, and the robotic arm successfully opens it without needing to close it first. Therefore, the correct sequence is to open the cabinet directly without interacting with the door beforehand."
+            },
+            "answer": "B",
+            "correct": false
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "instruction": "pick up the object from the cabinet ",
+    "query": {
+        "query": "What's the object in the cabinet?",
+        "selection": {
+            "A": "A book",
+            "B": "A cube",
+            "C": "A pen"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 7,
+    "answers": [
+        "B",
+        "C",
+        "A",
+        "B",
+        "None",
+        "None",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the images, the object appears to be a small block-like shape with a circular marker on top, matching a cube rather than a pen or a book."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000262.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "From the final image, the small cylindrical object in the robot\u2019s gripper inside the cabinet most clearly resembles a pen (not a book or a cube)."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000318.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the opened cabinet view, the rectangular shape inside appears similar to a thin rectangular object like a book, rather than the shapes of a cube or a pen."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000393.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the images, the item inside is a uniform block shape rather than a flat rectangular book or a slim pen, so a cube best matches what is visible."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000787.png",
+            "response": {
+                "answer": "None",
+                "reasoning": "None of the provided options match the observed apple in the cabinet."
+            },
+            "answer": "None",
+            "correct": false
+        },
+        {
+            "image_filename": "000834.png",
+            "response": {
+                "answer": "None",
+                "reasoning": "The object shown is a spherical red apple-like object, which does not match any of the provided options (book, cube, pen)."
+            },
+            "answer": "None",
+            "correct": false
+        },
+        {
+            "image_filename": "000987.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, the object appears to be an apple, which does not match any of the listed options (A: book, B: cube, C: pen). Hence, there is no correct option among the provided choices."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

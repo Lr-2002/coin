@@ -1,0 +1,64 @@
+{
+    "instruction": "open the door",
+    "query": {
+        "query": "What is the main challenge in opening this door?",
+        "selection": {
+            "A": "The door is too heavy to push",
+            "B": "The cabinet door is in the way to open the door",
+            "C": "We can directly open the door"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+        "C",
+        "B",
+        "B",
+        "C"
+    ],
+    "correct": [
+        false,
+        true,
+        true,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "The door is already partially open in the image. Therefore, we can directly open the door."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000061.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The door is already partially open, but it appears that the cabinet door is blocking it from opening further. Therefore, the main challenge is that the cabinet door is in the way."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000091.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show that the cabinet door is partially open and obstructing the path of the main door. This makes it difficult to open the main door completely. Therefore, the main challenge is the cabinet door being in the way."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000184.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "The door is already partially open in the image. Therefore, we can directly open the door."
+            },
+            "answer": "C",
+            "correct": false
+        }
+    ]
+}

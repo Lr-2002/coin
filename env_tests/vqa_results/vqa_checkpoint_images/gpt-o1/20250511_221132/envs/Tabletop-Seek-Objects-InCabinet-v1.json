@@ -1,0 +1,109 @@
+{
+    "instruction": "Find the apple and the plate in the cabinet, put them on the table",
+    "query": {
+        "query": "Where are the apple and plate?",
+        "selection": {
+            "A": "The apple is in the drawer, the plate is in cabinet",
+            "B": "The apple is in the cabinet, the plate is in drawer",
+            "C": "Both of the are in cabinet",
+            "D": "Both of the are in drawer"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 8,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "B"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, the apple can clearly be seen inside the drawer; no plate appears in the drawer, so it is presumably in the cabinet."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000058.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the final snapshot, we can see the red, spherical apple clearly inside the open drawer, while the plate remains on the cabinet shelf."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000369.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Inside the opened drawer, you can see a small round apple. The larger, flatter plate is in the main cabinet compartment."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000435.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The red spherical apple is visible inside the open drawer, while the plate remains in the cabinet."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000633.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, the red spherical object (apple) is clearly seen inside the open drawer, while the large red circular object (plate) remains in the cabinet."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "001013.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the final images, the apple is clearly visible inside the pulled-out drawer, whereas the plate is unseen and remains in the main cabinet space."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "001365.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the final images, the red apple is clearly sitting inside the open drawer, while the plate remains inside the opened cabinet."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "002314.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the last query image, the larger red plate is clearly visible inside the open drawer, while the smaller apple is not in the drawer but rather remains in the cabinet area."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

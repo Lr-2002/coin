@@ -1,0 +1,63 @@
+{
+    "instruction": "open the door, notice the switch will control the state of the door ",
+    "query": {
+        "query": "What is the efficient way to open the cabinet",
+        "selection": {
+            "A": "Open the cabinet directly",
+            "B": "Push the switch to open the cabinet"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show a switch labeled 'ON' and 'OFF' positioned near the cabinet. This indicates that the switch controls the state of the cabinet, likely unlocking or opening it. Therefore, the efficient way to open the cabinet is to push the switch rather than attempting to open it directly, as the cabinet may be locked or dependent on the switch's state."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000105.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The observations show that the robotic arm interacts with a switch labeled 'ON' and 'OFF' before the cabinet door is opened. This indicates that the switch controls the state of the cabinet door. Therefore, the efficient way to open the cabinet is to push the switch to the 'ON' position, as directly opening the cabinet without using the switch may not be possible or efficient."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000203.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images at step 000105 show the robotic arm interacting with a switch labeled 'ON,' and the cabinet is closed. At step 000203, the switch is in the 'OFF' position, and the cabinet is open. This indicates that the switch controls the state of the cabinet. Therefore, the efficient way to open the cabinet is to push the switch to the 'ON' position, as it directly controls the cabinet's state."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000292.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The observations show that the cabinet door is controlled by the switch on the table. In step 000203, the cabinet is closed, and the switch is in its default position. In step 000292, the cabinet is open, and the switch has been flipped. This indicates that the switch controls the cabinet's state. Therefore, the efficient way to open the cabinet is to push the switch."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

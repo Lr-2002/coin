@@ -1,0 +1,74 @@
+{
+    "instruction": "close the drawer",
+    "query": {
+        "query": "What should do first before closing the drawer?",
+        "selection": {
+            "A": "Open the cabinet",
+            "B": "Move the stick away"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 5,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The drawer is already open in the image. Before closing it, the stick inside the drawer should be moved away."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000069.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The drawer is already open. Before closing it, the red stick inside the drawer should be moved away to prevent it from being trapped inside."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000120.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the last image, a red stick is inside the drawer. Before closing the drawer, the stick needs to be moved away to prevent it from being trapped or interfering with the closing mechanism."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000184.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The drawer is open and there is a red stick inside. Before closing the drawer, the stick should be moved away so it doesn't get trapped."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000189.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The drawer is open and there is a red stick inside. Before closing the drawer, the stick should be moved away so it doesn't get stuck or damaged when the drawer is closed."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

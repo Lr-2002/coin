@@ -1,0 +1,85 @@
+{
+    "instruction": "Merge ball and boxs up ",
+    "query": {
+        "query": "which box is to be inserted",
+        "selection": {
+            "A": "Box A",
+            "B": "Box B"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 6,
+    "answers": [
+        "A",
+        "B",
+        "B",
+        "B",
+        "B",
+        "A"
+    ],
+    "correct": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the observation image at step 000000, the robotic arm is seen holding Box A and positioning it above the ball and Box B. This indicates that Box A is the one being manipulated for insertion in the task of merging the ball and boxes."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000076.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the observations, the robotic arm is seen interacting with the ball and Box B. At step 000076, the arm is holding the ball, which is intended to be merged with Box B. Box B is positioned closer to the ball and the arm's actions suggest it is the target for insertion. Box A is not involved in the interaction process."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000121.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the observations at step 000121, the robotic arm is holding Box B, which has a circular indentation that matches the shape of the ball. This indicates that Box B is the one to be inserted or used to merge with the ball, as the indentation is designed to accommodate the ball. Box A does not have such an indentation and is not being manipulated by the robotic arm."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000153.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the observations at steps 000121 and 000153, the robotic arm is seen interacting with the box that has a circular indentation on its top surface. This matches the appearance of Box B in the query image. The task instruction specifies merging the ball and boxes, which implies placing the ball into the circular indentation of Box B. Therefore, Box B is the box to be inserted."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000178.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the observations at steps 000153 and 000178, the robotic arm is interacting with Box B, as evidenced by its position and alignment with the arm's gripper. Box A is untouched and remains stationary. Therefore, the box to be inserted is Box B."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000185.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The task instruction is to merge the ball and boxes. Observing the query image, Box A is closer to the ball and appears to be the logical choice for merging with the ball. The robot arm's position in the checkpoint observations also aligns with the location of Box A, indicating it is the box to be inserted."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

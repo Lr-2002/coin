@@ -1,0 +1,85 @@
+{
+    "instruction": "find the cube in the cabinet and pick it up",
+    "query": {
+        "query": "Where is the cube?",
+        "selection": {
+            "A": "In the drawer",
+            "B": "In the cabinet"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 6,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the final image, the cabinet door is open and the cube target is inside that open cabinet area. Therefore, the cube is in the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000123.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the images, the door of the cabinet is open, and the cube can be seen within it. No drawer appears to be open or in use. Thus, the cube is in the cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000490.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the final observation at step 000490, the red cube is clearly visible on the shelf inside the open cabinet."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000662.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the images, the red cube is clearly in the cabinet space behind the opened door, not in a drawer."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000753.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the final view, the red cube is clearly behind the opened door area, indicating it is inside the cabinet rather than in a drawer."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000763.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the images, the object is clearly inside the main compartment (behind the door) of the cabinet, not in a drawer."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

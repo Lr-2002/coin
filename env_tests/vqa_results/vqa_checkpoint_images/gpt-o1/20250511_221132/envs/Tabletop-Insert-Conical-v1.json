@@ -1,0 +1,63 @@
+{
+    "instruction": "insert the conical to the container",
+    "query": {
+        "query": "What to prevent while insert the water bottle",
+        "selection": {
+            "A": "Tilting the bottle too much, which may cause misalignment",
+            "B": "Moving too slowly, which wastes time and energy"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 4,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Keeping the bottle from tilting excessively is important to ensure proper alignment as it is placed into the container."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000051.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Maintaining alignment is crucial for insertion. Tilting the bottle too much could cause it to get stuck or miss the container opening."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000081.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Maintaining proper alignment is crucial. Tilting the bottle excessively can cause the neck and opening to misalign, making insertion difficult."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000130.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, it\u2019s clear the robot needs to keep the bottle upright for a proper fit, so avoiding excess tilt (which can cause misalignment) is the key concern."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+{
+    "instruction": "move all the balls into the dustpan as fast as you can ",
+    "query": {
+        "query": "What is the most efficient way to get all the balls into the dustpan?",
+        "selection": {
+            "A": "Pick up and place each ball individually into the dustpan",
+            "B": "Push multiple balls at once with arm"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 9,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the images, the balls are grouped together and near the dustpan, so pushing multiple balls at once would be the quickest way to move them all into the dustpan."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000107.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Pushing multiple balls toward the dustpan together is more efficient than individually picking up each one."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000155.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Pushing several balls together into the dustpan at once removes the need for individually picking and placing each ball, which is faster overall and thus more efficient."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000210.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the images, one can see that simply pushing multiple balls toward the dustpan in a single motion is both faster and more efficient than picking each ball up one-by-one."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000304.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Pushing multiple balls at the same time into the dustpan reduces the number of individual pick-and-place motions and hence is more efficient."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000349.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In this scenario, gathering and sweeping the balls simultaneously with the arm is the most direct and efficient way to move multiple balls quickly into the dustpan."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000407.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Pushing multiple balls at once efficiently gathers them toward the dustpan in fewer motions than picking them up individually."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000435.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the images, it is clear the robot can gather multiple balls at once by pushing or sweeping them into the dustpan rather than picking them up individually. This is faster and more efficient."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000457.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the images, it\u2019s clear that pushing multiple balls at once requires fewer pick-and-place motions and thus completes the task more quickly than individually picking each ball."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

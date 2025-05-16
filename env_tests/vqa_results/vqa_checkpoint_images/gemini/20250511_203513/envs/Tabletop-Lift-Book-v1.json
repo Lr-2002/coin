@@ -1,0 +1,75 @@
+{
+    "instruction": "lift the book up to the higher platform",
+    "query": {
+        "query": "How to move the book to the higher platform?",
+        "selection": {
+            "A": "Directly grasp the book and lift it up to the higher platform",
+            "B": "Push the book to create an overhang at the table edge, then grasp and lift",
+            "C": "Attempt to slide fingers underneath the book without creating an overhang first"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 5,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the robotic arm directly grasping the book and lifting it up to the higher platform. There is no evidence of pushing the book to create an overhang or attempting to slide fingers underneath the book without creating an overhang first."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000156.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the first image, the robot arm is positioned above the book on the lower platform. In the second image, the robot arm is positioned above the book on the higher platform. Therefore, the robot arm directly grasped the book and lifted it up to the higher platform."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000275.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image sequence, the robot arm directly grasps the book and lifts it up to the higher platform. There is no evidence of pushing the book to create an overhang or attempting to slide fingers underneath the book without creating an overhang first."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000328.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the images, the robot arm directly grasps the book and lifts it onto the higher platform. There is no evidence of pushing the book to create an overhang or attempting to slide fingers underneath it without creating an overhang."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000486.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the images, the robot arm directly grasps the book and lifts it up to the higher platform. There is no evidence of pushing the book to create an overhang or attempting to slide fingers underneath the book without creating an overhang first."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

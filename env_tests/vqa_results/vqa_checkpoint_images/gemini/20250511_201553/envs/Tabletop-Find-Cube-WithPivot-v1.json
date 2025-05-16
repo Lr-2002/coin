@@ -1,0 +1,85 @@
+{
+    "instruction": "Move the heavy cube to the goal region",
+    "query": {
+        "query": "which cube is heavier",
+        "selection": {
+            "A": "A",
+            "B": "B"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 6,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The image shows a seesaw. Cube A is closer to the fulcrum and the seesaw is tilted towards cube A. This indicates that cube A is heavier."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000126.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "At step 000000, the green cube (A) is at the goal region. At step 000126, the blue cube has been moved to the goal region. The high-level task instruction is to move the heavy cube to the goal region. Therefore, the blue cube is the heavy cube."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000165.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the images, we can see a seesaw. At step 000126, the green cube (A) is on one side of the seesaw and the grey cube (B) is on the other. At step 000165, the green cube (A) has caused its side of the seesaw to lower, indicating it is heavier than the grey cube (B)."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000230.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The task instruction is to move the heavy cube to the goal region. In the image at step 000230, cube A is at the goal region. Therefore, cube A is heavier."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000281.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show a seesaw. In the first image, the robot is holding the cube labeled 'A' and placing it on the seesaw. In the second image, the seesaw is tilted towards the side where cube 'A' is placed. This indicates that cube 'A' is heavier than cube 'B'."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000290.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, we can see that the robot arm is trying to move the cubes. At step 000281, the robot arm is holding cube A. At step 000290, the robot arm has moved cube A to the goal region. Since the task is to move the heavy cube to the goal region, cube A must be the heavier cube."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

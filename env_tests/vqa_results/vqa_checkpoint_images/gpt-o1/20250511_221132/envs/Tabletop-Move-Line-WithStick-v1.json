@@ -1,0 +1,86 @@
+{
+    "instruction": "Use the stick to move the small cube along the straight line path to the target position ",
+    "query": {
+        "query": "What approach should be used to move the cube along the path?",
+        "selection": {
+            "A": "Use the stick to push the cube",
+            "B": "Directly push the cube with continuous contact",
+            "C": "Pick the cube up and place it to the target"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 6,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "According to the goal (using the stick to move the cube along the straight line path), the best approach is to use the stick as a pushing tool rather than directly pushing the cube or picking it up."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000066.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The high-level instruction and the images indicate the cube is meant to be guided along the path using the stick rather than directly pushing it with the robot or picking it up."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000134.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, it\u2019s clear that the intended strategy involves using the stick to gently push and guide the cube along the straight path toward the target."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000256.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images and the stated goal, the manipulator is using the long yellow stick as a tool to push and guide the cube toward the target."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000388.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images it is clear the robot is manipulating the gray cube by leaning its stick against it and pushing it forward along the line. This matches option A: use the stick to push the cube."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000431.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, the robot is clearly using the attached stick as a simple pushing tool to slide the cube along the path. Hence, using the stick to push (rather than picking up the cube or just pushing it unassisted) is the proper approach."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

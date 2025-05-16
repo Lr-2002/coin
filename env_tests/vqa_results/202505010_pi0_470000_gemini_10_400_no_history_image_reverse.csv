@@ -1,0 +1,15 @@
+Task,Accuracy,Success correct num,Total num
+Tabletop-Seek-Objects-WithObstacle-v1,100.00%,2,2
+Tabletop-Put-Cube-IntoCabinetWithObstacle-v1,0.00%,0,12
+Tabletop-Put-Balls-IntoContainer-v1,50.00%,5,10
+Tabletop-Put-Cube-IntoMicrowave-v1,90.00%,9,10
+Tabletop-Slide-Cube-WithPath-v1,0.00%,0,10
+Tabletop-Stack-LongObjects-v1,78.57%,11,14
+Tabletop-Stack-Books-v1,77.78%,7,9
+Tabletop-Slide-Cube-Into-Container-v1,28.57%,4,14
+Tabletop-Rotate-Cube-Twice-v1,0.00%,0,10
+Tabletop-Seek-Objects-InCabinet-v1,0.00%,0,11
+Tabletop-Seek-Holder-InCabinet-v1,100.00%,13,13
+Tabletop-Stack-Books-OnBox-v1,40.00%,4,10
+Tabletop-Stack-Cube-WithColor-v1,50.00%,1,2
+Tabletop-Pick-Object-FromCabinet-v1,100.00%,3,3

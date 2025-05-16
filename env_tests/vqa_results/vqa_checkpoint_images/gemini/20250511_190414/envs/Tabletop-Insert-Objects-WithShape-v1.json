@@ -1,0 +1,97 @@
+{
+    "instruction": "insert all the stick on the table into corresponding holes",
+    "query": {
+        "query": "Which hole is for the cylinder?",
+        "selection": {
+            "A": "A hole",
+            "B": "B hole",
+            "C": "C hole"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 7,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "C",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The cylinder is above the hole A, which is a circle. Therefore, the cylinder is for the hole A."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000042.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the images, the cylinder is located near the hole marked as 'A' in the query image. Therefore, the hole for the cylinder is A."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000044.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the images, the cylinder is placed near the hole labeled A in the query image. Therefore, the hole for the cylinder is A."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000165.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the first image, we can see that the cylinder is near the hole labeled as 'A' in the query image. Therefore, the cylinder goes into the A hole."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000212.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "The cylinder is being inserted into the hole marked as C in the query image."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000270.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The image shows the robotic arm holding a cylinder and moving it towards the hole labeled 'A'. Therefore, the cylinder is intended for the hole labeled 'A'."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000354.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The cylinder is near the hole A in the image. So the hole A is for the cylinder."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

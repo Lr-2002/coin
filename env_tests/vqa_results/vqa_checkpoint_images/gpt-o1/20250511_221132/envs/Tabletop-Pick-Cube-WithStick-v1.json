@@ -1,0 +1,108 @@
+{
+    "instruction": "Use the stick to move the small cube along the T-shaped path to the target position ",
+    "query": {
+        "query": "Why we need a stick to move the cube?",
+        "selection": {
+            "A": "Because the cube is too small and the path is too narrow",
+            "B": "Because the cube is too heavy to move",
+            "C": "Because the cube is too slippery"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 8,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, the T\u2010shaped path is very narrow and the cube is quite small. The robot cannot directly grasp the cube within the narrow path, so it uses the stick to push the cube along."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000052.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, it appears that the cube sits within a small T-shaped channel that wouldn't accommodate the robot\u2019s gripper, so using the stick helps reach and push the cube along the narrow path."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000102.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, the channel-like T-path is quite narrow relative to the robot\u2019s gripper, so the robot has to use the long narrow stick to push the small cube along that confined path."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000204.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, it\u2019s evident that the cube is located within a narrow T-shaped track and is quite small. Using a stick makes it easier for the robot to reach inside and guide the cube along that built-in path without the bulk of the gripper getting in the way."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000275.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, the narrow T-shaped path requires a smaller tool to nudge the tiny cube; the gripper alone cannot reach in to guide it effectively."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000372.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, the small green cube is within a narrow T-shaped channel that the gripper alone cannot easily manipulate. The stick is used as an extension to more easily push the cube along this tight track."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000524.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, it is clear that the cube is nestled in a narrow T-shaped channel. The stick is needed to guide the cube along this tight path, since the gripper would not be able to fit effectively to push or pull the cube otherwise."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000525.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, the cube sits in a very narrow slot. The stick is used because the robot gripper cannot directly grasp and maneuver the small cube within that tight path."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

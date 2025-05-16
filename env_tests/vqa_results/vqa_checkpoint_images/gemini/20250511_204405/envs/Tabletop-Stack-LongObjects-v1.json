@@ -1,0 +1,86 @@
+{
+    "instruction": "stack all the objects to make it most high",
+    "query": {
+        "query": "Which cube is the highest?",
+        "selection": {
+            "A": "A",
+            "B": "B",
+            "C": "C"
+        }
+    },
+    "ground_truth": "C",
+    "response_num": 6,
+    "answers": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "Based on the query image, cube C is stacked on top of cube B, and cube A is next to cube C. Therefore, cube C is the highest."
+            },
+            "answer": "C",
+            "correct": true
+        },
+        {
+            "image_filename": "000068.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "Based on the image, cube C is stacked on top of cube B, and cube A is next to cube C. Therefore, cube C is the highest."
+            },
+            "answer": "C",
+            "correct": true
+        },
+        {
+            "image_filename": "000127.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "Based on the image, cube C is stacked on top of cube B, which is stacked on top of cube A. Therefore, cube C is the highest."
+            },
+            "answer": "C",
+            "correct": true
+        },
+        {
+            "image_filename": "000278.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "Based on the image at step 000278 and the query image, cube C is stacked on top of cube B, and cube A is stacked on top of cube B. Cube C is the highest."
+            },
+            "answer": "C",
+            "correct": true
+        },
+        {
+            "image_filename": "000358.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "Based on the image, cube C is on top of cube B, and cube A is on top of cube B. Since cube C is higher than cube A, cube C is the highest."
+            },
+            "answer": "C",
+            "correct": true
+        },
+        {
+            "image_filename": "000375.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "Based on the query image, cube C is stacked on top of cube B, which is stacked on top of cube A. Therefore, cube C is the highest."
+            },
+            "answer": "C",
+            "correct": true
+        }
+    ]
+}

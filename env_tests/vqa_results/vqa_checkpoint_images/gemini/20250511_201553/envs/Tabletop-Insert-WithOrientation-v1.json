@@ -1,0 +1,107 @@
+{
+    "instruction": "insert the board on the wall",
+    "query": {
+        "query": "What is the correct orientation for inserting the blue object?",
+        "selection": {
+            "A": "Rotate the object vertically to match the slot height",
+            "B": "Keep the object flat on the table and push it in"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 8,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000000, the blue object is oriented vertically and inserted into the slot on the wall. Therefore, the correct orientation is to rotate the object vertically to match the slot height."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000076.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000076, the blue object is oriented vertically and inserted into the slot on the wall. This suggests that the correct orientation for insertion is vertical, matching the slot's height."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000101.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the last image, the blue object is inserted into the wall. The blue object is oriented vertically to match the slot height."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000280.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the first image (step 000101), the blue object is lying flat on the table. In the second image (step 000280), the robot arm has rotated the blue object vertically so that its height matches the height of the slot in the gray object. This indicates that the correct orientation for inserting the blue object is to rotate it vertically."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000367.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000367, the blue object is oriented vertically and is being inserted into the slot. This indicates that the correct orientation for insertion is vertical, matching the slot's height."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000441.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the images, the blue object is initially flat on the table. By the last image, the blue object is being held vertically, suggesting that it needs to be rotated to match the height of the slot in the grey object for insertion."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000482.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000482, the robot arm has rotated the blue object vertically so that it can be inserted into the slot. This matches option A."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000490.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000490, the robot arm is holding the blue object vertically, and it appears to be aligned with the slot on the wall. This suggests that the correct orientation for inserting the blue object is to rotate it vertically to match the slot height."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "instruction": "move all the balls into the holder with dustpan",
+    "query": {
+        "query": "What strategy should be used to collect multiple balls efficiently?",
+        "selection": {
+            "A": "Collect all balls at once with a single sweeping motion",
+            "B": "Move the balls one by one"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 5,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "A single sweeping motion into the dustpan can collect all the balls together more efficiently than moving them one by one."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000044.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Using the dustpan to sweep multiple balls in one go is more efficient than picking them up individually."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000194.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Because the dustpan can be used to gather and scoop up multiple balls at once, a single sweeping motion to collect them together is more efficient than moving each ball individually."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000252.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, the robot is clearly using the dustpan to sweep multiple balls at once, indicating that a single sweeping motion to gather them together efficiently is the intended strategy."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000259.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Using the dustpan to sweep all of the small balls together into the holder in one or two broader motions is more efficient than handling them one by one."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

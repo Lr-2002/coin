@@ -1,0 +1,130 @@
+{
+    "instruction": "pick up the object from the cabinet ",
+    "query": {
+        "query": "What's the object in the cabinet?",
+        "selection": {
+            "A": "A book",
+            "B": "A cube",
+            "C": "A pen"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 10,
+    "answers": [
+        "B",
+        "C",
+        "A",
+        "B",
+        "B",
+        "None of the above",
+        "D: An apple",
+        "None of the above",
+        "C",
+        "C"
+    ],
+    "correct": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The object visible inside the cabinet in the observation image is a cube. The shape is clearly identifiable as a cube based on its geometric structure and appearance."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000262.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "In the second observation (step 000262), the robot arm has opened the cabinet and is gripping an object. From the close-up view in the rightmost panel, the object appears to be cylindrical and elongated, resembling a pen. This eliminates the possibility of it being a book or a cube, as those objects would have distinctly different shapes."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000318.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the final observation at step 000318, the cabinet door is open, revealing an object inside. The object appears to be rectangular and flat, resembling the shape of a book. The other options, such as a cube or a pen, do not match the observed shape and dimensions of the object inside the cabinet."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000393.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the second checkpoint observation (step 000318), the cabinet door is open, revealing the object inside. The object appears to be a cube based on its shape and dimensions. The other options, such as a book or a pen, do not match the observed shape and size of the object."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000478.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the final observation at step 000478, the robotic arm is seen holding a cube-shaped object that was retrieved from the cabinet. The shape and appearance of the object clearly indicate that it is a cube. Therefore, the object in the cabinet is a cube."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000564.png",
+            "response": {
+                "answer": "None of the above",
+                "reasoning": "Based on the checkpoint observations, the object inside the cabinet is clearly a red apple, not any of the listed options (A: A book, B: A cube, C: A pen). The apple is visible in the cabinet in the last two images (steps 000478 and 000564)."
+            },
+            "answer": "None of the above",
+            "correct": false
+        },
+        {
+            "image_filename": "000787.png",
+            "response": {
+                "answer": "D: An apple",
+                "reasoning": "The images clearly show a red, round object inside the cabinet, which is consistent with the appearance of an apple. The robotic arm interacts with this object in the cabinet, confirming its presence. None of the other options (book, cube, pen) match the observed object's characteristics."
+            },
+            "answer": "D: An apple",
+            "correct": false
+        },
+        {
+            "image_filename": "000834.png",
+            "response": {
+                "answer": "None of the above",
+                "reasoning": "The images clearly show that the object in the cabinet is an apple, not any of the options provided (A: book, B: cube, C: pen). The apple is visible in the cabinet in the first image (step 000564), being grasped by the robotic arm in the second image (step 000787), and dropped outside the cabinet in the third image (step 000834). None of the options match the observed object."
+            },
+            "answer": "None of the above",
+            "correct": false
+        },
+        {
+            "image_filename": "000987.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "In the provided sequence of images, the robotic arm is seen interacting with an object inside the cabinet. The object is small, cylindrical, and has the appearance of a pen. This is evident from the shape and size of the object visible in the cabinet and as it is being manipulated by the robotic arm. Therefore, the object in the cabinet is a pen."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "001582.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "Based on the observations provided, the object inside the cabinet is clearly visible as a pen. The robotic arm interacts with the object, and its shape and size match that of a pen. The other options, such as a book or a cube, do not match the object's appearance in the images."
+            },
+            "answer": "C",
+            "correct": false
+        }
+    ]
+}

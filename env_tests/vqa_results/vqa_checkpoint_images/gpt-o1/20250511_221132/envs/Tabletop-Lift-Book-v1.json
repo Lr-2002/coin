@@ -1,0 +1,75 @@
+{
+    "instruction": "lift the book up to the higher platform",
+    "query": {
+        "query": "How to move the book to the higher platform?",
+        "selection": {
+            "A": "Directly grasp the book and lift it up to the higher platform",
+            "B": "Push the book to create an overhang at the table edge, then grasp and lift",
+            "C": "Attempt to slide fingers underneath the book without creating an overhang first"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 5,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The book is flush on its platform, so sliding it toward the edge to create an overhang first allows the gripper to get underneath and then lift it onto the higher platform."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000156.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Because the book is flush against the platform, the robot should first push it so its edge extends beyond the platform, allowing the gripper to get underneath and then lift it safely to the higher platform."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000275.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the images, the book is flat on the surface, so the robot cannot slip its fingers underneath without first creating a small overhang. Pushing the book slightly so it hangs over an edge and then grasping it is the most effective approach."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000328.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the images, the book lies flat with little clearance. The easiest way to grasp from underneath is to push it so it overhangs the edge, then grasp and lift."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000486.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the images, the book is flat on the surface with no clearance underneath to grasp it directly. By pushing it so that part of it hangs over the edge, the robot can place its gripper underneath and then lift it to the higher platform."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

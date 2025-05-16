@@ -1,0 +1,97 @@
+{
+    "instruction": "insert all the stick on the table into corresponding holes",
+    "query": {
+        "query": "Which hole is for the cylinder?",
+        "selection": {
+            "A": "A hole",
+            "B": "B hole",
+            "C": "C hole"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 7,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image, the robot arm is holding a cylinder and is about to insert it into the hole labeled A. Therefore, the hole for the cylinder is A."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000042.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the images, the cylinder is placed near the hole marked as 'A' in the query image. Therefore, the cylinder goes into the A hole."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000044.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000044, the cylinder is placed above the hole labeled A. Therefore, the cylinder goes into hole A."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000165.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000165, the cylinder is located near hole A. Therefore, hole A is for the cylinder."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000212.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000212, the cylinder is near the A hole. Therefore, the A hole is for the cylinder."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000270.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000270, the robot arm is holding a cylinder and is about to insert it into the hole labeled 'A' in the query image. Therefore, the hole for the cylinder is A."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000354.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The cylinder is near the A hole, and the shape of the A hole is similar to the cylinder."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

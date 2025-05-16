@@ -1,0 +1,97 @@
+{
+    "instruction": "insert all the stick on the table into corresponding holes",
+    "query": {
+        "query": "Which hole is for the cylinder?",
+        "selection": {
+            "A": "A hole",
+            "B": "B hole",
+            "C": "C hole"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 7,
+    "answers": [
+        "B",
+        "A",
+        "B",
+        "B",
+        "A",
+        "B",
+        "B"
+    ],
+    "correct": [
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The cylinder shape matches the circular hole labeled as 'B'. The other holes, 'A' and 'C', are designed for different shapes (rectangular and triangular, respectively), and do not correspond to the cylinder."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000042.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the observations, the cylinder shape matches the circular hole labeled 'A'. The other holes, 'B' and 'C', are shaped differently\u2014'B' is rectangular and 'C' is triangular\u2014making them unsuitable for the cylinder."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000044.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The cylinder shape matches the round hole labeled as 'B' in the query image. Observations at steps 000042 and 000044 show the cylinder being manipulated near the round hole, confirming that 'B' is the correct hole for the cylinder."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000165.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The cylinder is a round object, and the hole labeled 'B' is circular in shape, matching the geometry of the cylinder. Observations at steps '000044' and '000165' show the cylinder being positioned near the circular hole, confirming that 'B' is the correct hole for the cylinder."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000212.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The cylinder is a round object, and the hole labeled 'A' is circular, matching the shape of the cylinder. Observations at steps 000165 and 000212 show the robot arm interacting with the cylinder near the circular hole 'A', confirming that this hole is intended for the cylinder."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000270.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the observations at steps 000212 and 000270, the cylinder is seen being inserted into the hole labeled 'B' in the query image. The cylindrical shape matches the hole labeled 'B,' which is circular and designed to accommodate the cylinder. Holes 'A' and 'C' are not suitable as they are shaped differently (rectangular and triangular, respectively)."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000354.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the observations at steps 000270 and 000354, the cylinder is seen being inserted into the circular hole. In the query image, the circular hole is labeled as 'B'. Therefore, the cylinder corresponds to the B hole."
+            },
+            "answer": "B",
+            "correct": false
+        }
+    ]
+}

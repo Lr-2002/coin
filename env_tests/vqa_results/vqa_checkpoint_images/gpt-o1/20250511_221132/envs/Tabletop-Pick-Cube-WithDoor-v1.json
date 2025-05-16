@@ -1,0 +1,85 @@
+{
+    "instruction": "put the cube to the marker",
+    "query": {
+        "query": "What is the correct sequence to retrieve the cube?",
+        "selection": {
+            "A": "Reach for the cube without opening the door",
+            "B": "Open the door first, then pick the cube"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 6,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The door is clearly blocking direct access to the cube, so you must open the door first before retrieving it."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000074.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The door blocks direct access to the cube, so it must be opened before picking up the cube."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000132.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The cube is blocked by the door, so the robot must open the door to gain access to the cube before picking it up."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000172.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images clearly show that the cube is behind a closed door, so the arm must open the door first before it can reliably reach and pick up the cube."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000199.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The robot has to move the door out of the way before it can access and pick the cube."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000200.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Because the cube is behind the door, the robot must open the door before reaching in to pick the cube successfully."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

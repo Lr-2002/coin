@@ -1,0 +1,64 @@
+{
+    "instruction": "open the door",
+    "query": {
+        "query": "What is the main challenge in opening this door?",
+        "selection": {
+            "A": "The door is too heavy to push",
+            "B": "The cabinet door is in the way to open the door",
+            "C": "We can directly open the door"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+        "C",
+        "C",
+        "B",
+        "C"
+    ],
+    "correct": [
+        false,
+        false,
+        true,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "The images show that the door is already open, and there is no visible obstruction or challenge preventing further manipulation. The cabinet door is open, but it does not block the path of the door being opened. Therefore, the door can be directly opened without any issues."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000061.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "The images show that the door is already partially open, and there are no visible obstructions or challenges such as the cabinet door being in the way or the door being too heavy to push. The robotic arm appears to have successfully manipulated the door handle, and the door can be directly opened further without any apparent issues."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000091.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show that the cabinet door is open and positioned in such a way that it obstructs the main door from being fully opened. This creates a physical barrier, making it the main challenge in opening the door. The door is not too heavy to push (eliminating option A), and we cannot directly open the door without addressing the obstruction (eliminating option C)."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000184.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "The images show that the door is already open, and there are no visible obstacles or challenges preventing further manipulation. The robotic arm appears to have successfully interacted with the door, and the cabinet door is not obstructing the process. Therefore, the task of opening the door can be directly completed without additional challenges."
+            },
+            "answer": "C",
+            "correct": false
+        }
+    ]
+}

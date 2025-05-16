@@ -1,0 +1,52 @@
+{
+    "instruction": "Slide a cube down a slope into a container",
+    "query": {
+        "query": "How can we put the cube to the container?",
+        "selection": {
+            "A": "Slide it from the top of the slope",
+            "B": "Put the cube to the dustpan directly"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 3,
+    "answers": [
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The setup includes a slope positioned above a dustpan-like container, and the cube is placed at the top of the slope. Sliding the cube from the top of the slope is the intended method to move it into the container, as the slope is designed to guide the cube directly into the dustpan."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000040.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The task instruction specifies sliding the cube down a slope into a container. Observations show the cube positioned at the top of the slope, ready to slide down. Sliding it from the top of the slope aligns with the task requirements and utilizes the slope's design to guide the cube into the container. Option B, placing the cube directly into the dustpan, bypasses the slope and does not follow the intended task process."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000069.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show that the cube was initially placed at the top of the slope and then slid down into the container (dustpan) successfully. This indicates that sliding the cube from the top of the slope is the correct method to put it into the container. Option B, putting the cube directly into the dustpan, does not align with the observed manipulation process."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

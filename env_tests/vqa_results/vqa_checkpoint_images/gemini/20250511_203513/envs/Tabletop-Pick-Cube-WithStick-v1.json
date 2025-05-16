@@ -1,0 +1,108 @@
+{
+    "instruction": "Use the stick to move the small cube along the T-shaped path to the target position ",
+    "query": {
+        "query": "Why we need a stick to move the cube?",
+        "selection": {
+            "A": "Because the cube is too small and the path is too narrow",
+            "B": "Because the cube is too heavy to move",
+            "C": "Because the cube is too slippery"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 8,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show a small cube and a narrow, T-shaped path. The robotic arm is using a stick to manipulate the cube. This suggests that the cube is too small to be directly manipulated by the robotic arm's gripper, and the path is too narrow for the gripper to fit inside and move the cube directly. Therefore, the stick is needed to move the cube along the path."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000052.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The cube is small and the path is narrow, so the robot arm cannot directly manipulate the cube without the stick."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000102.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show a small cube being moved along a narrow T-shaped path. The robotic arm uses a stick to manipulate the cube. This suggests that the cube is too small and the path is too narrow for the robot to directly manipulate the cube with its gripper."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000204.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the robot using a stick to manipulate a small cube along a T-shaped path. The path appears to be quite narrow. Therefore, the stick is likely needed because the cube is too small and the path is too narrow for the robot to directly manipulate the cube with its gripper."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000275.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show a small cube being manipulated along a T-shaped path. The path appears to be quite narrow, and the cube itself is small. It is likely that the robot's gripper would be too large or imprecise to directly manipulate the cube within the confines of the path. Therefore, a stick is used as a tool to more easily and accurately move the cube along the path. The other options are not supported by the images. The cube does not appear to be heavy or slippery."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000372.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show a small cube being moved along a narrow T-shaped path. The robotic arm uses a stick to manipulate the cube. This suggests that the cube is too small for the robot to directly manipulate with its gripper, and the path is too narrow for the gripper to fit inside. Therefore, the stick is necessary to precisely move the cube along the path."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000524.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the robot using a stick to manipulate a small cube along a narrow, T-shaped path. The cube's size relative to the path's width suggests that direct manipulation by the robot's gripper would be difficult or impossible. Therefore, the stick is needed because the cube is too small and the path is too narrow."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000525.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show a small cube being moved along a narrow T-shaped path. The robot arm uses a stick to manipulate the cube. This suggests that the cube is too small and the path is too narrow for the robot arm to directly manipulate the cube without the stick."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

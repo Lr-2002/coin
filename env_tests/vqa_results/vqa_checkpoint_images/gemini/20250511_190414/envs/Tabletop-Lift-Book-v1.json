@@ -1,0 +1,75 @@
+{
+    "instruction": "lift the book up to the higher platform",
+    "query": {
+        "query": "How to move the book to the higher platform?",
+        "selection": {
+            "A": "Directly grasp the book and lift it up to the higher platform",
+            "B": "Push the book to create an overhang at the table edge, then grasp and lift",
+            "C": "Attempt to slide fingers underneath the book without creating an overhang first"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 5,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "B",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        true,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The robot arm is positioned directly above the book, ready to grasp it. The most straightforward way to move the book to the higher platform would be to directly grasp it and lift it up. Therefore, option A is the most appropriate."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000156.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The robot arm is directly above the book and appears to be grasping it. The task is to lift the book to the higher platform, so the most direct way to do this is to grasp the book and lift it. There is no indication that the robot is pushing the book to create an overhang or attempting to slide its fingers underneath the book without creating an overhang."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000275.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The robot arm is positioned directly above the book on the lower platform. The higher platform is nearby. The most direct way to move the book to the higher platform would be to grasp it and lift it up. Therefore, option A is the most appropriate."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000328.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Based on the images, the robotic arm is using a stick to push the book towards the edge of the lower platform, creating an overhang. This suggests the next step will be to grasp the book from the overhang and lift it to the higher platform. Therefore, option B is the most likely action."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000486.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the images, the robot arm is already positioned above the book on the lower platform, ready to grasp it. The higher platform is nearby. Therefore, the most direct way to move the book is to grasp it and lift it to the higher platform. Options B and C involve unnecessary steps."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

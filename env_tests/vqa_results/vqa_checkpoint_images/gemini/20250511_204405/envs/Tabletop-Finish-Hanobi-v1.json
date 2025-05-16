@@ -1,0 +1,152 @@
+{
+    "instruction": "Place all the hanobi in big to small from bottom to up",
+    "query": {
+        "query": "What is the size order of the yellow, red, and blue hanoi?",
+        "selection": {
+            "A": "Yellow > Blue > Red",
+            "B": "Red > Yellow > Blue",
+            "C": "Blue > Yellow > Red"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 12,
+    "answers": [
+        "C",
+        "C",
+        "B",
+        "C",
+        "C",
+        "A",
+        "C",
+        "B",
+        "B",
+        "C",
+        "C",
+        "C"
+    ],
+    "correct": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "Based on the images, the blue hanoi is the largest, followed by the yellow hanoi, and then the red hanoi is the smallest. Therefore, the size order is Blue > Yellow > Red."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000063.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "Based on the image at step 000063, the blue hanoi is the largest, followed by the yellow hanoi, and the red hanoi is the smallest. Therefore, the size order is Blue > Yellow > Red."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000411.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Based on the image at step 000411, the red hanoi is the largest, followed by the yellow, and then the blue hanoi is the smallest. Therefore, the size order is Red > Yellow > Blue."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000720.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "From the image at step 000720, we can see the relative sizes of the hanoi rings. The blue ring is the largest, the yellow ring is in the middle, and the red ring is the smallest. Therefore, the size order is Blue > Yellow > Red."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "001415.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "Based on the images, the blue hanoi is the largest, followed by the yellow, and then the red hanoi is the smallest. Therefore, the size order is Blue > Yellow > Red."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "001765.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 001765, the yellow hanoi is on the bottom, the blue hanoi is in the middle, and the red hanoi is on top. This indicates that the yellow hanoi is the largest, followed by the blue, and then the red. Therefore, the size order is Yellow > Blue > Red."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "001786.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "Based on the image, the blue hanoi is the largest, followed by the yellow, and then the red hanoi is the smallest. Therefore, the size order is Blue > Yellow > Red."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "002089.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Based on the image at step 002089, the red hanoi is the largest, followed by the yellow hanoi, and the blue hanoi is the smallest. Therefore, the size order is Red > Yellow > Blue."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "002184.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Based on the images, the red hanoi is the largest, followed by the yellow hanoi, and then the blue hanoi. Therefore, the size order is Red > Yellow > Blue."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "002628.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "Based on the image at step 002628, the blue hanoi is the largest, followed by the yellow hanoi, and the red hanoi is the smallest. Therefore, the size order is Blue > Yellow > Red."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "002841.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "From the image at step 002841, we can see the hanoi rings stacked on one of the pegs. The blue ring is at the bottom, followed by the yellow ring, and then the red ring on top. This indicates that the blue ring is the largest, the yellow ring is the second largest, and the red ring is the smallest. Therefore, the size order is Blue > Yellow > Red."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "002864.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "In the image at step 002864, the blue hanoi is at the bottom, the yellow hanoi is in the middle, and the red hanoi is on top. This indicates that the blue hanoi is the largest, followed by the yellow, and then the red, so the size order is Blue > Yellow > Red."
+            },
+            "answer": "C",
+            "correct": false
+        }
+    ]
+}

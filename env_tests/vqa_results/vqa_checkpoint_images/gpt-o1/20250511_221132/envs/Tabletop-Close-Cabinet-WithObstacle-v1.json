@@ -1,0 +1,63 @@
+{
+    "instruction": "close the cabinet door",
+    "query": {
+        "query": "Which approach would most likely succeed in closing the cabinet?",
+        "selection": {
+            "A": "Apply force directly to the door",
+            "B": "Move the obstacle first, then close the door"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 4,
+    "answers": [
+        "B",
+        "B",
+        "A",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        false,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "It appears that an object is blocking the door\u2019s path; removing or repositioning that object first would most likely let the cabinet door close successfully."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000175.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The snapshots show the cabinet door obstructed by something inside. Simply pushing the door shut would likely fail, so clearing the obstacle first and then closing the door would be the more reliable way to succeed."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000252.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, there doesn\u2019t appear to be any object blocking the swing of the door, so simply pushing the door directly is enough to close it."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000358.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the images, it appears that there is an object obstructing the cabinet door. The most reliable way to close the door is to first remove the obstacle so that the door is free to move, rather than forcing it directly."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

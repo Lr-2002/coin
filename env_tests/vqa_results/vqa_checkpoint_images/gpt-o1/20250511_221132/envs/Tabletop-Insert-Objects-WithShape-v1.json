@@ -1,0 +1,86 @@
+{
+    "instruction": "insert all the stick on the table into corresponding holes",
+    "query": {
+        "query": "Which hole is for the cylinder?",
+        "selection": {
+            "A": "A hole",
+            "B": "B hole",
+            "C": "C hole"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 6,
+    "answers": [
+        "B",
+        "A",
+        "A",
+        "A",
+        "B",
+        "B"
+    ],
+    "correct": [
+        false,
+        true,
+        true,
+        true,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The circular hole (labeled B) is shaped to fit the cylinder."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000044.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, the circular recess is labeled A, which is the correct hole for the cylinder."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000165.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the images, the leftmost recess (labeled A) is clearly circular in shape and thus matches the cylinder."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000212.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The hole labeled A is clearly the circular hole where the cylinder fits."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000270.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the images, the round cylinder clearly aligns with the middle (B) hole, which has a circular opening."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000354.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the images, the middle hole (labeled B) is round and thus is designed to fit the cylinder."
+            },
+            "answer": "B",
+            "correct": false
+        }
+    ]
+}

@@ -1,0 +1,129 @@
+{
+    "instruction": "Find the holder containing an eraser the cabinet, put it to the marker",
+    "query": {
+        "query": "Which holder has a eraser?",
+        "selection": {
+            "A": "A",
+            "B": "B"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 10,
+    "answers": [
+        "B",
+        "B",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The eraser is visible in holder B, as it has a distinct rectangular shape and texture that matches the appearance of an eraser. Holder A does not contain an eraser; it appears to hold a different object. Based on the visual evidence, the eraser is in holder B."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000059.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the observations, the robot arm is interacting with the cabinet, and it appears to be focused on the holder labeled 'B' in the query image. The eraser is likely in holder 'B' because the robot's actions suggest it is retrieving an object from that specific holder. Holder 'A' does not show any indication of interaction in the observations."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000247.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The eraser is visible in holder A, as it contains a rectangular object resembling an eraser. Holder B does not appear to contain an eraser, based on the visual inspection of the contents in the cabinet."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000331.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the final observation at step 000331, the robotic arm has opened the cabinet and is interacting with the holders. Upon closer inspection of the holder labeled 'A', it contains a visible eraser inside, while the holder labeled 'B' does not contain an eraser. Therefore, the holder with the eraser is 'A'."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000659.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the observations at steps 000247, 000331, and 000659, the robotic arm interacts with the cabinet and focuses on the holders inside. In the close-up view at step 000659, the holder labeled 'A' clearly contains an eraser, identifiable by its rectangular shape and distinct color. The holder labeled 'B' does not contain an eraser, as it appears empty or contains other items. Therefore, the correct answer is 'A'."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000808.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the checkpoint observations, the robotic arm is interacting with the cabinet and inspecting the holders. In the close-up view of the holder labeled 'A' in the cabinet, an eraser is clearly visible inside the mesh holder. The holder labeled 'B' does not contain an eraser, as seen in the observations. Therefore, the holder containing the eraser is 'A'."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000963.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the sequence of images, the robotic arm interacts with the cabinet and specifically focuses on the holder labeled 'A'. The close-up view in the observations (e.g., step 000659 and 000808) clearly shows an eraser inside holder 'A'. Holder 'B' does not contain an eraser based on the visual evidence provided."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "001117.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the sequence of images, the robotic arm interacts with the holder labeled 'A' and retrieves an eraser from it. The eraser is visible inside holder 'A' in the initial observations, and the arm successfully picks it up during the manipulation process. Holder 'B' does not appear to contain an eraser based on the observations."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "001149.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the checkpoint observations, the robotic arm interacts with holder A and retrieves an object from it. Upon closer inspection in the final image (step 001149), the object inside holder A is clearly visible and includes an eraser. Holder B, on the other hand, does not show any interaction or visible eraser in the observations. Therefore, holder A contains the eraser."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "001151.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the checkpoint observations, the robotic arm interacts with a holder containing an eraser. The eraser is visible inside the holder during the manipulation process, particularly in the close-up view at step '001151'. Comparing the query image with the observations, the holder labeled 'A' matches the one containing the eraser. The holder labeled 'B' does not show any eraser inside."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "instruction": "close the door",
+    "query": {
+        "query": "What should be done first to close the door?",
+        "selection": {
+            "A": "Grasp and move the bowl",
+            "B": "Push the door handle directly"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 5,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The bowl is blocking the door from closing. Therefore, the bowl needs to be moved first before the door can be closed."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000075.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The bowl is blocking the door from closing. Therefore, the bowl should be grasped and moved first before the door can be closed."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000141.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The bowl is blocking the door from closing. Therefore, the bowl should be grasped and moved first."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000247.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The bowl is blocking the door from closing. Therefore, the bowl should be grasped and moved first."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000259.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the images, there is a bowl in front of the door. To close the door, the bowl needs to be moved first. Therefore, the robot should grasp and move the bowl."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

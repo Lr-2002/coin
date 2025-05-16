@@ -1,0 +1,118 @@
+{
+    "instruction": "move the cube to the marker and put the holder on the cube ",
+    "query": {
+        "query": "What's the best sequence of actions for this task?",
+        "selection": {
+            "A": "Move the cube to the marker first, then place the holder on top",
+            "B": "Move the holder first, then place the cube to the marker, finally put the holder on the cube"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 9,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The task is to move the cube to the marker and put the holder on the cube. Option A describes this sequence directly. Option B is incorrect because it suggests moving the holder first, which is not the most efficient way to complete the task."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000035.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the cube being moved to the marker first. Then the holder is placed on top of the cube. Therefore, option A is the correct sequence of actions."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000102.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The image at step 000102 shows the cube on the marker and the holder is on the cube. Therefore, the cube was moved to the marker first, and then the holder was placed on top."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000142.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show that the cube is moved to the marker first, and then the holder is placed on top of the cube. Therefore, option A is the correct sequence of actions."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000171.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the cube being moved to the marker first, and then the holder is placed on top of the cube. Therefore, the best sequence of actions is to move the cube to the marker first, then place the holder on top."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000206.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the cube being moved to the marker first, and then the holder is placed on top of the cube. Therefore, the best sequence of actions is to move the cube to the marker first, then place the holder on top."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000272.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the cube being moved to the marker first, and then the holder being placed on top of the cube. Therefore, option A is the correct sequence of actions."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000299.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show the robot arm placing the holder on the cube after the cube has been moved to the marker. Therefore, the best sequence of actions is to move the cube to the marker first, then place the holder on top."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000303.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The images show that the cube is moved to the marker first, and then the holder is placed on top of the cube. Therefore, option A is the correct sequence of actions."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

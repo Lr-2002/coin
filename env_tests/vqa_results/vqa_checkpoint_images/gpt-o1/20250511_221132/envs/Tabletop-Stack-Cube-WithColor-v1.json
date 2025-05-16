@@ -1,0 +1,17 @@
+{
+    "instruction": "Stack the cube with same color",
+    "query": {
+        "query": "How many degrees should A be rotated along y axis(the axis vertical to the white face) to make it same color with B?",
+        "selection": {
+            "A": "90",
+            "B": "180",
+            "C": "270"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 0,
+    "answers": [],
+    "correct": [],
+    "final_correct": null,
+    "image_responses": []
+}

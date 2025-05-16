@@ -1,0 +1,174 @@
+{
+    "instruction": "Put the balls in to the holder to balance the long board on the triangular prism",
+    "query": {
+        "query": "How many balls can make the pivot balance?",
+        "selection": {
+            "A": "4",
+            "B": "5",
+            "C": "6"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 14,
+    "answers": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "B",
+        "B",
+        "C",
+        "A",
+        "B",
+        "C",
+        "B",
+        "C",
+        "C",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "In the image, there are 6 balls lined up next to the board. The task is to balance the board using the balls. Therefore, 6 balls are needed to balance the pivot."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000059.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "In the image at step 000059, the pivot is balanced with 6 balls in the holder."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000063.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "In the last image, we can see that all 6 balls have been placed into the holder on the left side of the pivot. The pivot is balanced."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000122.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "In the image at step 000122, we can see that there are 6 balls in the holder on the right side of the pivot. The board is balanced. Therefore, 6 balls can make the pivot balance."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000167.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the image at step 000122, the pivot is balanced with 5 balls in the holder. Therefore, 5 balls can make the pivot balance."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000194.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the image at step 000167, the board is balanced with 5 balls in the holder. The other images show the robot putting balls into the holder, but the board is not balanced until step 000167."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000237.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "In the image at step 000237, the board is balanced with 6 balls in the holder."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000265.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the images, the robot arm is placing balls into the holder. At step 000265, there are 4 balls in the holder. The board is balanced. Therefore, 4 balls can make the pivot balance."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000313.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the image at step 000313, there are 5 balls in the holder. The board is balanced. Therefore, 5 balls can make the pivot balance."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000334.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "In the images, the robot arm is placing balls into the holders on the board. The board is balanced on a triangular prism. By the last image, all 6 balls are in the holders and the board is balanced."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000399.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show the robot placing balls into the holder. The final image shows the board balanced with the holder and a green cube on one side. The query image shows 6 balls in a row. The question asks how many balls can make the pivot balance. The images show that the board is balanced with the holder and a green cube on one side. The last image shows 5 balls in the holder. Therefore, 5 balls can make the pivot balance."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000467.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "The query image shows 6 balls next to the pivot. The task is to balance the pivot, so the answer is 6."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000525.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "In the images, the robot is placing balls into the holder. At step 000525, the board is balanced. The query image shows 6 balls next to the board. Therefore, 6 balls can make the pivot balance."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "000532.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the images, the robot arm is placing balls into the holder on the left side of the board. The board is balanced on a triangular prism. In the last image, the board appears to be balanced with two balls in the holder. The query image shows 6 balls. Therefore, the answer is 4."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

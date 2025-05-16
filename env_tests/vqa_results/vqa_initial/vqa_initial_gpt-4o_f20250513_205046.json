@@ -1,0 +1,878 @@
+{
+  "correct_num": 28,
+  "correct_env": [
+    "Tabletop-Clean-For-Dinner-v1",
+    "Tabletop-Close-Cabinet-WithObstacle-v1",
+    "Tabletop-Close-Door-WithObstacle-v1",
+    "Tabletop-Close-Drawer-WithLongObstacle-v1",
+    "Tabletop-Close-Drawer-WithObstacle-v1",
+    "Tabletop-Find-Book-Black-v1",
+    "Tabletop-Find-Cube-WithPivot-v1",
+    "Tabletop-Find-Dice-v1",
+    "Tabletop-Insert-Conical-v1",
+    "Tabletop-Insert-WithOrientation-v1",
+    "Tabletop-Keep-Pivot-Balance-v1",
+    "Tabletop-Merge-Box-v1",
+    "Tabletop-Move-Balls-WithDustpan-v1",
+    "Tabletop-Move-Balls-WithPivot-v1",
+    "Tabletop-Move-Cross-WithStick-v1",
+    "Tabletop-Move-Cube-WithPivot-v1",
+    "Tabletop-Open-Cabinet-WithSwitch-v1",
+    "Tabletop-Open-Door-WithCabinet-v1",
+    "Tabletop-Open-Door-WithObstacle-v1",
+    "Tabletop-Pick-Cube-WithDoor-v1",
+    "Tabletop-Pick-Cube-WithStick-v1",
+    "Tabletop-Put-Cube-IntoCabinetWithObstacle-v1",
+    "Tabletop-Put-Cube-IntoMicrowave-v1",
+    "Tabletop-Seek-Holder-InCabinet-v1",
+    "Tabletop-Seek-Objects-WithObstacle-v1",
+    "Tabletop-Slide-Cube-Into-Container-v1",
+    "Tabletop-Slide-Cube-WithPath-v1",
+    "Tabletop-Stack-Books-v1"
+  ],
+  "wrong_env": [
+    "Tabletop-Balance-Pivot-WithBalls-v1",
+    "Tabletop-Find-Book-FromShelf-v1",
+    "Tabletop-Find-Cube-RedDown-v1",
+    "Tabletop-Finish-Hanobi-v1",
+    "Tabletop-Insert-Objects-WithShape-v1",
+    "Tabletop-Lift-Book-v1",
+    "Tabletop-Merge-USB-v1",
+    "Tabletop-Move-Cube-DynamicFriction-v1",
+    "Tabletop-Move-Cube-WithHolder-v1",
+    "Tabletop-Move-Line-WithStick-v1",
+    "Tabletop-Open-Cabinet-WithDoor-v1",
+    "Tabletop-Open-Cabinet-WithObstacle-v1",
+    "Tabletop-Pick-Cube-Slippery-v1",
+    "Tabletop-Pick-Cylinder-WithObstacle-v1",
+    "Tabletop-Pick-Eraser-FromHolder-v1",
+    "Tabletop-Pick-Object-FromCabinet-v1",
+    "Tabletop-Put-Balls-IntoContainer-v1",
+    "Tabletop-Rotate-Cube-Twice-v1",
+    "Tabletop-Seek-Objects-InCabinet-v1",
+    "Tabletop-Stack-Books-OnBox-v1",
+    "Tabletop-Stack-Cube-WithColor-v1",
+    "Tabletop-Stack-LongObjects-v1"
+  ],
+  "Tabletop-Balance-Pivot-WithBalls-v1": {
+    "instruction": "Put the balls in to the holder to balance the long board on the triangular prism",
+    "query": {
+      "query": "How many balls can make the pivot balance?",
+      "selection": {
+        "A": "4",
+        "B": "5",
+        "C": "6"
+      }
+    },
+    "ground_truth": "B",
+    "correct": false,
+    "response": {
+      "answer": "A",
+      "reasoning": "The long board is balanced on a triangular prism, and the holder is positioned closer to one end of the board. To achieve balance, the number of balls placed in the holder must counteract the weight of the green cube on the opposite side. Based on the visual inspection of the setup, 4 balls appear to be sufficient to balance the pivot, as the holder is closer to the pivot point, requiring fewer balls to achieve equilibrium."
+    }
+  },
+  "Tabletop-Clean-For-Dinner-v1": {
+    "instruction": "Arrange the bowl, fork onto the plate, clean for dinner ",
+    "query": {
+      "query": "Which item should be placed on the plate first?",
+      "selection": {
+        "A": "The bowl",
+        "B": "The fork"
+      }
+    },
+    "ground_truth": "A",
+    "correct": true,
+    "response": {
+      "answer": "A",
+      "reasoning": "The bowl should be placed on the plate first because it is larger and provides a stable base for arranging other items like the fork. Placing the fork first might make it harder to position the bowl without disturbing the fork."
+    }
+  },
+  "Tabletop-Close-Cabinet-WithObstacle-v1": {
+    "instruction": "close the cabinet door",
+    "query": {
+      "query": "Which approach would most likely succeed in closing the cabinet?",
+      "selection": {
+        "A": "Apply force directly to the door",
+        "B": "Move the obstacle first, then close the door"
+      }
+    },
+    "ground_truth": "B",
+    "correct": true,
+    "response": {
+      "answer": "B",
+      "reasoning": "The image shows that there is an obstacle preventing the cabinet door from closing. Applying force directly to the door without addressing the obstacle could damage the door or the robotic arm. Moving the obstacle first ensures a clear path for the door to close, making this approach more likely to succeed."
+    }
+  },
+  "Tabletop-Close-Door-WithObstacle-v1": {
+    "instruction": "close the door",
+    "query": {
+      "query": "What should be done first to close the door?",
+      "selection": {
+        "A": "Grasp and move the bowl",
+        "B": "Push the door handle directly"
+      }
+    },
+    "ground_truth": "A",
+    "correct": true,
+    "response": {
+      "answer": "A",
+      "reasoning": "The bowl is obstructing the door's movement, preventing it from being closed. Therefore, the first step should be to grasp and move the bowl out of the way. Pushing the door handle directly without removing the obstruction would not achieve the goal of closing the door."
+    }
+  },
+  "Tabletop-Close-Drawer-WithLongObstacle-v1": {
+    "instruction": "close the drawer",
+    "query": {
+      "query": "What's the best approach to close the drawer?",
+      "selection": {
+        "A": "Push the drawer directly",
+        "B": "Remove the red obstacle first, then close the drawer"
+      }
+    },
+    "ground_truth": "B",
+    "correct": true,
+    "response": {
+      "answer": "B",
+      "reasoning": "The red obstacle is blocking the drawer from being fully closed. Attempting to push the drawer directly without removing the obstacle could result in damage to the drawer or the obstacle, and the task would not be completed successfully. Removing the red obstacle first ensures that the path is clear for the drawer to close properly."
+    }
+  },
+  "Tabletop-Close-Drawer-WithObstacle-v1": {
+    "instruction": "close the drawer",
+    "query": {
+      "query": "What should do first before closing the drawer?",
+      "selection": {
+        "A": "Open the cabinet",
+        "B": "Move the stick away"
+      }
+    },
+    "ground_truth": "B",
+    "correct": true,
+    "response": {
+      "answer": "B",
+      "reasoning": "The image shows a stick obstructing the drawer's path, which would prevent it from being closed properly. Therefore, the first step should be to move the stick away to clear the obstruction. Opening the cabinet (option A) is unrelated to the task of closing the drawer."
+    }
+  },
+  "Tabletop-Find-Book-Black-v1": {
+    "instruction": "Find and pick the black book from the bookshelf and put it on the marker ",
+    "query": {
+      "query": "Where is the black book?",
+      "selection": {
+        "A": "On the right column, the first book",
+        "B": "In the middle column, the third book",
+        "C": "On the left column, the second book"
+      }
+    },
+    "ground_truth": "C",
+    "correct": true,
+    "response": {
+      "answer": "C",
+      "reasoning": "The black book is visually identifiable in the image as the second book in the left column. It has a dark cover that distinguishes it from the other books, which are either red, brown, or lighter in color. Therefore, the correct choice is 'On the left column, the second book.'"
+    }
+  },
+  "Tabletop-Find-Book-FromShelf-v1": {
+    "instruction": "Find and pick the highest book from the bookshelf and put it on the marker ",
+    "query": {
+      "query": "which is the highest book",
+      "selection": {
+        "A": "A",
+        "B": "B",
+        "C": "C"
+      }
+    },
+    "ground_truth": "B",
+    "correct": false,
+    "response": {
+      "answer": "C",
+      "reasoning": "Based on the visual inspection of the image, book C is clearly the tallest among the three options (A, B, and C). The task requires identifying the highest book, and C meets this criterion."
+    }
+  },
+  "Tabletop-Find-Cube-RedDown-v1": {
+    "instruction": "find the cube which have red face downward, and put it on the marker with red face upward",
+    "query": {
+      "query": "which seal has red face downward",
+      "selection": {
+        "A": "A",
+        "B": "B",
+        "C": "C"
+      }
+    },
+    "ground_truth": "B",
+    "correct": false,
+    "response": {
+      "answer": "A",
+      "reasoning": "The cube labeled 'A' has a red face oriented downward, as visible in the image. This matches the query requirement to identify the cube with a red face downward."
+    }
+  },
+  "Tabletop-Find-Cube-WithPivot-v1": {
+    "instruction": "Move the heavy cube to the goal region",
+    "query": {
+      "query": "which cube is heavier",
+      "selection": {
+        "A": "A",
+        "B": "B"
+      }
+    },
+    "ground_truth": "A",
+    "correct": true,
+    "response": {
+      "answer": "A",
+      "reasoning": "The image shows a seesaw with two cubes placed on either side. Cube A is causing the seesaw to tilt downwards on its side, indicating that it is heavier than Cube B. Therefore, Cube A is the heavier cube."
+    }
+  },
+  "Tabletop-Find-Dice-v1": {
+    "instruction": "find the dice which have 2 and 4 point in the corresponding face and put it on the marker",
+    "query": {
+      "query": "which dice has 2 and 4 point in the corresponding face",
+      "selection": {
+        "A": "A",
+        "B": "B"
+      }
+    },
+    "ground_truth": "A",
+    "correct": true,
+    "response": {
+      "answer": "A",
+      "reasoning": "Dice A is white and clearly shows the numbers 2 and 4 on its corresponding faces. Dice B is red and does not display these numbers on its visible faces. Based on the query, Dice A satisfies the condition of having 2 and 4 points on its corresponding faces."
+    }
+  },
+  "Tabletop-Finish-Hanobi-v1": {
+    "instruction": "Place all the hanobi in big to small from bottom to up",
+    "query": {
+      "query": "What is the size order of the yellow, red, and blue hanoi?",
+      "selection": {
+        "A": "Yellow > Blue > Red",
+        "B": "Red > Yellow > Blue",
+        "C": "Blue > Yellow > Red"
+      }
+    },
+    "ground_truth": "B",
+    "correct": false,
+    "response": {
+      "answer": "A",
+      "reasoning": "From the image provided, the yellow hanoi appears to be the largest, followed by the blue hanoi, and then the red hanoi as the smallest. This matches the size order described in option A: Yellow > Blue > Red."
+    }
+  },
+  "Tabletop-Insert-Conical-v1": {
+    "instruction": "insert the conical to the container",
+    "query": {
+      "query": "What to prevent while insert the water bottle",
+      "selection": {
+        "A": "Tilting the bottle too much, which may cause misalignment",
+        "B": "Moving too slowly, which wastes time and energy"
+      }
+    },
+    "ground_truth": "A",
+    "correct": true,
+    "response": {
+      "answer": "A",
+      "reasoning": "Tilting the bottle too much can cause misalignment with the container, making the insertion task fail or require additional corrective actions. While moving slowly may be less efficient, it does not directly compromise the success of the task. Ensuring proper alignment is critical for successful insertion, especially when dealing with conical objects like the water bottle shown in the image."
+    }
+  },
+  "Tabletop-Insert-Objects-WithShape-v1": {
+    "instruction": "insert all the stick on the table into corresponding holes",
+    "query": {
+      "query": "Which hole is for the cylinder?",
+      "selection": {
+        "A": "A hole",
+        "B": "B hole",
+        "C": "C hole"
+      }
+    },
+    "ground_truth": "A",
+    "correct": false,
+    "response": {
+      "answer": "B",
+      "reasoning": "The cylinder shape matches the hole labeled 'B' in the image. Hole 'A' is rectangular, and hole 'C' is triangular, neither of which corresponds to the cylindrical shape of the object."
+    }
+  },
+  "Tabletop-Insert-WithOrientation-v1": {
+    "instruction": "insert the board on the wall",
+    "query": {
+      "query": "What is the correct orientation for inserting the blue object?",
+      "selection": {
+        "A": "Rotate the object vertically to match the slot height",
+        "B": "Keep the object flat on the table and push it in"
+      }
+    },
+    "ground_truth": "A",
+    "correct": true,
+    "response": {
+      "answer": "A",
+      "reasoning": "The slot on the wall appears to be vertically oriented, and the blue object needs to be rotated vertically to match the height and orientation of the slot for proper insertion. Keeping the object flat on the table would not align it with the slot."
+    }
+  },
+  "Tabletop-Keep-Pivot-Balance-v1": {
+    "instruction": "Balance the long board on the triangular prism and place the cubes to maintain balance",
+    "query": {
+      "query": "which cube is heavier",
+      "selection": {
+        "A": "Cube A",
+        "B": "Cube B"
+      }
+    },
+    "ground_truth": "A",
+    "correct": true,
+    "response": {
+      "answer": "A",
+      "reasoning": "Cube A appears larger in size compared to Cube B, which often correlates with greater weight assuming similar material density. This makes Cube A the more likely candidate for being heavier."
+    }
+  },
+  "Tabletop-Lift-Book-v1": {
+    "instruction": "lift the book up to the higher platform",
+    "query": {
+      "query": "How to move the book to the higher platform?",
+      "selection": {
+        "A": "Directly grasp the book and lift it up to the higher platform",
+        "B": "Push the book to create an overhang at the table edge, then grasp and lift",
+        "C": "Attempt to slide fingers underneath the book without creating an overhang first"
+      }
+    },
+    "ground_truth": "B",
+    "correct": false,
+    "response": {
+      "answer": "A",
+      "reasoning": "The book is already positioned on a platform, and there appears to be sufficient clearance around it for the robotic arm to directly grasp it. Option A is the most straightforward and efficient approach, as it avoids unnecessary intermediate steps like creating an overhang or sliding fingers underneath the book. Additionally, the book's current position does not require any preparatory actions to make it accessible for lifting."
+    }
+  },
+  "Tabletop-Merge-Box-v1": {
+    "instruction": "Merge ball and boxs up ",
+    "query": {
+      "query": "which box is to be inserted",
+      "selection": {
+        "A": "Box A",
+        "B": "Box B"
+      }
+    },
+    "ground_truth": "B",
+    "correct": true,
+    "response": {
+      "answer": "B",
+      "reasoning": "The task is to merge the ball and boxes up. Based on the image, Box B is positioned higher than Box A, making it the logical choice for insertion to achieve the 'merge up' objective. Box A is lower and does not align with the task's goal of merging upward."
+    }
+  },
+  "Tabletop-Merge-USB-v1": {
+    "instruction": "Pick up the USB body and insert it into the USB hub",
+    "query": {
+      "query": "What is the correct orientation for inserting the USB?",
+      "selection": {
+        "A": "Align the USB connector with the port and insert",
+        "B": "Rotate the USB 180 degrees and insert with the port facing down"
+      }
+    },
+    "ground_truth": "B",
+    "correct": false,
+    "response": {
+      "answer": "A",
+      "reasoning": "The correct orientation for inserting a USB device is to align the USB connector with the port and insert it. USB ports are designed to accept connectors in a specific orientation, and rotating the USB 180 degrees would likely result in an incorrect alignment. Based on the image provided, the USB hub appears to be upright, making option A the appropriate choice."
+    }
+  },
+  "Tabletop-Move-Balls-WithDustpan-v1": {
+    "instruction": "move all the balls into the holder with dustpan",
+    "query": {
+      "query": "What strategy should be used to collect multiple balls efficiently?",
+      "selection": {
+        "A": "Collect all balls at once with a single sweeping motion",
+        "B": "Move the balls one by one"
+      }
+    },
+    "ground_truth": "A",
+    "correct": true,
+    "response": {
+      "answer": "A",
+      "reasoning": "Collecting all balls at once with a single sweeping motion is more efficient because it minimizes the number of movements required by the robotic arm. The dustpan is designed to gather multiple objects in one action, making it well-suited for this task. Moving the balls one by one would be time-consuming and less efficient given the tools available."
+    }
+  },
+  "Tabletop-Move-Balls-WithPivot-v1": {
+    "instruction": "move all the balls into the dustpan as fast as you can ",
+    "query": {
+      "query": "What is the most efficient way to collect all the balls?",
+      "selection": {
+        "A": "Pick the balls to the dustpan one by one",
+        "B": "Use the pivot to collect all the balls"
+      }
+    },
+    "ground_truth": "B",
+    "correct": true,
+    "response": {
+      "answer": "B",
+      "reasoning": "Using the pivot to collect all the balls is the most efficient method because it allows the robotic arm to sweep multiple balls into the dustpan simultaneously, reducing the number of individual pick-and-place actions required. Option A, picking the balls one by one, would be slower as it involves repetitive movements for each ball. The pivot tool is designed to optimize the collection process in scenarios like this."
+    }
+  },
+  "Tabletop-Move-Cross-WithStick-v1": {
+    "instruction": "Use the stick to move the small cube along the cross-shaped path to the target position ",
+    "query": {
+      "query": "How should the robot navigate the cube through the T-junction?",
+      "selection": {
+        "A": "Push the cube to the junction with stick, then reposition the stick for the turn",
+        "B": "Directly pick up the cube to the target position"
+      }
+    },
+    "ground_truth": "A",
+    "correct": true,
+    "response": {
+      "answer": "A",
+      "reasoning": "The task specifies using the stick to move the cube along the cross-shaped path to the target position, which implies that direct picking of the cube is not allowed or does not align with the task requirements. Navigating through the T-junction requires precise manipulation, and pushing the cube to the junction and then repositioning the stick for the turn ensures controlled movement along the designated path."
+    }
+  },
+  "Tabletop-Move-Cube-DynamicFriction-v1": {
+    "instruction": "move the cube to the marker",
+    "query": {
+      "query": "What's the best approach to move a cube with unpredictable friction?",
+      "selection": {
+        "A": "Lift the cube and directly place it to the target position",
+        "B": "Slide the cube while maintaining contact with the surface",
+        "C": "Pick up blocks, re-pick them up if it falls"
+      }
+    },
+    "ground_truth": "B",
+    "correct": false,
+    "response": {
+      "answer": "A",
+      "reasoning": "Lifting the cube and directly placing it at the target position is the best approach when dealing with unpredictable friction. Sliding the cube (option B) could result in erratic movement due to varying friction, making it harder to control the cube's trajectory. Option C, which involves re-picking the cube if it falls, introduces unnecessary complexity and inefficiency. By lifting the cube, the frictional unpredictability is bypassed entirely, ensuring precise placement at the marker."
+    }
+  },
+  "Tabletop-Move-Cube-WithHolder-v1": {
+    "instruction": "move the cube to the marker and put the holder on the cube ",
+    "query": {
+      "query": "What's the best sequence of actions for this task?",
+      "selection": {
+        "A": "Move the cube to the marker first, then place the holder on top",
+        "B": "Move the holder first, then place the cube to the marker, finally put the holder on the cube"
+      }
+    },
+    "ground_truth": "B",
+    "correct": false,
+    "response": {
+      "answer": "A",
+      "reasoning": "The task requires the cube to be moved to the marker first and then the holder to be placed on top of the cube. Option A aligns with this sequence, ensuring the cube is correctly positioned before the holder is placed. This avoids unnecessary repositioning and ensures the task is completed efficiently. Option B unnecessarily moves the holder first, which does not contribute to the task's goal until the cube is in place."
+    }
+  },
+  "Tabletop-Move-Cube-WithPivot-v1": {
+    "instruction": "move the cube with the pivot to the marker ",
+    "query": {
+      "query": "Why we need the pivot to move the cube?",
+      "selection": {
+        "A": "The cube is too heavy to lift",
+        "B": "The cube is too far to grasp",
+        "C": "The pivot is decorative and serves no functional purpose"
+      }
+    },
+    "ground_truth": "B",
+    "correct": true,
+    "response": {
+      "answer": "B",
+      "reasoning": "The cube is positioned far from the robotic arm, making it difficult to grasp directly. The pivot (blue bar) can be used as a tool to push or move the cube towards the marker without requiring direct grasping. This approach leverages the pivot's functional purpose to extend the arm's reach or manipulate objects indirectly."
+    }
+  },
+  "Tabletop-Move-Line-WithStick-v1": {
+    "instruction": "Use the stick to move the small cube along the straight line path to the target position ",
+    "query": {
+      "query": "What approach should be used to move the cube along the path?",
+      "selection": {
+        "A": "Use the stick to push the cube",
+        "B": "Directly push the cube with continuous contact",
+        "C": "Pick the cube up and place it to the target"
+      }
+    },
+    "ground_truth": "B",
+    "correct": false,
+    "response": {
+      "answer": "A",
+      "reasoning": "The high-level task specifies using the stick to move the small cube along the straight line path to the target position. This implies that the stick is the intended tool for manipulation. Option A, 'Use the stick to push the cube,' aligns directly with the task requirements and the available tools in the environment. Option B, 'Directly push the cube with continuous contact,' does not involve the stick and contradicts the task instructions. Option C, 'Pick the cube up and place it to the target,' also deviates from the specified method of using the stick and does not follow the straight line path requirement."
+    }
+  },
+  "Tabletop-Open-Cabinet-WithDoor-v1": {
+    "instruction": "open the cabinet door",
+    "query": {
+      "query": "What's the correct sequence of actions to open the cabinet?",
+      "selection": {
+        "A": "Close the door first, then access the cabinet",
+        "B": "Open the cabinet directly without interacting with the door"
+      }
+    },
+    "ground_truth": "A",
+    "correct": false,
+    "response": {
+      "answer": "B",
+      "reasoning": "The cabinet door is already open, as shown in the image. Therefore, there is no need to close the door first before accessing the cabinet. The correct action is to proceed directly to interacting with the cabinet without additional manipulation of the door."
+    }
+  },
+  "Tabletop-Open-Cabinet-WithObstacle-v1": {
+    "instruction": "open the cabinet door",
+    "query": {
+      "query": "What is the efficient way to open the cabinet",
+      "selection": {
+        "A": "Move the board away, then open the cabinet",
+        "B": "Open the cabinet directly"
+      }
+    },
+    "ground_truth": "A",
+    "correct": false,
+    "response": {
+      "answer": "B",
+      "reasoning": "The image shows that the cabinet door is unobstructed, and there is no visible board blocking access to the cabinet. Therefore, the most efficient way to open the cabinet is directly without any additional steps."
+    }
+  },
+  "Tabletop-Open-Cabinet-WithSwitch-v1": {
+    "instruction": "open the door, notice the switch will control the state of the door ",
+    "query": {
+      "query": "What is the efficient way to open the cabinet",
+      "selection": {
+        "A": "Open the cabinet directly",
+        "B": "Push the switch to open the cabinet"
+      }
+    },
+    "ground_truth": "B",
+    "correct": true,
+    "response": {
+      "answer": "B",
+      "reasoning": "The cabinet appears to be controlled by a switch mechanism, as indicated in the task description and the image. Attempting to open the cabinet directly without interacting with the switch may be inefficient or impossible if the cabinet is locked or powered by the switch. Therefore, pushing the switch to open the cabinet is the most efficient and logical approach."
+    }
+  },
+  "Tabletop-Open-Door-WithCabinet-v1": {
+    "instruction": "open the door",
+    "query": {
+      "query": "What is the main challenge in opening this door?",
+      "selection": {
+        "A": "The door is too heavy to push",
+        "B": "The cabinet door is in the way to open the door",
+        "C": "We can directly open the door"
+      }
+    },
+    "ground_truth": "B",
+    "correct": true,
+    "response": {
+      "answer": "B",
+      "reasoning": "The image shows that the cabinet door is open and obstructing the path of the main door. This makes it impossible to directly open the main door without first addressing the cabinet door. Therefore, the main challenge in opening the door is the cabinet door being in the way."
+    }
+  },
+  "Tabletop-Open-Door-WithObstacle-v1": {
+    "instruction": "open the door",
+    "query": {
+      "query": "What is the main challenge in opening this door?",
+      "selection": {
+        "A": "The door is unreachable",
+        "B": "The door is too heavy to be opened directly",
+        "C": "There is an obstacle blocking the door's path"
+      }
+    },
+    "ground_truth": "C",
+    "correct": true,
+    "response": {
+      "answer": "C",
+      "reasoning": "The image shows a red circular object and a blue rectangular object positioned in front of the door, which appears to block its path. This obstacle would prevent the door from being fully opened, making it the main challenge in this scenario. The door is reachable, and there is no indication that it is too heavy to be opened directly."
+    }
+  },
+  "Tabletop-Pick-Cube-Slippery-v1": {
+    "instruction": "Pick the slippery cube ",
+    "query": {
+      "query": "Which cube is slippery?",
+      "selection": {
+        "A": "A",
+        "B": "B"
+      }
+    },
+    "ground_truth": "B",
+    "correct": false,
+    "response": {
+      "answer": "A",
+      "reasoning": "The cube labeled 'A' appears to have a shinier surface compared to cube 'B', which is a visual cue indicating slipperiness. Slippery objects often have a reflective or glossy appearance, suggesting that cube 'A' is the slippery one."
+    }
+  },
+  "Tabletop-Pick-Cube-WithDoor-v1": {
+    "instruction": "put the cube to the marker",
+    "query": {
+      "query": "What is the correct sequence to retrieve the cube?",
+      "selection": {
+        "A": "Reach for the cube without opening the door",
+        "B": "Open the door first, then pick the cube"
+      }
+    },
+    "ground_truth": "B",
+    "correct": true,
+    "response": {
+      "answer": "B",
+      "reasoning": "The cube is obstructed by the door, making it impossible for the robotic arm to directly reach for the cube. Therefore, the correct sequence is to open the door first to remove the obstruction, and then proceed to pick the cube."
+    }
+  },
+  "Tabletop-Pick-Cube-WithStick-v1": {
+    "instruction": "Use the stick to move the small cube along the T-shaped path to the target position ",
+    "query": {
+      "query": "Why we need a stick to move the cube?",
+      "selection": {
+        "A": "Because the cube is too small and the path is too narrow",
+        "B": "Because the cube is too heavy to move",
+        "C": "Because the cube is too slippery"
+      }
+    },
+    "ground_truth": "A",
+    "correct": true,
+    "response": {
+      "answer": "A",
+      "reasoning": "The stick is needed because the cube is small and the path is narrow, making it difficult for the robotic arm to directly manipulate the cube without a tool. The stick allows for precise control to move the cube along the T-shaped path to the target position."
+    }
+  },
+  "Tabletop-Pick-Cylinder-WithObstacle-v1": {
+    "instruction": "pick up the center cylinder",
+    "query": {
+      "query": "How to move the center cylinder to the goal?",
+      "selection": {
+        "A": "Pick up the center cylinder directly and move it to the goal",
+        "B": "Find the dynamic obstacle cylinders and push them away to move the center cylinder to the goal",
+        "C": "Put one of the dynamic cylinder to the goal"
+      }
+    },
+    "ground_truth": "B",
+    "correct": false,
+    "response": {
+      "answer": "A",
+      "reasoning": "The high-level task is to pick up the center cylinder and move it to the goal. Based on the image, the center cylinder is clearly accessible without any obstacles blocking it. Therefore, the most direct and efficient approach is to pick up the center cylinder directly and move it to the goal. Options B and C involve unnecessary actions that do not align with the task requirements or the current environment setup."
+    }
+  },
+  "Tabletop-Pick-Eraser-FromHolder-v1": {
+    "instruction": "Pick up the eraser in the holder and place it to the marker",
+    "query": {
+      "query": "How can we pick the eraser from the holder?",
+      "selection": {
+        "A": "Pick the eraser directly",
+        "B": "Pour out the rubber from the holder"
+      }
+    },
+    "ground_truth": "B",
+    "correct": false,
+    "response": {
+      "answer": "A",
+      "reasoning": "The eraser is visible and accessible within the holder, and the robotic arm is capable of directly grasping it without needing to pour out the contents of the holder. Pouring out the rubber would introduce unnecessary complexity and potential mess, making direct picking the more efficient and practical choice."
+    }
+  },
+  "Tabletop-Pick-Object-FromCabinet-v1": {
+    "instruction": "pick up the object from the cabinet ",
+    "query": {
+      "query": "What's the object in the cabinet?",
+      "selection": {
+        "A": "A book",
+        "B": "A cube",
+        "C": "A pen"
+      }
+    },
+    "ground_truth": "A",
+    "correct": false,
+    "response": {
+      "answer": "B",
+      "reasoning": "The object visible inside the cabinet in the image is a cube. Based on the visual inspection, the shape and appearance match the characteristics of a cube, making it the most appropriate choice."
+    }
+  },
+  "Tabletop-Put-Balls-IntoContainer-v1": {
+    "instruction": "move all the balls into the dustpan as fast as you can ",
+    "query": {
+      "query": "What is the most efficient way to get all the balls into the dustpan?",
+      "selection": {
+        "A": "Pick up and place each ball individually into the dustpan",
+        "B": "Push multiple balls at once with arm"
+      }
+    },
+    "ground_truth": "A",
+    "correct": false,
+    "response": {
+      "answer": "B",
+      "reasoning": "Pushing multiple balls at once with the robotic arm is more efficient for completing the task quickly. This approach minimizes the number of individual movements required, as opposed to picking up and placing each ball individually, which would take significantly more time due to the repetitive nature of the actions. The dustpan's design allows for multiple balls to be pushed into it simultaneously, making this method both faster and effective."
+    }
+  },
+  "Tabletop-Put-Cube-IntoCabinetWithObstacle-v1": {
+    "instruction": "put the object into the cabinet",
+    "query": {
+      "query": "What is the best approach to put the cube into the cabinet",
+      "selection": {
+        "A": "Move the obstacle first, then place the cube into the cabinet",
+        "B": "Try to navigate around the obstacle without moving it"
+      }
+    },
+    "ground_truth": "A",
+    "correct": true,
+    "response": {
+      "answer": "A",
+      "reasoning": "The image shows a cabinet with a closed door, which acts as an obstacle preventing direct placement of the cube inside. Moving the obstacle (opening the cabinet door) is necessary to create a clear path for placing the cube into the cabinet. Attempting to navigate around the obstacle without moving it is not feasible in this scenario."
+    }
+  },
+  "Tabletop-Put-Cube-IntoMicrowave-v1": {
+    "instruction": "put the cube into the microwave ",
+    "query": {
+      "query": "What is the correct order of actions to put the cube into the microwave?",
+      "selection": {
+        "A": "Pick up the cube first, then open the microwave door and place the cube inside",
+        "B": "Open the microwave door first, then pick and place the cube inside",
+        "C": "Directly pick the cube into microwave"
+      }
+    },
+    "ground_truth": "B",
+    "correct": true,
+    "response": {
+      "answer": "B",
+      "reasoning": "The microwave door must be open before the cube can be placed inside. Therefore, the correct order is to open the microwave door first, then pick up the cube and place it inside. Option A is incorrect because picking up the cube first would leave the robot holding the cube while trying to open the microwave door, which is inefficient and potentially problematic. Option C is invalid because it skips the necessary step of opening the microwave door."
+    }
+  },
+  "Tabletop-Rotate-Cube-Twice-v1": {
+    "instruction": "rotate the cube till the green face upward",
+    "query": {
+      "query": "Where is the green face?",
+      "selection": {
+        "A": "On the top of the cube",
+        "B": "On the side of the cube",
+        "C": "On the bottom of the cube"
+      }
+    },
+    "ground_truth": "C",
+    "correct": false,
+    "response": {
+      "answer": "B",
+      "reasoning": "The image shows the green face of the cube located on the side of the cube, not on the top or bottom. This matches option B."
+    }
+  },
+  "Tabletop-Seek-Holder-InCabinet-v1": {
+    "instruction": "Find the holder containing an eraser the cabinet, put it to the marker",
+    "query": {
+      "query": "Which holder has a eraser?",
+      "selection": {
+        "A": "A",
+        "B": "B"
+      }
+    },
+    "ground_truth": "A",
+    "correct": true,
+    "response": {
+      "answer": "A",
+      "reasoning": "Based on the visual inspection of the holders in the cabinet, holder A contains an eraser, as it matches the texture and appearance of an eraser compared to holder B. Holder B does not appear to contain an eraser."
+    }
+  },
+  "Tabletop-Seek-Objects-InCabinet-v1": {
+    "instruction": "Find the apple and the plate in the cabinet, put them on the table",
+    "query": {
+      "query": "Where are the apple and plate?",
+      "selection": {
+        "A": "The apple is in the drawer, the plate is in cabinet",
+        "B": "The apple is in the cabinet, the plate is in drawer",
+        "C": "Both of the are in cabinet",
+        "D": "Both of the are in drawer"
+      }
+    },
+    "ground_truth": "B",
+    "correct": false,
+    "response": {
+      "answer": "C",
+      "reasoning": "The image clearly shows the apple inside the cabinet. Since the task specifies finding both the apple and the plate in the cabinet, and no evidence suggests the plate is elsewhere, the most logical choice is that both the apple and the plate are in the cabinet."
+    }
+  },
+  "Tabletop-Seek-Objects-WithObstacle-v1": {
+    "instruction": "find the cube in the cabinet and pick it up",
+    "query": {
+      "query": "Where is the cube?",
+      "selection": {
+        "A": "In the drawer",
+        "B": "In the cabinet"
+      }
+    },
+    "ground_truth": "B",
+    "correct": true,
+    "response": {
+      "answer": "B",
+      "reasoning": "The high-level task specifies that the cube is located in the cabinet. This aligns with option B, which states that the cube is in the cabinet. The task does not mention the drawer, so option A is not relevant."
+    }
+  },
+  "Tabletop-Slide-Cube-Into-Container-v1": {
+    "instruction": "Slide a cube down a slope into a container",
+    "query": {
+      "query": "How can we put the cube to the container?",
+      "selection": {
+        "A": "Slide it from the top of the slope",
+        "B": "Put the cube to the dustpan directly"
+      }
+    },
+    "ground_truth": "A",
+    "correct": true,
+    "response": {
+      "answer": "A",
+      "reasoning": "The high-level task specifies sliding the cube down a slope into a container. Option A aligns with this requirement, as it involves using the slope to guide the cube into the container. Option B, which suggests placing the cube directly into the dustpan, bypasses the slope entirely and does not fulfill the task as described."
+    }
+  },
+  "Tabletop-Slide-Cube-WithPath-v1": {
+    "instruction": "Slide a cube down a slope to the marker ",
+    "query": {
+      "query": "Where should the block be placed to slide to target position?",
+      "selection": {
+        "A": "A",
+        "B": "B"
+      }
+    },
+    "ground_truth": "B",
+    "correct": true,
+    "response": {
+      "answer": "B",
+      "reasoning": "The target position is located at the bottom of the slope near the marker. To ensure the cube slides down the slope and reaches the target, it should be placed at position B, which is higher up on the slope compared to A. This placement allows gravity to act on the cube effectively, enabling it to slide down to the desired location."
+    }
+  },
+  "Tabletop-Stack-Books-OnBox-v1": {
+    "instruction": "Stack all things on the table",
+    "query": {
+      "query": "Which book should be stacked on top of the other?",
+      "selection": {
+        "A": "The red book should be placed on top of the green book",
+        "B": "The green book should be placed on top of the red book"
+      }
+    },
+    "ground_truth": "B",
+    "correct": false,
+    "response": {
+      "answer": "A",
+      "reasoning": "The red book should be placed on top of the green book because stacking tasks typically prioritize stability and uniformity. The green book appears to have a darker and possibly more textured surface, which may provide better friction and stability for the red book when stacked on top. Additionally, the red book seems slightly smaller, making it more suitable as the top item in the stack."
+    }
+  },
+  "Tabletop-Stack-Books-v1": {
+    "instruction": "Stack all things on the table",
+    "query": {
+      "query": "Which book should be stacked on top of the other?",
+      "selection": {
+        "A": "The red book should be placed on top of the green book",
+        "B": "The green book should be placed on top of the red book"
+      }
+    },
+    "ground_truth": "A",
+    "correct": true,
+    "response": {
+      "answer": "A",
+      "reasoning": "The red book is smaller and lighter than the green book, making it more stable to place it on top of the green book rather than vice versa. Stacking the green book on top of the red book could lead to instability due to the green book's larger size and weight."
+    }
+  },
+  "Tabletop-Stack-Cube-WithColor-v1": {
+    "instruction": "Stack the cube with same color",
+    "query": {
+      "query": "How many degrees should A be rotated along y axis(the axis vertical to the white face) to make it same color with B?",
+      "selection": {
+        "A": "90",
+        "B": "180",
+        "C": "270"
+      }
+    },
+    "ground_truth": "A",
+    "correct": false,
+    "response": {
+      "answer": "B",
+      "reasoning": "To make cube A match the same color orientation as cube B, cube A needs to be rotated 180 degrees along the y-axis (the axis vertical to the white face). This rotation will align the blue face of cube A with the yellow face of cube B, and the other faces will also align correctly."
+    }
+  },
+  "Tabletop-Stack-LongObjects-v1": {
+    "instruction": "stack all the objects to make it most high",
+    "query": {
+      "query": "Which cube is the highest?",
+      "selection": {
+        "A": "A",
+        "B": "B",
+        "C": "C"
+      }
+    },
+    "ground_truth": "C",
+    "correct": false,
+    "response": {
+      "answer": "A",
+      "reasoning": "Based on the visual observation of the image, cube A is positioned higher than cubes B and C. The task is to identify the cube that is currently the highest, and cube A clearly meets this criterion."
+    }
+  }
+}

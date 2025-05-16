@@ -1,0 +1,75 @@
+{
+    "instruction": "move the cube with the pivot to the marker ",
+    "query": {
+        "query": "Why we need the pivot to move the cube?",
+        "selection": {
+            "A": "The cube is too heavy to lift",
+            "B": "The cube is too far to grasp",
+            "C": "The pivot is decorative and serves no functional purpose"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 5,
+    "answers": [
+        "A",
+        "A",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        false,
+        false,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The pivot is used to provide leverage to move the cube, suggesting the cube might be too heavy for the robot to directly lift and move. The images show the robot using the pivot to manipulate the cube, implying it's necessary for the task."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000121.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The pivot is used to push the cube along the surface. This suggests that the cube is too heavy for the robot to lift directly. If the cube was too far, the robot could simply move closer. The pivot is clearly functional, as it is used to move the cube."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000241.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the images, the cube is located far away from the robot arm. The robot uses the pivot to reach the cube and move it to the marker. Therefore, the cube is too far to grasp."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000388.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the images, the robot arm uses the blue bar with pivots to push the red cube towards the target. The cube is initially too far away for the robot arm to directly grasp it. Therefore, the pivot is used to extend the reach of the robot arm and move the cube."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000503.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show the robot arm using the blue bar with pivots to push the cube towards the marker. The cube is too far away for the robot arm to directly grasp it. Therefore, the pivot is needed to move the cube because it is too far to grasp."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

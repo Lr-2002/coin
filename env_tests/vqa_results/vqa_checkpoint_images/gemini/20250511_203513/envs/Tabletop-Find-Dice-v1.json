@@ -1,0 +1,52 @@
+{
+    "instruction": "find the dice which have 2 and 4 point in the corresponding face and put it on the marker",
+    "query": {
+        "query": "which dice has 2 and 4 point in the corresponding face",
+        "selection": {
+            "A": "A",
+            "B": "B"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 3,
+    "answers": [
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the image, dice A has 2 and 4 points on the corresponding face. Dice B has 5 points on the corresponding face."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000165.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000000, the white dice (A) has 2 point in the corresponding face. In the image at step 000165, the white dice (A) has 4 point in the corresponding face. So the dice A has 2 and 4 point in the corresponding face."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000196.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the image at step 000196, the white dice (A) has 2 point in the corresponding face, and the red dice (B) has 4 point in the corresponding face. So the answer is A."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

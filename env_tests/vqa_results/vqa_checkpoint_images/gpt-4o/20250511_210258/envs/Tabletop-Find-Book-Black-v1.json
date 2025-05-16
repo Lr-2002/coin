@@ -1,0 +1,64 @@
+{
+    "instruction": "Find and pick the black book from the bookshelf and put it on the marker ",
+    "query": {
+        "query": "Where is the black book?",
+        "selection": {
+            "A": "On the right column, the first book",
+            "B": "In the middle column, the third book",
+            "C": "On the left column, the second book"
+        }
+    },
+    "ground_truth": "C",
+    "response_num": 4,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The black book is located in the right column, and it is the first book from the left in that column. This is evident from the dark color and texture of the book compared to the others in the image."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000179.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the query image, the black book is clearly visible in the right column as the first book. This matches the description provided in option A. The other columns do not contain a black book in the specified positions."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000340.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the query image, the black book is clearly visible as the first book in the right column. This matches the description in option A. The other options do not correspond to the black book's location."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000411.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the provided checkpoint observations, the robotic arm is seen interacting with a black book. By step 000411, the black book is clearly visible in the robotic arm's gripper. In the query image, the black book is placed back on the bookshelf in the right column as the first book. This matches option A."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

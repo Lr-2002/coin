@@ -1,0 +1,71 @@
+{
+    "instruction": "Place all the hanobi in big to small from bottom to up",
+    "query": {
+        "query": "What is the size order of the yellow, red, and blue hanoi?",
+        "selection": {
+            "A": "Yellow > Blue > Red",
+            "B": "Red > Yellow > Blue",
+            "C": "Blue > Yellow > Red"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 5,
+    "answers": [
+        "C",
+        "C",
+        null,
+        "C",
+        "B"
+    ],
+    "correct": [
+        false,
+        false,
+        null,
+        false,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000720.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "From the top-down view, the blue ring is clearly the largest in diameter, followed by the yellow ring, and then the red ring is the smallest."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "001415.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "From the overhead images and their relative diameters, blue is largest, followed by yellow, then red as the smallest."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "002628.png",
+            "raw_response": "{\n  \"answer\": \"C\",\n  \"reasoning\": \"From the overhead view, the",
+            "error": "Could not extract JSON from response"
+        },
+        {
+            "image_filename": "002841.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "From the overhead view the blue ring has the largest diameter, the yellow ring is medium, and the red ring is smallest."
+            },
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "image_filename": "002864.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "From the top-down view, the red ring is visibly largest, the yellow ring is medium, and the blue ring is smallest."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

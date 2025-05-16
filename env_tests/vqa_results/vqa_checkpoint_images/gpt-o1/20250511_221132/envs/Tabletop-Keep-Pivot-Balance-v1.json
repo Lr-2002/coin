@@ -1,0 +1,52 @@
+{
+    "instruction": "Balance the long board on the triangular prism and place the cubes to maintain balance",
+    "query": {
+        "query": "which cube is heavier",
+        "selection": {
+            "A": "Cube A",
+            "B": "Cube B"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 3,
+    "answers": [
+        "B",
+        "A",
+        "A"
+    ],
+    "correct": [
+        false,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000165.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the final balanced configuration, Cube B is positioned closer to the pivot to minimize torque contribution, indicating it is the heavier cube."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000238.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "From the final images, the board tips downward on Cube A\u2019s side, indicating that Cube A is heavier."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000306.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The board tips toward the side bearing cube A, indicating that it is heavier."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

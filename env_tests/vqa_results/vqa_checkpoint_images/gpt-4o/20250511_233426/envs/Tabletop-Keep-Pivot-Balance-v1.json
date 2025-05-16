@@ -1,0 +1,74 @@
+{
+    "instruction": "Balance the long board on the triangular prism and place the cubes to maintain balance",
+    "query": {
+        "query": "which cube is heavier",
+        "selection": {
+            "A": "Cube A",
+            "B": "Cube B"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 5,
+    "answers": [
+        "A",
+        "B",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        false,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the observation image, Cube A is placed closer to the edge of the board, while Cube B is placed farther from the edge. For the board to remain balanced, the heavier cube would need to be placed closer to the pivot point (triangular prism) to counteract its weight effectively. This positioning suggests that Cube A is heavier than Cube B."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000165.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the images, the robotic arm places Cube B on one side of the long board balanced on the triangular prism. The board tilts downward on the side where Cube B is placed, indicating that Cube B is heavier than Cube A."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000203.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the observations, the robot places Cube B on the board first, and the board tilts downward on the side where Cube B is placed. Later, Cube A is placed on the opposite side, and the board tilts downward on the side where Cube A is placed. This indicates that Cube A is heavier than Cube B, as it causes a stronger tilt when placed on the board."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000238.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the observations at steps 000203 and 000238, the robotic arm places Cube A and Cube B on opposite sides of the long board balanced on the triangular prism. The board tilts downward on the side where Cube A is placed, indicating that Cube A is heavier than Cube B."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000306.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the images at steps '000238' and '000306', the robotic arm places the cubes on the long board balanced on the triangular prism. Cube A (yellow) is placed on one side, and Cube B (green) is placed on the other side. The board tilts downward on the side where Cube A is placed, indicating that Cube A is heavier than Cube B."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

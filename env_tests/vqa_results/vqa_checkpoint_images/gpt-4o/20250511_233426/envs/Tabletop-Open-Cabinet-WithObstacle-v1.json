@@ -1,0 +1,63 @@
+{
+    "instruction": "open the cabinet door",
+    "query": {
+        "query": "What is the efficient way to open the cabinet",
+        "selection": {
+            "A": "Move the board away, then open the cabinet",
+            "B": "Open the cabinet directly"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 4,
+    "answers": [
+        "B",
+        "B",
+        "A",
+        "B"
+    ],
+    "correct": [
+        false,
+        false,
+        true,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show that the cabinet door is unobstructed and can be opened directly without any interference from other objects. Therefore, the efficient way to open the cabinet is to proceed directly with opening it."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000183.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show that the cabinet door can be opened directly without any obstruction or need to move a board. The robotic arm successfully opens the cabinet in the second observation (step 000183) by interacting directly with the cabinet door handle. Therefore, opening the cabinet directly is the efficient way."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000395.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "In the observations, the cabinet door is obstructed by a board placed in front of it. At step 000395, the board has been moved away, allowing the cabinet door to be fully opened. This indicates that moving the board away first is necessary for efficient access to the cabinet. Attempting to open the cabinet directly without removing the obstruction would be inefficient or impossible."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000417.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show that the cabinet door was successfully opened without moving the board away. The board does not obstruct the cabinet door's movement, as evidenced by the observations at steps 000395 and 000417. Therefore, the efficient way to open the cabinet is to open it directly without moving the board."
+            },
+            "answer": "B",
+            "correct": false
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "instruction": "pick up the center cylinder",
+    "query": {
+        "query": "How to move the center cylinder to the goal?",
+        "selection": {
+            "A": "Pick up the center cylinder directly and move it to the goal",
+            "B": "Find the dynamic obstacle cylinders and push them away to move the center cylinder to the goal",
+            "C": "Put one of the dynamic cylinder to the goal"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 6,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The center cylinder is surrounded by other cylinders, making it inaccessible for direct pickup. To move the center cylinder to the goal, the surrounding cylinders (dynamic obstacles) need to be pushed away first to clear the path."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000076.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The center cylinder is surrounded by other cylinders, making it inaccessible for direct picking. To move the center cylinder to the goal, the dynamic obstacle cylinders need to be pushed away first to clear the path for manipulation."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000197.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the images, the center cylinder is surrounded by other cylinders, which act as dynamic obstacles. At step 000197, one of the surrounding cylinders has been pushed away, indicating that the robot is clearing obstacles to access the center cylinder. To move the center cylinder to the goal, the robot needs to continue pushing away the remaining obstacle cylinders before it can pick up the center cylinder and place it at the goal. Therefore, the correct approach is to find and push away the dynamic obstacle cylinders to free the center cylinder."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000218.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The center cylinder is surrounded by other cylinders, which act as dynamic obstacles. In the observations, the robotic arm is seen pushing one of the surrounding cylinders away to access the center cylinder. This indicates that the correct approach is to first push the dynamic obstacle cylinders away to free the center cylinder, and then move it to the goal."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000248.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The center cylinder is surrounded by other cylinders, which act as dynamic obstacles. To move the center cylinder to the goal, the robot arm needs to first push these surrounding cylinders away to create space for picking up the center cylinder and moving it to the goal. Directly picking up the center cylinder (Option A) is not feasible due to the obstruction, and placing one of the dynamic cylinders on the goal (Option C) does not fulfill the task instruction of moving the center cylinder to the goal."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000307.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the observations, the center cylinder is surrounded by other cylinders, making it inaccessible for direct picking. To move the center cylinder to the goal, the dynamic obstacle cylinders need to be pushed away first to create space for the robotic arm to pick up the center cylinder and place it on the goal."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

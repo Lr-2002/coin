@@ -1,0 +1,85 @@
+{
+    "instruction": "close the drawer",
+    "query": {
+        "query": "What's the best approach to close the drawer?",
+        "selection": {
+            "A": "Push the drawer directly",
+            "B": "Remove the red obstacle first, then close the drawer"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 6,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The red obstacle is protruding from the drawer, and it appears to be blocking the drawer from being fully closed. Attempting to push the drawer directly (Option A) would likely result in the obstacle preventing the drawer from closing properly or causing damage. The best approach is to remove the red obstacle first (Option B), ensuring the drawer can be closed smoothly without obstruction."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000041.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the query image, the red obstacle is clearly protruding from the drawer, preventing it from being closed properly. Attempting to push the drawer directly (Option A) would likely result in the obstacle blocking the motion or causing damage. The best approach is to first remove the red obstacle (Option B), ensuring the path is clear, and then proceed to close the drawer."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000103.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the images, the drawer is partially open, and there is a red obstacle protruding from the drawer. Attempting to push the drawer directly (Option A) would likely result in the red obstacle preventing the drawer from closing completely or causing damage. The best approach is to remove the red obstacle first (Option B), ensuring the drawer can close smoothly without obstruction."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000180.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the provided images, the drawer is obstructed by a red object that is sticking out. Attempting to push the drawer directly (Option A) would likely result in the red object preventing the drawer from closing properly or causing damage. The best approach is to first remove the red obstacle (Option B) to ensure the drawer can close smoothly without interference."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000251.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show a red obstacle (likely a block) inside the drawer, which prevents the drawer from being fully closed. In step 000251, the red block has been removed from the drawer and placed on the tabletop, clearing the obstruction. Therefore, the best approach to close the drawer is to first remove the red obstacle, as shown in the final step, and then proceed to close the drawer without obstruction."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000270.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show that there is a red obstacle partially obstructing the drawer's closing path. If the robot attempts to push the drawer directly (Option A), the red object could block the drawer or cause damage. The best approach is to first remove the red obstacle (Option B) to ensure the drawer can close smoothly without interference."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "instruction": "stack all the objects to make it most high",
+    "query": {
+        "query": "Which cube is the highest?",
+        "selection": {
+            "A": "A",
+            "B": "B",
+            "C": "C"
+        }
+    },
+    "ground_truth": "C",
+    "response_num": 6,
+    "answers": [
+        "C",
+        "C",
+        "A",
+        "C",
+        "C",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "Based on the query image, cube C is stacked on top of cube B, and cube A is next to cube C. Therefore, cube C is the highest."
+            },
+            "answer": "C",
+            "correct": true
+        },
+        {
+            "image_filename": "000068.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "Based on the query image, cube C is stacked on top of other cubes, making it the highest cube."
+            },
+            "answer": "C",
+            "correct": true
+        },
+        {
+            "image_filename": "000127.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the last image (step 000127) and the query image, cube A is the highest."
+            },
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "image_filename": "000278.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "Based on the images, the robot is stacking the cubes. In the last image (step 000278), cube C is on top of cube B, and cube A is on the table. Therefore, cube C is the highest."
+            },
+            "answer": "C",
+            "correct": true
+        },
+        {
+            "image_filename": "000358.png",
+            "response": {
+                "answer": "C",
+                "reasoning": "Based on the images, the robot is stacking the cubes on top of each other. In the last image, cube C is at the top of the stack, making it the highest."
+            },
+            "answer": "C",
+            "correct": true
+        },
+        {
+            "image_filename": "000375.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "Based on the images, it appears the robot is stacking the cubes. In the last image, cube A is on top of cube B, and cube C is on the bottom. Therefore, cube A is the highest."
+            },
+            "answer": "A",
+            "correct": false
+        }
+    ]
+}

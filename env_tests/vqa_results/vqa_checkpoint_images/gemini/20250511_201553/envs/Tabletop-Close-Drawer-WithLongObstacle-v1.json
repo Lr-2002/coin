@@ -1,0 +1,85 @@
+{
+    "instruction": "close the drawer",
+    "query": {
+        "query": "What's the best approach to close the drawer?",
+        "selection": {
+            "A": "Push the drawer directly",
+            "B": "Remove the red obstacle first, then close the drawer"
+        }
+    },
+    "ground_truth": "B",
+    "response_num": 6,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "Based on the image, there is a red obstacle on top of the drawer. Therefore, the best approach to close the drawer is to remove the red obstacle first, then close the drawer."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000041.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the image at step 000041, there is a red obstacle on top of the drawer. To close the drawer properly, the obstacle needs to be removed first. Therefore, the best approach is to remove the red obstacle first, then close the drawer."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000103.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the image at step 000103, there is a red obstacle on top of the drawer. Therefore, the best approach to close the drawer is to remove the red obstacle first, then close the drawer."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000180.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the image at step 000180, there is a red obstacle blocking the drawer. Therefore, the best approach is to remove the red obstacle first, then close the drawer."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000251.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the image at step 000180, the drawer is open and a red obstacle is blocking it. In the image at step 000251, the red obstacle is still present. Therefore, the best approach is to remove the red obstacle first, then close the drawer."
+            },
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "image_filename": "000270.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the images, the drawer is partially open, and a red object is obstructing its path. Therefore, the best approach is to remove the red obstacle first and then close the drawer."
+            },
+            "answer": "B",
+            "correct": true
+        }
+    ]
+}

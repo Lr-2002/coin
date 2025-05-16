@@ -1,0 +1,52 @@
+{
+    "instruction": "open the cabinet door",
+    "query": {
+        "query": "What's the correct sequence of actions to open the cabinet?",
+        "selection": {
+            "A": "Close the door first, then access the cabinet",
+            "B": "Open the cabinet directly without interacting with the door"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 3,
+    "answers": [
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The image shows the cabinet door already open. Therefore, the robot should open the cabinet directly without interacting with the door."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000121.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show the robot arm directly opening the cabinet door without closing it first. Therefore, the correct sequence is to open the cabinet directly."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000160.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "The images show the cabinet door being opened directly. There's no indication of the door being closed first."
+            },
+            "answer": "B",
+            "correct": false
+        }
+    ]
+}

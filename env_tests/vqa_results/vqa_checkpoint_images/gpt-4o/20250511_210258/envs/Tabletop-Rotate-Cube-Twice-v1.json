@@ -1,0 +1,64 @@
+{
+    "instruction": "rotate the cube till the green face upward",
+    "query": {
+        "query": "Where is the green face?",
+        "selection": {
+            "A": "On the top of the cube",
+            "B": "On the side of the cube",
+            "C": "On the bottom of the cube"
+        }
+    },
+    "ground_truth": "C",
+    "response_num": 4,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the provided images, the green face of the cube is clearly visible on the side of the cube. The top face is blue, and the bottom face is not visible in the images, but the green face is not on the top or bottom\u2014it is on the side."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000074.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the query image, the green face of the cube is clearly visible on the side of the cube. The robotic arm has manipulated the cube, but the green face is not positioned on the top or bottom; it is on one of the vertical sides of the cube."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000118.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the query image, the green face of the cube is clearly visible on the side of the cube. The top face is yellow, as shown in the last checkpoint observation at step 000118, and the green face is not visible on the top or bottom. Therefore, the green face is on the side of the cube."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000179.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the final observation (step 000179), the green face of the cube is clearly visible on the side of the cube. The query image confirms this as the green face is not on the top or bottom but on one of the vertical sides of the cube."
+            },
+            "answer": "B",
+            "correct": false
+        }
+    ]
+}

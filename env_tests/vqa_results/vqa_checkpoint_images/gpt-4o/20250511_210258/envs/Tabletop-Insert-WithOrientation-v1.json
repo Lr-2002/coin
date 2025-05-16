@@ -1,0 +1,107 @@
+{
+    "instruction": "insert the board on the wall",
+    "query": {
+        "query": "What is the correct orientation for inserting the blue object?",
+        "selection": {
+            "A": "Rotate the object vertically to match the slot height",
+            "B": "Keep the object flat on the table and push it in"
+        }
+    },
+    "ground_truth": "A",
+    "response_num": 8,
+    "answers": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "final_correct": true,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The blue object is a rectangular prism, and the slot on the wall is vertically oriented. To insert the blue object into the slot, it must be rotated vertically to match the height and orientation of the slot. Keeping the object flat on the table (Option B) would not align it with the slot's vertical orientation."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000076.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The query image and the observations show that the slot in the wall is vertically oriented, and the blue object needs to match this orientation to fit into the slot. The blue object is currently lying flat on the table, which does not align with the vertical slot. Therefore, the correct action is to rotate the object vertically to match the slot height before inserting it."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000101.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The query image shows a slot in the wall that is vertically oriented, and the blue object is a rectangular prism that matches the height of the slot when rotated vertically. Observations at steps 000000, 000076, and 000101 show the robot arm manipulating the blue object horizontally, but the slot clearly requires the object to be rotated vertically to fit. Therefore, the correct orientation for inserting the blue object is to rotate it vertically to match the slot height."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000280.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The slot in the wall block is vertically oriented, as seen in the query image. The blue object is currently flat on the table, but its dimensions suggest it needs to be rotated vertically to match the height and orientation of the slot for proper insertion. Observations at steps '000076', '000101', and '000280' show the robot arm manipulating the object, but the correct orientation for insertion is vertical, aligning with the slot's height."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000367.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The slot in the white object is vertically oriented, as seen in the query image. The blue object is currently flat on the table, but its dimensions suggest it needs to be rotated vertically to match the height and orientation of the slot for proper insertion. Keeping the object flat (Option B) would not align it with the slot's vertical orientation."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000441.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The query image shows a slot in the wall with a triangular opening, which is taller than it is wide. The blue object is rectangular and currently lying flat on the table. To insert the blue object into the slot, it must be rotated vertically to align its height with the slot's height. Keeping the object flat on the table (Option B) would not match the slot's dimensions and orientation."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000482.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The slot in the white object is vertically oriented, as seen in the query image and the checkpoint observations. The blue object must be rotated vertically to align with the height of the slot for proper insertion. Keeping the object flat on the table (Option B) would not match the slot's orientation and would prevent successful insertion."
+            },
+            "answer": "A",
+            "correct": true
+        },
+        {
+            "image_filename": "000490.png",
+            "response": {
+                "answer": "A",
+                "reasoning": "The slot in the gray block is vertically oriented, as seen in the query image and the checkpoint observations. The blue object is currently flat on the table, but its dimensions suggest it needs to be rotated vertically to align with the slot height for proper insertion. Keeping the object flat (Option B) would not match the slot's orientation."
+            },
+            "answer": "A",
+            "correct": true
+        }
+    ]
+}

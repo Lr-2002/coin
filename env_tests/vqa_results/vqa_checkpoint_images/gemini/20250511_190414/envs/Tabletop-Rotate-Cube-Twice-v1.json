@@ -1,0 +1,64 @@
+{
+    "instruction": "rotate the cube till the green face upward",
+    "query": {
+        "query": "Where is the green face?",
+        "selection": {
+            "A": "On the top of the cube",
+            "B": "On the side of the cube",
+            "C": "On the bottom of the cube"
+        }
+    },
+    "ground_truth": "C",
+    "response_num": 4,
+    "answers": [
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "correct": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "final_correct": false,
+    "image_responses": [
+        {
+            "image_filename": "000000.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the images, the cube is shown with different faces visible. I can see blue, red, yellow, and white faces. Since the task is to rotate the cube until the green face is on top, and the green face is not currently on top, it must be on one of the sides or the bottom. Since the bottom is not visible, I can infer that the green face is on the side of the cube."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000074.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the images, the robot arm is holding the cube. The green face is visible on the side of the cube, not on the top or bottom."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000118.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the image, the green face is visible on the side of the cube. The top face is yellow, and the bottom face is not visible."
+            },
+            "answer": "B",
+            "correct": false
+        },
+        {
+            "image_filename": "000179.png",
+            "response": {
+                "answer": "B",
+                "reasoning": "In the images, the green face is visible on the side of the cube. It is not on the top or the bottom."
+            },
+            "answer": "B",
+            "correct": false
+        }
+    ]
+}
