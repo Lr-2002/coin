@@ -14,6 +14,7 @@ The benchmark supports multiple Vision-Language-Action (VLA) models:
 ### Pi0 
 - Repository: [https://github.com/Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi)
 - A foundation model for robotic manipulation by Physical Intelligence
+- We fine-tuned the [pi0_fast_base](https://www.physicalintelligence.company/research/fast) model on the COIN primitive task dataset, you can download the fine-tuned model from [Hugging Face](https://huggingface.co/coin-dataset/pi0_fast_470000)
 
 ### CogACT 
 - Repository: [https://github.com/microsoft/CogACT](https://github.com/microsoft/CogACT)
@@ -68,6 +69,54 @@ The benchmark supports mujoco teleoperation on different devices:
 
    ```
    Then open your mujoco ar app, set the address and port to the one in the terminal, and start the teleoperation.
+
+## Fine-tuning
+
+### Pi0
+
+We fine-tuned the pi0-fast model on the [COIN primitive dataset(Lerobot format)](https://huggingface.co/datasets/coin-dataset/pi0_coin_primitive).
+
+```bash
+XLA_PYTHON_CLIENT_MEM_FRACTION=1 uv run scripts/train.py pi0_fast_coin_primitive --exp-name=pi0_fast_coin_primitive_v4 --overwrite
+```
+
+### Gr00t
+
+We fine-tuned the gr00t model on the [COIN primitive dataset(Gr00t's LeRobot format)](https://huggingface.co/datasets/coin-dataset/gr00t_coin_primitive).
+
+```bash
+python scripts/gr00t_finetune.py \
+  --dataset_path gr00t_dataset/primitive_dataset_v4 \
+  --output_dir checkpoints/primitive_dataset_v4 \
+  --data_config custom_coin \
+  --embodiment-tag new_embodiment \
+  --batch_size 16 \
+  --num_gpus 4
+```
+
+### CogACT
+
+We fine-tuned the cogact model on the [COIN primitive dataset(RLDS format)](https://huggingface.co/datasets/coin-dataset/cogact_coin_primitive).
+
+```bash
+torchrun --standalone --nnodes 1 --nproc-per-node 4 scripts/train.py \
+  --pretrained_checkpoint CogACT/CogACT-Base/checkpoints/CogACT-Base.pt \
+  --vla.type prism-dinosiglip-224px+oxe+diffusion \
+  --vla.data_mix custom_finetuning \
+  --vla.expected_world_size 4 \
+  --vla.global_batch_size 128 \
+  --vla.per_device_batch_size 32 \
+  --vla.learning_rate 2e-5 \
+  --data_root_dir CogACT \
+  --run_root_dir CogACT/logdir/checkpoint_dir \
+  --run_id primitive_task_cogact \
+  --image_aug True \
+  --save_interval 5000 \
+  --repeated_diffusion_steps 8 \
+  --future_action_window_size 15 \
+  --action_model_type DiT-B \
+  --is_resume False \
+```
 
 ## Inference
 
