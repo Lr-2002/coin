@@ -18,13 +18,17 @@ The benchmark supports multiple Vision-Language-Action (VLA) models:
 - A foundation model for robotic manipulation by Physical Intelligence
 - We fine-tuned the [pi0_fast_base](https://www.physicalintelligence.company/research/fast) model on the COIN primitive task dataset, you can download the fine-tuned model from [Hugging Face](https://huggingface.co/coin-dataset/pi0_fast_470000)
 
-#### CogACT 
-- Repository: [https://github.com/microsoft/CogACT](https://github.com/microsoft/CogACT)
-- A foundational model for synergizing cognition and action in robotic manipulation by Microsoft
-
 #### Gr00t 
 - Repository: [https://github.com/NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T)
 - NVIDIA's foundation model for generalized humanoid robot reasoning and skills.
+- The fine-tuned model can be downloaded from [Hugging Face](https://huggingface.co/coin-dataset/gr00t_120000)
+
+#### CogACT 
+- Repository: [https://github.com/microsoft/CogACT](https://github.com/microsoft/CogACT)
+- A foundational model for synergizing cognition and action in robotic manipulation by Microsoft
+- The fine-tuned model can be downloaded from [Hugging Face](https://huggingface.co/coin-dataset/cogact_30000)
+
+
 
 ### Code-As-Policy Models
 
