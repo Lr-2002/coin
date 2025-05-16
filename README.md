@@ -11,18 +11,32 @@ The benchmark consists of two main task categories:
 
 The benchmark supports multiple Vision-Language-Action (VLA) models:
 
-### Pi0 
+### VLA
+
+#### Pi0 
 - Repository: [https://github.com/Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi)
 - A foundation model for robotic manipulation by Physical Intelligence
 - We fine-tuned the [pi0_fast_base](https://www.physicalintelligence.company/research/fast) model on the COIN primitive task dataset, you can download the fine-tuned model from [Hugging Face](https://huggingface.co/coin-dataset/pi0_fast_470000)
 
-### CogACT 
+#### CogACT 
 - Repository: [https://github.com/microsoft/CogACT](https://github.com/microsoft/CogACT)
 - A foundational model for synergizing cognition and action in robotic manipulation by Microsoft
 
-### Gr00t 
+#### Gr00t 
 - Repository: [https://github.com/NVIDIA/Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T)
 - NVIDIA's foundation model for generalized humanoid robot reasoning and skills.
+
+### Code-As-Policy Models
+
+#### Voxposer
+
+- Repository: [https://github.com/Lr-2002/voxposer](https://github.com/Lr-2002/voxposer)
+- A method that uses large language models and vision-language models to zero-shot synthesize trajectories for manipulation tasks.
+
+#### Rekep
+
+- Repository: [https://github.com/Diligent06/ReKep.git](https://github.com/Diligent06/ReKep.git)
+- A method that uses large vision models and vision-language models in a hierarchical optimization framework to generate closed-loop trajectories for manipulation tasks.
 
 ### Resource Requirements
 
