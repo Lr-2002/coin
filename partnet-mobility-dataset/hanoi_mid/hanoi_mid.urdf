@@ -1,0 +1,23 @@
+<robot name="generated_robot">
+    <link name="hanoi_mid_base" />
+    <link name="hanoi_mid">
+        <visual name="door_frame-6">
+            <origin xyz="0 0 0 " />
+            <geometry>
+                <mesh filename="hanoi_mid.obj" />
+            </geometry>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0 " />
+            <geometry>
+                <mesh filename="hanoi_mid_collision.obj" />
+            </geometry>
+        </collision>
+    </link>    
+    <joint name="joint_0" type="fixed">
+        <origin xyz="0 0 0" />
+        <axis xyz="0 -1 0" />
+        <child link="hanoi_mid_base" />
+        <parent link="hanoi_mid" />
+    </joint>
+</robot>

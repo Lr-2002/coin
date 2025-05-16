@@ -1,0 +1,500 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="41510">
+  <xacro:macro name="41510" params="ns_prefix parent joint_type xyz rpy scale_x scale_y scale_z mesh_dir">
+    <link name="${ns_prefix}_link_0">
+      <visual name="cabinet_door_surface-17">
+        <origin xyz="${0.37263062667115143 * scale_x} ${0.5667060017585756 * scale_y} ${-0.5220061005381347 * scale_z}"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-39.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="cabinet_door_surface-17">
+        <origin xyz="${0.37263062667115143 * scale_x} ${0.5667060017585756 * scale_y} ${-0.5220061005381347 * scale_z}"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-41.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="cabinet_door_surface-17">
+        <origin xyz="${0.37263062667115143 * scale_x} ${0.5667060017585756 * scale_y} ${-0.5220061005381347 * scale_z}"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-43.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="cabinet_door_surface-17">
+        <origin xyz="${0.37263062667115143 * scale_x} ${0.5667060017585756 * scale_y} ${-0.5220061005381347 * scale_z}"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-40.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="cabinet_door_surface-17">
+        <origin xyz="${0.37263062667115143 * scale_x} ${0.5667060017585756 * scale_y} ${-0.5220061005381347 * scale_z}"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-42.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="${0.37263062667115143 * scale_x} ${0.5667060017585756 * scale_y} ${-0.5220061005381347 * scale_z}"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-39.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="${0.37263062667115143 * scale_x} ${0.5667060017585756 * scale_y} ${-0.5220061005381347 * scale_z}"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-41.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="${0.37263062667115143 * scale_x} ${0.5667060017585756 * scale_y} ${-0.5220061005381347 * scale_z}"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-43.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="${0.37263062667115143 * scale_x} ${0.5667060017585756 * scale_y} ${-0.5220061005381347 * scale_z}"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-40.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="${0.37263062667115143 * scale_x} ${0.5667060017585756 * scale_y} ${-0.5220061005381347 * scale_z}"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-42.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+    </link>
+    <joint name="${ns_prefix}_joint_0" type="revolute">
+      <origin xyz="${-0.37263062667115143 * scale_x} ${-0.5667060017585756 * scale_y} ${0.5220061005381347 * scale_z}"/>
+      <axis xyz="0 -1 0"/>
+      <child link="${ns_prefix}_link_0"/>
+      <parent link="${ns_prefix}"/>
+      <limit lower="0.0" upper="1.5707963267948966" effort="0.0" velocity="0.5"/>
+    </joint>
+    <link name="${ns_prefix}_link_1">
+      <visual name="drawer_front-9">
+        <origin xyz="${0.017042793320627622 * scale_x} ${-0.5967289342718265 * scale_y} ${0.5155950188636786 * scale_z}"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-28.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="drawer_front-9">
+        <origin xyz="${0.017042793320627622 * scale_x} ${-0.5967289342718265 * scale_y} ${0.5155950188636786 * scale_z}"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-36.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="drawer_side-10">
+        <origin xyz="${0.017042793320627622 * scale_x} ${-0.5967289342718265 * scale_y} ${0.5155950188636786 * scale_z}"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-27.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="drawer_side-10">
+        <origin xyz="${0.017042793320627622 * scale_x} ${-0.5967289342718265 * scale_y} ${0.5155950188636786 * scale_z}"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-34.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="drawer_side-11">
+        <origin xyz="${0.017042793320627622 * scale_x} ${-0.5967289342718265 * scale_y} ${0.5155950188636786 * scale_z}"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-32.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="drawer_back-12">
+        <origin xyz="${0.017042793320627622 * scale_x} ${-0.5967289342718265 * scale_y} ${0.5155950188636786 * scale_z}"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-33.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="drawer_bottom-13">
+        <origin xyz="${0.017042793320627622 * scale_x} ${-0.5967289342718265 * scale_y} ${0.5155950188636786 * scale_z}"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-31.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="drawer_bottom-13">
+        <origin xyz="${0.017042793320627622 * scale_x} ${-0.5967289342718265 * scale_y} ${0.5155950188636786 * scale_z}"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-30.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="${0.017042793320627622 * scale_x} ${-0.5967289342718265 * scale_y} ${0.5155950188636786 * scale_z}"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-28.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="${0.017042793320627622 * scale_x} ${-0.5967289342718265 * scale_y} ${0.5155950188636786 * scale_z}"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-36.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="${0.017042793320627622 * scale_x} ${-0.5967289342718265 * scale_y} ${0.5155950188636786 * scale_z}"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-27.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="${0.017042793320627622 * scale_x} ${-0.5967289342718265 * scale_y} ${0.5155950188636786 * scale_z}"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-34.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="${0.017042793320627622 * scale_x} ${-0.5967289342718265 * scale_y} ${0.5155950188636786 * scale_z}"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-32.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="${0.017042793320627622 * scale_x} ${-0.5967289342718265 * scale_y} ${0.5155950188636786 * scale_z}"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-33.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="${0.017042793320627622 * scale_x} ${-0.5967289342718265 * scale_y} ${0.5155950188636786 * scale_z}"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-31.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="${0.017042793320627622 * scale_x} ${-0.5967289342718265 * scale_y} ${0.5155950188636786 * scale_z}"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-30.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+    </link>
+    <joint name="${ns_prefix}_joint_1" type="prismatic">
+      <origin xyz="${-0.017042793320627622 * scale_x} ${0.5967289342718265 * scale_y} ${-0.5155950188636786 * scale_z}"/>
+      <axis xyz="0 0 1"/>
+      <child link="${ns_prefix}_link_1"/>
+      <parent link="${ns_prefix}"/>
+      <limit lower="0" upper="0.7999999999999998" effort="0.0" velocity="0.5"/>
+    </joint>
+    <link name="${ns_prefix}">
+      <visual name="shelf-4">
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-2.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="vertical_side_panel-23">
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-12.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="vertical_side_panel-24">
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-16.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="back_panel-25">
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-6.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="bottom_panel-26">
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-3.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="frame_vertical_bar-27">
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-15.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="frame_vertical_bar-28">
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-11.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="frame_vertical_bar-29">
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-4.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="frame_vertical_bar-30">
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-8.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="frame_horizontal_bar-31">
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-5.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="frame_horizontal_bar-32">
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-9.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="frame_horizontal_bar-33">
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-18.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="frame_horizontal_bar-34">
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-7.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="other_leaf-44">
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-22.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="other_leaf-43">
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-23.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="other_leaf-42">
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-24.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="other_leaf-41">
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-21.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="other_leaf-40">
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-45.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="base_side_panel-19">
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-19.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="base_side_panel-20">
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-13.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="base_side_panel-21">
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-20.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <visual name="base_side_panel-22">
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-17.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-2.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-12.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-16.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-6.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-3.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-15.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-11.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-4.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-8.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-5.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-9.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-18.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-7.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-22.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-23.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-24.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-21.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-45.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-19.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-13.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-20.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <collision>
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-17.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+      <visual name="cover_top">
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/cover_top.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/cover_top.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+    </link>
+    <joint name="${ns_prefix}_joint_2" type="${joint_type}">
+      <origin rpy="${rpy}" xyz="${xyz}"/>
+      <child link="${ns_prefix}"/>
+      <parent link="${parent}"/>
+    </joint>
+    <link name="${ns_prefix}_link_3">
+      <visual name="handle-1">
+        <origin xyz="${0.37263062667115143 * scale_x} ${0.5667060017585756 * scale_y} ${-0.5220061005381347 * scale_z}"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-44.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="${0.37263062667115143 * scale_x} ${0.5667060017585756 * scale_y} ${-0.5220061005381347 * scale_z}"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-44.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+    </link>
+    <joint name="${ns_prefix}_joint_3" type="fixed">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <child link="${ns_prefix}_link_3"/>
+      <parent link="${ns_prefix}_link_0"/>
+    </joint>
+    <link name="${ns_prefix}_link_4">
+      <visual name="handle-1">
+        <origin xyz="${0.017042793320627622 * scale_x} ${-0.5967289342718265 * scale_y} ${0.5155950188636786 * scale_z}"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-37.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="${0.017042793320627622 * scale_x} ${-0.5967289342718265 * scale_y} ${0.5155950188636786 * scale_z}"/>
+        <geometry>
+          <mesh filename="package://scene_builder/${mesh_dir}/textured_objs/original-37.obj" scale="${scale_x} ${scale_y} ${scale_z}"/>
+        </geometry>
+      </collision>
+    </link>
+    <joint name="${ns_prefix}_joint_4" type="fixed">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <child link="${ns_prefix}_link_4"/>
+      <parent link="${ns_prefix}_link_1"/>
+    </joint>
+  </xacro:macro>
+</robot>

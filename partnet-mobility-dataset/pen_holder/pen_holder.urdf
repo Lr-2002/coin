@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<robot name="partnet_c3bb5f3c842a6c2d178e7d331e641179">
+	<link name="pen_holder_base"/>
+	<link name="pen_holder">
+		<visual name="door_frame-6">
+			<origin xyz="0 0 0 "/>
+			<geometry>
+				<mesh filename="pen_holder.obj"/>
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0 "/>
+			<geometry>
+				<mesh filename="pen_holder_collision.obj"/>
+			</geometry>
+		</collision>
+	</link>	
+  <joint name="joint_0" type="fixed">
+		<origin xyz="0 0 0"/>
+		<axis xyz="0 0 0"/>
+		<child link="pen_holder_base"/>
+		<parent link="pen_holder"/>
+	</joint>
+
+</robot>

@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<robot name="partnet_c3bb5f3c842a6c2d178e7d331e641179">
+	<link name="microwave_base"/>
+	<link name="microwave_door">
+		<visual name="door_frame-6">
+			<origin xyz="0.6430403380134146 0.42593899369239807 -0.5477944794777341"/>
+			<geometry>
+				<mesh filename="textured_objs/link_0.obj"/>
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0.6430403380134146 0.42593899369239807 -0.5477944794777341"/>
+			<geometry>
+				<mesh filename="textured_objs/link_0_convex.obj"/>
+			</geometry>
+		</collision>
+	</link>
+	<link name="microwave_body">
+		<visual name="frame-2">
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/link_1.obj"/>
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/link_1_convex.obj"/>
+			</geometry>
+		</collision>
+	</link>
+	<joint name="joint_0" type="revolute">
+		<origin xyz="-0.6430403380134146 -0.42593899369239807 0.5477944794777341"/>
+		<axis xyz="0 -1 0"/>
+		<child link="microwave_door"/>
+		<parent link="microwave_body"/>
+		<limit lower="0.0" upper="1.5707963267948966"/>
+		<dynamics damping="0.0002" friction="0.01"/>
+	</joint>
+	<joint name="joint_1" type="fixed">
+		<origin rpy="1.570796326794897 0 -1.570796326794897" xyz="0 0 0"/>
+		<child link="microwave_body"/>
+		<parent link="microwave_base"/>
+		<dynamics damping="0.0002" friction="0.01"/>
+	</joint>
+</robot>

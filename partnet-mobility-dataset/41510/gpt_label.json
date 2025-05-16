@@ -1,0 +1,12 @@
+{
+    "fine category": "file cabinet",
+    "shape": "rectangular",
+    "color": "beige",
+    "description": "A vertical file cabinet with multiple drawers, ideal for office storage.",
+    "materials": [
+        "metal",
+        "wood"
+    ],
+    "category": "StorageFurniture",
+    "imgname": "StorageFurniture_41510_0"
+}
