@@ -4,3 +4,6 @@
 [submodule "Controllers/VLAs/Isaac-GR00T"]
 	path = Controllers/VLAs/Isaac-GR00T
 	url = https://github.com/EeureKaaa/Isaac-GR00T.git
+[submodule "Controllers/VLAs/openpi"]
+	path = Controllers/VLAs/openpi
+	url = https://github.com/EeureKaaa/openpi.git
