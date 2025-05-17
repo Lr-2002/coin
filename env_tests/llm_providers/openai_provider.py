@@ -27,7 +27,6 @@ MODEL='gpt-4o-2024-11-20'
 
 # REGION='eastus2'
 # MODEL='o1-2024-12-17'
-API_KEY="163eb119c0853717661df499f0fe06c7" 
 
 API_BASE='http://123.127.249.51/proxy'
 ENDPOINT=f'{API_BASE}/{REGION}'
@@ -52,21 +51,18 @@ class OpenAIProvider(BaseLLMProvider):
         self.model = model
         self.base_url = base_url
         
-        # if not self.api_key:
-        #     logger.warning("No OpenAI API key provided. Please set OPENAI_API_KEY environment variable.")
-        #     self.client = None
-        # else:
-        #     self.client = OpenAI(
-        #         base_url=self.base_url,
-        #         api_key=self.api_key
-        #     )
+        if not self.api_key:
+            logger.warning("No OpenAI API key provided. Please set OPENAI_API_KEY environment variable.")
+            self.client = None
+        else:
+            self.client = AzureOpenAI(
+                api_key=self.api_key,
+                api_version="2025-03-01-preview",
+                azure_endpoint=ENDPOINT
+            )
 
 
-        self.client = AzureOpenAI(
-            api_key=API_KEY,
-            api_version="2025-03-01-preview",
-            azure_endpoint=ENDPOINT
-        )
+
     
     def is_initialized(self) -> bool:
         """Check if the OpenAI client is properly initialized.
