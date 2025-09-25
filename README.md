@@ -55,10 +55,10 @@ We run all the evaluation on NVIDIA A800.
 
 Install the COINBench repository
 ```bash
-git clone --recurse-submodules https://github.com/Lr-2002/COINBench_NeurIPS2025.git
+git clone --recurse-submodules https://github.com/Lr-2002/COINBench.git
 
 # if you have already cloned the repository, run the following command to update the submodules
-cd COINBench_NeurIPS2025
+cd COINBench
 git submodule update --init --recursive
 ```
 
