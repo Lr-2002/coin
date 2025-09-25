@@ -35,12 +35,12 @@ from mani_skill.utils.building.articulations.articulation_loader import (
     load_articulation_from_urdf,
 )
 from mani_skill.utils.vis3d import BBoxObject, BBoxVisualizer
+
 # import logging
 #
 # logging.getLogger("mani_skill").setLevel(logging.ERROR)
 #
 from .all_types import Obj, Robot, Inter
-    
 
 
 def degree2rad(angle):
@@ -74,51 +74,42 @@ class UniversalTabletopEnv(BaseEnv):
 
     SUPPORTED_ROBOTS = ["panda", "panda_wristcam"]
     agent: Panda
-    _sample_video_link = "https://github.com/Lr-2002/COIN_videos/blob/main/medias"
+    _sample_video_link = "test"
     description = "This is the unviersal task"
     workflow = []
-    tags = {
-        "obj": [],
-        "rob": [],
-        "iter": []
-    }
+    tags = {"obj": [], "rob": [], "iter": []}
     long_name_map = {
         # Object-Centric Reasoning - Physical Property Inference
         Obj.MASS: "Mass estimation",
         Obj.FRICTION: "Friction coefficient assessment",
         Obj.SCALE: "Scale analysis",
         Obj.MOVEABLE: "Movable object classification",
-        
         # Object-Centric Reasoning - Spatial Reasoning
         Obj.OBSTACLE: "Obstacle handling",
         Obj.ORIENT: "Orientation analysis",
         Obj.SPATIALRELATE: "Spatial relationship analysis",
-
         # Object-Centric Reasoning - Mechanism Understanding
         Obj.LOCK: "Locking system comprehension",
         Obj.KINEMATIC: "Kinematic constraint inference",
         Obj.SEQ_NAV: "Sequential mechanism navigation",
-        
         # Object-Centric Reasoning - Visual Reasoning
         Obj.GEOMETRY: "Geometric reasoning",
         Obj.MESH: "Visual comparison",
-        
         # Robot-Centric Reasoning - Embodiment Awareness
         Robot.MORPH: "Morphological reasoning",
         Robot.PERSPECTIVE: "Perceptual perspective optimization",
         Robot.JOINT_AWARE: "Kinematic constraint awareness",
-        
         # Robot-Centric Reasoning - Control Optimization
         Robot.DYN_TUNE: "Dynamic response tuning",
         Robot.ACT_NAV: "Action space navigation",
         Robot.SKIL_APAPT: "Skill adaptation",
-
         # Compositional Reasoning Capabilities
         Inter.TOOL: "Tool-mediated problem solving",
-        Inter.FAIL_ADAPT: "Failure-driven adaptation", 
+        Inter.FAIL_ADAPT: "Failure-driven adaptation",
         Inter.PLAN: "Hierarchical planning",
         Inter.HISTORY: "Experience utilization",
     }
+
     def __init__(
         self,
         *args,
@@ -159,8 +150,6 @@ class UniversalTabletopEnv(BaseEnv):
         self.debug = env_debug
         self.debug_cnt = 0
         from pathlib import Path
-        
-
 
         self.all_objects = []
         self.asset_path_prefix = Path(
@@ -179,12 +168,15 @@ class UniversalTabletopEnv(BaseEnv):
         self.query_query = None
         self.query_selection = None
         self.query_answer = None
+
     def extend_tags(self):
         """Convert short Enum tags into their long string names"""
         self.extended = {
             domain: [self.long_name_map.get(tag, str(tag)) for tag in tags]
-            for domain, tags in self.tags.items()}
+            for domain, tags in self.tags.items()
+        }
         return self.extended
+
     def encode_image(self, image_array):
         """Encode image array to base64 string for LLM input."""
         # If image_array is already bytes (file content), decode it directly
@@ -1553,8 +1545,8 @@ class UniversalTabletopEnv(BaseEnv):
         return {
             "query_image": self.build_image(self.query_image_path_task),
             "query_instruction": self.build_instruction(
-                self.query_query if hasattr(self, 'query_query') else "", 
-                str(self.query_selection) if hasattr(self, 'query_selection') else ""
+                self.query_query if hasattr(self, "query_query") else "",
+                str(self.query_selection) if hasattr(self, "query_selection") else "",
             ),  #
         }
 
